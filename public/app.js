@@ -80,19 +80,22 @@ async function loadData() {
 function populateChannelFilter() {
   const channels = new Map();
   for (const v of allVideos) {
-    if (!channels.has(v.channelId)) channels.set(v.channelId, v.channelTitle);
+    if (!channels.has(v.channelId)) {
+      channels.set(v.channelId, { title: v.channelTitle, thumbnail: v.channelThumbnail || "" });
+    }
   }
-  const sorted = [...channels.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  const sorted = [...channels.entries()].sort((a, b) => a[1].title.localeCompare(b[1].title));
   allChannelIds = sorted.map(([id]) => id);
   // Empty selection means "all channels" - start with nothing checked = show everything.
   selectedChannelIds = new Set();
 
   els.channelFilterList.innerHTML = sorted
     .map(
-      ([id, title]) => `
+      ([id, info]) => `
     <label class="channel-filter__item">
       <input type="checkbox" value="${id}" />
-      <span>${escapeHtml(title)}</span>
+      <img class="channel-filter__avatar" src="${info.thumbnail}" alt="" loading="lazy" />
+      <span>${escapeHtml(info.title)}</span>
     </label>`
     )
     .join("");
@@ -115,7 +118,7 @@ function updateChannelFilterLabel() {
   } else if (selectedChannelIds.size === 1) {
     const id = [...selectedChannelIds][0];
     const cb = els.channelFilterList.querySelector(`input[value="${id}"]`);
-    els.channelFilterLabel.textContent = cb ? cb.nextElementSibling.textContent : "1 kênh";
+    els.channelFilterLabel.textContent = cb ? cb.parentElement.querySelector("span").textContent : "1 kênh";
   } else {
     els.channelFilterLabel.textContent = `${selectedChannelIds.size} kênh đã chọn`;
   }
@@ -210,7 +213,10 @@ function renderTable() {
           </div>
         </div>
       </td>
-      <td class="channel-cell">${escapeHtml(v.channelTitle)}</td>
+      <td class="channel-cell">
+        <img class="channel-cell__avatar" src="${v.channelThumbnail}" alt="" loading="lazy" />
+        <span>${escapeHtml(v.channelTitle)}</span>
+      </td>
       <td class="col-num">${fmtDate(v.publishedAt)}</td>
       <td class="col-num">${fmtNumber(v.viewCount)}</td>
       <td class="col-num">${fmtNumber(v.likeCount)}</td>
