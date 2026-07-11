@@ -53,6 +53,26 @@ function fmtDateTime(iso) {
   return d.toLocaleString("vi-VN", { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" });
 }
 
+function parseDurationToSeconds(iso) {
+  if (!iso) return 0;
+  const m = iso.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+  if (!m) return 0;
+  const h = parseInt(m[1] || "0", 10);
+  const min = parseInt(m[2] || "0", 10);
+  const s = parseInt(m[3] || "0", 10);
+  return h * 3600 + min * 60 + s;
+}
+
+function fmtDuration(iso) {
+  const total = parseDurationToSeconds(iso);
+  if (!total) return "–";
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  const pad = (n) => String(n).padStart(2, "0");
+  return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
+}
+
 async function loadData() {
   try {
     const [videosRes, metaRes] = await Promise.all([
@@ -72,7 +92,7 @@ async function loadData() {
     }
     applyFilters();
   } catch (err) {
-    els.tbody.innerHTML = `<tr><td colspan="7" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos.json tồn tại.</td></tr>`;
+    els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos.json tồn tại.</td></tr>`;
     console.error(err);
   }
 }
@@ -178,6 +198,9 @@ function sortVideos() {
     if (sortField === "publishedAt") {
       av = new Date(av).getTime();
       bv = new Date(bv).getTime();
+    } else if (sortField === "duration") {
+      av = parseDurationToSeconds(av);
+      bv = parseDurationToSeconds(bv);
     } else {
       av = av ?? -1;
       bv = bv ?? -1;
@@ -194,7 +217,7 @@ function renderTable() {
   });
 
   if (!filteredVideos.length) {
-    els.tbody.innerHTML = `<tr><td colspan="7" class="empty-state">Không có video phù hợp.</td></tr>`;
+    els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state">Không có video phù hợp.</td></tr>`;
     return;
   }
 
@@ -218,6 +241,7 @@ function renderTable() {
         <span>${escapeHtml(v.channelTitle)}</span>
       </td>
       <td class="col-num">${fmtDate(v.publishedAt)}</td>
+      <td class="col-num">${fmtDuration(v.duration)}</td>
       <td class="col-num">${fmtNumber(v.viewCount)}</td>
       <td class="col-num">${fmtNumber(v.likeCount)}</td>
       <td class="col-num">${fmtNumber(v.commentCount)}</td>
