@@ -316,8 +316,10 @@ function renderComments() {
   });
 
   els.commentsList.innerHTML = sorted
-    .map(
-      (c, i) => `
+    .map((c, i) => {
+      const replies = c.replies || [];
+      const replyCount = c.replyCount || replies.length;
+      return `
     <div class="comment" data-idx="${i}">
       <div class="comment__head">
         <img class="comment__avatar" src="${c.authorImage}" alt="" loading="lazy" />
@@ -327,16 +329,68 @@ function renderComments() {
       <div class="comment__text">${escapeHtml(c.text)}</div>
       <div class="comment__footer">
         <span class="comment__likes">♥ ${fmtNumber(c.likeCount)} lượt thích</span>
-        <button class="translate-btn" data-idx="${i}">Dịch sang Tiếng Việt</button>
+        <button class="translate-btn" data-idx="${i}" data-kind="comment">Dịch sang Tiếng Việt</button>
+        ${
+          replyCount > 0
+            ? `<button class="replies-toggle-btn" data-idx="${i}" data-count="${replyCount}">💬 Xem ${fmtNumber(replyCount)} trả lời</button>`
+            : ""
+        }
       </div>
       <div class="comment__translation" id="translation-${i}"></div>
+      ${
+        replyCount > 0
+          ? `<div class="comment__replies" id="replies-${i}">${renderReplies(replies, i)}</div>`
+          : ""
+      }
+    </div>`;
+    })
+    .join("");
+
+  els.commentsList.querySelectorAll(".translate-btn[data-kind='comment']").forEach((btn) => {
+    btn.addEventListener("click", () => translateComment(sorted, btn.dataset.idx));
+  });
+
+  els.commentsList.querySelectorAll(".translate-btn[data-kind='reply']").forEach((btn) => {
+    const [ci, ri] = btn.dataset.idx.split(":");
+    btn.addEventListener("click", () => translateReply(sorted[ci].replies, ci, ri));
+  });
+
+  els.commentsList.querySelectorAll(".replies-toggle-btn").forEach((btn) => {
+    btn.addEventListener("click", () => toggleReplies(btn));
+  });
+}
+
+function renderReplies(replies, commentIdx) {
+  if (!replies.length) {
+    return `<div class="reply reply--empty">Chưa có dữ liệu nội dung trả lời cho bình luận này.</div>`;
+  }
+  return replies
+    .map(
+      (r, ri) => `
+    <div class="reply">
+      <div class="reply__head">
+        <img class="reply__avatar" src="${r.authorImage}" alt="" loading="lazy" />
+        <span class="reply__author">${escapeHtml(r.author)}</span>
+        <span class="reply__date">${fmtDate(r.publishedAt)}</span>
+      </div>
+      <div class="reply__text">${escapeHtml(r.text)}</div>
+      <div class="reply__footer">
+        <span class="reply__likes">♥ ${fmtNumber(r.likeCount)} lượt thích</span>
+        <button class="translate-btn translate-btn--small" data-idx="${commentIdx}:${ri}" data-kind="reply">Dịch sang Tiếng Việt</button>
+      </div>
+      <div class="comment__translation" id="translation-reply-${commentIdx}-${ri}"></div>
     </div>`
     )
     .join("");
+}
 
-  els.commentsList.querySelectorAll(".translate-btn").forEach((btn) => {
-    btn.addEventListener("click", () => translateComment(sorted, btn.dataset.idx));
-  });
+function toggleReplies(btn) {
+  const idx = btn.dataset.idx;
+  const count = btn.dataset.count;
+  const box = document.getElementById(`replies-${idx}`);
+  if (!box) return;
+  const isOpen = box.classList.toggle("open");
+  btn.textContent = isOpen ? "Ẩn trả lời" : `💬 Xem ${count} trả lời`;
 }
 
 async function translateComment(sortedList, idx) {
@@ -356,6 +410,27 @@ async function translateComment(sortedList, idx) {
   } catch (err) {
     box.innerHTML = `Không dịch được tự động. <a href="https://translate.google.com/?sl=auto&tl=vi&text=${encodeURIComponent(
       comment.text
+    )}&op=translate" target="_blank" rel="noopener">Mở Google Dịch</a>`;
+  }
+}
+
+async function translateReply(replies, commentIdx, replyIdx) {
+  const reply = replies[replyIdx];
+  const box = document.getElementById(`translation-reply-${commentIdx}-${replyIdx}`);
+  box.classList.add("visible");
+  box.textContent = "Đang dịch...";
+
+  try {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=vi&dt=t&q=${encodeURIComponent(
+      reply.text
+    )}`;
+    const res = await fetch(url);
+    const json = await res.json();
+    const translated = json[0].map((chunk) => chunk[0]).join("");
+    box.textContent = translated;
+  } catch (err) {
+    box.innerHTML = `Không dịch được tự động. <a href="https://translate.google.com/?sl=auto&tl=vi&text=${encodeURIComponent(
+      reply.text
     )}&op=translate" target="_blank" rel="noopener">Mở Google Dịch</a>`;
   }
 }
