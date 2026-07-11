@@ -15,6 +15,7 @@ const els = {
   search: document.getElementById("searchInput"),
   sortField: document.getElementById("sortField"),
   sortDir: document.getElementById("sortDir"),
+  dateRangeFilter: document.getElementById("dateRangeFilter"),
   channelFilterWrap: document.getElementById("channelFilterWrap"),
   channelFilterBtn: document.getElementById("channelFilterBtn"),
   channelFilterPanel: document.getElementById("channelFilterPanel"),
@@ -190,9 +191,12 @@ els.clearAllChannels.addEventListener("click", () => {
 function applyFilters() {
   const q = els.search.value.trim().toLowerCase();
   const filterActive = selectedChannelIds.size > 0 && selectedChannelIds.size < allChannelIds.length;
+  const months = parseInt(els.dateRangeFilter.value, 10);
+  const dateCutoff = months > 0 ? Date.now() - months * 30 * 24 * 60 * 60 * 1000 : null;
 
   filteredVideos = allVideos.filter((v) => {
     if (filterActive && !selectedChannelIds.has(v.channelId)) return false;
+    if (dateCutoff !== null && new Date(v.publishedAt).getTime() < dateCutoff) return false;
     if (!q) return true;
     return (
       v.title.toLowerCase().includes(q) ||
@@ -456,6 +460,7 @@ function closeModal() {
 // ---------- Events ----------
 
 els.search.addEventListener("input", applyFilters);
+els.dateRangeFilter.addEventListener("change", applyFilters);
 
 els.sortField.addEventListener("change", () => {
   sortField = els.sortField.value;
