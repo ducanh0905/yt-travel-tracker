@@ -53,15 +53,32 @@
       </button>
     </div>
 
-    <div class="channel-filter">
-      <select id="channelFilter">
-        <option value="">Tất cả kênh</option>
-      </select>
+    <div class="channel-filter" id="channelFilterWrap">
+      <button type="button" class="channel-filter__btn" id="channelFilterBtn">
+        <span id="channelFilterLabel">Tất cả kênh</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="channel-filter__panel" id="channelFilterPanel">
+        <div class="channel-filter__actions">
+          <button type="button" id="selectAllChannels">Chọn tất cả</button>
+          <button type="button" id="clearAllChannels">Bỏ chọn tất cả</button>
+        </div>
+        <div class="channel-filter__list" id="channelFilterList"></div>
+      </div>
     </div>
   </div>
 
   <div class="table-wrap">
     <table class="board-table" id="videoTable">
+      <colgroup>
+        <col class="cg-video" />
+        <col class="cg-channel" />
+        <col class="cg-num" />
+        <col class="cg-num" />
+        <col class="cg-num" />
+        <col class="cg-num" />
+        <col class="cg-num" />
+      </colgroup>
       <thead>
         <tr>
           <th class="col-video">Video</th>
