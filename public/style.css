@@ -246,6 +246,15 @@ select {
   flex-shrink: 0;
 }
 
+.channel-filter__avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
 .channel-filter__item span {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -393,6 +402,18 @@ thead .col-num,
   color: var(--text-muted);
   font-size: 13px;
   overflow-wrap: break-word;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.channel-cell__avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
 }
 
 .empty-state {
