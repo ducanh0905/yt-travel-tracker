@@ -7,13 +7,21 @@ let sortField = "publishedAt";
 let sortDir = "desc";
 let commentSortField = "likeCount";
 let commentSortDir = "desc";
+let allChannelIds = [];
+let selectedChannelIds = new Set(); // empty set = all channels selected
 
 const els = {
   tbody: document.getElementById("videoTableBody"),
   search: document.getElementById("searchInput"),
   sortField: document.getElementById("sortField"),
   sortDir: document.getElementById("sortDir"),
-  channelFilter: document.getElementById("channelFilter"),
+  channelFilterWrap: document.getElementById("channelFilterWrap"),
+  channelFilterBtn: document.getElementById("channelFilterBtn"),
+  channelFilterPanel: document.getElementById("channelFilterPanel"),
+  channelFilterList: document.getElementById("channelFilterList"),
+  channelFilterLabel: document.getElementById("channelFilterLabel"),
+  selectAllChannels: document.getElementById("selectAllChannels"),
+  clearAllChannels: document.getElementById("clearAllChannels"),
   metaChannels: document.getElementById("metaChannels"),
   metaVideos: document.getElementById("metaVideos"),
   metaUpdated: document.getElementById("metaUpdated"),
@@ -75,20 +83,79 @@ function populateChannelFilter() {
     if (!channels.has(v.channelId)) channels.set(v.channelId, v.channelTitle);
   }
   const sorted = [...channels.entries()].sort((a, b) => a[1].localeCompare(b[1]));
-  for (const [id, title] of sorted) {
-    const opt = document.createElement("option");
-    opt.value = id;
-    opt.textContent = title;
-    els.channelFilter.appendChild(opt);
+  allChannelIds = sorted.map(([id]) => id);
+  // Empty selection means "all channels" - start with nothing checked = show everything.
+  selectedChannelIds = new Set();
+
+  els.channelFilterList.innerHTML = sorted
+    .map(
+      ([id, title]) => `
+    <label class="channel-filter__item">
+      <input type="checkbox" value="${id}" />
+      <span>${escapeHtml(title)}</span>
+    </label>`
+    )
+    .join("");
+
+  els.channelFilterList.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
+    cb.addEventListener("change", () => {
+      if (cb.checked) selectedChannelIds.add(cb.value);
+      else selectedChannelIds.delete(cb.value);
+      updateChannelFilterLabel();
+      applyFilters();
+    });
+  });
+
+  updateChannelFilterLabel();
+}
+
+function updateChannelFilterLabel() {
+  if (selectedChannelIds.size === 0 || selectedChannelIds.size === allChannelIds.length) {
+    els.channelFilterLabel.textContent = "Tất cả kênh";
+  } else if (selectedChannelIds.size === 1) {
+    const id = [...selectedChannelIds][0];
+    const cb = els.channelFilterList.querySelector(`input[value="${id}"]`);
+    els.channelFilterLabel.textContent = cb ? cb.nextElementSibling.textContent : "1 kênh";
+  } else {
+    els.channelFilterLabel.textContent = `${selectedChannelIds.size} kênh đã chọn`;
   }
 }
 
+function toggleChannelPanel(forceOpen) {
+  const isOpen = els.channelFilterWrap.classList.contains("open");
+  const shouldOpen = forceOpen !== undefined ? forceOpen : !isOpen;
+  els.channelFilterWrap.classList.toggle("open", shouldOpen);
+}
+
+els.channelFilterBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  toggleChannelPanel();
+});
+
+document.addEventListener("click", (e) => {
+  if (!els.channelFilterWrap.contains(e.target)) toggleChannelPanel(false);
+});
+
+els.selectAllChannels.addEventListener("click", () => {
+  selectedChannelIds = new Set(allChannelIds);
+  els.channelFilterList.querySelectorAll('input[type="checkbox"]').forEach((cb) => (cb.checked = true));
+  updateChannelFilterLabel();
+  applyFilters();
+});
+
+els.clearAllChannels.addEventListener("click", () => {
+  selectedChannelIds = new Set();
+  els.channelFilterList.querySelectorAll('input[type="checkbox"]').forEach((cb) => (cb.checked = false));
+  updateChannelFilterLabel();
+  applyFilters();
+});
+
 function applyFilters() {
   const q = els.search.value.trim().toLowerCase();
-  const channelId = els.channelFilter.value;
+  const filterActive = selectedChannelIds.size > 0 && selectedChannelIds.size < allChannelIds.length;
 
   filteredVideos = allVideos.filter((v) => {
-    if (channelId && v.channelId !== channelId) return false;
+    if (filterActive && !selectedChannelIds.has(v.channelId)) return false;
     if (!q) return true;
     return (
       v.title.toLowerCase().includes(q) ||
@@ -265,7 +332,6 @@ function closeModal() {
 // ---------- Events ----------
 
 els.search.addEventListener("input", applyFilters);
-els.channelFilter.addEventListener("change", applyFilters);
 
 els.sortField.addEventListener("change", () => {
   sortField = els.sortField.value;
