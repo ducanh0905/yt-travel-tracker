@@ -11,6 +11,7 @@
 // Config via env vars (all optional):
 //   MAX_VIDEOS_PER_CHANNEL   default 50   - how many most-recent videos to track per channel
 //   MAX_COMMENTS_PER_VIDEO   default 100  - how many top-level comments to store per video
+//   MAX_REPLIES_PER_COMMENT  default 20   - how many replies to store per top-level comment
 //   COMMENT_ORDER            default "relevance" (or "time")
 //   FORCE_REFRESH_COMMENTS   default false - refetch comments even if commentCount unchanged
 
@@ -25,6 +26,7 @@ if (!API_KEY) {
 
 const MAX_VIDEOS_PER_CHANNEL = parseInt(process.env.MAX_VIDEOS_PER_CHANNEL || "50", 10);
 const MAX_COMMENTS_PER_VIDEO = parseInt(process.env.MAX_COMMENTS_PER_VIDEO || "100", 10);
+const MAX_REPLIES_PER_COMMENT = parseInt(process.env.MAX_REPLIES_PER_COMMENT || "20", 10);
 const COMMENT_ORDER = process.env.COMMENT_ORDER || "relevance";
 const FORCE_REFRESH_COMMENTS = /^true$/i.test(process.env.FORCE_REFRESH_COMMENTS || "");
 
@@ -143,7 +145,43 @@ async function getVideoStats(ids) {
   return results;
 }
 
-async function getComments(videoId, max, order) {
+async function getReplies(parentId, max) {
+  // commentThreads only embeds a small preview of replies for some orders,
+  // so fetch explicitly via comments.list to get a consistent set.
+  const replies = [];
+  let pageToken = "";
+  try {
+    while (replies.length < max) {
+      const json = await apiGet("comments", {
+        part: "snippet",
+        parentId,
+        maxResults: String(Math.min(100, max - replies.length)),
+        textFormat: "plainText",
+        ...(pageToken ? { pageToken } : {}),
+      });
+      for (const item of json.items || []) {
+        const s = item.snippet;
+        replies.push({
+          id: item.id,
+          author: s.authorDisplayName,
+          authorImage: s.authorProfileImageUrl,
+          text: s.textDisplay,
+          likeCount: s.likeCount || 0,
+          publishedAt: s.publishedAt,
+        });
+      }
+      if (!json.nextPageToken) break;
+      pageToken = json.nextPageToken;
+    }
+  } catch (err) {
+    // Don't fail the whole run if replies can't be fetched for one comment.
+    console.error(`    ! Failed replies for comment ${parentId}: ${err.message}`);
+  }
+  // Replies come back newest-first from the API; show oldest-first like YouTube does.
+  return replies.reverse();
+}
+
+async function getComments(videoId, max, order, maxRepliesPerComment) {
   const comments = [];
   let pageToken = "";
   try {
@@ -158,6 +196,11 @@ async function getComments(videoId, max, order) {
       });
       for (const item of json.items || []) {
         const top = item.snippet.topLevelComment.snippet;
+        const replyCount = item.snippet.totalReplyCount || 0;
+        const replies =
+          replyCount > 0 && maxRepliesPerComment > 0
+            ? await getReplies(item.id, maxRepliesPerComment)
+            : [];
         comments.push({
           id: item.id,
           author: top.authorDisplayName,
@@ -165,7 +208,8 @@ async function getComments(videoId, max, order) {
           text: top.textDisplay,
           likeCount: top.likeCount || 0,
           publishedAt: top.publishedAt,
-          replyCount: item.snippet.totalReplyCount || 0,
+          replyCount,
+          replies,
         });
       }
       if (!json.nextPageToken) break;
@@ -236,7 +280,8 @@ async function main() {
           const { disabled, comments } = await getComments(
             v.videoId,
             MAX_COMMENTS_PER_VIDEO,
-            COMMENT_ORDER
+            COMMENT_ORDER,
+            MAX_REPLIES_PER_COMMENT
           );
           await writeFile(
             path.join(COMMENTS_DIR, `${v.videoId}.json`),
