@@ -198,11 +198,16 @@ function renderTable() {
   els.tbody.innerHTML = filteredVideos
     .map(
       (v) => `
-    <tr data-video-id="${v.videoId}">
+    <tr>
       <td>
         <div class="video-cell">
-          <img src="${v.thumbnail}" alt="" loading="lazy" />
-          <div class="video-cell__title">${escapeHtml(v.title)}</div>
+          <a class="video-cell__thumb-link" href="https://www.youtube.com/watch?v=${v.videoId}" target="_blank" rel="noopener" title="Mở video trên YouTube">
+            <img src="${v.thumbnail}" alt="" loading="lazy" />
+          </a>
+          <div class="video-cell__info">
+            <div class="video-cell__title">${escapeHtml(v.title)}</div>
+            <button class="comments-btn" data-video-id="${v.videoId}">💬 Xem bình luận</button>
+          </div>
         </div>
       </td>
       <td class="channel-cell">${escapeHtml(v.channelTitle)}</td>
@@ -215,8 +220,8 @@ function renderTable() {
     )
     .join("");
 
-  els.tbody.querySelectorAll("tr[data-video-id]").forEach((row) => {
-    row.addEventListener("click", () => openModal(row.dataset.videoId));
+  els.tbody.querySelectorAll(".comments-btn").forEach((btn) => {
+    btn.addEventListener("click", () => openModal(btn.dataset.videoId));
   });
 }
 
