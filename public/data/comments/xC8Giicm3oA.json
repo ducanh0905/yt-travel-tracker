@@ -3,22 +3,42 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgxglTN8-misfhDo7Nt4AaABAg",
-      "author": "@manuelaliaga1",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mIjxOpF_m-nf2fTg-ZYcwok3FPS_2EJP_hYsQq_tfEuJyv=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Si deseo viajar como turista a Espanan pero necesito una guia turistica pues iria solo sin acompanante",
-      "likeCount": 0,
-      "publishedAt": "2026-07-10T18:01:11Z",
-      "replyCount": 1
-    },
-    {
       "id": "UgxQpsLABfKIbA75S6J4AaABAg",
       "author": "@alonsoalvarado4801",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mYmgcNh7ZdHQ0OoDT8hFAAaBvuWETTnFISLaAs-IY=s48-c-k-c0x00ffffff-no-rj",
       "text": "Desde venezuela 😂😂😂😂😂😢😢😢😮",
       "likeCount": 0,
       "publishedAt": "2026-07-10T19:17:03Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxQpsLABfKIbA75S6J4AaABAg.AZ5QtJahIN9AZ5o4GZg6EE",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que nos ves desde Venezuela! Espero que disfrutes del documental.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-10T22:48:24Z"
+        }
+      ]
+    },
+    {
+      "id": "UgxglTN8-misfhDo7Nt4AaABAg",
+      "author": "@manuelaliaga1",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mIjxOpF_m-nf2fTg-ZYcwok3FPS_2EJP_hYsQq_tfEuJyv=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Si deseo viajar como turista a Espanan pero necesito una guia turistica pues iria solo sin acompanante",
+      "likeCount": 0,
+      "publishedAt": "2026-07-10T18:01:11Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxglTN8-misfhDo7Nt4AaABAg.AZ5ICalUv1SAZ5o6pt-ami",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Claro que sí! España es un destino increíble para viajar solo. En el video doy algunos consejos, pero si tienes preguntas más específicas sobre cómo planificar tu viaje, ¡no dudes en preguntar!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-10T22:48:45Z"
+        }
+      ]
     }
   ]
 }

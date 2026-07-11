@@ -9,7 +9,17 @@
       "text": "2 ....3  gracias",
       "likeCount": 1,
       "publishedAt": "2026-07-05T19:21:16Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzOTRq8DSQ6eSGlRS14AaABAg.AYtZOkakkVVAYtuzczWzSs",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "De nada, me alegra que te haya gustado el documental.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-05T22:38:40Z"
+        }
+      ]
     }
   ]
 }

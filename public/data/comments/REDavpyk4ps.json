@@ -9,7 +9,8 @@
       "text": "gracias per video",
       "likeCount": 0,
       "publishedAt": "2026-07-06T13:17:23Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzNMzWGdJrFSORoKBd4AaABAg",
@@ -18,7 +19,17 @@
       "text": "Perder casi un mar entero (el Mar de Aral) y luchar hasta recuperar una parte... El nivel de resiliencia de esta gente es simplemente de otro planeta.",
       "likeCount": 0,
       "publishedAt": "2026-07-06T02:40:49Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzNMzWGdJrFSORoKBd4AaABAg.AYuLhBNEQfQAYuU2Loi6xA",
+          "author": "@RealLifeCountryES",
+          "authorImage": "https://yt3.ggpht.com/SQBP776833gvZEn-0vWO8T4RLP0d8P7qDiHoBdsY8VcZRc1ZJiNMWOojabygkeFJmTlDqzTGFA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Lo dijiste hermosamente. La historia del mar de Aral es desgarradora, pero el esfuerzo por recuperar una parte muestra una fuerza y resiliencia increíbles. Kazajistán ha enfrentado muchos capítulos difíciles, pero su gente sigue avanzando con dignidad.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-06T03:53:45Z"
+        }
+      ]
     },
     {
       "id": "UgygibRkeq-YVmKXBbh4AaABAg",
@@ -27,7 +38,8 @@
       "text": "Por fin un video que limpia la imagen del país y va mucho más allá del típico meme de Borat. Kazajistán es gigante, moderno y con una riqueza cultural impresionante. ¡Ya era hora de que se le hiciera justicia! 😂👏",
       "likeCount": 0,
       "publishedAt": "2026-07-07T02:44:32Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzZ-XwtJnmm8JwkNmZ4AaABAg",
@@ -36,7 +48,8 @@
       "text": "¿Cómo un país tan enorme sigue siendo tan desconocido? Kazajistán parece guardar algunos de los mayores secretos de Asia.",
       "likeCount": 0,
       "publishedAt": "2026-07-06T08:59:59Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

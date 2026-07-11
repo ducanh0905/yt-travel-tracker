@@ -3,22 +3,24 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgyOwGMiJuEsuzmOAVt4AaABAg",
-      "author": "@carolinadefeturk",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nEaD_Rk3gYEqhmikjMp7vwgj1kjo_1clhZVFPoWzf4kyAVnj5RvUUogQGgDuScZLz2rA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Gracias  ❤",
-      "likeCount": 1,
-      "publishedAt": "2026-03-25T02:37:40Z",
-      "replyCount": 0
-    },
-    {
       "id": "Ugw4AdocICIPxtiFhJ54AaABAg",
       "author": "@MiguelCastro.1959",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l0tx613-lukuf4UVwqX9vkEvtsEERIF-2U-wFVH4A=s48-c-k-c0x00ffffff-no-rj",
       "text": "Los textos no coinciden con la descripción verbal....",
       "likeCount": 1,
       "publishedAt": "2026-04-24T17:15:05Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyOwGMiJuEsuzmOAVt4AaABAg",
+      "author": "@carolinadefeturk",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nEaD_Rk3gYEqhmikjMp7vwgj1kjo_1clhZVFPoWzf4kyAVnj5RvUUogQGgDuScZLz2rA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Gracias  ❤",
+      "likeCount": 1,
+      "publishedAt": "2026-03-25T02:37:40Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwvuuKUyIRQ0cA4kjN4AaABAg",
@@ -27,7 +29,17 @@
       "text": "WOW encontré mi doble al otro lado del mundo 😱 a los 20 segundos del vídeo de chamarra negra y capucha beige",
       "likeCount": 2,
       "publishedAt": "2026-01-19T22:39:26Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwvuuKUyIRQ0cA4kjN4AaABAg.ASAuK-RcJn9ASBWsJUKuL1",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Jaja, ¿podría ser ese tipo un entusiasta con intereses similares? El mundo es inmenso, pero hay muchísimas coincidencias como esta, ¿verdad? Leer tu comentario también me sorprendió.",
+          "likeCount": 0,
+          "publishedAt": "2026-01-20T04:25:02Z"
+        }
+      ]
     },
     {
       "id": "UgxhWriFUDkiSpBKJxJ4AaABAg",
@@ -36,25 +48,17 @@
       "text": "Se ve lindo Estambul los lugares",
       "likeCount": 2,
       "publishedAt": "2026-01-16T00:08:08Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgyWLXrkcOUkTR74Y0x4AaABAg",
-      "author": "@pedrocastro-si2ex",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lU3hPQJmHaeYavudTu3DCCfoQeSHVWfaktHGH8c9YoRYSWG53Wn9Ulm2GaLMldH6Gydg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Muy buena la información, salvo algunos comentarios negativos y uno positivo:\nPositivo, dices que las colillas en la playa, más bien son \"colotas\". \n\nNegativos\n*Los taxistas que actúan como ampones, obvio que no todos, pero si muchísimos. \n*Que disfruten lo votado, con Erdogan en el poder, ahí los van a hallar.\n*Mercaderes que te ofrecen un té o alguna otra bebida, y si no les compras alguna cosa por cierto carísimas,te hacen pleito y casi te lesionan.",
-      "likeCount": 4,
-      "publishedAt": "2026-01-13T05:50:38Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgwGPlxNExQLyHcCHA14AaABAg",
-      "author": "@JoseFranciscoGonzalezGar-u2d6o",
-      "authorImage": "https://yt3.ggpht.com/e3MXIpmmPhzqeKs8xVXzDV4MmouSgxo8GfZFOEw4cjBYdxcMYdRug1NnDH4WNgF_pN_-DOXZfzE=s48-c-k-c0x00ffffff-no-rj",
-      "text": "HERMOSAS MUJERES❤",
-      "likeCount": 1,
-      "publishedAt": "2026-01-12T23:00:07Z",
-      "replyCount": 2
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxhWriFUDkiSpBKJxJ4AaABAg.AS0lIF5yiSpAS0tmdp05rH",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sí, es mucho más bonito de lo que imaginaba. ¿Has estado alguna vez? Si no, deberías intentar ir.",
+          "likeCount": 0,
+          "publishedAt": "2026-01-16T01:22:20Z"
+        }
+      ]
     },
     {
       "id": "UgySVC_-yU-JuVwxYLt4AaABAg",
@@ -63,7 +67,54 @@
       "text": "El problema es que no usan desodorante en las axilas !!!!!!!!!",
       "likeCount": 2,
       "publishedAt": "2026-03-28T18:12:22Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyWLXrkcOUkTR74Y0x4AaABAg",
+      "author": "@pedrocastro-si2ex",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lU3hPQJmHaeYavudTu3DCCfoQeSHVWfaktHGH8c9YoRYSWG53Wn9Ulm2GaLMldH6Gydg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Muy buena la información, salvo algunos comentarios negativos y uno positivo:\nPositivo, dices que las colillas en la playa, más bien son \"colotas\". \n\nNegativos\n*Los taxistas que actúan como ampones, obvio que no todos, pero si muchísimos. \n*Que disfruten lo votado, con Erdogan en el poder, ahí los van a hallar.\n*Mercaderes que te ofrecen un té o alguna otra bebida, y si no les compras alguna cosa por cierto carísimas,te hacen pleito y casi te lesionan.",
+      "likeCount": 4,
+      "publishedAt": "2026-01-13T05:50:38Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyWLXrkcOUkTR74Y0x4AaABAg.ARue68PvErIARuzUQsmccG",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sí, es solo mi experiencia y perspectiva personal. Gracias por tus comentarios.",
+          "likeCount": 1,
+          "publishedAt": "2026-01-13T08:57:27Z"
+        }
+      ]
+    },
+    {
+      "id": "UgwGPlxNExQLyHcCHA14AaABAg",
+      "author": "@JoseFranciscoGonzalezGar-u2d6o",
+      "authorImage": "https://yt3.ggpht.com/e3MXIpmmPhzqeKs8xVXzDV4MmouSgxo8GfZFOEw4cjBYdxcMYdRug1NnDH4WNgF_pN_-DOXZfzE=s48-c-k-c0x00ffffff-no-rj",
+      "text": "HERMOSAS MUJERES❤",
+      "likeCount": 1,
+      "publishedAt": "2026-01-12T23:00:07Z",
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgwGPlxNExQLyHcCHA14AaABAg.ARtv7Pnv1fgARuFrKip4Rj",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Es tan hermoso y encantador, ¿verdad? La tierra del legendario Imperio Otomano.",
+          "likeCount": 0,
+          "publishedAt": "2026-01-13T02:10:01Z"
+        },
+        {
+          "id": "UgwGPlxNExQLyHcCHA14AaABAg.ARtv7Pnv1fgARu6_5AIjG6",
+          "author": "@TierrasOcultas",
+          "authorImage": "https://yt3.ggpht.com/7jZXPjhZnXUHlTk9Pi7Ezgz2GHhD1jC-_1Eb9zJlEQmpmeWqB0deJp41Xu_Pudo2e2z4UpSy=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Eres una chica hermosa también, hola.",
+          "likeCount": 0,
+          "publishedAt": "2026-01-13T00:48:53Z"
+        }
+      ]
     },
     {
       "id": "UgzMUcrnSvi3_7tu91d4AaABAg",
@@ -72,7 +123,17 @@
       "text": "Pues tienes pocas fotos videos para un documental tan largo!",
       "likeCount": 1,
       "publishedAt": "2026-05-20T17:25:55Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzMUcrnSvi3_7tu91d4AaABAg.AX1uceZSjAyAX2seInLEJ8",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sí, gracias por tus comentarios. Mejoramos y optimizamos continuamente la calidad de nuestros videos. Puedes ver los videos más recientes en mi canal. Son versiones mejoradas y la calidad está garantizada, con la información más actualizada e ilustraciones increíblemente bellas y de alta calidad.",
+          "likeCount": 0,
+          "publishedAt": "2026-05-21T02:27:54Z"
+        }
+      ]
     },
     {
       "id": "Ugw2sb-AM93CbgrevMB4AaABAg",
@@ -81,7 +142,17 @@
       "text": "Las imágenes no coinciden con lo que habla. La narración es interesante pero no empata con lo que muestra. Lástima.",
       "likeCount": 1,
       "publishedAt": "2026-05-27T05:22:53Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw2sb-AM93CbgrevMB4AaABAg.AXIdS7Hi2qsAXIfUnbeH9c",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "A veces, las cosas son relativas. Si buscas algo más perfecto, te recomiendo que veas los últimos vídeos de mi canal. Te garantizo que no te decepcionarán.",
+          "likeCount": 0,
+          "publishedAt": "2026-05-27T05:40:43Z"
+        }
+      ]
     },
     {
       "id": "UgyInCfy0X_g4CYMdbd4AaABAg",
@@ -90,7 +161,17 @@
       "text": "Y los pobres?",
       "likeCount": 2,
       "publishedAt": "2026-01-13T01:04:55Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyInCfy0X_g4CYMdbd4AaABAg.ARu8PU20SwvARuG5n4C59x",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Los pobres son como todo el mundo ¿sabes?",
+          "likeCount": 0,
+          "publishedAt": "2026-01-13T02:12:08Z"
+        }
+      ]
     },
     {
       "id": "UgynLcW8pk3vHcmWP0J4AaABAg",
@@ -99,7 +180,17 @@
       "text": "Turquia tiene lugares hermosos, pero la realidad es que hay mucha mafia, violencia,  y los taxistas son muy sinverguenzas no tomarlos dicen los viajeros y es pais llenos de contraste, lugares muy progresistas y otros muy tradicional islamico.",
       "likeCount": 3,
       "publishedAt": "2026-01-16T02:44:15Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgynLcW8pk3vHcmWP0J4AaABAg.AS129ckhnGJAS13QhXclb8",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Por lo que has compartido, la veo como una cultura verdaderamente diversa. En resumen, aún debemos ser conscientes de las limitaciones para no malgastar el dinero, ¿no? Por lo demás, sigue siendo un gran lugar para visitar.",
+          "likeCount": 0,
+          "publishedAt": "2026-01-16T02:55:19Z"
+        }
+      ]
     }
   ]
 }

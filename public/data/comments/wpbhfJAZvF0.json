@@ -3,31 +3,14 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgwwlnHDdabsTNuTqyF4AaABAg",
-      "author": "@DISGlobalES",
-      "authorImage": "https://yt3.ggpht.com/emNxqslw4OqfqLgXYsr7JJgG4XguiM3xbAfmgorr-tnZOCkPayYYnw68NMX2Q8gjCBLtgdnvQg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Las tribus del Amazonas guardan tradiciones fascinantes que muestran una forma de vida completamente distinta al mundo moderno.",
-      "likeCount": 2,
-      "publishedAt": "2026-07-06T01:52:04Z",
-      "replyCount": 1
-    },
-    {
       "id": "Ugyil5OysTRaaz81hFh4AaABAg",
       "author": "@alejandrocarmen1683",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lwpv9k3XSI36FbQHufA_aStU6N8ycVcjX2YzBVJ9mQ0kcoexjZ1MiaZAq-_8NwW1Zafg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Vaya lastima que no puedo ir",
       "likeCount": 0,
       "publishedAt": "2026-07-10T21:05:21Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgySIqpt1iBf0LG4lld4AaABAg",
-      "author": "@GenaroMack-x6r",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mJUxkkmi665AmRCz4ilJfPTAan1TU452g2UM5ek9PklkcAAb7dnzzInZhXZe_Ftp4s2g=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Hay no mí hermano yo no puedo dormir junto con tanta jente",
-      "likeCount": 1,
-      "publishedAt": "2026-07-09T17:28:23Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgweTq5FdaX3_J-ISKJ4AaABAg",
@@ -36,7 +19,37 @@
       "text": "Con ellos no con unas de ellas si se puede se duermm",
       "likeCount": 0,
       "publishedAt": "2026-07-11T05:39:19Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwwlnHDdabsTNuTqyF4AaABAg",
+      "author": "@DISGlobalES",
+      "authorImage": "https://yt3.ggpht.com/emNxqslw4OqfqLgXYsr7JJgG4XguiM3xbAfmgorr-tnZOCkPayYYnw68NMX2Q8gjCBLtgdnvQg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Las tribus del Amazonas guardan tradiciones fascinantes que muestran una forma de vida completamente distinta al mundo moderno.",
+      "likeCount": 2,
+      "publishedAt": "2026-07-06T01:52:04Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwwlnHDdabsTNuTqyF4AaABAg.AYuG73PhQwIAZ1efmtz-sQ",
+          "author": "@EddargoGarcia",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n5jhBMgdrE7WFnKKuwEKK0iT9LUeTW0oTCmGRsck3QGRhqsGcoCesxpa6j0WBHnWJxxg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Yo lo veo en Encontrado EDO. Zulia Venezuela ❤😂🎉",
+          "likeCount": 1,
+          "publishedAt": "2026-07-09T08:09:19Z"
+        }
+      ]
+    },
+    {
+      "id": "UgySIqpt1iBf0LG4lld4AaABAg",
+      "author": "@GenaroMack-x6r",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mJUxkkmi665AmRCz4ilJfPTAan1TU452g2UM5ek9PklkcAAb7dnzzInZhXZe_Ftp4s2g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Hay no mí hermano yo no puedo dormir junto con tanta jente",
+      "likeCount": 1,
+      "publishedAt": "2026-07-09T17:28:23Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxlsjzUgpzO9hvA_R94AaABAg",
@@ -45,7 +58,8 @@
       "text": "No loco sobre todo lo que está contando",
       "likeCount": 0,
       "publishedAt": "2026-07-10T00:04:57Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxSX_tsPsszDoeKdE94AaABAg",
@@ -54,7 +68,8 @@
       "text": "O sea que entre los Cayapo, ¿el esposo tiene que mudarse con la suegra y mantener a toda la familia política para demostrar su valor? 🤯 ¡Eso sí que es un verdadero rito de iniciación extrema y no los de Occidente! Al menos se ahorran las discusiones de dónde pasar Navidad. ¡Buenísimo el dato!",
       "likeCount": 1,
       "publishedAt": "2026-07-10T04:15:48Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

@@ -9,7 +9,8 @@
       "text": "Me dieron ganas de conocer",
       "likeCount": 1,
       "publishedAt": "2026-04-19T02:00:01Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwdleNdNZYqo1Dundx4AaABAg",
@@ -18,7 +19,8 @@
       "text": "Interesante 😊 pero en Filipinas hay personas que viven en los cementerios 😮😮😢😢",
       "likeCount": 1,
       "publishedAt": "2026-04-24T22:23:02Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyL2WvMtN05xt-6ygZ4AaABAg",
@@ -27,16 +29,17 @@
       "text": "Q buen canal y q bacano Tailandia",
       "likeCount": 1,
       "publishedAt": "2026-02-14T21:16:02Z",
-      "replyCount": 1
-    },
-    {
-      "id": "Ugx0xmvHl9wI5amxx5N4AaABAg",
-      "author": "@plenavoz-p5g",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nruHRIXqnTRG3egG2t4ShfgmpFnciC4n60uykZK6TriVUBqHavkRjrTaPCYy8Uydj6wA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Lo que estás mostrando no es de Tailandia. Las imágenes son de Vietnam y la India. Nunca has estado en Tailandia. Todas las imágenes fueron robadas de otros canales. Muéstrenos imágenes de las Islas Canarias donde la gente pobre que no puede pagar el alquiler vive en tiendas de campaña. Imágenes de los suburbios de las grandes ciudades españolas donde la gente vive en barrios marginales sin agua corriente ni electricidad. Limpia primero delante de tu casa.",
-      "likeCount": 3,
-      "publishedAt": "2026-02-15T03:01:37Z",
-      "replyCount": 0
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyL2WvMtN05xt-6ygZ4AaABAg.ATDhRz7iXRWATDlFFxLv2j",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por tu comentario! BIENVENIDO!!",
+          "likeCount": 0,
+          "publishedAt": "2026-02-14T21:49:15Z"
+        }
+      ]
     },
     {
       "id": "UgwxcrBM4FwAbMkaBEZ4AaABAg",
@@ -45,7 +48,18 @@
       "text": "No nunca ni de paseo",
       "likeCount": 0,
       "publishedAt": "2026-02-27T23:54:38Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugx0xmvHl9wI5amxx5N4AaABAg",
+      "author": "@plenavoz-p5g",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nruHRIXqnTRG3egG2t4ShfgmpFnciC4n60uykZK6TriVUBqHavkRjrTaPCYy8Uydj6wA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Lo que estás mostrando no es de Tailandia. Las imágenes son de Vietnam y la India. Nunca has estado en Tailandia. Todas las imágenes fueron robadas de otros canales. Muéstrenos imágenes de las Islas Canarias donde la gente pobre que no puede pagar el alquiler vive en tiendas de campaña. Imágenes de los suburbios de las grandes ciudades españolas donde la gente vive en barrios marginales sin agua corriente ni electricidad. Limpia primero delante de tu casa.",
+      "likeCount": 3,
+      "publishedAt": "2026-02-15T03:01:37Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwVklcs9pW3Nk5YYgB4AaABAg",
@@ -54,7 +68,17 @@
       "text": "¿Así es Tailandia?",
       "likeCount": 0,
       "publishedAt": "2026-02-12T01:13:51Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwVklcs9pW3Nk5YYgB4AaABAg.AT6PH7xQyX5AT8WuzVgyJO",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Esto es una parte de su lado mas oscuro!,",
+          "likeCount": 0,
+          "publishedAt": "2026-02-12T20:59:04Z"
+        }
+      ]
     },
     {
       "id": "UgxayRrX6O1dGPGYa-R4AaABAg",
@@ -63,7 +87,8 @@
       "text": "ESTE DOCUMENTARIO ES LLENO DE MENTIRAS Y FACTOS FALSOS, FOTOS ETC DE INDIA ENTRE OTROS... QUE VERGUENZA DE PUBLICAR TAL BASURA !!!",
       "likeCount": 0,
       "publishedAt": "2026-03-02T01:49:00Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

@@ -9,7 +9,8 @@
       "text": "¡Qué mezcla tan impactante de modernidad y tradición! Es increíble cómo en una isla tan avanzada tecnológicamente siguen existiendo rituales como los matrimonios con muertos. Este video nos abre los ojos a un lado de Taiwán que nadie se imagina. ¡Gracias por este documental tan valiente!",
       "likeCount": 1,
       "publishedAt": "2026-04-10T13:31:16Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgydC35eollQfgRxNi54AaABAg",
@@ -18,7 +19,8 @@
       "text": "Video muy interesante.-",
       "likeCount": 1,
       "publishedAt": "2026-04-07T21:42:46Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugxk3O98LySZS7eZrjl4AaABAg",
@@ -27,16 +29,17 @@
       "text": "Muy agradecido por el conocimiento de distintas culturas,muchas personas en tan poco espacio, su cultura es muy fantasioso para mí de ser distinta cultura desde Argentina ❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
       "likeCount": 1,
       "publishedAt": "2026-04-08T23:02:11Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgxoaQXqJSDR4d4dm-p4AaABAg",
-      "author": "@Marce-OldGamer",
-      "authorImage": "https://yt3.ggpht.com/fL62vUrALuIXa6lXDDJM6ln6HBSnAJAvrlUewgPTWmSbKW_MczHkNdkSbFoI8xG9UWmGj25Rsw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "👍👍👍excelente",
-      "likeCount": 1,
-      "publishedAt": "2026-04-06T22:42:15Z",
-      "replyCount": 0
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxk3O98LySZS7eZrjl4AaABAg.AVMMim7IqQBAVSTOZePrxO",
+          "author": "@GlobalLensDocs",
+          "authorImage": "https://yt3.ggpht.com/Uyjw7NOSSNDBj9dwN_pByb1TrgqYCJ_b_by4vauaTqm7MxiuYLqmTxxLrohc6Vz_-882aid1rw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Tienes razón! Es un choque cultural total desde este lado del mundo. A mí también me vuela la cabeza ver tanta gente y tradiciones tan locas en Taiwán. ¡Parece de otro planeta comparado con América!",
+          "likeCount": 0,
+          "publishedAt": "2026-04-11T07:55:53Z"
+        }
+      ]
     },
     {
       "id": "Ugzne63K4gyQUC2wQRx4AaABAg",
@@ -45,7 +48,27 @@
       "text": "Muy bonito lugar me gusta , nice place,",
       "likeCount": 1,
       "publishedAt": "2026-04-08T00:16:29Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugzne63K4gyQUC2wQRx4AaABAg.AVJvR6I7-f6AVSTUkvcdjU",
+          "author": "@GlobalLensDocs",
+          "authorImage": "https://yt3.ggpht.com/Uyjw7NOSSNDBj9dwN_pByb1TrgqYCJ_b_by4vauaTqm7MxiuYLqmTxxLrohc6Vz_-882aid1rw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Es un lugar fascinante! Me encantaría ver esas máquinas y conocer sus tradiciones extrañas. Aunque sea un sitio pequeño, Taiwán tiene una energía única para nosotros los viajeros. ¡Espero visitarlo pronto!",
+          "likeCount": 0,
+          "publishedAt": "2026-04-11T07:56:44Z"
+        }
+      ]
+    },
+    {
+      "id": "UgxoaQXqJSDR4d4dm-p4AaABAg",
+      "author": "@Marce-OldGamer",
+      "authorImage": "https://yt3.ggpht.com/fL62vUrALuIXa6lXDDJM6ln6HBSnAJAvrlUewgPTWmSbKW_MczHkNdkSbFoI8xG9UWmGj25Rsw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "👍👍👍excelente",
+      "likeCount": 1,
+      "publishedAt": "2026-04-06T22:42:15Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugz028YRQ65V3UnUjkt4AaABAg",
@@ -54,7 +77,8 @@
       "text": "No lo aria",
       "likeCount": 1,
       "publishedAt": "2026-04-07T02:02:19Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

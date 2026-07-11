@@ -9,7 +9,8 @@
       "text": "Alberto Amaya desde bucaramanga Santander Colombia",
       "likeCount": 0,
       "publishedAt": "2026-07-11T04:29:19Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzJ2JL-DAIKUH2KtO54AaABAg",
@@ -18,7 +19,8 @@
       "text": "Me gusta👍 mucho ese país me canta mucho estoy viendo👀 de Venezuela🇻🇪 maracaibo gracias",
       "likeCount": 1,
       "publishedAt": "2026-07-05T02:25:17Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyZYifA8aSo8CxK3YZ4AaABAg",
@@ -27,7 +29,8 @@
       "text": "¿Cómo es crecer y vivir en un lugar tan aislado rodeado por el océano? Las Islas Feroe despiertan mucha curiosidad. 🌍",
       "likeCount": 0,
       "publishedAt": "2026-07-09T06:19:34Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwnVYV96_zyJSXUPBZ4AaABAg",
@@ -36,16 +39,8 @@
       "text": "Me  sorprende esa ciudad soy colombiano",
       "likeCount": 0,
       "publishedAt": "2026-07-06T01:07:00Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgyvF_AlYYiFZvuuXFJ4AaABAg",
-      "author": "@JuanVeras-g6o2y",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nnIRUmuuO6W_tIk9D-YmL6t0uNruYgC8TeTjvYqXKl6c9FXiAP47jKyuLrHos6hE_DZw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "🇩🇴🙏",
-      "likeCount": 0,
-      "publishedAt": "2026-07-07T21:56:39Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyyqTSMqss9kU4FB9l4AaABAg",
@@ -54,7 +49,18 @@
       "text": "De colombia",
       "likeCount": 1,
       "publishedAt": "2026-07-09T00:19:02Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyvF_AlYYiFZvuuXFJ4AaABAg",
+      "author": "@JuanVeras-g6o2y",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nnIRUmuuO6W_tIk9D-YmL6t0uNruYgC8TeTjvYqXKl6c9FXiAP47jKyuLrHos6hE_DZw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "🇩🇴🙏",
+      "likeCount": 0,
+      "publishedAt": "2026-07-07T21:56:39Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyrUX9re2tzGO8K1jx4AaABAg",
@@ -63,7 +69,8 @@
       "text": "do sul do brasil",
       "likeCount": 0,
       "publishedAt": "2026-07-10T01:53:57Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

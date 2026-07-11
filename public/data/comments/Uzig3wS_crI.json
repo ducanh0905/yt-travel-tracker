@@ -9,7 +9,8 @@
       "text": "este documental muestra una parte de somalia que pocas personas conocen, marcada por tradiciones muy antiguas y condiciones de vida realmente extremas. la forma en que este país mantiene ciertas costumbres familiares resulta impactante y al mismo tiempo muy interesante de comprender.",
       "likeCount": 0,
       "publishedAt": "2026-05-11T15:14:15Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyujcAuLONbhN1xpvR4AaABAg",
@@ -18,7 +19,8 @@
       "text": "Buenos diasmsaludos dsde Venezuela, excelentes vidoeos los felicito, GRACIAS",
       "likeCount": 0,
       "publishedAt": "2026-03-09T01:57:40Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxvjvEMXKXHiMKbbp54AaABAg",
@@ -27,7 +29,8 @@
       "text": "Excelente documental, saludos desde Chile...",
       "likeCount": 1,
       "publishedAt": "2026-03-09T03:50:23Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzFBTkxTh1jYcDJw-F4AaABAg",
@@ -36,34 +39,8 @@
       "text": "Excelente",
       "likeCount": 1,
       "publishedAt": "2026-01-26T23:39:53Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgzOosJChK4eVj3RyEh4AaABAg",
-      "author": "@mayalaas4840",
-      "authorImage": "https://yt3.ggpht.com/MjvlqhF2gSm2MSfyscllG8OBSmxYQqBMp94QaSP4na7pwH_ivPPj6yJWaaS2YBQqsmwuUkVc-A=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Me encantó!",
-      "likeCount": 0,
-      "publishedAt": "2026-03-19T13:43:18Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgwE7f9pT6Q6d6E_H0N4AaABAg",
-      "author": "@Cesarrosa-s1c",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ksNo0OCYCEpJ1Y2DWkiPYBnuecMMK3n2XYIS3seg3uL2AZe_z72pGM3SMTEDmmnIugGQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Hola megusto kisiera he ir aya",
-      "likeCount": 0,
-      "publishedAt": "2026-02-11T01:35:09Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgyWluapVnjhH0sG_r54AaABAg",
-      "author": "@JavierMora-oo1xk",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ltIu98QW9aVmbqVxBW_IQi0xR-vFgzH-Rl4Tsb2VD6G1NqCdIv6pqabuAAW4pBrhtoAw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Me gustaría conocer ha Zomalia❤❤❤❤❤❤❤❤",
-      "likeCount": 0,
-      "publishedAt": "2026-03-04T02:50:45Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzxBTh0KLSwVEBcUed4AaABAg",
@@ -72,7 +49,38 @@
       "text": "Maravilloso documental. Gracias ✅👍♥️",
       "likeCount": 0,
       "publishedAt": "2026-05-19T23:55:58Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyWluapVnjhH0sG_r54AaABAg",
+      "author": "@JavierMora-oo1xk",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ltIu98QW9aVmbqVxBW_IQi0xR-vFgzH-Rl4Tsb2VD6G1NqCdIv6pqabuAAW4pBrhtoAw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Me gustaría conocer ha Zomalia❤❤❤❤❤❤❤❤",
+      "likeCount": 0,
+      "publishedAt": "2026-03-04T02:50:45Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwE7f9pT6Q6d6E_H0N4AaABAg",
+      "author": "@Cesarrosa-s1c",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ksNo0OCYCEpJ1Y2DWkiPYBnuecMMK3n2XYIS3seg3uL2AZe_z72pGM3SMTEDmmnIugGQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Hola megusto kisiera he ir aya",
+      "likeCount": 0,
+      "publishedAt": "2026-02-11T01:35:09Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzOosJChK4eVj3RyEh4AaABAg",
+      "author": "@mayalaas4840",
+      "authorImage": "https://yt3.ggpht.com/MjvlqhF2gSm2MSfyscllG8OBSmxYQqBMp94QaSP4na7pwH_ivPPj6yJWaaS2YBQqsmwuUkVc-A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Me encantó!",
+      "likeCount": 0,
+      "publishedAt": "2026-03-19T13:43:18Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgweB72k1ZAiTXkzGQN4AaABAg",
@@ -81,7 +89,17 @@
       "text": "Me encantan sus documentales. Saludos dessert San Diego california",
       "likeCount": 4,
       "publishedAt": "2026-02-20T05:29:00Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgweB72k1ZAiTXkzGQN4AaABAg.ATRSpxjTXhJATRpDNpe64E",
+          "author": "@mundosincensura",
+          "authorImage": "https://yt3.ggpht.com/IJ7uAyFsknHf5vgy_BjwqWlrHb608Yd-LAUuMTZt9UZ67ylOyAD6xQt5JwzBfxjJBJny_FtWrMk=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Muchas gracias! ¿Qué es lo que más te ha sorprendido de Somalia? Nos encantará tenerte con nosotros y leerte en nuevos vídeos! Un saludo!!",
+          "likeCount": 0,
+          "publishedAt": "2026-02-20T08:53:19Z"
+        }
+      ]
     },
     {
       "id": "UgwFiPuM9LPVwwP1Ur54AaABAg",
@@ -90,25 +108,8 @@
       "text": "Lo veo como una verdadera prueba de conciencia , acá en la Argentina sobra tierras y agua , y bagos  haraganes , mantenidos de los padres , y son solo un grupo minúsculos los que cultivan , !! Que contraste!! Deberíamos reflexionar sobre el sufrimiento de esta gente, y ser empaticos ,  tendremos consecuencias karmaticas sobre nuestra indiferencia",
       "likeCount": 2,
       "publishedAt": "2026-03-19T17:55:39Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgwxOGVFXnEjNmhHCD54AaABAg",
-      "author": "@diukesmamarrero7346",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lwCIRT6zz_JfK2q1_5BQYmnU6E9F5RFhPpQQWsfjY=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Excellent program congratulations!",
-      "likeCount": 1,
-      "publishedAt": "2026-01-18T13:58:37Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgxHIK9QxRWG4QlmZo94AaABAg",
-      "author": "@gerardorodriguez4484",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ls5EVtIZ_gSvt2_B0UOI74j5LNJpRB206GbXlg2iQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Me gustaría conocer ahí pero dicen que es un país muy peligroso pero si me gustaría casarme con muchas de eyas tengo muy buen Retiro 😅😂❤",
-      "likeCount": 7,
-      "publishedAt": "2026-02-20T00:04:29Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxuAKqiR8g8yq2Hltd4AaABAg",
@@ -117,16 +118,8 @@
       "text": "Vejo a somalia pais de morenas bonitas teras de lugares bonito",
       "likeCount": 0,
       "publishedAt": "2026-02-22T17:42:37Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgzEF4b7q0IZ1fin7Sx4AaABAg",
-      "author": "@ylianaventuroquispe2843",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lkIByNVbSuFqJGUCTwWjyjAGNZyOZyewDqD3snyIfuaSW6VQtIro6BXAVa29R6UGf8zQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "progreso para Somalia.",
-      "likeCount": 0,
-      "publishedAt": "2026-03-09T01:44:31Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzR5sEIr2t_EOseTeh4AaABAg",
@@ -135,7 +128,47 @@
       "text": "Megutaria.tener.amistá.con.ellas",
       "likeCount": 0,
       "publishedAt": "2026-03-19T02:23:23Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwxOGVFXnEjNmhHCD54AaABAg",
+      "author": "@diukesmamarrero7346",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lwCIRT6zz_JfK2q1_5BQYmnU6E9F5RFhPpQQWsfjY=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Excellent program congratulations!",
+      "likeCount": 1,
+      "publishedAt": "2026-01-18T13:58:37Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwxOGVFXnEjNmhHCD54AaABAg.AS7Ov_QbHb6AS9ydeCYifO",
+          "author": "@mundosincensura",
+          "authorImage": "https://yt3.ggpht.com/IJ7uAyFsknHf5vgy_BjwqWlrHb608Yd-LAUuMTZt9UZ67ylOyAD6xQt5JwzBfxjJBJny_FtWrMk=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchísimas gracias por tu comentario! Nos encantaría tenerte en el canal y leerte en nuevos vídeos! Saludos!",
+          "likeCount": 0,
+          "publishedAt": "2026-01-19T13:57:58Z"
+        }
+      ]
+    },
+    {
+      "id": "UgzEF4b7q0IZ1fin7Sx4AaABAg",
+      "author": "@ylianaventuroquispe2843",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lkIByNVbSuFqJGUCTwWjyjAGNZyOZyewDqD3snyIfuaSW6VQtIro6BXAVa29R6UGf8zQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "progreso para Somalia.",
+      "likeCount": 0,
+      "publishedAt": "2026-03-09T01:44:31Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxHIK9QxRWG4QlmZo94AaABAg",
+      "author": "@gerardorodriguez4484",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ls5EVtIZ_gSvt2_B0UOI74j5LNJpRB206GbXlg2iQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Me gustaría conocer ahí pero dicen que es un país muy peligroso pero si me gustaría casarme con muchas de eyas tengo muy buen Retiro 😅😂❤",
+      "likeCount": 7,
+      "publishedAt": "2026-02-20T00:04:29Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgySA299vcm3WGAmKsh4AaABAg",
@@ -144,7 +177,17 @@
       "text": "Pues ante todo conocer y aprender como sobreviven casarse con varias mujeres uff depende de la economía y la capacidad que tenga uno como hombre obvio si es para proteger y contribuir a que haya menos mujeres solas y desamparadas en extrema pobresa si podría ser porque ay prima es la protección antes que la perversidad si puede ser pero lo que no se entiende es las creencias religiosas y cual es su temor a Dios 🤷 pero chévere conocer",
       "likeCount": 2,
       "publishedAt": "2026-01-18T22:10:46Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgySA299vcm3WGAmKsh4AaABAg.AS8HFGK3qG-AS9yPm9GcHd",
+          "author": "@mundosincensura",
+          "authorImage": "https://yt3.ggpht.com/IJ7uAyFsknHf5vgy_BjwqWlrHb608Yd-LAUuMTZt9UZ67ylOyAD6xQt5JwzBfxjJBJny_FtWrMk=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchísimas gracias por tu comentario! Nos encantaría tenerte en el canal y leerte en nuevos vídeos! Saludos!",
+          "likeCount": 0,
+          "publishedAt": "2026-01-19T13:55:57Z"
+        }
+      ]
     },
     {
       "id": "Ugy5wW1xykm8jrmr2eZ4AaABAg",
@@ -153,7 +196,8 @@
       "text": "No entraría a ese país ni me casaría con ninguno de ellos .No gracias 🥺",
       "likeCount": 0,
       "publishedAt": "2026-04-28T08:47:52Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwXg4Q7nPMb2Jtb6ap4AaABAg",
@@ -162,7 +206,17 @@
       "text": "Resumen. Una sociedad primitiva, patriarcal y machista aparte de xenofoba (El Islam es xenofobo) qué sin duda será a futuro un impedimento más para la humanidad global. Ésa qué está a años luz de tanto atraso.",
       "likeCount": 1,
       "publishedAt": "2026-01-18T08:47:37Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwXg4Q7nPMb2Jtb6ap4AaABAg.AS6qKkxZyhkAS7QMDzFDSS",
+          "author": "@ETA-m9g",
+          "authorImage": "https://yt3.ggpht.com/zM-KpYZr4RzyBMLPrjYfp62Z_hij7rpyvRyCty1TZqcdsgJmFYbRWjzr_r6dlDbbQHuPVL35=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Cada civilización tiene sus cosas positivas y negativas. Y desde luego, no seremos nosotros esa sociedad tan moderna la que podemos criticar a los demás. Cuando somos una panda de salvajes que nos respetamos nada\nModernización? Llamas modernización a matar por dinero y riquezas, por poder, y toda esa mierda?\nQuédate con tu modernización",
+          "likeCount": 3,
+          "publishedAt": "2026-01-18T14:11:08Z"
+        }
+      ]
     }
   ]
 }

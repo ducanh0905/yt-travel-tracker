@@ -9,7 +9,8 @@
       "text": "Increíble documental.¿Cómo hace la gente para conservar la comida en el día a día?",
       "likeCount": 2,
       "publishedAt": "2026-06-13T09:40:51Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxnUZwgEbDVCyGRxht4AaABAg",
@@ -18,7 +19,8 @@
       "text": "? MUESTRAMELO.",
       "likeCount": 0,
       "publishedAt": "2026-06-19T11:39:58Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwWINAHUbrcGiFqzwd4AaABAg",
@@ -27,7 +29,8 @@
       "text": "Cuba es rica. En sus playas  me imagino cada metro de la patria vale mucho dinero es parte del planeta tierra   así que hechenle ganas cubanos.  Su inteligencia  usenla  su libertad vale mucho",
       "likeCount": 1,
       "publishedAt": "2026-06-16T21:04:40Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxbYy8qgHVYyI98lnt4AaABAg",
@@ -36,7 +39,8 @@
       "text": "Cuba no se puede entender solo por sus playas o su música. La vida real también está en estas noches sin luz, en las colas y en la fuerza de su gente. Cuba tiene una belleza humana enorme, pero vivir con hasta veintidós horas sin electricidad debe ser agotador.",
       "likeCount": 1,
       "publishedAt": "2026-06-11T03:04:42Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzirlLgn9hUW_T3TfF4AaABAg",
@@ -45,7 +49,8 @@
       "text": "Pero no dicen cuales son las causas de todos los problemas.  Es el cruel bloqueo...díganlo de verdad.",
       "likeCount": 0,
       "publishedAt": "2026-07-08T00:26:16Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugyr9YZ8aLLNOx4gvsV4AaABAg",
@@ -54,7 +59,8 @@
       "text": "Cuba ese un pays faillite n1 mundial",
       "likeCount": 1,
       "publishedAt": "2026-06-19T17:19:57Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugxyrk4C5HBKFBJbQUh4AaABAg",
@@ -63,7 +69,8 @@
       "text": "Albizu Campos no es Cubano, es Boricua.",
       "likeCount": 0,
       "publishedAt": "2026-06-13T17:30:57Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxpmwexmvSBhSah82B4AaABAg",
@@ -72,16 +79,8 @@
       "text": "Es un gran relato sólo que té faltó decir los del bloqueo que están sufriendo los ciudadanos cubano si cuba no fuera bloqueada el ciudadano no sufriera escase de alimento si cuba no fuera comunista no estuviera con la escase dé alimentos todos éso es después del 1959 cuándo comenzó el sistemas del comunismo tiene que Ablar lo real Fidel Castro fué el culpable de ése bloqueo al pueblo  cubano",
       "likeCount": 2,
       "publishedAt": "2026-06-17T04:27:45Z",
-      "replyCount": 0
-    },
-    {
-      "id": "Ugxcwo7vzmVF11H8ptl4AaABAg",
-      "author": "@SilvestreGomez-l8h",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l_cdb12iEvfbconWqKW89iqSh69jL-NdmjZIuXCkr9Yg3iLzKFdf8SG32lYrR3AmrM9A=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Hola! Me encanta la gente Cubana",
-      "likeCount": 1,
-      "publishedAt": "2026-06-10T21:47:38Z",
-      "replyCount": 1
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxiEMnra8RpBGTvDF14AaABAg",
@@ -90,7 +89,27 @@
       "text": "carrognero",
       "likeCount": 0,
       "publishedAt": "2026-06-12T21:37:48Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugxcwo7vzmVF11H8ptl4AaABAg",
+      "author": "@SilvestreGomez-l8h",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l_cdb12iEvfbconWqKW89iqSh69jL-NdmjZIuXCkr9Yg3iLzKFdf8SG32lYrR3AmrM9A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Hola! Me encanta la gente Cubana",
+      "likeCount": 1,
+      "publishedAt": "2026-06-10T21:47:38Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxcwo7vzmVF11H8ptl4AaABAg.AXtSGtXN7KyAXtTYHeOTFx",
+          "author": "@RelatosdelaBibliaOFC",
+          "authorImage": "https://yt3.ggpht.com/4u0KRrGDWIRNZ4F09YvfK4Z2vIx8P62ooHKu1IDxoxOBVbTb6offvqfEddAx5cyGCDba-OM2Gg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Grácias por su comentário",
+          "likeCount": 0,
+          "publishedAt": "2026-06-10T21:58:45Z"
+        }
+      ]
     },
     {
       "id": "UgwtO8zh9rAmYTMRNjx4AaABAg",
@@ -99,7 +118,8 @@
       "text": "Esa dictadura brutal sanguinaria convirtió a cuba en un verdadero infierno",
       "likeCount": 1,
       "publishedAt": "2026-06-12T16:37:33Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyM59D_ThyfrSrkEkp4AaABAg",
@@ -108,7 +128,8 @@
       "text": "Cuba será libre bien pronto con la ayuda de Dios y Trump que es una bendición para el mundo!\nLa democracia se impondrá por siempre!!!!!\nPatria y vida \n\n    Amen y Amen",
       "likeCount": 0,
       "publishedAt": "2026-06-27T23:03:04Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzEZbMP6tZXDkJBlw94AaABAg",
@@ -117,7 +138,8 @@
       "text": "Raul castro e canel estan muertos en cubacaz vive trump vive rubio viva bukele 🎉🎉🎉🎉😂😂😅",
       "likeCount": 1,
       "publishedAt": "2026-06-19T16:50:51Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwMNevGd-fWBPUm3f14AaABAg",
@@ -126,7 +148,8 @@
       "text": "Raul castro e canel estan muertos en cubacaz vive trump vive rubio viva bukele 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉😂😂😂😂😂",
       "likeCount": 1,
       "publishedAt": "2026-06-19T17:01:18Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugw7bemMP_it-9ShaR94AaABAg",
@@ -135,7 +158,8 @@
       "text": "no veo gente desnutrida ni arapienta como en usa",
       "likeCount": 0,
       "publishedAt": "2026-06-12T21:40:07Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyhUF6YEuoObthcEDh4AaABAg",
@@ -144,7 +168,8 @@
       "text": "Estado Unidos es el pais que tiene jodida a Cuba, con su bloque de más, de, 60 años.",
       "likeCount": 1,
       "publishedAt": "2026-06-11T02:45:27Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugx3icKVRvuDxCRE7_N4AaABAg",
@@ -153,7 +178,17 @@
       "text": "Excelente informe !!!!  En Argentina vamos por ese camino , con Mileí que es de derecha .... OJO !!!",
       "likeCount": 0,
       "publishedAt": "2026-06-13T00:55:07Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx3icKVRvuDxCRE7_N4AaABAg.AXywJsHKrPUAY9PsXuX48n",
+          "author": "@LUCHOCASTRO-c4h",
+          "authorImage": "https://yt3.ggpht.com/C9U1N9t3yASRmJLlIrVyc9bDVys3gw3yi1ho6glzHuUtHC2BJdr6oh_c2UlSM7J9FENStb0D=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Ja ja ja ja ......CONSEGUITE UNA NEURONA , CHE KUKITA...",
+          "likeCount": 0,
+          "publishedAt": "2026-06-17T11:53:47Z"
+        }
+      ]
     },
     {
       "id": "UgwTj9QyD0KDtX5atjN4AaABAg",
@@ -162,7 +197,17 @@
       "text": "Es un gran relato sólo que té faltó decir los del bloqueo que están sufriendo los ciudadanos cubano si cuba no fuera bloqueada el ciudadano no sufriera escase de alimento si cuba no fuera comunista no estuviera con la escase dé alimentos todos éso es después del 1959 cuándo comenzó el sistemas del comunismo tiene que Ablar lo real Fidel Castro fué el culpable de ése bloqueo al pueblo  cubano",
       "likeCount": 2,
       "publishedAt": "2026-06-17T04:28:00Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwTj9QyD0KDtX5atjN4AaABAg.AY8brWHm18KAY8d2cnNhVy",
+          "author": "@RafaelTaveras-x3h",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lkvZL6_kz1dOZZNlAfaTAAvzD815r_d0GFkV8C9bR31YRZeGPylgyyE4sM5v8Yxu6Veg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Los nacidos después del 1960  pueden créer todos los qué está diciendo pero los nacidos en  los años 40  y 50 sabemos los qué te faltó decir   cuba fué un gran ejemplo en américa pero con la revolución todos cambió solo miren sus edificios y las calles como eran pará la época",
+          "likeCount": 3,
+          "publishedAt": "2026-06-17T04:38:23Z"
+        }
+      ]
     }
   ]
 }

@@ -9,7 +9,8 @@
       "text": "Si, Taiwán es de China.",
       "likeCount": 1,
       "publishedAt": "2026-04-19T01:47:49Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyQ9h0AFlWw_h1IT9V4AaABAg",
@@ -18,7 +19,17 @@
       "text": "Sí, le pertenece ha China.",
       "likeCount": 3,
       "publishedAt": "2026-01-23T15:09:27Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyQ9h0AFlWw_h1IT9V4AaABAg.ASKP-orR3rgASLzKAQxs3C",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Es increíble que China, situada a medio hemisferio de distancia de Haití, pudiera poseer Haití.",
+          "likeCount": 0,
+          "publishedAt": "2026-01-24T05:54:47Z"
+        }
+      ]
     },
     {
       "id": "UgzpkeeQxSVLdW3nl954AaABAg",
@@ -27,7 +38,8 @@
       "text": "ojalá que destruyan todo taiwan para que revivia denuevo.",
       "likeCount": 0,
       "publishedAt": "2026-04-19T01:27:00Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

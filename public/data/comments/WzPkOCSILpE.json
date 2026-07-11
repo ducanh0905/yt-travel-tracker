@@ -9,7 +9,8 @@
       "text": "Te saludo desde Pereira Colombia excelente videos de ciudades antiguas europeas excelente narración una voz que no se equivoca en nada y qué estilo de narración me encantó",
       "likeCount": 0,
       "publishedAt": "2026-07-08T21:49:33Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugzj4c_btRu-xtNCK5Z4AaABAg",
@@ -18,7 +19,8 @@
       "text": "Muy bueno",
       "likeCount": 0,
       "publishedAt": "2026-07-10T14:46:44Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxVL9U0WQvSsBB5Mpl4AaABAg",
@@ -27,7 +29,17 @@
       "text": "Es creíble porque yo vivo en Dinamarca",
       "likeCount": 0,
       "publishedAt": "2026-06-23T09:28:18Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxVL9U0WQvSsBB5Mpl4AaABAg.AYOb-BN_YjxAYSIlUoBjFl",
+          "author": "@RelatosdelaBibliaOFC",
+          "authorImage": "https://yt3.ggpht.com/4u0KRrGDWIRNZ4F09YvfK4Z2vIx8P62ooHKu1IDxoxOBVbTb6offvqfEddAx5cyGCDba-OM2Gg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias Elvirabravo",
+          "likeCount": 0,
+          "publishedAt": "2026-06-24T19:57:13Z"
+        }
+      ]
     },
     {
       "id": "UgxK7yp4ohzXf-s_3ZR4AaABAg",
@@ -36,7 +48,8 @@
       "text": "No tienen idea cuantos toman antidepresivos?",
       "likeCount": 0,
       "publishedAt": "2026-07-05T08:51:12Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugyz5wNmHC-69oEn8jd4AaABAg",
@@ -45,7 +58,8 @@
       "text": "La onu no es creible",
       "likeCount": 2,
       "publishedAt": "2026-06-23T01:41:42Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

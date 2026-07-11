@@ -9,7 +9,8 @@
       "text": "Para mi todos los platos me gustaría saborear los sé mira delicioso gracias",
       "likeCount": 1,
       "publishedAt": "2026-07-06T23:48:14Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugym9wBMdhxlXHe_bbN4AaABAg",
@@ -18,7 +19,17 @@
       "text": "Yo quiero comer cocodrilo pero mi esposa dise que después no me dará nunca más besos",
       "likeCount": 1,
       "publishedAt": "2026-06-23T04:53:00Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugym9wBMdhxlXHe_bbN4AaABAg.AYO6UpUFZAjAYShVrPwHiI",
+          "author": "@SantosDíaz-n8h",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_naVtQgGqLR2mEJBYsUptJWeahbG_5vnBCPaDOqBcwUdRBL6bJjSCLq-kGRbS6uIBwmZQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "En florida puede comprar pinchó de cocobrilo y sandwich también",
+          "likeCount": 0,
+          "publishedAt": "2026-06-24T23:42:09Z"
+        }
+      ]
     }
   ]
 }

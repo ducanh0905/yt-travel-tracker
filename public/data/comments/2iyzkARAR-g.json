@@ -9,7 +9,17 @@
       "text": "❤dos",
       "likeCount": 1,
       "publishedAt": "2026-07-10T21:31:25Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwaC1_vfLZSYbnmm5R4AaABAg.AZ5fGK9hMDSAZ6HsEIpmmy",
+          "author": "@MundoDescifrado.001",
+          "authorImage": "https://yt3.ggpht.com/2ClRV2wxM2cwbUDsPtBKGjHdVgSqnjUFMJ9BBHOGAg8IMyTGgoY9RkJz7FLmF3indjQjkOqKJg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "La verdad es que las mujeres locales están cansadas de promesas vacías a miles de kilómetros de distancia. Si tienes las finanzas para respaldar una buena vida y la honestidad como pilar, compra el billete o hazte a un lado.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-11T03:17:31Z"
+        }
+      ]
     }
   ]
 }

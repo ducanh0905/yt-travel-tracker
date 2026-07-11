@@ -9,7 +9,17 @@
       "text": "Hola soy mexicano , visité este gran país el año pasado, me fascinó",
       "likeCount": 2,
       "publishedAt": "2026-07-04T13:43:27Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyLgPsQxwgz1UA-lCh4AaABAg.AYqNwi-Ra5BAYqQV3uGdWi",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que te gustó Serbia! Es un país realmente increíble.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-04T14:05:46Z"
+        }
+      ]
     },
     {
       "id": "Ugwcx0DBwXuz9VDf0VV4AaABAg",
@@ -18,7 +28,17 @@
       "text": "Desde aguadilla P.R son bellas Damas.",
       "likeCount": 0,
       "publishedAt": "2026-07-07T19:30:55Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugwcx0DBwXuz9VDf0VV4AaABAg.AYyj5BItGQPAYzCwnWaVov",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué gusto que te hayan gustado las damas de Serbia! Son realmente encantadoras, ¿verdad?",
+          "likeCount": 0,
+          "publishedAt": "2026-07-08T00:00:31Z"
+        }
+      ]
     },
     {
       "id": "Ugyv1_y9DscikJIRIkJ4AaABAg",
@@ -27,25 +47,17 @@
       "text": "Desde Puerto Rico",
       "likeCount": 0,
       "publishedAt": "2026-07-06T01:42:47Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgzVqkrWMBo0xGM-6fZ4AaABAg",
-      "author": "@gerardobianco-iw4bl",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nARyxcgyC4rLu_lii4sgBPPkplNwXTzHZLkjUBsFGJD9wvF66aYAi3laLFAyIyHgSn7A=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Saludos desde Venezuela  👋🇻🇪",
-      "likeCount": 0,
-      "publishedAt": "2026-07-05T04:38:18Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgyHZgDOReFUD75brrh4AaABAg",
-      "author": "@colonpalacios7073",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n7TqDXGv8_GpeIpn9N1UF11UCvjH5KwNADNUC4JhE=s48-c-k-c0x00ffffff-no-rj",
-      "text": "❤❤❤ Amén amén vendiciones",
-      "likeCount": 0,
-      "publishedAt": "2026-07-05T13:41:21Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugyv1_y9DscikJIRIkJ4AaABAg.AYuF330w5-PAYum0hd7ezt",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que nos visitas desde Puerto Rico! Me alegra que el documental te haya llegado tan lejos.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-06T06:39:33Z"
+        }
+      ]
     },
     {
       "id": "UgzrD3MloQdoDDaunBB4AaABAg",
@@ -54,43 +66,55 @@
       "text": "DE ARGENTINA",
       "likeCount": 1,
       "publishedAt": "2026-07-04T22:28:31Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzrD3MloQdoDDaunBB4AaABAg.AYrK1LGiP6RAYr_btGpcEW",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que nos visitas desde Argentina! Espero que disfrutes mucho el documental.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-05T00:53:27Z"
+        }
+      ]
     },
     {
-      "id": "UgwO532HnsJRV8NDAHR4AaABAg",
-      "author": "@GlobeESNew",
-      "authorImage": "https://yt3.ggpht.com/vHsnGSVZ-jdkHgktpcq_p-T3suQochdWqsaTkqZxvFXIJ5L8Iz1vP-sXTLEOGNDQNNpnvkyRiw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Me sorprendió mucho leer la parte sobre la \"maldición de sentarse en un rincón y estar soltero durante 7 años\". No me extraña que cuando salía a hacer barbacoa con mis amigos, siempre me obligaran a sentarme en un rincón. Ahora entiendo por qué llevo más de una década soltero. ¡Sálvenme! 😂",
-      "likeCount": 1,
-      "publishedAt": "2026-07-06T09:47:29Z",
-      "replyCount": 2
-    },
-    {
-      "id": "Ugxixjj-qWQnIIrBlPx4AaABAg",
-      "author": "@IsaiasGualdron-l4q",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lsIO0KH93OMfL3PN3kkxTUk7TsNceOYa6t219yVP8ios1EvW8tDuW7p3U0VVLxkXJlUA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Bonito",
+      "id": "UgzVqkrWMBo0xGM-6fZ4AaABAg",
+      "author": "@gerardobianco-iw4bl",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nARyxcgyC4rLu_lii4sgBPPkplNwXTzHZLkjUBsFGJD9wvF66aYAi3laLFAyIyHgSn7A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Saludos desde Venezuela  👋🇻🇪",
       "likeCount": 0,
-      "publishedAt": "2026-07-05T18:42:40Z",
-      "replyCount": 1
+      "publishedAt": "2026-07-05T04:38:18Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzVqkrWMBo0xGM-6fZ4AaABAg.AYrzLgz45lMAYsUhpLVbn0",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Saludos de vuelta a Venezuela! Me alegra que hayas disfrutado el documental.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-05T09:21:04Z"
+        }
+      ]
     },
     {
-      "id": "UgxrcYvdTzKnqFUe2uF4AaABAg",
-      "author": "@HistoriasdelGlobo2",
-      "authorImage": "https://yt3.ggpht.com/Q-Wat3d4fegkqW2N3RPu40nR45p2SpTVUuL_yl2_fMWoDCyOU3TeHLryEjDXoQaR7LyKnh8CuQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Como mochilero que ha recorrido las calles de Belgrado y los parques nacionales de la región, confirmo que la hospitalidad de su gente te vuela la cabeza. Este video acierte por completo al analizar ¡La vida en SERBIA en 2026! Mujeres hermosas y naturaleza majestuosa - Documental de viajes. ¡Gran contenido!",
+      "id": "UgyHZgDOReFUD75brrh4AaABAg",
+      "author": "@colonpalacios7073",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n7TqDXGv8_GpeIpn9N1UF11UCvjH5KwNADNUC4JhE=s48-c-k-c0x00ffffff-no-rj",
+      "text": "❤❤❤ Amén amén vendiciones",
       "likeCount": 0,
-      "publishedAt": "2026-07-08T08:27:05Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgwNaik9cvFeriXDVAZ4AaABAg",
-      "author": "@claudiopagano8197",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ldQNCJoqb2ACiWS5tI0fa5OHsUN-DbrYZMr0kII7wBc0yO3d9TcCxQjkS5SREDdYZ3kA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Argentina",
-      "likeCount": 0,
-      "publishedAt": "2026-07-06T17:25:07Z",
-      "replyCount": 1
+      "publishedAt": "2026-07-05T13:41:21Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyHZgDOReFUD75brrh4AaABAg.AYsxV539jopAYtFtaSvqb4",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Amén amén, ¡muchas gracias por tus bendiciones!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-05T16:30:51Z"
+        }
+      ]
     },
     {
       "id": "UgyuOfjvEnqDX25vfMF4AaABAg",
@@ -99,7 +123,101 @@
       "text": "¿Cómo ha logrado Serbia conservar tanta historia, naturaleza y cultura sin convertirse en un destino turístico masivo? 🌍🤔",
       "likeCount": 1,
       "publishedAt": "2026-07-05T03:59:40Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyuOfjvEnqDX25vfMF4AaABAg.AYruvkTIHmEAYsVT5I_8MB",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Excelente pregunta! Creo que Serbia ha sabido encontrar un equilibrio entre la modernidad y la preservación de su esencia.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-05T09:27:40Z"
+        }
+      ]
+    },
+    {
+      "id": "Ugxixjj-qWQnIIrBlPx4AaABAg",
+      "author": "@IsaiasGualdron-l4q",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lsIO0KH93OMfL3PN3kkxTUk7TsNceOYa6t219yVP8ios1EvW8tDuW7p3U0VVLxkXJlUA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Bonito",
+      "likeCount": 0,
+      "publishedAt": "2026-07-05T18:42:40Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxixjj-qWQnIIrBlPx4AaABAg.AYtUz6BrbyoAYturaDH66G",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Me alegra que te haya gustado! Serbia es un país con mucho que ofrecer.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-05T22:37:35Z"
+        }
+      ]
+    },
+    {
+      "id": "UgwNaik9cvFeriXDVAZ4AaABAg",
+      "author": "@claudiopagano8197",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ldQNCJoqb2ACiWS5tI0fa5OHsUN-DbrYZMr0kII7wBc0yO3d9TcCxQjkS5SREDdYZ3kA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Argentina",
+      "likeCount": 0,
+      "publishedAt": "2026-07-06T17:25:07Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwNaik9cvFeriXDVAZ4AaABAg.AYvvtv6-VObAYwpqXk1DmV",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Un saludo hasta Argentina! Me alegra que el video haya llegado tan lejos.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-07T01:51:28Z"
+        }
+      ]
+    },
+    {
+      "id": "UgwO532HnsJRV8NDAHR4AaABAg",
+      "author": "@GlobeESNew",
+      "authorImage": "https://yt3.ggpht.com/vHsnGSVZ-jdkHgktpcq_p-T3suQochdWqsaTkqZxvFXIJ5L8Iz1vP-sXTLEOGNDQNNpnvkyRiw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Me sorprendió mucho leer la parte sobre la \"maldición de sentarse en un rincón y estar soltero durante 7 años\". No me extraña que cuando salía a hacer barbacoa con mis amigos, siempre me obligaran a sentarme en un rincón. Ahora entiendo por qué llevo más de una década soltero. ¡Sálvenme! 😂",
+      "likeCount": 1,
+      "publishedAt": "2026-07-06T09:47:29Z",
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgwO532HnsJRV8NDAHR4AaABAg.AYv6X5pm-zSAZ5po41_WEH",
+          "author": "@MiguelPerez-mu3vz",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kexSU46w6cYLAw7n2skj-kjy6uv4tRLz7Q3K1rsh5kWb6z0DWyfRdUElppkPxsBgt36Q=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Estoy viendo desde la provincia de Buenos Aires Argentina😅",
+          "likeCount": 0,
+          "publishedAt": "2026-07-10T23:03:32Z"
+        },
+        {
+          "id": "UgwO532HnsJRV8NDAHR4AaABAg.AYv6X5pm-zSAYv9FzoM_KC",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Esa \"maldición\" es solo una leyenda urbana, ¡no te preocupes! Seguro que pronto encontrarás a alguien especial.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-06T10:11:22Z"
+        }
+      ]
+    },
+    {
+      "id": "UgxrcYvdTzKnqFUe2uF4AaABAg",
+      "author": "@HistoriasdelGlobo2",
+      "authorImage": "https://yt3.ggpht.com/Q-Wat3d4fegkqW2N3RPu40nR45p2SpTVUuL_yl2_fMWoDCyOU3TeHLryEjDXoQaR7LyKnh8CuQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Como mochilero que ha recorrido las calles de Belgrado y los parques nacionales de la región, confirmo que la hospitalidad de su gente te vuela la cabeza. Este video acierte por completo al analizar ¡La vida en SERBIA en 2026! Mujeres hermosas y naturaleza majestuosa - Documental de viajes. ¡Gran contenido!",
+      "likeCount": 0,
+      "publishedAt": "2026-07-08T08:27:05Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxrcYvdTzKnqFUe2uF4AaABAg.AZ-6uxngZbBAZ-Dj6VpkdN",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que este video resonó contigo y tu experiencia! Siempre es genial escuchar de alguien que ha vivido lo que mostramos.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-08T09:26:38Z"
+        }
+      ]
     },
     {
       "id": "Ugy4BCWjXKOopL60ObZ4AaABAg",
@@ -108,7 +226,17 @@
       "text": "2",
       "likeCount": 0,
       "publishedAt": "2026-07-04T13:43:39Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugy4BCWjXKOopL60ObZ4AaABAg.AYqNy9aleq3AYqQaeUUEcD",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for the comment! I appreciate you taking the time to watch.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-04T14:06:40Z"
+        }
+      ]
     },
     {
       "id": "UgxZD6e1_xcdo-2awtp4AaABAg",
@@ -117,7 +245,17 @@
       "text": "2",
       "likeCount": 0,
       "publishedAt": "2026-07-05T18:47:38Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxZD6e1_xcdo-2awtp4AaABAg.AYtVYUptnTjAYyKMv4ot6W",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for watching! What did you think of the video?",
+          "likeCount": 0,
+          "publishedAt": "2026-07-07T15:46:09Z"
+        }
+      ]
     },
     {
       "id": "UgwbGWgSVm2FcOc2K914AaABAg",
@@ -126,7 +264,17 @@
       "text": "2",
       "likeCount": 0,
       "publishedAt": "2026-07-06T17:30:20Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwbGWgSVm2FcOc2K914AaABAg.AYvwV5YiwziAYyTpE_6HnM",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for watching! Hope you enjoyed the video.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-07T17:08:47Z"
+        }
+      ]
     }
   ]
 }

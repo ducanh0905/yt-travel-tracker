@@ -9,7 +9,17 @@
       "text": "A country where world-class coffee,breathtaking beuty, and dangerous streets can exist by side.That's Colombia.",
       "likeCount": 2,
       "publishedAt": "2026-07-09T08:07:35Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugwc-uCKPMZPcPOUSlt4AaABAg.AZ1eU3r2kHFAZ1gvh4Z_fY",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "You've perfectly captured the essence of Colombia! It's a land of incredible contrasts and that's what makes it so fascinating.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-09T08:28:58Z"
+        }
+      ]
     },
     {
       "id": "Ugyq-tuswBh_RRmWqI14AaABAg",
@@ -18,7 +28,17 @@
       "text": "Me gustaría encontrar una mujer trabajadora para vivir en España para casarnos y tener un hijo.",
       "likeCount": 2,
       "publishedAt": "2026-07-09T04:00:23Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugyq-tuswBh_RRmWqI14AaABAg.AZ1DBS2eZ1oAZ1EcByKpMW",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué interesante tu visión! Espero que encuentres a esa persona especial y que tus sueños se hagan realidad.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-09T04:12:54Z"
+        }
+      ]
     }
   ]
 }

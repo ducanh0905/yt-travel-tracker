@@ -9,7 +9,8 @@
       "text": "Parece que la geografía de Marruecos, un país africano pegado a Europa, ofrece paisajes únicos. Este viaje muestra que la vida en esos entornos tan variados debe ser interesante.",
       "likeCount": 1,
       "publishedAt": "2026-07-10T16:43:28Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugxx6pitgKvkWUO9_yV4AaABAg",
@@ -18,7 +19,8 @@
       "text": "Están todos en España!!!",
       "likeCount": 1,
       "publishedAt": "2026-07-07T21:59:24Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxBPGt02scrwRc44gx4AaABAg",
@@ -27,7 +29,17 @@
       "text": "Por qué sacan la imagen de la Universidad de Guanajuato en lugar de la de Qarawiyyin... no tiene nada que ver.",
       "likeCount": 2,
       "publishedAt": "2026-07-07T03:57:39Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxBPGt02scrwRc44gx4AaABAg.AYx3HnqwTyIAZ-O8cMSPwh",
+          "author": "@vicent753",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ns3B_u9OWEWxO1MD6Ie9qhiDpDrzZejPhM6dKwoLU=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Pues por lo mismo que presume saber de geografía .\nDice que la cordillera del atlas va de norte a sur , en cuando va de este a oeste ya que está cordillera llega hasta Libia y es la culpable de que exista el desierto del Sáhara .",
+          "likeCount": 0,
+          "publishedAt": "2026-07-08T10:57:38Z"
+        }
+      ]
     },
     {
       "id": "Ugwdk320Ml_zeW98XVV4AaABAg",
@@ -36,7 +48,17 @@
       "text": "No .me interesa porque estuve. Allí y lo. Conozco a mí no me gustó este país .",
       "likeCount": 0,
       "publishedAt": "2026-07-09T14:09:23Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugwdk320Ml_zeW98XVV4AaABAg.AZ2IsvkBoBaAZ5xe_g_pgL",
+          "author": "@Jose-dr6gf",
+          "authorImage": "https://yt3.ggpht.com/J6Q87HMYw4ERExtYWG2OeM6Aa6qW-y5RG0F3QalYqjScAMf1VmwqQWwn0INk8ni_UEnF6EDzCA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "No nos interesa si te gustó o no😊",
+          "likeCount": 0,
+          "publishedAt": "2026-07-11T00:12:09Z"
+        }
+      ]
     },
     {
       "id": "UgyTkUsm5C0aTdnOLuR4AaABAg",
@@ -45,7 +67,8 @@
       "text": "Seguro 🧕🏻🗡️🗡️💣",
       "likeCount": 2,
       "publishedAt": "2026-07-07T16:14:41Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

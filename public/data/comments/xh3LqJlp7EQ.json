@@ -9,7 +9,8 @@
       "text": "Que pena 😢",
       "likeCount": 0,
       "publishedAt": "2026-05-24T13:18:26Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugx1ObdmJvooeDOn3mJ4AaABAg",
@@ -18,7 +19,17 @@
       "text": "Espectacular 👽👌",
       "likeCount": 0,
       "publishedAt": "2026-05-26T01:33:23Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx1ObdmJvooeDOn3mJ4AaABAg.AXFeOOwD_5AAXFegXOJBcg",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sí, Japón es una superpotencia.",
+          "likeCount": 0,
+          "publishedAt": "2026-05-26T01:36:00Z"
+        }
+      ]
     },
     {
       "id": "Ugx9shBykTER4JWteOl4AaABAg",
@@ -27,7 +38,8 @@
       "text": "No es extraño es horroroso.",
       "likeCount": 0,
       "publishedAt": "2026-07-03T19:44:56Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugz-lBbFCiJESfxCcS94AaABAg",
@@ -36,7 +48,8 @@
       "text": "P",
       "likeCount": 0,
       "publishedAt": "2026-05-22T22:32:27Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxAfsaVP6JVnxOpVOx4AaABAg",
@@ -45,7 +58,8 @@
       "text": "Su poblacion no es feliz ,solo unos cuantos.",
       "likeCount": 0,
       "publishedAt": "2026-07-03T19:47:19Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugyg0Ixe7Uj7G843FJF4AaABAg",
@@ -54,7 +68,25 @@
       "text": "Y a eso le llaman primer mundo si todos son obligados  a actuar como esclavos no tienen  vida propia todos están obligados a encajar en el sistema   eso no es vivir",
       "likeCount": 1,
       "publishedAt": "2026-05-23T10:15:47Z",
-      "replyCount": 2
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "Ugyg0Ixe7Uj7G843FJF4AaABAg.AX8rmsa0S2iAXH2N9yrhW6",
+          "author": "@alanl7942",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kuckmNx9TVYnCAhi-smzLV0BZ4si3lsqYzdEvmO9BmFoo=s48-c-k-c0x00ffffff-no-rj",
+          "text": "😂😂😂 ni al caso",
+          "likeCount": 0,
+          "publishedAt": "2026-05-26T14:30:55Z"
+        },
+        {
+          "id": "Ugyg0Ixe7Uj7G843FJF4AaABAg.AX8rmsa0S2iAX9Ajtq_qN9",
+          "author": "@luiscarlosep",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kM2VDcHg_i9XoYf9aRQvVcAmC5OAkovgTAndEqVT7sPvtFlQfPFf_68sae4KBciA7BbQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Corea del Norte es mucho mejor, donde va a parar",
+          "likeCount": 0,
+          "publishedAt": "2026-05-23T13:10:08Z"
+        }
+      ]
     }
   ]
 }

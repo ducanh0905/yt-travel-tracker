@@ -9,7 +9,8 @@
       "text": "Bendiciones lindos reportajes bendiciones para nuestros hermanos bendiciones viva nuestras tribus bendiciones",
       "likeCount": 5,
       "publishedAt": "2026-06-26T23:40:07Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugz_IkME7Ic1Jfy3gGd4AaABAg",
@@ -18,7 +19,17 @@
       "text": "Espero que jamas lleguen los misioneros a contaminarlos.\nEllos no necesitan de esas mentiras evangelicas . ..",
       "likeCount": 2,
       "publishedAt": "2026-06-27T04:53:04Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugz_IkME7Ic1Jfy3gGd4AaABAg.AYYPfwKWpT6AZ2DpkQKnZd",
+          "author": "@jkenwell",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mFsd7MpJ4-yA3cPEcblf3AzH699A8yj_MPQcb7Yy4=s48-c-k-c0x00ffffff-no-rj",
+          "text": "This footage is old. The tribe is already culturally destroyed.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-09T13:25:15Z"
+        }
+      ]
     }
   ]
 }

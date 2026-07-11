@@ -9,34 +9,8 @@
       "text": "Que país tan hermoso. No me imaginaba que fuera así 😍😍",
       "likeCount": 8,
       "publishedAt": "2026-07-03T22:05:14Z",
-      "replyCount": 0
-    },
-    {
-      "id": "Ugxo1nMbmIxWMKwJPDN4AaABAg",
-      "author": "@ExploralosPaíses1",
-      "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Qué paisajes tan espectaculares tiene este antiguo Imperio Persa. Sin duda, ver este video me da ganas de planear un viaje porque la vida en Irán tiene una belleza natural impresionante.",
-      "likeCount": 1,
-      "publishedAt": "2026-07-10T06:38:09Z",
-      "replyCount": 0
-    },
-    {
-      "id": "Ugy8xNFnoVyEQZcb8xd4AaABAg",
-      "author": "@irmatorres9606",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l012-l6NN-MuGDy3QRQBXBtUFaF-eDmfTv_ybGXdI=s48-c-k-c0x00ffffff-no-rj",
-      "text": "El equipo de futbol Iraní no ganó en la cancha pero ganó en todos los corazones de México 🇲🇽",
-      "likeCount": 9,
-      "publishedAt": "2026-07-03T22:23:20Z",
-      "replyCount": 3
-    },
-    {
-      "id": "UgzNMe-92Wx4mRwvaYJ4AaABAg",
-      "author": "@MisteriosdelPlaneta-u2n",
-      "authorImage": "https://yt3.ggpht.com/_u6hC3Tkv3P8J7Ac6yaOg89zx6ww0XkB8AYOuRiL70kxw-gMOILg_UjwsTevIzFt1laOvbdN7w=s48-c-k-c0x00ffffff-no-rj",
-      "text": "¿Cuántos secretos culturales esconde Irán detrás de los estereotipos? Cada documental me despierta aún más curiosidad por conocerlo.",
-      "likeCount": 13,
-      "publishedAt": "2026-07-01T05:21:37Z",
-      "replyCount": 1
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyLVoq0O4AVfTAMyrp4AaABAg",
@@ -45,7 +19,18 @@
       "text": "Felicitaciones",
       "likeCount": 2,
       "publishedAt": "2026-07-04T16:36:18Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzNMe-92Wx4mRwvaYJ4AaABAg",
+      "author": "@MisteriosdelPlaneta-u2n",
+      "authorImage": "https://yt3.ggpht.com/_u6hC3Tkv3P8J7Ac6yaOg89zx6ww0XkB8AYOuRiL70kxw-gMOILg_UjwsTevIzFt1laOvbdN7w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "¿Cuántos secretos culturales esconde Irán detrás de los estereotipos? Cada documental me despierta aún más curiosidad por conocerlo.",
+      "likeCount": 13,
+      "publishedAt": "2026-07-01T05:21:37Z",
+      "replyCount": 1,
+      "replies": []
     },
     {
       "id": "UgxpOdwh1aYCjudU6Vx4AaABAg",
@@ -54,7 +39,18 @@
       "text": "Vamos Iran, gran cultura, gran país.",
       "likeCount": 5,
       "publishedAt": "2026-07-01T18:15:03Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugxo1nMbmIxWMKwJPDN4AaABAg",
+      "author": "@ExploralosPaíses1",
+      "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Qué paisajes tan espectaculares tiene este antiguo Imperio Persa. Sin duda, ver este video me da ganas de planear un viaje porque la vida en Irán tiene una belleza natural impresionante.",
+      "likeCount": 1,
+      "publishedAt": "2026-07-10T06:38:09Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugx6mNSlCqWmikO0N3d4AaABAg",
@@ -63,7 +59,43 @@
       "text": "Un país con una cultura asombrosa, donde la educación es primordial, impresionantemente la población es la más estudiada del mundo, no hay analfabetismo, los jóvenes  desd epequeños ya saben que carrera van a estudiar en la universidad, LA EDUCACIÓN ES GRATIS.",
       "likeCount": 7,
       "publishedAt": "2026-07-03T01:58:54Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": []
+    },
+    {
+      "id": "Ugy8xNFnoVyEQZcb8xd4AaABAg",
+      "author": "@irmatorres9606",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l012-l6NN-MuGDy3QRQBXBtUFaF-eDmfTv_ybGXdI=s48-c-k-c0x00ffffff-no-rj",
+      "text": "El equipo de futbol Iraní no ganó en la cancha pero ganó en todos los corazones de México 🇲🇽",
+      "likeCount": 9,
+      "publishedAt": "2026-07-03T22:23:20Z",
+      "replyCount": 3,
+      "replies": [
+        {
+          "id": "Ugy8xNFnoVyEQZcb8xd4AaABAg.AYojdUIjTDfAZ6tcL0HcRl",
+          "author": "@Production.bbbbbbb",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lb3v9XwJbntfxcXRhXe3Kn04BiPPObyHdMcDCLvkT1UflNBWVMXbiCh4qWga8o50d-Wg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "تیم ملی ما نبود تیم فوتبال رژیم جنایتکار و ادم کش جمهوری اسلامی بود ومامردم ایران از باخت این تیم مزدور خوشحال شدیم چون نماینده ما مردم نبود.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-11T08:56:08Z"
+        },
+        {
+          "id": "Ugy8xNFnoVyEQZcb8xd4AaABAg.AYojdUIjTDfAZ45jowhOF1",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "La verdad es que fue súper emotivo ver el agradecimiento de los jugadores con México. Se ganaron el respeto de todos con su esfuerzo y humildad dentro y fuera de la cancha.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-10T06:53:01Z"
+        },
+        {
+          "id": "Ugy8xNFnoVyEQZcb8xd4AaABAg.AYojdUIjTDfAYqUKexKNmc",
+          "author": "@javadjalalimussavi",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m0TETFurn5xO3vTNZo_KyG8zEccNhCAm15C5V6i6WtE28swaootnwreDnoMX_rgJhYkA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Long live Iran and Mexico i truly hope Mexico win the world cup they deserve it💚🤍❤",
+          "likeCount": 2,
+          "publishedAt": "2026-07-04T14:39:18Z"
+        }
+      ]
     },
     {
       "id": "UgzLL9MdzzuiL25MJxR4AaABAg",
@@ -72,52 +104,8 @@
       "text": "ESTE HOJE, ESTÁ DESTACADO,POTÊNCIA MUNDIAL, PARABÉNS AO POVO IRANIANO,(PERSAS)👊👏👏👏",
       "likeCount": 3,
       "publishedAt": "2026-07-03T21:13:28Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgysV7b0PWoBNFBRGr94AaABAg",
-      "author": "@DISGlobalES",
-      "authorImage": "https://yt3.ggpht.com/emNxqslw4OqfqLgXYsr7JJgG4XguiM3xbAfmgorr-tnZOCkPayYYnw68NMX2Q8gjCBLtgdnvQg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Irán tiene una cultura fascinante, una historia milenaria y una realidad mucho más compleja de lo que muchos imaginan.",
-      "likeCount": 1,
-      "publishedAt": "2026-07-03T02:58:59Z",
-      "replyCount": 0
-    },
-    {
-      "id": "Ugywn2diIni5sh-ImBZ4AaABAg",
-      "author": "@moisesemilioarmasinga7556",
-      "authorImage": "https://yt3.ggpht.com/RMGDLOKnGFbtcVjpuDEi5EkxTDo1je06rjvg8_NfNwyvJipvv4T7c33a_y12TzuCPIjpawHLFg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Viajaré a Irán cuando se normalice; y ojalá sea pronto, porque de otra manera, me estoy  perdiendo esa maravillosa cultura que ha sobrevivido en milenios",
-      "likeCount": 4,
-      "publishedAt": "2026-07-03T23:09:08Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgyYchFyzizCdv_LzFJ4AaABAg",
-      "author": "@marbelcorral",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mzwk73fmnfDwFs4aca8l6kkQx6GyTAVAtENSyHlH_Zex_oOyaCVbcQl_w7mzDMX7MLRg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Tanto con Turquía , pero después de ir y de haber comparado las tradiciones , estás las aguantaría  pero las Turcas imposible .Cuando la situación este asentada , me gustaría conocerlo porque a pesar de sus tradiciones la amplitud es más agradable que la Turca y más llevaderas .",
-      "likeCount": 3,
-      "publishedAt": "2026-07-03T10:58:41Z",
-      "replyCount": 0
-    },
-    {
-      "id": "Ugy90cMjd3ONgeSJiCl4AaABAg",
-      "author": "@VictorGomez-vn9jv",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kDVsj9hLvoBQOLzjE2nL1bDBX9GW_KSmsdaKSmAdiuJmsO7Wk2UinkxnzouI6qS8O9Pg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Irán.. Un país libre que no se somete ante el imperio.. lo mejor está por venir.. Irán será una  super potencia",
-      "likeCount": 4,
-      "publishedAt": "2026-07-03T23:31:29Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgzPyp1njVeYFeD05S94AaABAg",
-      "author": "@RobertoN-k2t",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mC-F_LUNsLxxHq0iRkdThSk-g8rlByJUfRPLo8n2HtbmB0G7VDfzswGgLJModTHVY6_A=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Es la primera vez en mi vida en que  veo algo del interior de IRÁN  es simplemente  HERMOSO!, como.me gustaría visitarlo algún día sus mujeres son bellas y desde luego muy preparadas en las distintas disciplinas muy diferente al país que nos quieren mostrar los yankys en decadencia!.",
-      "likeCount": 9,
-      "publishedAt": "2026-07-02T02:28:26Z",
-      "replyCount": 3
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxX4G5UhETpisMJ-pt4AaABAg",
@@ -126,16 +114,92 @@
       "text": "Todo se be muy lindo",
       "likeCount": 3,
       "publishedAt": "2026-07-02T19:50:26Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
-      "id": "UgxkjcJplDqXNaLlDvJ4AaABAg",
-      "author": "@Caminante726",
-      "authorImage": "https://yt3.ggpht.com/kfZFnWQThf6ziJ4TSxCxM1LeJCPn3_7Xc9gSN6DlDgPB9gIzq-t4jINGozkMmkLnAZ5AOaAIug=s48-c-k-c0x00ffffff-no-rj",
-      "text": "País extraordinario",
+      "id": "UgyYchFyzizCdv_LzFJ4AaABAg",
+      "author": "@marbelcorral",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mzwk73fmnfDwFs4aca8l6kkQx6GyTAVAtENSyHlH_Zex_oOyaCVbcQl_w7mzDMX7MLRg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Tanto con Turquía , pero después de ir y de haber comparado las tradiciones , estás las aguantaría  pero las Turcas imposible .Cuando la situación este asentada , me gustaría conocerlo porque a pesar de sus tradiciones la amplitud es más agradable que la Turca y más llevaderas .",
+      "likeCount": 3,
+      "publishedAt": "2026-07-03T10:58:41Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgysV7b0PWoBNFBRGr94AaABAg",
+      "author": "@DISGlobalES",
+      "authorImage": "https://yt3.ggpht.com/emNxqslw4OqfqLgXYsr7JJgG4XguiM3xbAfmgorr-tnZOCkPayYYnw68NMX2Q8gjCBLtgdnvQg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Irán tiene una cultura fascinante, una historia milenaria y una realidad mucho más compleja de lo que muchos imaginan.",
+      "likeCount": 1,
+      "publishedAt": "2026-07-03T02:58:59Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugy90cMjd3ONgeSJiCl4AaABAg",
+      "author": "@VictorGomez-vn9jv",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kDVsj9hLvoBQOLzjE2nL1bDBX9GW_KSmsdaKSmAdiuJmsO7Wk2UinkxnzouI6qS8O9Pg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Irán.. Un país libre que no se somete ante el imperio.. lo mejor está por venir.. Irán será una  super potencia",
       "likeCount": 4,
-      "publishedAt": "2026-07-02T11:15:31Z",
-      "replyCount": 0
+      "publishedAt": "2026-07-03T23:31:29Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzPyp1njVeYFeD05S94AaABAg",
+      "author": "@RobertoN-k2t",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mC-F_LUNsLxxHq0iRkdThSk-g8rlByJUfRPLo8n2HtbmB0G7VDfzswGgLJModTHVY6_A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Es la primera vez en mi vida en que  veo algo del interior de IRÁN  es simplemente  HERMOSO!, como.me gustaría visitarlo algún día sus mujeres son bellas y desde luego muy preparadas en las distintas disciplinas muy diferente al país que nos quieren mostrar los yankys en decadencia!.",
+      "likeCount": 9,
+      "publishedAt": "2026-07-02T02:28:26Z",
+      "replyCount": 3,
+      "replies": [
+        {
+          "id": "UgzPyp1njVeYFeD05S94AaABAg.AYk15z4XcooAZ45nJwpskH",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Verdad que sí! Las imágenes del interior de Irán son hermosas y las mujeres son súper profesionales. Qué bueno que este video rompa con esa propaganda negativa que siempre nos imponen.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-10T06:53:30Z"
+        },
+        {
+          "id": "UgzPyp1njVeYFeD05S94AaABAg.AYk15z4XcooAYq1boCl1w2",
+          "author": "@RobertoN-k2t",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mC-F_LUNsLxxHq0iRkdThSk-g8rlByJUfRPLo8n2HtbmB0G7VDfzswGgLJModTHVY6_A=s48-c-k-c0x00ffffff-no-rj",
+          "text": "​@RosalbaCristaldo-r4oCLARO!, IRIA SI TUVIERA LOS RECURSOS, PERO SABES QUE TUVE TRES HIJOS Y LES DI LA MEJOR EDUCACIÓN POSIBLE EN LAS MEJORES INSTITUCIONES DE MÉXICO TAL VEZ TU NO LAS CONOZCAS  PERO YO SI!, PREFERI ESO A VIAJAR POR EL MUNDO ASÍ QUE AHORA SOY VIEJO Y YA NO ME ES POSIBLE!!, Y TU QUE HAS HECHO?, CUÉNTAME TAL VEZ NO TE INTERESE  IRÁN PERO SEGURAMENTE CONOCES MUCHO MUNDO.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-04T10:28:22Z"
+        },
+        {
+          "id": "UgzPyp1njVeYFeD05S94AaABAg.AYk15z4XcooAYpDrqhIfFx",
+          "author": "@RosalbaCristaldo-r4o",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kNn6ML5JlhLrSoExrtw_OWTxjwv-pPPh8GhTrE49w-bzrwzJrjG1FoMdgRo3BUt4v3Gw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Ve a visitarlo",
+          "likeCount": 0,
+          "publishedAt": "2026-07-04T02:56:10Z"
+        }
+      ]
+    },
+    {
+      "id": "Ugywn2diIni5sh-ImBZ4AaABAg",
+      "author": "@moisesemilioarmasinga7556",
+      "authorImage": "https://yt3.ggpht.com/RMGDLOKnGFbtcVjpuDEi5EkxTDo1je06rjvg8_NfNwyvJipvv4T7c33a_y12TzuCPIjpawHLFg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Viajaré a Irán cuando se normalice; y ojalá sea pronto, porque de otra manera, me estoy  perdiendo esa maravillosa cultura que ha sobrevivido en milenios",
+      "likeCount": 4,
+      "publishedAt": "2026-07-03T23:09:08Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugywn2diIni5sh-ImBZ4AaABAg.AYoot0EdcTtAYpEFv-4LCo",
+          "author": "@RosalbaCristaldo-r4o",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kNn6ML5JlhLrSoExrtw_OWTxjwv-pPPh8GhTrE49w-bzrwzJrjG1FoMdgRo3BUt4v3Gw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Ya se han fusionados con otras  etnias ya no son persas puros",
+          "likeCount": 0,
+          "publishedAt": "2026-07-04T02:59:36Z"
+        }
+      ]
     },
     {
       "id": "UgzzkNBqfqUhPrWA-Bh4AaABAg",
@@ -144,7 +208,18 @@
       "text": "Segun dice el narrador el velo es obligatorio y estoy viendo que no todas la mujers lo usan ¿ ?.",
       "likeCount": 2,
       "publishedAt": "2026-07-04T16:21:22Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxkjcJplDqXNaLlDvJ4AaABAg",
+      "author": "@Caminante726",
+      "authorImage": "https://yt3.ggpht.com/kfZFnWQThf6ziJ4TSxCxM1LeJCPn3_7Xc9gSN6DlDgPB9gIzq-t4jINGozkMmkLnAZ5AOaAIug=s48-c-k-c0x00ffffff-no-rj",
+      "text": "País extraordinario",
+      "likeCount": 4,
+      "publishedAt": "2026-07-02T11:15:31Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxGuf7s93ZsRFvess14AaABAg",
@@ -153,7 +228,8 @@
       "text": "Deben tener mujeres muy bonitas",
       "likeCount": 0,
       "publishedAt": "2026-07-05T01:00:48Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxR5gQd64I9DgtaLrd4AaABAg",
@@ -162,7 +238,8 @@
       "text": "Hay historia lo que EU no tiene",
       "likeCount": 2,
       "publishedAt": "2026-07-02T18:34:00Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxtAPfBne7Tfa_NIYt4AaABAg",
@@ -171,25 +248,17 @@
       "text": "ЧЕ ? ЭТО !     ИРАН .???   УВАЖАЮ !!!    РЕЧЬ НЕ ОТ ИРАНА   А ?  ДУМАЮ ?!  УВАЖАЕШЬ И ТЫ ИХ    !!!    МОЛОДЦЫ !!!  ПАЦАНЫ  !!!  КРАСИВЫЕ  ЖЕНЬЩИНЫ   У НИХ  !!!       ИРАНКИ !!!♥♥♥!!!  😊😊😊!!!        КРАСИВЫЕ !!!       ❤❤❤❤❤❤❤❤❤❤❤❤!!!    😊",
       "likeCount": 2,
       "publishedAt": "2026-07-01T01:25:51Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgyEf5npaOBzeRhkoxB4AaABAg",
-      "author": "@aureliooropeza3352",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nmtsXDHjV3vsi3WJxNLeR6_m62bNa4V324lnRtnFy0u-rpS5RDcRIx863T-hajBZ4JOA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Diós ayude a IRÁN a derrotar a los asesinos rateros hipócritas mentirosos cinicos personas sin escrúpulos de Donald Trump Netanyahu y zelensqui GRACIAS",
-      "likeCount": 5,
-      "publishedAt": "2026-07-04T01:37:57Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgzlF-INUJKj6btrz6F4AaABAg",
-      "author": "@HermanOrtiz-s5u",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n633UFGUpzCi4f3OVmAh6fby2HThAFHI-Olta-aZZjGlnkhUpi1wPGG1-YFqg2vnKy2g=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Y los tapetes persas?",
-      "likeCount": 0,
-      "publishedAt": "2026-07-04T23:21:57Z",
-      "replyCount": 0
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxtAPfBne7Tfa_NIYt4AaABAg.AYhL8eaT5ajAYhRrSLJ-F-",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "100% IRAN",
+          "likeCount": 1,
+          "publishedAt": "2026-07-01T02:24:32Z"
+        }
+      ]
     },
     {
       "id": "UgyhCxd8KzkiU3grKel4AaABAg",
@@ -198,16 +267,18 @@
       "text": "🇮🇷👏👏👏👏👏",
       "likeCount": 0,
       "publishedAt": "2026-07-02T07:36:29Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
-      "id": "UgzCKIqdZ1qmvpaRrzR4AaABAg",
-      "author": "@albertinapenaloza3141",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nPtrEpndJa_g8HmWLSM8CsA1TVOT6JiC9srQqtZg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Es por eso que muchos países quieren apropiarse de Irán",
-      "likeCount": 0,
-      "publishedAt": "2026-07-05T23:30:49Z",
-      "replyCount": 0
+      "id": "UgyEf5npaOBzeRhkoxB4AaABAg",
+      "author": "@aureliooropeza3352",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nmtsXDHjV3vsi3WJxNLeR6_m62bNa4V324lnRtnFy0u-rpS5RDcRIx863T-hajBZ4JOA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Diós ayude a IRÁN a derrotar a los asesinos rateros hipócritas mentirosos cinicos personas sin escrúpulos de Donald Trump Netanyahu y zelensqui GRACIAS",
+      "likeCount": 5,
+      "publishedAt": "2026-07-04T01:37:57Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwrJUNGDfHlJDYaqDx4AaABAg",
@@ -216,16 +287,28 @@
       "text": "👍🥀🇮🇷♥️✨️🥀😎",
       "likeCount": 0,
       "publishedAt": "2026-07-07T20:09:44Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
-      "id": "Ugz6IgJTILiblKPCMaR4AaABAg",
-      "author": "@22763344",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kfcW7f20RWss7EIB2CDMaN7gDjyoQmIWYDz2YYISj4ECk=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Este vídeo, que no sé quién lo paga, diay, el  tema lo tratan con \"guante blanco\", no se ve todos los extremos...seguro porque no está en el radar de los que lo postean como: el reloj de cuenta atrás para destruir a Israel, las matanzas de \"gente feliz de este país\" en este 2026,  las ayudas que dan a grupos irregulares  e importante: ¿Por qué las sanciones? es que al estilo de la izquierda, hablan del efecto pero no de la causa. Interesante lo de la gastronomía. Por otro lado, este vídeo es ¿solo para México? hablan de las procesioes que...¿solo en México se hacen?. Y ¿ en LATAM qué? Deberían ser más inclusivos y no enfocarse en comparaciones donde solo México aparece. He dicho.",
+      "id": "UgzlF-INUJKj6btrz6F4AaABAg",
+      "author": "@HermanOrtiz-s5u",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n633UFGUpzCi4f3OVmAh6fby2HThAFHI-Olta-aZZjGlnkhUpi1wPGG1-YFqg2vnKy2g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Y los tapetes persas?",
       "likeCount": 0,
-      "publishedAt": "2026-07-04T03:34:15Z",
-      "replyCount": 0
+      "publishedAt": "2026-07-04T23:21:57Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzCKIqdZ1qmvpaRrzR4AaABAg",
+      "author": "@albertinapenaloza3141",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nPtrEpndJa_g8HmWLSM8CsA1TVOT6JiC9srQqtZg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Es por eso que muchos países quieren apropiarse de Irán",
+      "likeCount": 0,
+      "publishedAt": "2026-07-05T23:30:49Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzfTiT-2hS_nf5dVdV4AaABAg",
@@ -234,7 +317,18 @@
       "text": "Eso de que todo esta bien cara es verdad y eso de que yo me Boy ah mexico trabajando en Europa si me rinde el dinero claro esta pero aquí en Europa pura erga no rinde el dinero  😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
       "likeCount": 0,
       "publishedAt": "2026-07-02T17:01:51Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugz6IgJTILiblKPCMaR4AaABAg",
+      "author": "@22763344",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kfcW7f20RWss7EIB2CDMaN7gDjyoQmIWYDz2YYISj4ECk=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Este vídeo, que no sé quién lo paga, diay, el  tema lo tratan con \"guante blanco\", no se ve todos los extremos...seguro porque no está en el radar de los que lo postean como: el reloj de cuenta atrás para destruir a Israel, las matanzas de \"gente feliz de este país\" en este 2026,  las ayudas que dan a grupos irregulares  e importante: ¿Por qué las sanciones? es que al estilo de la izquierda, hablan del efecto pero no de la causa. Interesante lo de la gastronomía. Por otro lado, este vídeo es ¿solo para México? hablan de las procesioes que...¿solo en México se hacen?. Y ¿ en LATAM qué? Deberían ser más inclusivos y no enfocarse en comparaciones donde solo México aparece. He dicho.",
+      "likeCount": 0,
+      "publishedAt": "2026-07-04T03:34:15Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugxr8mG7LWOeoq4K3U54AaABAg",
@@ -243,7 +337,25 @@
       "text": "Pero usted no mencionó los problemas más graves que tiene el país,que son el autoritarismo,la violación de los derechos humanos,la violencia contra  las mujeres,que hay mujeres que han sido asesinadas por no llevar un velo, y que la homosexualidad está penalizada con la pena de muerte, que se permite el matrimonio infantil, que solo existe un partido y un sistema absoluto teocrático, que han asesinado a miles de opositores y que ahora, hay que pagar peaje para que los cargueros de petróleo y fertilizantes por el estrecho de Hormos.",
       "likeCount": 5,
       "publishedAt": "2026-07-03T02:09:48Z",
-      "replyCount": 2
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "Ugxr8mG7LWOeoq4K3U54AaABAg.AYmZlLdx1XgAZ6uTnw2J1B",
+          "author": "@Production.bbbbbbb",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lb3v9XwJbntfxcXRhXe3Kn04BiPPObyHdMcDCLvkT1UflNBWVMXbiCh4qWga8o50d-Wg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "بله داستان مامردم شجاع ایران که ژانویه امسال بالای پنجاه هزار نفر تو خیابانهای ایران به جرم اعتراض به حکومت دیکتاتور مذهبی با سلاح جنگی کشته شدن توسط رسانه های بزرگ سانسور شدن چون اونها طرفدار جنایتکارو ظالمن لعنت به همشون\nواینکه این واقعه وحشتناک و نسل کشی تو ایران دنیارو تکون نداد هنوزم برامن عجیبه",
+          "likeCount": 1,
+          "publishedAt": "2026-07-11T09:03:34Z"
+        },
+        {
+          "id": "Ugxr8mG7LWOeoq4K3U54AaABAg.AYmZlLdx1XgAYoklTbrDTd",
+          "author": "@matildezcoronado4280",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lfPzfG4ZOmBzysCPbJB0zzmGptAjj_VOihpje30WU=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Si, se le pasó esos pequeños detalles",
+          "likeCount": 1,
+          "publishedAt": "2026-07-03T22:33:10Z"
+        }
+      ]
     },
     {
       "id": "UgwrKIsIdIcfcDe4AAh4AaABAg",
@@ -252,7 +364,8 @@
       "text": "Cuanto te pagaron por esto?? IRAN es todo lo contrario.",
       "likeCount": 1,
       "publishedAt": "2026-07-03T11:47:03Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugw4TqdOh5Ez65hD-od4AaABAg",
@@ -261,7 +374,8 @@
       "text": "11:44 A Beutiful Princess ❤",
       "likeCount": 0,
       "publishedAt": "2026-07-07T06:53:23Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

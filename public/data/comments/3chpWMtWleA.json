@@ -9,7 +9,8 @@
       "text": "Impecable para vivir",
       "likeCount": 2,
       "publishedAt": "2026-05-21T22:02:25Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxXXqi3YTiHCBmwA4l4AaABAg",
@@ -18,7 +19,17 @@
       "text": "Desde Guayaquil Ecuador",
       "likeCount": 2,
       "publishedAt": "2026-05-01T07:07:01Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxXXqi3YTiHCBmwA4l4AaABAg.AWFsh5GRe7zAWGwIDjiwzy",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Saludos 🙂",
+          "likeCount": 1,
+          "publishedAt": "2026-05-01T16:57:41Z"
+        }
+      ]
     },
     {
       "id": "Ugzqv-mA3OUGVo4d4ul4AaABAg",
@@ -27,7 +38,8 @@
       "text": "Falto la isla de pascua donde estan los moai. Pero esta bueno el reportaje saludoa de chile",
       "likeCount": 3,
       "publishedAt": "2026-05-06T01:54:11Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxCCs57ZzxLvrv1aLZ4AaABAg",
@@ -36,7 +48,8 @@
       "text": "PALAO💯👍",
       "likeCount": 2,
       "publishedAt": "2026-04-30T20:02:59Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgysEwhm3SqxsKntrJh4AaABAg",
@@ -45,7 +58,8 @@
       "text": "A donde van los desechos humanos ?",
       "likeCount": 2,
       "publishedAt": "2026-05-22T12:07:01Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugy8KECc7c0_OJ0QGFF4AaABAg",
@@ -54,7 +68,8 @@
       "text": "Las islas epstein",
       "likeCount": 2,
       "publishedAt": "2026-05-01T22:09:21Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

@@ -3,31 +3,23 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgyL_1vHCX0XSGbIIU54AaABAg",
-      "author": "@manuelantonioespinozacente3411",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kvAzn4t4rFKLAvbpa2ISaNQlaP05b1TolcAgN3rg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Que linda es la creación y maravillosa paisaje nos dio Jehová",
-      "likeCount": 1,
-      "publishedAt": "2026-06-20T19:44:46Z",
-      "replyCount": 0
-    },
-    {
       "id": "UgxH9buF4eQn8IErezF4AaABAg",
       "author": "@RealLifeCountryES",
       "authorImage": "https://yt3.ggpht.com/SQBP776833gvZEn-0vWO8T4RLP0d8P7qDiHoBdsY8VcZRc1ZJiNMWOojabygkeFJmTlDqzTGFA=s48-c-k-c0x00ffffff-no-rj",
       "text": "Hay lugares donde irse parece lo lógico, pero quedarse tiene un valor emocional enorme. Eso merece respeto. La belleza de estos lugares da miedo. ¿Cómo se puede proteger una maravilla natural sin destruir la vida de quienes viven allí?",
       "likeCount": 16,
       "publishedAt": "2026-06-12T02:01:50Z",
-      "replyCount": 1
-    },
-    {
-      "id": "UgwVvU5kt5SvHvIgaeV4AaABAg",
-      "author": "@WONDERGLOBE-ES",
-      "authorImage": "https://yt3.ggpht.com/YBQKtnTuHciYUwGprBaxi4RI4_GKuVw2tPGAWiM3lxvcTNENWCK-EUToaCrP0I6s_5y-qXZ9Rg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "14:40 Esos árboles son realmente interesantes. ¿Hay otros lugares donde haya este tipo de árbol?",
-      "likeCount": 2,
-      "publishedAt": "2026-06-19T02:57:09Z",
-      "replyCount": 0
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxH9buF4eQn8IErezF4AaABAg.AXwU9_G4cMiAYKvM--KRKV",
+          "author": "@ernestomartinez5080",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nj7PAq489rI6NHK471MkFocojz6YJXKcDqEE2K1NQlj-I_sNgBPBPSsnyomX85OyBptw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Tienes toda la razon. Pensamos igual",
+          "likeCount": 0,
+          "publishedAt": "2026-06-21T23:09:12Z"
+        }
+      ]
     },
     {
       "id": "UgwjN2nHH2ghuxzoRO94AaABAg",
@@ -36,7 +28,8 @@
       "text": "¡Doy fe de que la realidad supera a la ficción en estos destinos! He estado en entornos difíciles y la resiliencia humana te deja sin palabras. Si quieres conocer un lado crudo del planeta que va mucho más allá de las postales turísticas tradicionales, tienes que ver Lugares INSANOS de la Tierra donde la gente se NIEGA a irse! La vida extrema que no te muestran. ¡Un video de 10!",
       "likeCount": 1,
       "publishedAt": "2026-06-27T10:34:48Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugx4Zfgx4ZTLGEHwRwJ4AaABAg",
@@ -45,7 +38,28 @@
       "text": "Waooo.  Dios.  Es.  Bueno.  Ay.  Pura.   Vida.  Real.  Er. Serr\nUsando,  vive. Mas.  110.  Años.  😅😊",
       "likeCount": 0,
       "publishedAt": "2026-06-30T04:02:52Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwVvU5kt5SvHvIgaeV4AaABAg",
+      "author": "@WONDERGLOBE-ES",
+      "authorImage": "https://yt3.ggpht.com/YBQKtnTuHciYUwGprBaxi4RI4_GKuVw2tPGAWiM3lxvcTNENWCK-EUToaCrP0I6s_5y-qXZ9Rg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "14:40 Esos árboles son realmente interesantes. ¿Hay otros lugares donde haya este tipo de árbol?",
+      "likeCount": 2,
+      "publishedAt": "2026-06-19T02:57:09Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyL_1vHCX0XSGbIIU54AaABAg",
+      "author": "@manuelantonioespinozacente3411",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kvAzn4t4rFKLAvbpa2ISaNQlaP05b1TolcAgN3rg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Que linda es la creación y maravillosa paisaje nos dio Jehová",
+      "likeCount": 1,
+      "publishedAt": "2026-06-20T19:44:46Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxACouK36YkVy4na2J4AaABAg",
@@ -54,7 +68,8 @@
       "text": "😃🤩🤗",
       "likeCount": 0,
       "publishedAt": "2026-06-21T19:53:45Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzjeVrpahRPY6N1kCx4AaABAg",
@@ -63,7 +78,8 @@
       "text": "Oi❤",
       "likeCount": 0,
       "publishedAt": "2026-06-19T20:52:40Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyK-jLLrKvcaxztmvB4AaABAg",
@@ -72,7 +88,8 @@
       "text": "😮😮😮😮😮😮😮😮😮😮😮😮😮😮😮😮😮😮😮❤❤❤❤❤❤❤❤❤❤❤❤",
       "likeCount": 0,
       "publishedAt": "2026-07-03T18:37:12Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugz5Zgy61mnH1ZtqSAl4AaABAg",
@@ -81,7 +98,8 @@
       "text": "Que absurdos son seres humanos con otra visión de la vida",
       "likeCount": 1,
       "publishedAt": "2026-06-19T01:30:42Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugyf9IfTCg7QPHDpcw14AaABAg",
@@ -90,7 +108,8 @@
       "text": "👎INSANO ES Q YOUTUBE PERMITA PONER FOTOS IA MENTIROSAS\n +\nCONTENIDOS ENGAÑOSOS Y ESTAFAS AL PUBLICO.",
       "likeCount": 2,
       "publishedAt": "2026-06-16T16:29:23Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgywOB3gJPFCNjrEtYp4AaABAg",
@@ -99,7 +118,8 @@
       "text": "Vidéo muy aburrido 😴",
       "likeCount": 2,
       "publishedAt": "2026-06-15T15:44:31Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     }
   ]
 }

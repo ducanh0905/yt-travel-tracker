@@ -9,7 +9,17 @@
       "text": "No aguantaría esas temperaturas",
       "likeCount": 0,
       "publishedAt": "2026-01-19T03:28:21Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzWiTOJeVw1Rz463pJ4AaABAg.AS8qaJGf_4WAS8xM2I5DyT",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sí, hace mucho frío, ¿verdad? Con solo mirar la pantalla, ya se siente el frío.",
+          "likeCount": 0,
+          "publishedAt": "2026-01-19T04:27:26Z"
+        }
+      ]
     },
     {
       "id": "Ugztcy8qd1-4j419Zp54AaABAg",
@@ -18,7 +28,17 @@
       "text": "2",
       "likeCount": 1,
       "publishedAt": "2026-01-18T18:38:57Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugztcy8qd1-4j419Zp54AaABAg.AS7u-qqXsSyAS8hgiGk3Th",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¿Qué opinas? ¿Es bueno?",
+          "likeCount": 0,
+          "publishedAt": "2026-01-19T02:10:35Z"
+        }
+      ]
     }
   ]
 }

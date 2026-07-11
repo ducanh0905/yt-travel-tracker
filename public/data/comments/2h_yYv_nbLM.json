@@ -9,16 +9,8 @@
       "text": "A las 7:45 de la tarde lo vi por primera vez; era nuestro buen amigo. 🤣🤣",
       "likeCount": 0,
       "publishedAt": "2026-07-07T04:11:42Z",
-      "replyCount": 0
-    },
-    {
-      "id": "UgzTAWO_kdsdx_180FN4AaABAg",
-      "author": "@CarlosAmpudia-e2b",
-      "authorImage": "https://yt3.ggpht.com/uiMXibaKFqEEKk5Z7cRCDBSQlB0P0lA2x7MvSpaBY_olAuSDCmUBzPGtYuHsK8XaAO0zqJuLo_Y=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Buen documental gracias por compartirlo",
-      "likeCount": 0,
-      "publishedAt": "2026-06-18T23:53:56Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugz-NbEho6jbaZlo71N4AaABAg",
@@ -27,7 +19,8 @@
       "text": "Esta vaina se parece s venezuela pero increíblemente Angola es algo mejor",
       "likeCount": 2,
       "publishedAt": "2026-06-17T13:12:07Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgwH6iv0QabUikcFuSp4AaABAg",
@@ -36,7 +29,18 @@
       "text": "La Venezuela de África",
       "likeCount": 2,
       "publishedAt": "2026-06-17T04:15:28Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzTAWO_kdsdx_180FN4AaABAg",
+      "author": "@CarlosAmpudia-e2b",
+      "authorImage": "https://yt3.ggpht.com/uiMXibaKFqEEKk5Z7cRCDBSQlB0P0lA2x7MvSpaBY_olAuSDCmUBzPGtYuHsK8XaAO0zqJuLo_Y=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Buen documental gracias por compartirlo",
+      "likeCount": 0,
+      "publishedAt": "2026-06-18T23:53:56Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgyA__FbTKRtLFUqF8d4AaABAg",
@@ -45,7 +49,17 @@
       "text": "👍👍👍espectacular",
       "likeCount": 1,
       "publishedAt": "2026-06-16T22:03:02Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyA__FbTKRtLFUqF8d4AaABAg.AY7vnvVi9AmAYA1AFGR9Y7",
+          "author": "@mundosincensura",
+          "authorImage": "https://yt3.ggpht.com/IJ7uAyFsknHf5vgy_BjwqWlrHb608Yd-LAUuMTZt9UZ67ylOyAD6xQt5JwzBfxjJBJny_FtWrMk=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Muchísimas gracias por tu genial comentario! Saludos",
+          "likeCount": 1,
+          "publishedAt": "2026-06-17T17:37:08Z"
+        }
+      ]
     }
   ]
 }

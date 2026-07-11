@@ -9,7 +9,8 @@
       "text": "As a BLACK MAN 👨🏿 ( So-called Africa Americans 🌎),  I like the YOUNG LADY 🇰🇵❤️🖤💚🙏🏿✌🏿✊🏿👍🏿‼️",
       "likeCount": 1,
       "publishedAt": "2026-05-11T22:58:24Z",
-      "replyCount": 0
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgzexaTM9L14rAGnw8p4AaABAg",
@@ -18,7 +19,17 @@
       "text": "Esta mujer tiene una mirada inquietante.",
       "likeCount": 1,
       "publishedAt": "2026-05-20T21:51:42Z",
-      "replyCount": 1
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzexaTM9L14rAGnw8p4AaABAg.AX2O2JVqrdUAX2x1e1Sqtv",
+          "author": "@sshamtv",
+          "authorImage": "https://yt3.ggpht.com/3akBWi4DyFX9FtFqJW9opWQggnmXUTdgwcicRm4CsWK-sHrElhlcFH4l7DSdAAWdgmUdBoZy=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sí…",
+          "likeCount": 0,
+          "publishedAt": "2026-05-21T03:06:11Z"
+        }
+      ]
     }
   ]
 }
