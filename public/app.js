@@ -112,11 +112,13 @@ function populateChannelFilter() {
   els.channelFilterList.innerHTML = sorted
     .map(
       ([id, info]) => `
-    <label class="channel-filter__item">
+    <div class="channel-filter__item" data-id="${id}">
       <input type="checkbox" value="${id}" />
-      <img class="channel-filter__avatar" src="${info.thumbnail}" alt="" loading="lazy" />
-      <span>${escapeHtml(info.title)}</span>
-    </label>`
+      <a class="channel-filter__link" href="https://www.youtube.com/channel/${id}" target="_blank" rel="noopener" title="Mở kênh trên YouTube">
+        <img class="channel-filter__avatar" src="${info.thumbnail}" alt="" loading="lazy" />
+        <span>${escapeHtml(info.title)}</span>
+      </a>
+    </div>`
     )
     .join("");
 
@@ -126,6 +128,18 @@ function populateChannelFilter() {
       else selectedChannelIds.delete(cb.value);
       updateChannelFilterLabel();
       applyFilters();
+    });
+  });
+
+  // Clicking anywhere on the row still toggles the filter checkbox, except
+  // when the click is on the avatar/name link, which navigates to YouTube instead.
+  els.channelFilterList.querySelectorAll(".channel-filter__item").forEach((item) => {
+    item.addEventListener("click", (e) => {
+      if (e.target.closest(".channel-filter__link")) return;
+      if (e.target.tagName === "INPUT") return;
+      const cb = item.querySelector('input[type="checkbox"]');
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event("change"));
     });
   });
 
