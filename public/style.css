@@ -314,7 +314,8 @@ col.cg-num { width: 12%; }
   color: var(--text);
 }
 
-thead .col-num { text-align: right; }
+thead .col-num,
+.board-table thead th.col-num { text-align: right; }
 
 .video-cell {
   display: flex;
