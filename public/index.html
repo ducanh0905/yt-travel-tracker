@@ -47,6 +47,7 @@
         <option value="likeCount">Lượt thích</option>
         <option value="commentCount">Bình luận</option>
         <option value="subscriberCount">Sub kênh</option>
+        <option value="duration">Thời lượng</option>
       </select>
       <button id="sortDir" class="dir-btn" data-dir="desc" title="Đổi chiều sắp xếp">
         <span class="dir-btn__arrow">↓</span> Giảm dần
@@ -78,12 +79,14 @@
         <col class="cg-num" />
         <col class="cg-num" />
         <col class="cg-num" />
+        <col class="cg-num" />
       </colgroup>
       <thead>
         <tr>
           <th class="col-video">Video</th>
           <th class="col-channel">Kênh</th>
           <th class="col-num" data-field="publishedAt">Ngày đăng</th>
+          <th class="col-num" data-field="duration">Thời lượng</th>
           <th class="col-num" data-field="viewCount">Lượt xem</th>
           <th class="col-num" data-field="likeCount">Thích</th>
           <th class="col-num" data-field="commentCount">Bình luận</th>
@@ -91,7 +94,7 @@
         </tr>
       </thead>
       <tbody id="videoTableBody">
-        <tr><td colspan="7" class="empty-state">Đang tải dữ liệu...</td></tr>
+        <tr><td colspan="8" class="empty-state">Đang tải dữ liệu...</td></tr>
       </tbody>
     </table>
   </div>
