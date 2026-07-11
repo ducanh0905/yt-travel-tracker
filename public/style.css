@@ -277,9 +277,9 @@ select {
   font-size: 13.5px;
 }
 
-col.cg-video { width: 34%; }
-col.cg-channel { width: 18%; }
-col.cg-num { width: 12%; }
+col.cg-video { width: 30%; }
+col.cg-channel { width: 16%; }
+col.cg-num { width: 9%; }
 
 .board-table thead th {
   text-align: left;
