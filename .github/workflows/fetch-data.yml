@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: "0 23 * * *"
     - cron: "0 11 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_refresh_comments:
+        description: "Ép lấy lại toàn bộ bình luận + reply (bỏ qua cache)"
+        type: boolean
+        default: false
   push:
     paths:
       - "channels.json"
@@ -26,10 +31,15 @@ jobs:
 
       - name: Fetch YouTube data
         env:
+          # Nếu có nhiều key: điền secret YOUTUBE_API_KEYS = "key1,key2" (phân tách bởi dấu phẩy).
+          # Nếu chỉ có 1 key: giữ nguyên secret YOUTUBE_API_KEY như cũ.
+          YOUTUBE_API_KEYS: ${{ secrets.YOUTUBE_API_KEYS }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           MAX_VIDEOS_PER_CHANNEL: "50"
           MAX_COMMENTS_PER_VIDEO: "100"
+          MAX_REPLIES_PER_COMMENT: "20"
           COMMENT_ORDER: "relevance"
+          FORCE_REFRESH_COMMENTS: ${{ github.event.inputs.force_refresh_comments || 'false' }}
         run: node scripts/fetch-data.mjs
 
       - name: Commit updated data
