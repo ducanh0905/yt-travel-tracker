@@ -57,6 +57,27 @@ async function apiGet(endpoint, params, cost = 1) {
   return json;
 }
 
+// Retries transient failures (network blips, 5xx, rate limiting) a couple of
+// times before giving up, so a single hiccup mid-run doesn't silently leave
+// a comment's replies empty.
+async function apiGetWithRetry(endpoint, params, cost = 1, retries = 2) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await apiGet(endpoint, params, cost);
+    } catch (err) {
+      lastErr = err;
+      // Don't retry permanent/expected failures like commentsDisabled or bad requests.
+      const permanent = ["commentsDisabled", "commentThreadNotFound", "processingFailure"].includes(
+        err.reason
+      );
+      if (permanent || attempt === retries) throw err;
+      await new Promise((r) => setTimeout(r, 500 * (attempt + 1)));
+    }
+  }
+  throw lastErr;
+}
+
 function extractChannelRef(rawInput) {
   let raw = rawInput.trim();
   try {
@@ -145,14 +166,16 @@ async function getVideoStats(ids) {
   return results;
 }
 
-async function getReplies(parentId, max) {
+const replyErrors = [];
+
+async function getReplies(parentId, max, videoId) {
   // commentThreads only embeds a small preview of replies for some orders,
   // so fetch explicitly via comments.list to get a consistent set.
   const replies = [];
   let pageToken = "";
   try {
     while (replies.length < max) {
-      const json = await apiGet("comments", {
+      const json = await apiGetWithRetry("comments", {
         part: "snippet",
         parentId,
         maxResults: String(Math.min(100, max - replies.length)),
@@ -174,8 +197,10 @@ async function getReplies(parentId, max) {
       pageToken = json.nextPageToken;
     }
   } catch (err) {
-    // Don't fail the whole run if replies can't be fetched for one comment.
+    // Don't fail the whole run if replies can't be fetched for one comment -
+    // but do record it so it's visible in meta.json instead of only in logs.
     console.error(`    ! Failed replies for comment ${parentId}: ${err.message}`);
+    replyErrors.push({ videoId, commentId: parentId, error: err.message });
   }
   // Replies come back newest-first from the API; show oldest-first like YouTube does.
   return replies.reverse();
@@ -199,7 +224,7 @@ async function getComments(videoId, max, order, maxRepliesPerComment) {
         const replyCount = item.snippet.totalReplyCount || 0;
         const replies =
           replyCount > 0 && maxRepliesPerComment > 0
-            ? await getReplies(item.id, maxRepliesPerComment)
+            ? await getReplies(item.id, maxRepliesPerComment, videoId)
             : [];
         comments.push({
           id: item.id,
@@ -324,6 +349,7 @@ async function main() {
         videoCount: allVideos.length,
         quotaUnitsUsed: quotaUnits,
         errors,
+        replyErrors,
       },
       null,
       2
