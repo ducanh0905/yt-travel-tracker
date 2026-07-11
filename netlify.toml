@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = "echo 'No build step needed - static site'"
+
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

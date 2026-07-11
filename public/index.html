@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bảng theo dõi kênh Du lịch YouTube</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="board-header">
+  <div class="board-header__title">
+    <span class="board-header__eyebrow">GATE · TRAVEL CONTENT</span>
+    <h1>Bảng theo dõi kênh Du lịch</h1>
+  </div>
+  <div class="board-header__meta">
+    <div class="meta-chip">
+      <span class="meta-chip__label">Kênh</span>
+      <span class="meta-chip__value" id="metaChannels">–</span>
+    </div>
+    <div class="meta-chip">
+      <span class="meta-chip__label">Video</span>
+      <span class="meta-chip__value" id="metaVideos">–</span>
+    </div>
+    <div class="meta-chip">
+      <span class="meta-chip__label">Cập nhật</span>
+      <span class="meta-chip__value" id="metaUpdated">–</span>
+    </div>
+  </div>
+</header>
+
+<main class="board">
+  <div class="controls">
+    <div class="search-box">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="searchInput" placeholder="Tìm theo tiêu đề video hoặc tên kênh..." />
+    </div>
+
+    <div class="sort-box">
+      <label for="sortField">Sắp xếp</label>
+      <select id="sortField">
+        <option value="publishedAt">Ngày đăng</option>
+        <option value="viewCount">Lượt xem</option>
+        <option value="likeCount">Lượt thích</option>
+        <option value="commentCount">Bình luận</option>
+        <option value="subscriberCount">Sub kênh</option>
+      </select>
+      <button id="sortDir" class="dir-btn" data-dir="desc" title="Đổi chiều sắp xếp">
+        <span class="dir-btn__arrow">↓</span> Giảm dần
+      </button>
+    </div>
+
+    <div class="channel-filter">
+      <select id="channelFilter">
+        <option value="">Tất cả kênh</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table class="board-table" id="videoTable">
+      <thead>
+        <tr>
+          <th class="col-video">Video</th>
+          <th class="col-channel">Kênh</th>
+          <th class="col-num" data-field="publishedAt">Ngày đăng</th>
+          <th class="col-num" data-field="viewCount">Lượt xem</th>
+          <th class="col-num" data-field="likeCount">Thích</th>
+          <th class="col-num" data-field="commentCount">Bình luận</th>
+          <th class="col-num" data-field="subscriberCount">Sub kênh</th>
+        </tr>
+      </thead>
+      <tbody id="videoTableBody">
+        <tr><td colspan="7" class="empty-state">Đang tải dữ liệu...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal__close" id="modalClose" aria-label="Đóng">✕</button>
+    <div class="modal__header">
+      <img id="modalThumb" src="" alt="" class="modal__thumb" />
+      <div>
+        <h2 id="modalTitle">–</h2>
+        <div class="modal__sub" id="modalChannel">–</div>
+        <div class="modal__stats" id="modalStats">–</div>
+      </div>
+    </div>
+
+    <div class="modal__comments-bar">
+      <h3>Bình luận</h3>
+      <div class="comments-controls">
+        <select id="commentSortField">
+          <option value="likeCount">Lượt thích</option>
+          <option value="publishedAt">Mới nhất</option>
+        </select>
+        <button id="commentSortDir" class="dir-btn dir-btn--small" data-dir="desc">
+          <span class="dir-btn__arrow">↓</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="comments-list" id="commentsList">
+      <div class="empty-state">Đang tải bình luận...</div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

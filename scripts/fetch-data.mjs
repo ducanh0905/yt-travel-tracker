@@ -1,0 +1,297 @@
+// scripts/fetch-data.mjs
+//
+// Pulls stats for a list of YouTube channels (videos + stats + comments)
+// and writes static JSON files into public/data/ so the frontend (hosted
+// as a static site on Netlify) never needs to touch the YouTube API or an
+// API key directly.
+//
+// Run locally:   YOUTUBE_API_KEY=xxx node scripts/fetch-data.mjs
+// Run in CI:      see .github/workflows/fetch-data.yml
+//
+// Config via env vars (all optional):
+//   MAX_VIDEOS_PER_CHANNEL   default 50   - how many most-recent videos to track per channel
+//   MAX_COMMENTS_PER_VIDEO   default 100  - how many top-level comments to store per video
+//   COMMENT_ORDER            default "relevance" (or "time")
+//   FORCE_REFRESH_COMMENTS   default false - refetch comments even if commentCount unchanged
+
+import { readFile, writeFile, mkdir, readdir, unlink } from "fs/promises";
+import path from "path";
+
+const API_KEY = process.env.YOUTUBE_API_KEY;
+if (!API_KEY) {
+  console.error("Missing YOUTUBE_API_KEY environment variable.");
+  process.exit(1);
+}
+
+const MAX_VIDEOS_PER_CHANNEL = parseInt(process.env.MAX_VIDEOS_PER_CHANNEL || "50", 10);
+const MAX_COMMENTS_PER_VIDEO = parseInt(process.env.MAX_COMMENTS_PER_VIDEO || "100", 10);
+const COMMENT_ORDER = process.env.COMMENT_ORDER || "relevance";
+const FORCE_REFRESH_COMMENTS = /^true$/i.test(process.env.FORCE_REFRESH_COMMENTS || "");
+
+const ROOT = path.resolve(new URL(".", import.meta.url).pathname, "..");
+const DATA_DIR = path.join(ROOT, "public", "data");
+const COMMENTS_DIR = path.join(DATA_DIR, "comments");
+const CHANNELS_FILE = path.join(ROOT, "channels.json");
+const VIDEOS_FILE = path.join(DATA_DIR, "videos.json");
+const META_FILE = path.join(DATA_DIR, "meta.json");
+
+let quotaUnits = 0;
+const API_BASE = "https://www.googleapis.com/youtube/v3";
+
+async function apiGet(endpoint, params, cost = 1) {
+  const url = new URL(`${API_BASE}/${endpoint}`);
+  url.searchParams.set("key", API_KEY);
+  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
+  const res = await fetch(url);
+  quotaUnits += cost;
+  const json = await res.json();
+  if (!res.ok) {
+    const reason = json?.error?.errors?.[0]?.reason || res.status;
+    const err = new Error(`${endpoint} failed: ${reason}`);
+    err.reason = reason;
+    err.status = res.status;
+    throw err;
+  }
+  return json;
+}
+
+function extractChannelRef(rawInput) {
+  let raw = rawInput.trim();
+  try {
+    raw = decodeURIComponent(raw);
+  } catch {
+    // leave as-is if not valid percent-encoding
+  }
+  // Full URL forms
+  const chMatch = raw.match(/youtube\.com\/channel\/([A-Za-z0-9_-]{10,})/);
+  if (chMatch) return { type: "id", value: chMatch[1] };
+  const handleMatch = raw.match(/youtube\.com\/@([^\/?&]+)/);
+  if (handleMatch) return { type: "handle", value: "@" + handleMatch[1] };
+  // Bare channel ID (starts with UC, 24 chars)
+  if (/^UC[A-Za-z0-9_-]{22}$/.test(raw)) return { type: "id", value: raw };
+  // Bare handle
+  if (raw.startsWith("@")) return { type: "handle", value: raw };
+  // Fallback: treat as handle
+  return { type: "handle", value: "@" + raw.replace(/^@/, "") };
+}
+
+async function resolveChannel(raw) {
+  const ref = extractChannelRef(raw);
+  const params = { part: "snippet,statistics,contentDetails" };
+  if (ref.type === "id") params.id = ref.value;
+  else params.forHandle = ref.value;
+
+  const json = await apiGet("channels", params);
+  const item = json.items?.[0];
+  if (!item) throw new Error(`Channel not found for "${raw}"`);
+  return {
+    channelId: item.id,
+    channelTitle: item.snippet.title,
+    channelThumbnail: item.snippet.thumbnails?.default?.url || "",
+    subscriberCount: item.statistics.hiddenSubscriberCount
+      ? null
+      : parseInt(item.statistics.subscriberCount || "0", 10),
+    uploadsPlaylistId: item.contentDetails.relatedPlaylists.uploads,
+  };
+}
+
+async function getRecentVideoIds(uploadsPlaylistId, max) {
+  const ids = [];
+  let pageToken = "";
+  while (ids.length < max) {
+    const json = await apiGet("playlistItems", {
+      part: "contentDetails",
+      playlistId: uploadsPlaylistId,
+      maxResults: String(Math.min(50, max - ids.length)),
+      ...(pageToken ? { pageToken } : {}),
+    });
+    for (const it of json.items || []) ids.push(it.contentDetails.videoId);
+    if (!json.nextPageToken) break;
+    pageToken = json.nextPageToken;
+  }
+  return ids.slice(0, max);
+}
+
+function chunk(arr, size) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
+
+async function getVideoStats(ids) {
+  const results = [];
+  for (const group of chunk(ids, 50)) {
+    const json = await apiGet("videos", {
+      part: "snippet,statistics,contentDetails",
+      id: group.join(","),
+    });
+    for (const v of json.items || []) {
+      results.push({
+        videoId: v.id,
+        title: v.snippet.title,
+        publishedAt: v.snippet.publishedAt,
+        thumbnail:
+          v.snippet.thumbnails?.medium?.url || v.snippet.thumbnails?.default?.url || "",
+        viewCount: parseInt(v.statistics.viewCount || "0", 10),
+        likeCount: v.statistics.likeCount !== undefined ? parseInt(v.statistics.likeCount, 10) : null,
+        commentCount:
+          v.statistics.commentCount !== undefined ? parseInt(v.statistics.commentCount, 10) : 0,
+        duration: v.contentDetails.duration,
+      });
+    }
+  }
+  return results;
+}
+
+async function getComments(videoId, max, order) {
+  const comments = [];
+  let pageToken = "";
+  try {
+    while (comments.length < max) {
+      const json = await apiGet("commentThreads", {
+        part: "snippet",
+        videoId,
+        maxResults: String(Math.min(100, max - comments.length)),
+        order,
+        textFormat: "plainText",
+        ...(pageToken ? { pageToken } : {}),
+      });
+      for (const item of json.items || []) {
+        const top = item.snippet.topLevelComment.snippet;
+        comments.push({
+          id: item.id,
+          author: top.authorDisplayName,
+          authorImage: top.authorProfileImageUrl,
+          text: top.textDisplay,
+          likeCount: top.likeCount || 0,
+          publishedAt: top.publishedAt,
+          replyCount: item.snippet.totalReplyCount || 0,
+        });
+      }
+      if (!json.nextPageToken) break;
+      pageToken = json.nextPageToken;
+    }
+  } catch (err) {
+    if (err.reason === "commentsDisabled") {
+      return { disabled: true, comments: [] };
+    }
+    throw err;
+  }
+  return { disabled: false, comments };
+}
+
+async function loadPreviousVideos() {
+  try {
+    const raw = await readFile(VIDEOS_FILE, "utf-8");
+    const arr = JSON.parse(raw);
+    const map = new Map();
+    for (const v of arr) map.set(v.videoId, v);
+    return map;
+  } catch {
+    return new Map();
+  }
+}
+
+async function main() {
+  await mkdir(COMMENTS_DIR, { recursive: true });
+
+  const rawChannels = JSON.parse(await readFile(CHANNELS_FILE, "utf-8"));
+  const previousVideos = await loadPreviousVideos();
+
+  const allVideos = [];
+  const errors = [];
+
+  for (const rawChannel of rawChannels) {
+    try {
+      console.log(`\n=== Channel: ${rawChannel} ===`);
+      const channel = await resolveChannel(rawChannel);
+      console.log(`Resolved: ${channel.channelTitle} (${channel.channelId})`);
+
+      const videoIds = await getRecentVideoIds(channel.uploadsPlaylistId, MAX_VIDEOS_PER_CHANNEL);
+      console.log(`Found ${videoIds.length} videos`);
+
+      const stats = await getVideoStats(videoIds);
+
+      for (const v of stats) {
+        allVideos.push({
+          ...v,
+          channelId: channel.channelId,
+          channelTitle: channel.channelTitle,
+          channelThumbnail: channel.channelThumbnail,
+          subscriberCount: channel.subscriberCount,
+        });
+
+        const prev = previousVideos.get(v.videoId);
+        const needsCommentRefresh =
+          FORCE_REFRESH_COMMENTS ||
+          !prev ||
+          prev.commentCount !== v.commentCount;
+
+        if (!needsCommentRefresh) {
+          console.log(`  - ${v.videoId} comments unchanged, skipping`);
+          continue;
+        }
+
+        try {
+          const { disabled, comments } = await getComments(
+            v.videoId,
+            MAX_COMMENTS_PER_VIDEO,
+            COMMENT_ORDER
+          );
+          await writeFile(
+            path.join(COMMENTS_DIR, `${v.videoId}.json`),
+            JSON.stringify({ videoId: v.videoId, disabled, comments }, null, 2)
+          );
+          console.log(`  - ${v.videoId} fetched ${comments.length} comments${disabled ? " (disabled)" : ""}`);
+        } catch (err) {
+          console.error(`  ! Failed comments for ${v.videoId}: ${err.message}`);
+          errors.push({ videoId: v.videoId, error: err.message });
+        }
+      }
+    } catch (err) {
+      console.error(`! Failed channel "${rawChannel}": ${err.message}`);
+      errors.push({ channel: rawChannel, error: err.message });
+    }
+  }
+
+  // Prune comment files for videos no longer tracked
+  try {
+    const trackedIds = new Set(allVideos.map((v) => v.videoId));
+    const existingFiles = await readdir(COMMENTS_DIR);
+    for (const file of existingFiles) {
+      const id = file.replace(/\.json$/, "");
+      if (!trackedIds.has(id)) {
+        await unlink(path.join(COMMENTS_DIR, file));
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  allVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  await writeFile(VIDEOS_FILE, JSON.stringify(allVideos, null, 2));
+  await writeFile(
+    META_FILE,
+    JSON.stringify(
+      {
+        lastUpdated: new Date().toISOString(),
+        channelCount: rawChannels.length,
+        videoCount: allVideos.length,
+        quotaUnitsUsed: quotaUnits,
+        errors,
+      },
+      null,
+      2
+    )
+  );
+
+  console.log(`\nDone. Videos: ${allVideos.length}. Estimated quota units used: ${quotaUnits}.`);
+  if (errors.length) {
+    console.log(`Completed with ${errors.length} error(s) - see meta.json`);
+  }
+}
+
+main().catch((err) => {
+  console.error("Fatal error:", err);
+  process.exit(1);
+});
