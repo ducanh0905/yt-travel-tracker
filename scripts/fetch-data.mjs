@@ -14,15 +14,25 @@
 //   MAX_REPLIES_PER_COMMENT  default 20   - how many replies to store per top-level comment
 //   COMMENT_ORDER            default "relevance" (or "time")
 //   FORCE_REFRESH_COMMENTS   default false - refetch comments even if commentCount unchanged
+//   YOUTUBE_API_KEY          a single API key
+//   YOUTUBE_API_KEYS         multiple API keys, comma-separated - used as automatic
+//                            fallbacks: when one key hits its daily quota
+//                            (quotaExceeded), the script switches to the next key
+//                            and keeps going instead of failing the whole run.
 
 import { readFile, writeFile, mkdir, readdir, unlink } from "fs/promises";
 import path from "path";
 
-const API_KEY = process.env.YOUTUBE_API_KEY;
-if (!API_KEY) {
-  console.error("Missing YOUTUBE_API_KEY environment variable.");
+const API_KEYS = (process.env.YOUTUBE_API_KEYS || process.env.YOUTUBE_API_KEY || "")
+  .split(",")
+  .map((k) => k.trim())
+  .filter(Boolean);
+if (API_KEYS.length === 0) {
+  console.error("Missing YOUTUBE_API_KEY or YOUTUBE_API_KEYS environment variable.");
   process.exit(1);
 }
+let apiKeyIndex = 0;
+let keysExhausted = false; // true once every key has hit quotaExceeded
 
 const MAX_VIDEOS_PER_CHANNEL = parseInt(process.env.MAX_VIDEOS_PER_CHANNEL || "50", 10);
 const MAX_COMMENTS_PER_VIDEO = parseInt(process.env.MAX_COMMENTS_PER_VIDEO || "100", 10);
@@ -42,7 +52,7 @@ const API_BASE = "https://www.googleapis.com/youtube/v3";
 
 async function apiGet(endpoint, params, cost = 1) {
   const url = new URL(`${API_BASE}/${endpoint}`);
-  url.searchParams.set("key", API_KEY);
+  url.searchParams.set("key", API_KEYS[apiKeyIndex]);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   const res = await fetch(url);
   quotaUnits += cost;
@@ -59,20 +69,35 @@ async function apiGet(endpoint, params, cost = 1) {
 
 // Retries transient failures (network blips, 5xx, rate limiting) a couple of
 // times before giving up, so a single hiccup mid-run doesn't silently leave
-// a comment's replies empty.
+// a comment's replies empty. Also rotates to the next API key immediately
+// when the current key hits its daily quota, instead of wasting retries on
+// a key that's already exhausted.
 async function apiGetWithRetry(endpoint, params, cost = 1, retries = 2) {
   let lastErr;
-  for (let attempt = 0; attempt <= retries; attempt++) {
+  let attempt = 0;
+  while (attempt <= retries) {
     try {
       return await apiGet(endpoint, params, cost);
     } catch (err) {
       lastErr = err;
+      if (err.reason === "quotaExceeded" || err.reason === "dailyLimitExceeded") {
+        if (apiKeyIndex < API_KEYS.length - 1) {
+          apiKeyIndex++;
+          console.error(
+            `    ! API key #${apiKeyIndex} bị hết quota, chuyển sang key #${apiKeyIndex + 1}...`
+          );
+          continue; // retry the same request on the new key, don't burn a retry attempt
+        }
+        keysExhausted = true;
+        throw err;
+      }
       // Don't retry permanent/expected failures like commentsDisabled or bad requests.
       const permanent = ["commentsDisabled", "commentThreadNotFound", "processingFailure"].includes(
         err.reason
       );
-      if (permanent || attempt === retries) throw err;
-      await new Promise((r) => setTimeout(r, 500 * (attempt + 1)));
+      attempt++;
+      if (permanent || attempt > retries) throw err;
+      await new Promise((r) => setTimeout(r, 500 * attempt));
     }
   }
   throw lastErr;
@@ -104,7 +129,7 @@ async function resolveChannel(raw) {
   if (ref.type === "id") params.id = ref.value;
   else params.forHandle = ref.value;
 
-  const json = await apiGet("channels", params);
+  const json = await apiGetWithRetry("channels", params);
   const item = json.items?.[0];
   if (!item) throw new Error(`Channel not found for "${raw}"`);
   return {
@@ -122,7 +147,7 @@ async function getRecentVideoIds(uploadsPlaylistId, max) {
   const ids = [];
   let pageToken = "";
   while (ids.length < max) {
-    const json = await apiGet("playlistItems", {
+    const json = await apiGetWithRetry("playlistItems", {
       part: "contentDetails",
       playlistId: uploadsPlaylistId,
       maxResults: String(Math.min(50, max - ids.length)),
@@ -144,7 +169,7 @@ function chunk(arr, size) {
 async function getVideoStats(ids) {
   const results = [];
   for (const group of chunk(ids, 50)) {
-    const json = await apiGet("videos", {
+    const json = await apiGetWithRetry("videos", {
       part: "snippet,statistics,contentDetails",
       id: group.join(","),
     });
@@ -211,7 +236,7 @@ async function getComments(videoId, max, order, maxRepliesPerComment) {
   let pageToken = "";
   try {
     while (comments.length < max) {
-      const json = await apiGet("commentThreads", {
+      const json = await apiGetWithRetry("commentThreads", {
         part: "snippet",
         videoId,
         maxResults: String(Math.min(100, max - comments.length)),
@@ -348,6 +373,8 @@ async function main() {
         channelCount: rawChannels.length,
         videoCount: allVideos.length,
         quotaUnitsUsed: quotaUnits,
+        apiKeysConfigured: API_KEYS.length,
+        allKeysExhausted: keysExhausted,
         errors,
         replyErrors,
       },
