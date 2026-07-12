@@ -3,26 +3,6 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgyaNBgFrCB3iqrjEU54AaABAg",
-      "author": "@mikecroom8598",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_meZQDvkVwIytlz05tUr4sKYRoxduo30MYm6fDWZDFwo5Dx5x44u4bpmQY2f_R4uW4yGQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "No dijiste cuánto cuesta vivir como en el vídeo de usa, cuando el alquiler? Gastos médicos etc",
-      "likeCount": 0,
-      "publishedAt": "2026-07-10T11:27:35Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwBuJ8IxE7ITLq6vdp4AaABAg",
-      "author": "@katyvargasperez7709",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mnpYOb_NuGDeWiX7V5lLb2QZA0wGouIfofsemb4Wi2Ix8=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Vivo en cdmex… aquí los temblores son parte del día dia",
-      "likeCount": 0,
-      "publishedAt": "2026-07-08T16:15:50Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "Ugzr26YRcylClS4nEyJ4AaABAg",
       "author": "@Ruben-f2h5p",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mC-F_LUNsLxxHq0iRkdThSk-g8rlByJUfRPLo8n2HtbmB0G7VDfzswGgLJModTHVY6_A=s48-c-k-c0x00ffffff-no-rj",
@@ -33,12 +13,12 @@
       "replies": []
     },
     {
-      "id": "UgyvIRx1vVAbgOpJ92V4AaABAg",
-      "author": "@Javier-y2w5z",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mZTaHB_dUrjdxVPzWHPSBBiQ8yLcuryhd4EkW86K1c1ICS_z_qpEkyUfbcf4p_XGWlCw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "No",
+      "id": "UgwBuJ8IxE7ITLq6vdp4AaABAg",
+      "author": "@katyvargasperez7709",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mnpYOb_NuGDeWiX7V5lLb2QZA0wGouIfofsemb4Wi2Ix8=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Vivo en cdmex… aquí los temblores son parte del día dia",
       "likeCount": 0,
-      "publishedAt": "2026-07-06T14:28:39Z",
+      "publishedAt": "2026-07-08T16:15:50Z",
       "replyCount": 0,
       "replies": []
     },
@@ -64,10 +44,30 @@
           "author": "@VictorFrei-g2g",
           "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kIy8FGcgaupQ6mu0LDhdWXdr6oK8jSPGWz9M2UIVSFR1FxxZ5_8Mvzu-ozESDW9xtLWw=s48-c-k-c0x00ffffff-no-rj",
           "text": "Has viajado a marte?",
-          "likeCount": 0,
+          "likeCount": 1,
           "publishedAt": "2026-07-04T17:53:41Z"
         }
       ]
+    },
+    {
+      "id": "UgyvIRx1vVAbgOpJ92V4AaABAg",
+      "author": "@Javier-y2w5z",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mZTaHB_dUrjdxVPzWHPSBBiQ8yLcuryhd4EkW86K1c1ICS_z_qpEkyUfbcf4p_XGWlCw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "No",
+      "likeCount": 0,
+      "publishedAt": "2026-07-06T14:28:39Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyaNBgFrCB3iqrjEU54AaABAg",
+      "author": "@mikecroom8598",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_meZQDvkVwIytlz05tUr4sKYRoxduo30MYm6fDWZDFwo5Dx5x44u4bpmQY2f_R4uW4yGQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "No dijiste cuánto cuesta vivir como en el vídeo de usa, cuando el alquiler? Gastos médicos etc",
+      "likeCount": 0,
+      "publishedAt": "2026-07-10T11:27:35Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "UgxlO2rWsN51XweSG2F4AaABAg",

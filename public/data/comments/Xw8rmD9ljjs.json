@@ -3,25 +3,6 @@
   "disabled": false,
   "comments": [
     {
-      "id": "Ugx96w5CUiPjMZT3Fj14AaABAg",
-      "author": "@GlobeESNew",
-      "authorImage": "https://yt3.ggpht.com/vHsnGSVZ-jdkHgktpcq_p-T3suQochdWqsaTkqZxvFXIJ5L8Iz1vP-sXTLEOGNDQNNpnvkyRiw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Una vez probé la sopa Takaká con hojas de jambú, y juro que sentí un hormigueo en la lengua, como si me hubieran dado una descarga eléctrica de 220 voltios 😂. Al principio me asusté un poco, pero cuanto más la bebía, más adictiva se volvía. ¡Comer sopa caliente que te adormece la lengua bajo el calor de 40 grados del Amazonas fue una experiencia verdaderamente inolvidable!",
-      "likeCount": 3,
-      "publishedAt": "2026-06-20T03:42:19Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "Ugx96w5CUiPjMZT3Fj14AaABAg.AYGG0W_BLNzAYHXKiF1_BA",
-          "author": "@Exploraelmundo-Sinlímites",
-          "authorImage": "https://yt3.ggpht.com/UrcjZzFt5K7Zv8AWqI9gbFJwTIo8B72cGG5-qnnWaOEhPcSUwyTAdB7WHNxsO-Jqb2hZrizE=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Gracias",
-          "likeCount": 0,
-          "publishedAt": "2026-06-20T15:32:51Z"
-        }
-      ]
-    },
-    {
       "id": "UgyKNxYX7hhRXM22_qh4AaABAg",
       "author": "@HistoriasdelGlobo2",
       "authorImage": "https://yt3.ggpht.com/Q-Wat3d4fegkqW2N3RPu40nR45p2SpTVUuL_yl2_fMWoDCyOU3TeHLryEjDXoQaR7LyKnh8CuQ=s48-c-k-c0x00ffffff-no-rj",
@@ -40,6 +21,25 @@
       "publishedAt": "2026-06-23T10:46:20Z",
       "replyCount": 0,
       "replies": []
+    },
+    {
+      "id": "Ugx96w5CUiPjMZT3Fj14AaABAg",
+      "author": "@GlobeESNew",
+      "authorImage": "https://yt3.ggpht.com/vHsnGSVZ-jdkHgktpcq_p-T3suQochdWqsaTkqZxvFXIJ5L8Iz1vP-sXTLEOGNDQNNpnvkyRiw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Una vez probé la sopa Takaká con hojas de jambú, y juro que sentí un hormigueo en la lengua, como si me hubieran dado una descarga eléctrica de 220 voltios 😂. Al principio me asusté un poco, pero cuanto más la bebía, más adictiva se volvía. ¡Comer sopa caliente que te adormece la lengua bajo el calor de 40 grados del Amazonas fue una experiencia verdaderamente inolvidable!",
+      "likeCount": 3,
+      "publishedAt": "2026-06-20T03:42:19Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx96w5CUiPjMZT3Fj14AaABAg.AYGG0W_BLNzAYHXKiF1_BA",
+          "author": "@Exploraelmundo-Sinlímites",
+          "authorImage": "https://yt3.ggpht.com/UrcjZzFt5K7Zv8AWqI9gbFJwTIo8B72cGG5-qnnWaOEhPcSUwyTAdB7WHNxsO-Jqb2hZrizE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias",
+          "likeCount": 0,
+          "publishedAt": "2026-06-20T15:32:51Z"
+        }
+      ]
     },
     {
       "id": "UgyWZ7Dmbb15UACsCDd4AaABAg",

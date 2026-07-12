@@ -3,22 +3,22 @@
   "disabled": false,
   "comments": [
     {
-      "id": "Ugy6ygN8uFh-dZiEtZJ4AaABAg",
-      "author": "@RelatosdelMundo14",
-      "authorImage": "https://yt3.ggpht.com/eduoyNHI5FD93BhMdJCUID48QaYSMnYvZ54EXtgpd44VfvQHa-AcRDcEmRdNdXL_Md2Xw9AX=s48-c-k-c0x00ffffff-no-rj",
-      "text": "¡Qué maravilla de país! Qué bueno descubrir que así es la VIDA REAL en NUEVA ZELANDA. El bloque sobre ¿Cómo Viven las Mujeres Realmente? me pareció lo más interesante de todo el reportaje. ¡Felicidades!",
-      "likeCount": 0,
-      "publishedAt": "2026-05-21T11:38:01Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgzFjR6tm9EeHgnUDnN4AaABAg",
       "author": "@JavierZárateGuerra",
       "authorImage": "https://yt3.ggpht.com/ROKQ4qsonhK0lH0p3eHO-ByUWa3L4EbjhUKFGj7SuG1MyRhCOQUmF0FzvRwwAnHxzvb_EgkS=s48-c-k-c0x00ffffff-no-rj",
       "text": "Si xk se nota que es muy tranquilo y agradable aparte es divertido",
       "likeCount": 1,
       "publishedAt": "2026-05-17T16:50:48Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugy6ygN8uFh-dZiEtZJ4AaABAg",
+      "author": "@RelatosdelMundo14",
+      "authorImage": "https://yt3.ggpht.com/eduoyNHI5FD93BhMdJCUID48QaYSMnYvZ54EXtgpd44VfvQHa-AcRDcEmRdNdXL_Md2Xw9AX=s48-c-k-c0x00ffffff-no-rj",
+      "text": "¡Qué maravilla de país! Qué bueno descubrir que así es la VIDA REAL en NUEVA ZELANDA. El bloque sobre ¿Cómo Viven las Mujeres Realmente? me pareció lo más interesante de todo el reportaje. ¡Felicidades!",
+      "likeCount": 0,
+      "publishedAt": "2026-05-21T11:38:01Z",
       "replyCount": 0,
       "replies": []
     },
@@ -43,16 +43,6 @@
       "replies": []
     },
     {
-      "id": "UgwZKAIkOrtmHfREo2N4AaABAg",
-      "author": "@IvánEdgardoGonzálezReyes-l8m",
-      "authorImage": "https://yt3.ggpht.com/ySVmS9veu0kxMxMAeOAJt0-HjOHjaa4jIxdixLsBlaHxc-vAWNWMvqg68Mckc7P2L2jhom25QQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Se ve lindo, desde fuera, vivo en Rancagua de Chile y me encantaria conocer este país, tengo 70 años hoy y el 28 de junio 71",
-      "likeCount": 2,
-      "publishedAt": "2026-05-11T14:29:49Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgzzGAKgCqkS1fBggsd4AaABAg",
       "author": "@blasurtiagavelasco2717",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mkJ-O7VOdzYSavTzlh4VHLWLJM87PI0woVa6p7_vToTHc=s48-c-k-c0x00ffffff-no-rj",
@@ -63,22 +53,32 @@
       "replies": []
     },
     {
-      "id": "UgyLInTMgkYg_0MZ_MJ4AaABAg",
-      "author": "@ElvlogdeZehra",
-      "authorImage": "https://yt3.ggpht.com/WOCXU7SMAE0CL6B4__z4NAfQ8cPSY9sNraMK5xLLHflCfmYKO0u1uYdoxpb5e-xw8KUSsWvo=s48-c-k-c0x00ffffff-no-rj",
-      "text": "increíble🙄",
-      "likeCount": 1,
-      "publishedAt": "2026-06-10T10:31:20Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgwBw2eDJ9A21HLCLS94AaABAg",
       "author": "@JoséLuisLunalagunes-n6w",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m3yH3CkDYbBlrEro0QnKb_ItobeFHLwKuQcGuP0f6Bn7OoKZ8W5OF5gGcuK2Gkd9LxEg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Muy bonitas las mujeres de  nuevazelanda",
       "likeCount": 1,
       "publishedAt": "2026-05-10T01:46:30Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwZKAIkOrtmHfREo2N4AaABAg",
+      "author": "@IvánEdgardoGonzálezReyes-l8m",
+      "authorImage": "https://yt3.ggpht.com/ySVmS9veu0kxMxMAeOAJt0-HjOHjaa4jIxdixLsBlaHxc-vAWNWMvqg68Mckc7P2L2jhom25QQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Se ve lindo, desde fuera, vivo en Rancagua de Chile y me encantaria conocer este país, tengo 70 años hoy y el 28 de junio 71",
+      "likeCount": 2,
+      "publishedAt": "2026-05-11T14:29:49Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyLInTMgkYg_0MZ_MJ4AaABAg",
+      "author": "@ElvlogdeZehra",
+      "authorImage": "https://yt3.ggpht.com/WOCXU7SMAE0CL6B4__z4NAfQ8cPSY9sNraMK5xLLHflCfmYKO0u1uYdoxpb5e-xw8KUSsWvo=s48-c-k-c0x00ffffff-no-rj",
+      "text": "increíble🙄",
+      "likeCount": 1,
+      "publishedAt": "2026-06-10T10:31:20Z",
       "replyCount": 0,
       "replies": []
     },
@@ -103,26 +103,6 @@
       "replies": []
     },
     {
-      "id": "Ugy0antwhG3EPmDTYb14AaABAg",
-      "author": "@josep21cat",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kuMBR96Q1xRBKN7GnAu3wwJrTsQJMD3ORKPOokDv0=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Me encantaría visitar y tal vez jubilarme en Nueva Zelanda, aunque sea un hombre soltero tal vez conozca allí mi alma gemela, una mujer que me ame incondicionalmente 🤗",
-      "likeCount": 0,
-      "publishedAt": "2026-07-04T16:22:10Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzlVhLXPY8G55Q26EN4AaABAg",
-      "author": "@josecardenas2116",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nnIRUmuuO6W_tIk9D-YmL6t0uNruYgC8TeTjvYqXKl6c9FXiAP47jKyuLrHos6hE_DZw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "OYE CHARLATÁN  , DECIDETE LO VEMOS O NO LO VEMOS  ? MEJOR NO SUBAS ESTAS INVENCIONES  CON TANTAS ESTUPIDEZES.",
-      "likeCount": 1,
-      "publishedAt": "2026-06-01T12:10:19Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "Ugwy06DlxF0uJtSbiz94AaABAg",
       "author": "@Ricardo_0203",
       "authorImage": "https://yt3.ggpht.com/VS0aFm2ddZsJ3OBB8n3vpyMjSFHpJwy2nMtinyT_E5UsPDVy4U8L9gaHB-0TMl4spFZk097Jksc=s48-c-k-c0x00ffffff-no-rj",
@@ -133,12 +113,12 @@
       "replies": []
     },
     {
-      "id": "Ugwt-5SsiM6ANw9nRT14AaABAg",
-      "author": "@emiliojt6289",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nZiamTl_YyU4aDiRP2lGZdpo8LKTpp0_dau6IdrJFH6B2x=s48-c-k-c0x00ffffff-no-rj",
-      "text": "El negocio es criar Border Collie y Pastores Alemanes",
-      "likeCount": 2,
-      "publishedAt": "2026-05-09T17:59:59Z",
+      "id": "Ugy0antwhG3EPmDTYb14AaABAg",
+      "author": "@josep21cat",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kuMBR96Q1xRBKN7GnAu3wwJrTsQJMD3ORKPOokDv0=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Me encantaría visitar y tal vez jubilarme en Nueva Zelanda, aunque sea un hombre soltero tal vez conozca allí mi alma gemela, una mujer que me ame incondicionalmente 🤗",
+      "likeCount": 0,
+      "publishedAt": "2026-07-04T16:22:10Z",
       "replyCount": 0,
       "replies": []
     },
@@ -153,12 +133,12 @@
       "replies": []
     },
     {
-      "id": "UgxBz9eS6c7DptuCf194AaABAg",
-      "author": "@mikiegea7873",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lzIVxdrPtbNPSWF1Epi1txQzLKnTgEDb8U33C83rk=s48-c-k-c0x00ffffff-no-rj",
-      "text": "N. 3",
-      "likeCount": 1,
-      "publishedAt": "2026-05-09T14:53:49Z",
+      "id": "Ugwt-5SsiM6ANw9nRT14AaABAg",
+      "author": "@emiliojt6289",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nZiamTl_YyU4aDiRP2lGZdpo8LKTpp0_dau6IdrJFH6B2x=s48-c-k-c0x00ffffff-no-rj",
+      "text": "El negocio es criar Border Collie y Pastores Alemanes",
+      "likeCount": 2,
+      "publishedAt": "2026-05-09T17:59:59Z",
       "replyCount": 0,
       "replies": []
     },
@@ -173,22 +153,22 @@
       "replies": []
     },
     {
+      "id": "UgxBz9eS6c7DptuCf194AaABAg",
+      "author": "@mikiegea7873",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lzIVxdrPtbNPSWF1Epi1txQzLKnTgEDb8U33C83rk=s48-c-k-c0x00ffffff-no-rj",
+      "text": "N. 3",
+      "likeCount": 1,
+      "publishedAt": "2026-05-09T14:53:49Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugzs-ujUaqN7bio3BIV4AaABAg",
       "author": "@JosefranklinDominguez-u1o",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mXl5vEZetSFCfuG2B7_VLqc38fE5TVJMtL_CGIeMUbdXJf55quvy5KONcX81xCv66Llw=s48-c-k-c0x00ffffff-no-rj",
       "text": "Y yo viendo que países de hispanos americanos sé parecen a.ellos 😂😂",
       "likeCount": 2,
       "publishedAt": "2026-05-08T23:11:03Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugyzd8KXL23pVzYC18d4AaABAg",
-      "author": "@IvanCarrera-y3c",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lbn_DLLFCpT33OXul6uM3VU0vPqBworcPBANUd89RXpN6LkZ3uPrNkmEcu9T7zctoS-Q=s48-c-k-c0x00ffffff-no-rj",
-      "text": "2",
-      "likeCount": 0,
-      "publishedAt": "2026-05-13T02:57:32Z",
       "replyCount": 0,
       "replies": []
     },
@@ -203,12 +183,12 @@
       "replies": []
     },
     {
-      "id": "Ugxgoai2p_bz3FJcm2p4AaABAg",
-      "author": "@mikiegea7873",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lzIVxdrPtbNPSWF1Epi1txQzLKnTgEDb8U33C83rk=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Mejor una cabra gobernante que los actuales",
-      "likeCount": 3,
-      "publishedAt": "2026-05-09T15:01:13Z",
+      "id": "Ugyzd8KXL23pVzYC18d4AaABAg",
+      "author": "@IvanCarrera-y3c",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lbn_DLLFCpT33OXul6uM3VU0vPqBworcPBANUd89RXpN6LkZ3uPrNkmEcu9T7zctoS-Q=s48-c-k-c0x00ffffff-no-rj",
+      "text": "2",
+      "likeCount": 0,
+      "publishedAt": "2026-05-13T02:57:32Z",
       "replyCount": 0,
       "replies": []
     },
@@ -223,12 +203,32 @@
       "replies": []
     },
     {
+      "id": "Ugxgoai2p_bz3FJcm2p4AaABAg",
+      "author": "@mikiegea7873",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lzIVxdrPtbNPSWF1Epi1txQzLKnTgEDb8U33C83rk=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Mejor una cabra gobernante que los actuales",
+      "likeCount": 3,
+      "publishedAt": "2026-05-09T15:01:13Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxspBrNUQD1vUCrBdZ4AaABAg",
       "author": "@Alberto-b1x",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nATaj_XyZ449yTpyY9GNkkpedOEjet8B9ru95ikqwS3Mf-MXvcS1UlV0t6a5VEu6AwMQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "El mundo es igual",
       "likeCount": 1,
       "publishedAt": "2026-05-09T21:43:05Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzlVhLXPY8G55Q26EN4AaABAg",
+      "author": "@josecardenas2116",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nnIRUmuuO6W_tIk9D-YmL6t0uNruYgC8TeTjvYqXKl6c9FXiAP47jKyuLrHos6hE_DZw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "OYE CHARLATÁN  , DECIDETE LO VEMOS O NO LO VEMOS  ? MEJOR NO SUBAS ESTAS INVENCIONES  CON TANTAS ESTUPIDEZES.",
+      "likeCount": 1,
+      "publishedAt": "2026-06-01T12:10:19Z",
       "replyCount": 0,
       "replies": []
     },
