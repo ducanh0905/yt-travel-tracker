@@ -157,13 +157,13 @@ button, select, input { font-family: inherit; }
 
 .cloud {
   position: absolute;
-  font-size: 26px;
-  opacity: 0.2;
+  font-size: 22px;
+  opacity: 0.16;
   filter: grayscale(0.3);
 }
-.cloud-a { top: 16%; right: 8%; animation: driftCloud 26s ease-in-out infinite; }
-.cloud-b { top: 55%; right: 28%; font-size: 34px; opacity: 0.14; animation: driftCloud 34s ease-in-out infinite reverse; }
-.cloud-c { top: 30%; right: 46%; font-size: 18px; opacity: 0.16; animation: driftCloud 20s ease-in-out infinite; }
+.cloud-a { top: 8px; right: 8%; animation: driftCloud 26s ease-in-out infinite; }
+.cloud-b { top: 18px; right: 28%; font-size: 26px; opacity: 0.12; animation: driftCloud 34s ease-in-out infinite reverse; }
+.cloud-c { top: 4px; right: 46%; font-size: 16px; opacity: 0.14; animation: driftCloud 20s ease-in-out infinite; }
 @keyframes driftCloud {
   0%, 100% { transform: translateX(0); }
   50% { transform: translateX(-34px); }
@@ -171,17 +171,17 @@ button, select, input { font-family: inherit; }
 
 .plane-fly {
   position: absolute;
-  top: 22%;
+  top: 10px;
   left: -10%;
   opacity: 0;
   animation: flyAcross 13s linear infinite;
 }
 .plane-icon {
   display: block;
-  font-size: 22px;
-  /* Base ✈️ glyph points up-left; flip horizontally so the nose faces
-     right, matching the left-to-right flight direction. */
-  transform: scaleX(-1);
+  color: var(--teal);
+  /* Custom SVG drawn nose-right at exactly 0deg - no flip/rotation needed,
+     so it always points straight along the flight direction regardless
+     of platform emoji rendering. */
   filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.5));
 }
 .plane-trail {
