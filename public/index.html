@@ -8,12 +8,20 @@
 <title>Thống kê dữ liệu Youtube Du Lịch (by Đức Anh)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+<div class="top-glow-bar" aria-hidden="true"></div>
+
 <header class="board-header">
+  <div class="header-sky" aria-hidden="true">
+    <span class="cloud cloud-a">☁️</span>
+    <span class="cloud cloud-b">☁️</span>
+    <span class="cloud cloud-c">☁️</span>
+    <span class="plane-fly">✈️</span>
+  </div>
   <div class="board-header__title">
     <span class="board-header__eyebrow">GATE · TRAVEL CONTENT</span>
     <h1>Thống kê dữ liệu Youtube Du Lịch (by Đức Anh)</h1>
@@ -107,7 +115,7 @@
         </tr>
       </thead>
       <tbody id="videoTableBody">
-        <tr><td colspan="8" class="empty-state">Đang tải dữ liệu...</td></tr>
+        <tr><td colspan="8" class="empty-state"><span class="loading-plane">✈️</span> Đang tải dữ liệu...</td></tr>
       </tbody>
     </table>
   </div>
@@ -139,7 +147,7 @@
     </div>
 
     <div class="comments-list" id="commentsList">
-      <div class="empty-state">Đang tải bình luận...</div>
+      <div class="empty-state"><span class="loading-plane">✈️</span> Đang tải bình luận...</div>
     </div>
   </div>
 </div>
