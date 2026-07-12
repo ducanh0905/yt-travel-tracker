@@ -1,178 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Thống kê dữ liệu Youtube Du Lịch (by Đức Anh)</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thống kê dữ liệu Youtube Du Lịch</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="board-header">
-  <div class="board-header__title">
-    <span class="board-header__eyebrow">GATE · TRAVEL CONTENT</span>
-    <h1>Thống kê dữ liệu Youtube Du Lịch (by Đức Anh)</h1>
-  </div>
-  <div class="board-header__meta">
-    <div class="meta-chip">
-      <span class="meta-chip__label">Kênh</span>
-      <span class="meta-chip__value" id="metaChannels">–</span>
+  <header>
+    <div>
+      <span>GATE · TRAVEL CONTENT</span>
+      <h1>Thống kê dữ liệu Youtube Du Lịch</h1>
     </div>
-    <div class="meta-chip">
-      <span class="meta-chip__label">Video</span>
-      <span class="meta-chip__value" id="metaVideos">–</span>
+    <!-- Container chứa các khối đếm số liệu -->
+    <div class="stats-container" id="statsHeader">
+      <div class="stat-card">
+        <div class="label">Kênh</div>
+        <div class="value" id="countChannels">–</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Video</div>
+        <div class="value" id="countVideos">–</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Cập nhật</div>
+        <div class="value" id="lastUpdated">–</div>
+      </div>
     </div>
-    <div class="meta-chip">
-      <span class="meta-chip__label">Cập nhật</span>
-      <span class="meta-chip__value" id="metaUpdated">–</span>
-    </div>
-  </div>
-</header>
+  </header>
 
-<main class="board">
-  <div class="controls">
-    <div class="search-box">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="searchInput" placeholder="Tìm theo tiêu đề video hoặc tên kênh..." />
-    </div>
-
-    <div class="sort-box">
-      <label for="sortField">Sắp xếp</label>
-      <select id="sortField">
-        <option value="publishedAt">Ngày đăng</option>
-        <option value="viewCount">Lượt xem</option>
-        <option value="likeCount">Lượt thích</option>
-        <option value="commentCount">Bình luận</option>
-        <option value="subscriberCount">Sub kênh</option>
-        <option value="duration">Thời lượng</option>
-      </select>
-      <button id="sortDir" class="dir-btn" data-dir="desc" title="Đổi chiều sắp xếp">
-        <span class="dir-btn__arrow">↓</span> Giảm dần
-      </button>
-    </div>
-
-    <div class="sort-box">
-      <label for="dateRangeFilter">Khoảng thời gian</label>
-      <select id="dateRangeFilter">
-        <option value="0">Tất cả</option>
-        <option value="1">1 tháng gần đây</option>
-        <option value="3">3 tháng gần đây</option>
-        <option value="6">6 tháng gần đây</option>
-        <option value="12">12 tháng gần đây</option>
+  <main>
+    <div class="controls-panel">
+      <label for="sortSelect">Sắp xếp theo:</label>
+      <select id="sortSelect">
+        <option value="publishedAt">Ngày đăng mới nhất</option>
+        <option value="viewCount">Lượt xem nhiều nhất</option>
+        <option value="likeCount">Lượt thích nhiều nhất</option>
+        <option value="commentCount">Bình luận nhiều nhất</option>
+        <option value="subscriberCount">Sub kênh cao nhất</option>
       </select>
     </div>
 
-    <div class="channel-filter" id="channelFilterWrap">
-      <button type="button" class="channel-filter__btn" id="channelFilterBtn">
-        <span id="channelFilterLabel">Tất cả kênh</span>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-      </button>
-      <div class="channel-filter__panel" id="channelFilterPanel">
-        <div class="channel-filter__actions">
-          <button type="button" id="selectAllChannels">Chọn tất cả</button>
-          <button type="button" id="clearAllChannels">Bỏ chọn tất cả</button>
-        </div>
-        <div class="channel-filter__list" id="channelFilterList"></div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Video</th>
+            <th>Kênh</th>
+            <th>Ngày đăng</th>
+            <th>Lượt xem</th>
+            <th>Thích</th>
+            <th>Bình luận</th>
+            <th>Sub kênh</th>
+          </tr>
+        </thead>
+        <tbody id="videoTableBody">
+          <tr>
+            <td colspan="7" style="text-align: center; color: var(--text-muted);">Đang tải dữ liệu hệ thống...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Lớp phủ Sidebar cấu trúc mới mượt mà -->
+  <div class="sidebar-overlay" id="sidebarOverlay">
+    <div class="detail-sidebar">
+      <div class="sidebar-header">
+        <div id="sidebarChannelBadge"></div>
+        <button class="close-btn" id="closeSidebarBtn">&times;</button>
+      </div>
+      <div class="sidebar-content" id="sidebarContent">
+        <!-- JS sẽ đẩy nội dung mượt mà vào đây -->
       </div>
     </div>
   </div>
 
-  <div class="table-wrap">
-    <table class="board-table" id="videoTable">
-      <colgroup>
-        <col class="cg-video" />
-        <col class="cg-channel" />
-        <col class="cg-num" />
-        <col class="cg-num" />
-        <col class="cg-num" />
-        <col class="cg-num" />
-        <col class="cg-num" />
-        <col class="cg-num" />
-      </colgroup>
-      <thead>
-        <tr>
-          <th class="col-video">Video</th>
-          <th class="col-channel">Kênh</th>
-          <th class="col-num" data-field="publishedAt">Ngày đăng</th>
-          <th class="col-num" data-field="duration">Thời lượng</th>
-          <th class="col-num" data-field="viewCount">Lượt xem</th>
-          <th class="col-num" data-field="likeCount">Thích</th>
-          <th class="col-num" data-field="commentCount">Bình luận</th>
-          <th class="col-num" data-field="subscriberCount">Sub kênh</th>
-        </tr>
-      </thead>
-      <tbody id="videoTableBody">
-        <tr><td colspan="8" class="empty-state">Đang tải dữ liệu...</td></tr>
-      </tbody>
-    </table>
-  </div>
-</main>
-
-<div class="modal-overlay" id="modalOverlay">
-  <div class="modal">
-    <button class="modal__close" id="modalClose" aria-label="Đóng">✕</button>
-    <div class="modal__header">
-      <img id="modalThumb" src="" alt="" class="modal__thumb" />
-      <div>
-        <h2 id="modalTitle">–</h2>
-        <div class="modal__sub" id="modalChannel">–</div>
-        <div class="modal__stats" id="modalStats">–</div>
-      </div>
-    </div>
-
-    <div class="modal__comments-bar">
-      <h3>Bình luận</h3>
-      <div class="comments-controls">
-        <select id="commentSortField">
-          <option value="likeCount">Lượt thích</option>
-          <option value="publishedAt">Mới nhất</option>
-        </select>
-        <button id="commentSortDir" class="dir-btn dir-btn--small" data-dir="desc">
-          <span class="dir-btn__arrow">↓</span>
-        </button>
-      </div>
-    </div>
-
-    <div class="comments-list" id="commentsList">
-      <div class="empty-state">Đang tải bình luận...</div>
-    </div>
-  </div>
-</div>
-
-<div class="modal-overlay" id="channelModalOverlay">
-  <div class="modal modal--channel">
-    <button class="modal__close" id="channelModalClose" aria-label="Đóng">✕</button>
-    <div class="channel-modal__header">
-      <img id="channelModalAvatar" src="" alt="" class="channel-modal__avatar" />
-      <div>
-        <a id="channelModalName" class="channel-modal__name" href="#" target="_blank" rel="noopener">–</a>
-        <div class="channel-modal__sub" id="channelModalSub">–</div>
-      </div>
-    </div>
-
-    <div class="channel-modal__grid" id="channelModalGrid"></div>
-
-    <div class="channel-modal__revenue">
-      <div class="channel-modal__revenue-head">
-        <h3>💰 Doanh thu ước tính</h3>
-        <div class="channel-modal__rpm">
-          <label for="channelRpmMin">RPM giả định</label>
-          <span>$</span>
-          <input type="number" id="channelRpmMin" min="0" step="0.1" value="3" />
-          <span>–</span>
-          <span>$</span>
-          <input type="number" id="channelRpmMax" min="0" step="0.1" value="6" />
-          <span>/ 1.000 view</span>
-        </div>
-      </div>
-      <div class="channel-modal__revenue-grid" id="channelModalRevenue"></div>
-    </div>
-  </div>
-</div>
-
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
