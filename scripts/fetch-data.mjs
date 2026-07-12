@@ -12,7 +12,12 @@
 //   MAX_VIDEOS_PER_CHANNEL   default 50   - how many most-recent videos to track per channel
 //   MAX_COMMENTS_PER_VIDEO   default 100  - how many top-level comments to store per video
 //   MAX_REPLIES_PER_COMMENT  default 20   - how many replies to store per top-level comment
-//   COMMENT_ORDER            default "relevance" (or "time")
+//   COMMENT_ORDER            default "relevance" (or "time") - ignored when
+//                            COMMENT_MAX_AGE_DAYS > 0, which forces "time" order
+//   COMMENT_MAX_AGE_DAYS     default 90   - only keep comments newer than this many
+//                            days (0 = no limit, keep all up to MAX_COMMENTS_PER_VIDEO).
+//                            Also stops paginating as soon as older comments are hit,
+//                            so this actually saves quota, not just storage.
 //   FORCE_REFRESH_COMMENTS   default false - refetch comments even if commentCount unchanged
 //   YOUTUBE_API_KEY          a single API key
 //   YOUTUBE_API_KEYS         multiple API keys, comma-separated - used as automatic
@@ -38,6 +43,7 @@ const MAX_VIDEOS_PER_CHANNEL = parseInt(process.env.MAX_VIDEOS_PER_CHANNEL || "5
 const MAX_COMMENTS_PER_VIDEO = parseInt(process.env.MAX_COMMENTS_PER_VIDEO || "100", 10);
 const MAX_REPLIES_PER_COMMENT = parseInt(process.env.MAX_REPLIES_PER_COMMENT || "20", 10);
 const COMMENT_ORDER = process.env.COMMENT_ORDER || "relevance";
+const COMMENT_MAX_AGE_DAYS = parseInt(process.env.COMMENT_MAX_AGE_DAYS || "90", 10); // 0 = no limit
 const FORCE_REFRESH_COMMENTS = /^true$/i.test(process.env.FORCE_REFRESH_COMMENTS || "");
 
 const ROOT = path.resolve(new URL(".", import.meta.url).pathname, "..");
@@ -139,6 +145,8 @@ async function resolveChannel(raw) {
     subscriberCount: item.statistics.hiddenSubscriberCount
       ? null
       : parseInt(item.statistics.subscriberCount || "0", 10),
+    channelViewCount: parseInt(item.statistics.viewCount || "0", 10),
+    channelVideoCount: parseInt(item.statistics.videoCount || "0", 10),
     uploadsPlaylistId: item.contentDetails.relatedPlaylists.uploads,
   };
 }
@@ -231,21 +239,31 @@ async function getReplies(parentId, max, videoId) {
   return replies.reverse();
 }
 
-async function getComments(videoId, max, order, maxRepliesPerComment) {
+async function getComments(videoId, max, order, maxRepliesPerComment, maxAgeDays) {
   const comments = [];
   let pageToken = "";
+  // If we're only keeping recent comments, we MUST fetch newest-first ("time")
+  // so we can stop paginating as soon as we hit a comment older than the
+  // cutoff - that's what actually saves quota, not just filtering afterwards.
+  const effectiveOrder = maxAgeDays > 0 ? "time" : order;
+  const cutoff = maxAgeDays > 0 ? Date.now() - maxAgeDays * 24 * 60 * 60 * 1000 : null;
   try {
-    while (comments.length < max) {
+    outer: while (comments.length < max) {
       const json = await apiGetWithRetry("commentThreads", {
         part: "snippet",
         videoId,
         maxResults: String(Math.min(100, max - comments.length)),
-        order,
+        order: effectiveOrder,
         textFormat: "plainText",
         ...(pageToken ? { pageToken } : {}),
       });
       for (const item of json.items || []) {
         const top = item.snippet.topLevelComment.snippet;
+        if (cutoff !== null && new Date(top.publishedAt).getTime() < cutoff) {
+          // Newest-first order: once we hit one comment older than the
+          // cutoff, everything after it is older too - stop entirely.
+          break outer;
+        }
         const replyCount = item.snippet.totalReplyCount || 0;
         const replies =
           replyCount > 0 && maxRepliesPerComment > 0
@@ -313,6 +331,8 @@ async function main() {
           channelTitle: channel.channelTitle,
           channelThumbnail: channel.channelThumbnail,
           subscriberCount: channel.subscriberCount,
+          channelViewCount: channel.channelViewCount,
+          channelVideoCount: channel.channelVideoCount,
         });
 
         const prev = previousVideos.get(v.videoId);
@@ -331,7 +351,8 @@ async function main() {
             v.videoId,
             MAX_COMMENTS_PER_VIDEO,
             COMMENT_ORDER,
-            MAX_REPLIES_PER_COMMENT
+            MAX_REPLIES_PER_COMMENT,
+            COMMENT_MAX_AGE_DAYS
           );
           await writeFile(
             path.join(COMMENTS_DIR, `${v.videoId}.json`),
