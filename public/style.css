@@ -171,19 +171,41 @@ button, select, input { font-family: inherit; }
 
 .plane-fly {
   position: absolute;
-  top: 26%;
-  left: -8%;
-  font-size: 22px;
+  top: 22%;
+  left: -10%;
   opacity: 0;
-  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.5));
   animation: flyAcross 13s linear infinite;
 }
+.plane-icon {
+  display: block;
+  font-size: 22px;
+  /* Base ✈️ glyph points up-left; flip horizontally so the nose faces
+     right, matching the left-to-right flight direction. */
+  transform: scaleX(-1);
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.5));
+}
+.plane-trail {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  width: 84px;
+  height: 3px;
+  background: repeating-linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.55) 0 6px,
+    transparent 6px 13px
+  );
+  -webkit-mask-image: linear-gradient(to left, black, transparent);
+  mask-image: linear-gradient(to left, black, transparent);
+  border-radius: 4px;
+  opacity: 0.7;
+}
 @keyframes flyAcross {
-  0% { transform: translate(0, 0) rotate(6deg); opacity: 0; }
+  0% { transform: translateX(0); opacity: 0; }
   8% { opacity: 0.9; }
-  50% { transform: translate(60vw, -26px) rotate(3deg); opacity: 0.9; }
   92% { opacity: 0.9; }
-  100% { transform: translate(115vw, 14px) rotate(6deg); opacity: 0; }
+  100% { transform: translateX(125vw); opacity: 0; }
 }
 
 .board-header__title,
