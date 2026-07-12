@@ -26,6 +26,13 @@ const els = {
   metaChannels: document.getElementById("metaChannels"),
   metaVideos: document.getElementById("metaVideos"),
   metaUpdated: document.getElementById("metaUpdated"),
+  fetchTriggerWrap: document.getElementById("fetchTriggerWrap"),
+  fetchTriggerBtn: document.getElementById("fetchTriggerBtn"),
+  fetchTriggerPanel: document.getElementById("fetchTriggerPanel"),
+  fetchPasswordInput: document.getElementById("fetchPasswordInput"),
+  fetchForceRefresh: document.getElementById("fetchForceRefresh"),
+  fetchTriggerSubmit: document.getElementById("fetchTriggerSubmit"),
+  fetchTriggerStatus: document.getElementById("fetchTriggerStatus"),
   modalOverlay: document.getElementById("modalOverlay"),
   modalClose: document.getElementById("modalClose"),
   channelModalOverlay: document.getElementById("channelModalOverlay"),
@@ -181,6 +188,73 @@ els.channelFilterBtn.addEventListener("click", (e) => {
 
 document.addEventListener("click", (e) => {
   if (!els.channelFilterWrap.contains(e.target)) toggleChannelPanel(false);
+  if (!els.fetchTriggerWrap.contains(e.target)) toggleFetchPanel(false);
+});
+
+function toggleFetchPanel(forceOpen) {
+  const isOpen = els.fetchTriggerWrap.classList.contains("open");
+  const shouldOpen = forceOpen !== undefined ? forceOpen : !isOpen;
+  els.fetchTriggerWrap.classList.toggle("open", shouldOpen);
+  if (shouldOpen) {
+    setFetchStatus("");
+    setTimeout(() => els.fetchPasswordInput.focus(), 50);
+  }
+}
+
+els.fetchTriggerBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  toggleFetchPanel();
+});
+
+function setFetchStatus(message, kind) {
+  els.fetchTriggerStatus.textContent = message;
+  els.fetchTriggerStatus.classList.toggle("visible", Boolean(message));
+  els.fetchTriggerStatus.classList.remove("fetch-trigger__status--ok", "fetch-trigger__status--error");
+  if (kind) els.fetchTriggerStatus.classList.add(`fetch-trigger__status--${kind}`);
+}
+
+async function submitFetchTrigger() {
+  const password = els.fetchPasswordInput.value;
+  if (!password) {
+    setFetchStatus("Nhập mật khẩu trước đã.", "error");
+    return;
+  }
+
+  els.fetchTriggerSubmit.disabled = true;
+  setFetchStatus("Đang gửi yêu cầu...", "");
+
+  try {
+    const res = await fetch("/api/trigger-fetch", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        password,
+        forceRefreshComments: els.fetchForceRefresh.checked,
+      }),
+    });
+    const data = await res.json().catch(() => ({}));
+
+    if (res.ok) {
+      setFetchStatus(
+        "Đã kích hoạt! Quá trình lấy dữ liệu chạy nền vài phút, tải lại trang sau đó để xem kết quả mới.",
+        "ok"
+      );
+      els.fetchPasswordInput.value = "";
+    } else if (res.status === 401) {
+      setFetchStatus("Sai mật khẩu.", "error");
+    } else {
+      setFetchStatus(data.error || "Có lỗi xảy ra, thử lại sau.", "error");
+    }
+  } catch (err) {
+    setFetchStatus("Không kết nối được tới server.", "error");
+  } finally {
+    els.fetchTriggerSubmit.disabled = false;
+  }
+}
+
+els.fetchTriggerSubmit.addEventListener("click", submitFetchTrigger);
+els.fetchPasswordInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") submitFetchTrigger();
 });
 
 els.selectAllChannels.addEventListener("click", () => {
