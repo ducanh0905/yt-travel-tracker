@@ -416,7 +416,10 @@ thead .col-num,
   display: flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
+.channel-cell:hover .channel-cell__avatar { border-color: var(--amber); }
+.channel-cell:hover span { color: var(--amber); }
 
 .channel-cell__avatar {
   width: 22px;
@@ -425,7 +428,9 @@ thead .col-num,
   object-fit: cover;
   border: 1px solid var(--line);
   flex-shrink: 0;
+  transition: border-color 0.15s ease;
 }
+.channel-cell span { transition: color 0.15s ease; }
 
 .empty-state {
   text-align: center;
@@ -433,6 +438,124 @@ thead .col-num,
   color: var(--text-muted);
   font-family: var(--font-mono);
   font-size: 13px;
+}
+
+/* ---------- Channel stats modal ---------- */
+
+.modal--channel { width: min(640px, 100%); }
+
+.channel-modal__header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-right: 30px;
+  margin-bottom: 18px;
+}
+
+.channel-modal__avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
+.channel-modal__name {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+.channel-modal__name:hover { color: var(--amber); text-decoration: underline; }
+
+.channel-modal__sub {
+  color: var(--text-muted);
+  font-size: 12.5px;
+  margin-top: 3px;
+}
+
+.channel-modal__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.channel-stat {
+  background: var(--panel-raised);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.channel-stat__label {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.channel-stat__value {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--teal);
+}
+
+.channel-modal__revenue {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+
+.channel-modal__revenue-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.channel-modal__revenue-head h3 {
+  font-family: var(--font-display);
+  font-size: 14px;
+  margin: 0;
+}
+
+.channel-modal__rpm {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.channel-modal__rpm input {
+  width: 56px;
+  background: var(--panel-raised);
+  border: 1px solid var(--line);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 5px 7px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.channel-modal__revenue-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.channel-stat--money .channel-stat__value { color: var(--amber); }
+
+.channel-modal__disclaimer {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
 }
 
 /* ---------- Modal ---------- */
