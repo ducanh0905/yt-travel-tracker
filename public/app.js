@@ -722,11 +722,7 @@ loadData();
   }
 
   function promptForApiKey() {
-    appendMessage(
-      'Anh chưa có Gemini API key trong trình duyệt này. Lấy key miễn phí tại aistudio.google.com/apikey rồi dán vào ô bên dưới, bấm gửi (chỉ cần làm 1 lần - key chỉ lưu trên máy anh, không gửi lên server nào khác).',
-      "bot"
-    );
-    input.placeholder = "Dán API key vào đây rồi bấm gửi...";
+    input.placeholder = "Dán API key Gemini vào đây rồi bấm gửi...";
     input.dataset.mode = "apikey";
   }
 
