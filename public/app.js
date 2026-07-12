@@ -26,13 +26,6 @@ const els = {
   metaChannels: document.getElementById("metaChannels"),
   metaVideos: document.getElementById("metaVideos"),
   metaUpdated: document.getElementById("metaUpdated"),
-  fetchTriggerWrap: document.getElementById("fetchTriggerWrap"),
-  fetchTriggerBtn: document.getElementById("fetchTriggerBtn"),
-  fetchTriggerPanel: document.getElementById("fetchTriggerPanel"),
-  fetchPasswordInput: document.getElementById("fetchPasswordInput"),
-  fetchForceRefresh: document.getElementById("fetchForceRefresh"),
-  fetchTriggerSubmit: document.getElementById("fetchTriggerSubmit"),
-  fetchTriggerStatus: document.getElementById("fetchTriggerStatus"),
   modalOverlay: document.getElementById("modalOverlay"),
   modalClose: document.getElementById("modalClose"),
   channelModalOverlay: document.getElementById("channelModalOverlay"),
@@ -188,73 +181,6 @@ els.channelFilterBtn.addEventListener("click", (e) => {
 
 document.addEventListener("click", (e) => {
   if (!els.channelFilterWrap.contains(e.target)) toggleChannelPanel(false);
-  if (!els.fetchTriggerWrap.contains(e.target)) toggleFetchPanel(false);
-});
-
-function toggleFetchPanel(forceOpen) {
-  const isOpen = els.fetchTriggerWrap.classList.contains("open");
-  const shouldOpen = forceOpen !== undefined ? forceOpen : !isOpen;
-  els.fetchTriggerWrap.classList.toggle("open", shouldOpen);
-  if (shouldOpen) {
-    setFetchStatus("");
-    setTimeout(() => els.fetchPasswordInput.focus(), 50);
-  }
-}
-
-els.fetchTriggerBtn.addEventListener("click", (e) => {
-  e.stopPropagation();
-  toggleFetchPanel();
-});
-
-function setFetchStatus(message, kind) {
-  els.fetchTriggerStatus.textContent = message;
-  els.fetchTriggerStatus.classList.toggle("visible", Boolean(message));
-  els.fetchTriggerStatus.classList.remove("fetch-trigger__status--ok", "fetch-trigger__status--error");
-  if (kind) els.fetchTriggerStatus.classList.add(`fetch-trigger__status--${kind}`);
-}
-
-async function submitFetchTrigger() {
-  const password = els.fetchPasswordInput.value;
-  if (!password) {
-    setFetchStatus("Nhập mật khẩu trước đã.", "error");
-    return;
-  }
-
-  els.fetchTriggerSubmit.disabled = true;
-  setFetchStatus("Đang gửi yêu cầu...", "");
-
-  try {
-    const res = await fetch("/api/trigger-fetch", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        password,
-        forceRefreshComments: els.fetchForceRefresh.checked,
-      }),
-    });
-    const data = await res.json().catch(() => ({}));
-
-    if (res.ok) {
-      setFetchStatus(
-        "Đã kích hoạt! Quá trình lấy dữ liệu chạy nền vài phút, tải lại trang sau đó để xem kết quả mới.",
-        "ok"
-      );
-      els.fetchPasswordInput.value = "";
-    } else if (res.status === 401) {
-      setFetchStatus("Sai mật khẩu.", "error");
-    } else {
-      setFetchStatus(data.error || "Có lỗi xảy ra, thử lại sau.", "error");
-    }
-  } catch (err) {
-    setFetchStatus("Không kết nối được tới server.", "error");
-  } finally {
-    els.fetchTriggerSubmit.disabled = false;
-  }
-}
-
-els.fetchTriggerSubmit.addEventListener("click", submitFetchTrigger);
-els.fetchPasswordInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") submitFetchTrigger();
 });
 
 els.selectAllChannels.addEventListener("click", () => {
@@ -699,3 +625,308 @@ document.addEventListener("keydown", (e) => {
 });
 
 loadData();
+
+// ---------- Fetch-now button (triggers GitHub Actions via serverless function) ----------
+
+(function setupFetchButton() {
+  const fetchBtn = document.getElementById("fetchDataBtn");
+  const overlay = document.getElementById("fetchModalOverlay");
+  const closeBtn = document.getElementById("fetchModalClose");
+  const passwordInput = document.getElementById("fetchPasswordInput");
+  const submitBtn = document.getElementById("fetchSubmitBtn");
+  const statusMsg = document.getElementById("fetchStatusMsg");
+
+  if (!fetchBtn || !overlay) return;
+
+  function openFetchModal() {
+    overlay.classList.add("open");
+    passwordInput.value = "";
+    statusMsg.textContent = "";
+    setTimeout(() => passwordInput.focus(), 50);
+  }
+
+  function closeFetchModal() {
+    overlay.classList.remove("open");
+  }
+
+  fetchBtn.addEventListener("click", openFetchModal);
+  closeBtn.addEventListener("click", closeFetchModal);
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeFetchModal();
+  });
+  passwordInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") submitBtn.click();
+  });
+
+  submitBtn.addEventListener("click", async () => {
+    const password = passwordInput.value;
+    if (!password) {
+      statusMsg.style.color = "#f0654a";
+      statusMsg.textContent = "Vui lòng nhập mật khẩu.";
+      return;
+    }
+
+    submitBtn.disabled = true;
+    statusMsg.style.color = "var(--text-muted)";
+    statusMsg.textContent = "Đang gửi yêu cầu...";
+
+    try {
+      const res = await fetch("/api/fetch", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      const data = await res.json().catch(() => ({}));
+
+      if (res.ok && data.ok) {
+        statusMsg.style.color = "var(--teal)";
+        statusMsg.textContent = "Đã kích hoạt! Dữ liệu mới sẽ có sau khoảng 1–3 phút, tải lại trang sau đó.";
+      } else {
+        statusMsg.style.color = "#f0654a";
+        statusMsg.textContent = data.error || "Có lỗi xảy ra, thử lại sau.";
+      }
+    } catch (err) {
+      statusMsg.style.color = "#f0654a";
+      statusMsg.textContent = "Không kết nối được server.";
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+})();
+
+// ---------- AI chat (Gemini) - client-side only, user supplies their own API key ----------
+
+(function setupAIChat() {
+  const KEY_STORAGE = "gemini_api_key";
+  const fab = document.getElementById("aiChatBtn");
+  const panel = document.getElementById("aiChatPanel");
+  const closeBtn = document.getElementById("aiChatClose");
+  const resetKeyBtn = document.getElementById("aiChatResetKey");
+  const messagesEl = document.getElementById("aiChatMessages");
+  const input = document.getElementById("aiChatInput");
+  const sendBtn = document.getElementById("aiChatSend");
+
+  if (!fab || !panel) return;
+
+  const getApiKey = () => localStorage.getItem(KEY_STORAGE) || "";
+  const setApiKey = (key) => localStorage.setItem(KEY_STORAGE, key);
+  const clearApiKey = () => localStorage.removeItem(KEY_STORAGE);
+
+  function appendMessage(text, who) {
+    const div = document.createElement("div");
+    div.className = `ai-msg ai-msg--${who}`;
+    div.textContent = text;
+    messagesEl.appendChild(div);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    return div;
+  }
+
+  function promptForApiKey() {
+    input.placeholder = "Dán API key Gemini vào đây rồi bấm gửi...";
+    input.dataset.mode = "apikey";
+  }
+
+  function openPanel() {
+    panel.classList.add("open");
+    if (!getApiKey()) promptForApiKey();
+    setTimeout(() => input.focus(), 50);
+  }
+  function closePanel() {
+    panel.classList.remove("open");
+  }
+
+  fab.addEventListener("click", openPanel);
+  closeBtn.addEventListener("click", closePanel);
+  resetKeyBtn.addEventListener("click", () => {
+    clearApiKey();
+    appendMessage("Đã xoá API key cũ.", "bot");
+    promptForApiKey();
+    input.focus();
+  });
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") sendBtn.click();
+  });
+
+  // Compact one-line-per-video overview of the ENTIRE dataset, so Gemini can
+  // answer general/aggregate questions ("kênh nào nhiều view nhất", "video
+  // nào mới nhất") without needing comment text at all.
+  function buildFullVideoList() {
+    const list = typeof allVideos !== "undefined" ? allVideos : [];
+    return list
+      .map((v) => {
+        const title = v.title.length > 55 ? v.title.slice(0, 55) + "…" : v.title;
+        const date = v.publishedAt ? v.publishedAt.slice(0, 10) : "?";
+        return `${date} | ${v.channelTitle} | "${title}" | ${fmtNumber(v.viewCount)} views | ${fmtNumber(
+          v.likeCount
+        )} likes | ${fmtNumber(v.commentCount)} comments`;
+      })
+      .join("\n");
+  }
+
+  // Per-channel totals, so aggregate questions ("tổng view của kênh X") can
+  // be answered directly without matching any specific video.
+  function buildChannelSummary() {
+    const list = typeof allVideos !== "undefined" ? allVideos : [];
+    const map = new Map();
+    for (const v of list) {
+      if (!map.has(v.channelId)) {
+        map.set(v.channelId, {
+          title: v.channelTitle,
+          subscriberCount: v.subscriberCount,
+          videoCount: 0,
+          totalViews: 0,
+          totalLikes: 0,
+          totalComments: 0,
+        });
+      }
+      const c = map.get(v.channelId);
+      c.videoCount += 1;
+      c.totalViews += v.viewCount || 0;
+      c.totalLikes += v.likeCount || 0;
+      c.totalComments += v.commentCount || 0;
+    }
+    return [...map.values()]
+      .map(
+        (c) =>
+          `- ${c.title}: ${c.videoCount} video, tổng ${fmtNumber(c.totalViews)} views, ${fmtNumber(
+            c.totalLikes
+          )} likes, ${fmtNumber(c.totalComments)} bình luận, ${
+            c.subscriberCount != null ? fmtNumber(c.subscriberCount) : "?"
+          } sub`
+      )
+      .join("\n");
+  }
+
+  // No keyword filtering at all - pulls every comment from every video.
+  // Cached after the first call so repeated questions in the same session
+  // don't re-download everything again.
+  let allCommentsContextCache = null;
+
+  async function gatherAllCommentContext(onProgress) {
+    if (allCommentsContextCache) return allCommentsContextCache;
+
+    const list = typeof allVideos !== "undefined" ? allVideos : [];
+    let done = 0;
+
+    const parts = await Promise.all(
+      list.map(async (v) => {
+        let commentsText = "";
+        try {
+          const res = await fetch(`data/comments/${v.videoId}.json`, { cache: "no-store" });
+          if (res.ok) {
+            const data = await res.json();
+            if (!data.disabled && data.comments?.length) {
+              commentsText = data.comments.map((c) => `- ${c.text}`).join("\n");
+            }
+          }
+        } catch {
+          // no comments file for this video, skip silently
+        } finally {
+          done += 1;
+          if (onProgress) onProgress(done, list.length);
+        }
+        if (!commentsText) return "";
+        return `Video: "${v.title}" (Kênh: ${v.channelTitle}, ${fmtNumber(v.viewCount)} views)\nBình luận:\n${commentsText}`;
+      })
+    );
+
+    allCommentsContextCache = parts.filter(Boolean).join("\n\n---\n\n");
+    return allCommentsContextCache;
+  }
+
+  async function handleSend() {
+    const text = input.value.trim();
+    if (!text) return;
+
+    if (input.dataset.mode === "apikey") {
+      setApiKey(text);
+      input.value = "";
+      input.dataset.mode = "";
+      input.placeholder = "Việt Nam - khán giả đang bình luận gì?";
+      appendMessage("Đã lưu API key trên trình duyệt này. Giờ anh hỏi được rồi!", "bot");
+      return;
+    }
+
+    appendMessage(text, "user");
+    input.value = "";
+
+    const apiKey = getApiKey();
+    if (!apiKey) {
+      promptForApiKey();
+      return;
+    }
+
+    const thinkingEl = appendMessage("Đang tải dữ liệu...", "bot");
+    sendBtn.disabled = true;
+
+    try {
+      const channelSummary = buildChannelSummary();
+      const fullVideoList = buildFullVideoList();
+      const commentContext = await gatherAllCommentContext((done, total) => {
+        thinkingEl.textContent = `Đang tải bình luận... (${done}/${total} video)`;
+      });
+      thinkingEl.textContent = "Đang phân tích...";
+
+      // Hard safety cap only (not topic filtering) so the request doesn't
+      // outright fail if the combined dataset is larger than Gemini's
+      // context window can accept in one call.
+      const MAX_CONTEXT_CHARS = 900000;
+      const boundedComments =
+        commentContext.length > MAX_CONTEXT_CHARS
+          ? commentContext.slice(0, MAX_CONTEXT_CHARS) +
+            "\n\n[... dữ liệu bình luận bị cắt bớt vì vượt quá giới hạn kích thước một lần gọi, đây không phải lọc theo chủ đề ...]"
+          : commentContext;
+
+      const prompt = `Bạn là một trợ lý AI trò chuyện bình thường, có thể trả lời bất kỳ câu hỏi gì về bất kỳ chủ đề nào, không giới hạn.
+Ngoài ra, bạn còn được cung cấp toàn bộ dữ liệu thống kê thật của một app theo dõi kênh YouTube mảng du lịch (bên dưới, không lọc/giới hạn theo chủ đề) - nếu câu hỏi liên quan tới dữ liệu này (số liệu kênh/video, nội dung bình luận, xu hướng khán giả...) thì hãy dùng nó để trả lời chính xác. Nếu câu hỏi không liên quan gì tới dữ liệu này, cứ bỏ qua phần dữ liệu và trả lời tự nhiên như một trợ lý AI bình thường.
+
+=== TỔNG HỢP THEO KÊNH ===
+${channelSummary}
+
+=== DANH SÁCH VIDEO (định dạng: ngày | kênh | tiêu đề | views | likes | comments) ===
+${fullVideoList}
+
+=== TOÀN BỘ BÌNH LUẬN CỦA TẤT CẢ VIDEO ===
+${boundedComments || "(không tải được dữ liệu bình luận)"}
+
+CÂU HỎI: ${text}`;
+
+      const model = "gemini-1.5-flash-latest";
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(
+          apiKey
+        )}`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+        }
+      );
+      const data = await res.json().catch(() => null);
+
+      if (!res.ok) {
+        thinkingEl.textContent = `Lỗi từ Gemini (${res.status}): ${
+          data?.error?.message || "không rõ nguyên nhân"
+        }. Kiểm tra lại API key hoặc thử lại sau.`;
+        return;
+      }
+
+      const blockReason = data?.promptFeedback?.blockReason;
+      if (blockReason) {
+        thinkingEl.textContent = `Gemini từ chối trả lời (lý do: ${blockReason}). Thử diễn đạt lại câu hỏi.`;
+        return;
+      }
+
+      const answer =
+        data?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") ||
+        "Gemini không trả về nội dung nào.";
+      thinkingEl.textContent = answer;
+    } catch (err) {
+      thinkingEl.textContent = "Không gọi được Gemini API. Kiểm tra lại kết nối mạng hoặc API key.";
+    } finally {
+      sendBtn.disabled = false;
+    }
+  }
+
+  sendBtn.addEventListener("click", handleSend);
+})();
