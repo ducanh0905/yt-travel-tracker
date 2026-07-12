@@ -1,7 +1,7 @@
 let videoData = [];
 let channelMap = {};
 
-// Khởi chạy ứng dụng
+// Khởi chạy ứng dụng khi DOM đã sẵn sàng
 document.addEventListener('DOMContentLoaded', () => {
   initApp();
   setupEventListeners();
@@ -9,14 +9,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function initApp() {
   try {
-    // Tải song song data để tối ưu thời gian chờ
+    // Tải song song data để tối ưu thời gian chờ với các phương án đường dẫn dự phòng (fallback)
     const [metaRes, channelsRes, videosRes] = await Promise.all([
-      fetch('data/meta.json').then(r => r.json()),
-      fetch('channels.json').then(r => r.json()),
-      fetch('data/videos.json').then(r => r.json())
+      fetch('/data/meta.json').then(r => {
+        if (!r.ok) return fetch('data/meta.json').then(res => res.json());
+        return r.json();
+      }),
+      fetch('/channels.json').then(r => {
+        if (!r.ok) return fetch('channels.json').then(res => res.json());
+        return r.json();
+      }),
+      fetch('/data/videos.json').then(r => {
+        if (!r.ok) return fetch('data/videos.json').then(res => res.json());
+        return r.json();
+      })
     ]);
 
-    // Đổ dữ liệu lên thẻ thống kê ở Header
+    // Đổ dữ liệu lên các thẻ thống kê ở Header
     document.getElementById('lastUpdated').innerText = formatDate(metaRes.lastUpdated);
     document.getElementById('countChannels').innerText = channelsRes.length;
     document.getElementById('countVideos').innerText = videosRes.length;
@@ -36,19 +45,24 @@ async function initApp() {
       };
     });
 
-    // Thực hiện sắp xếp mặc định và hiển thị
+    // Thực hiện sắp xếp mặc định và hiển thị bảng dữ liệu
     handleSortAndRender();
 
   } catch (error) {
-    console.error("Lỗi khi tải hoặc xử lý cấu trúc file JSON:", error);
-    document.getElementById('videoTableBody').innerHTML = `<tr><td colspan="7" style="text-align: center; color: red;">Không thể tải dữ liệu hệ thống.</td></tr>`;
+    console.error("Lỗi chi tiết khi tải file JSON:", error);
+    document.getElementById('videoTableBody').innerHTML = `
+      <tr>
+        <td colspan="7" style="text-align: center; color: #ef4444; padding: 2rem 0; font-weight: 500;">
+          Lỗi kết nối dữ liệu: Không thể đọc được các tệp tin cấu hình JSON. Hãy kiểm tra lại tiến trình build dữ liệu tự động.
+        </td>
+      </tr>`;
   }
 }
 
 function setupEventListeners() {
   document.getElementById('sortSelect').addEventListener('change', handleSortAndRender);
   
-  // Đóng mở Sidebar chuyển động mượt mà qua class
+  // Đóng mở Sidebar chuyển động mượt mà qua class định sẵn
   document.getElementById('closeSidebarBtn').addEventListener('click', closeSidebar);
   document.getElementById('sidebarOverlay').addEventListener('click', (e) => {
     if(e.target.id === 'sidebarOverlay') closeSidebar();
@@ -68,7 +82,7 @@ function handleSortAndRender() {
   renderTable(videoData);
 }
 
-// Gom chuỗi HTML render một lần duy nhất, tránh giật lag DOM
+// Gom chuỗi HTML render một lần duy nhất để tối ưu hiệu năng hiển thị và tránh hiện tượng giật màn hình
 function renderTable(data) {
   const tbody = document.getElementById('videoTableBody');
   let html = '';
@@ -105,11 +119,11 @@ async function openVideoDetail(videoId) {
 
   badgeContainer.innerHTML = `<span class="channel-badge" style="background:var(--primary-light); color:var(--primary); font-weight:600;">${video.channelTitle}</span>`;
   
-  // Hiển thị khung xương Loading trước
-  contentContainer.innerHTML = `<div style="text-align:center; color:var(--text-muted); padding:2rem 0;">Đang tải hội thoại bình luận...</div>`;
+  // Hiển thị trạng thái Loading trước khi tải xong bình luận
+  contentContainer.innerHTML = `<div style="text-align:center; color:var(--text-muted); padding:2rem 0;">Đang tải dữ liệu hội thoại...</div>`;
   overlay.classList.add('active');
 
-  // Nạp cấu trúc layout thông số
+  // Nạp cấu trúc khung thông tin chi tiết
   let detailHtml = `
     <div class="sidebar-video-meta">
       <img src="${video.thumbnail}" alt="cover">
@@ -130,11 +144,14 @@ async function openVideoDetail(videoId) {
 
   // Gọi file JSON tĩnh chứa bình luận của riêng video đó
   try {
-    const commentsRes = await fetch(`data/comments/${videoId}.json`).then(r => r.json());
+    const commentsRes = await fetch(`/data/comments/${videoId}.json`).then(r => {
+      if (!r.ok) return fetch(`data/comments/${videoId}.json`).then(res => res.json());
+      return r.json();
+    });
     const commentsContainer = document.getElementById('sidebarCommentsContainer');
     
     if(!commentsRes || commentsRes.length === 0) {
-      commentsContainer.innerHTML = `<div style="color:var(--text-muted); font-size:0.875rem;">Video này chưa nhận được bình luận nào.</div>`;
+      commentsContainer.innerHTML = `<div style="color:var(--text-muted); font-size:0.875rem;">Video này hiện tại chưa có dữ liệu bình luận được lưu trữ.</div>`;
       return;
     }
 
@@ -143,7 +160,7 @@ async function openVideoDetail(videoId) {
       commentsHtml += `
         <div class="comment-card">
           <div class="comment-header">
-            <span>Tác giả ẩn danh</span>
+            <span>Người dùng ẩn danh</span>
             <span>👍 ${c.likeCount || 0}</span>
           </div>
           <div class="comment-body">${c.textDisplay}</div>
@@ -153,7 +170,7 @@ async function openVideoDetail(videoId) {
     commentsContainer.innerHTML = commentsHtml;
 
   } catch (err) {
-    document.getElementById('sidebarCommentsContainer').innerHTML = `<div style="color:var(--text-muted); font-size:0.875rem;">Không tìm thấy tệp hoặc dữ liệu bình luận trống.</div>`;
+    document.getElementById('sidebarCommentsContainer').innerHTML = `<div style="color:var(--text-muted); font-size:0.875rem;">Không tìm thấy tệp hoặc dữ liệu bình luận của video này trống.</div>`;
   }
 }
 
