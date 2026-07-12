@@ -28,6 +28,15 @@ const els = {
   metaUpdated: document.getElementById("metaUpdated"),
   modalOverlay: document.getElementById("modalOverlay"),
   modalClose: document.getElementById("modalClose"),
+  channelModalOverlay: document.getElementById("channelModalOverlay"),
+  channelModalClose: document.getElementById("channelModalClose"),
+  channelModalAvatar: document.getElementById("channelModalAvatar"),
+  channelModalName: document.getElementById("channelModalName"),
+  channelModalSub: document.getElementById("channelModalSub"),
+  channelModalGrid: document.getElementById("channelModalGrid"),
+  channelModalRevenue: document.getElementById("channelModalRevenue"),
+  channelRpmMin: document.getElementById("channelRpmMin"),
+  channelRpmMax: document.getElementById("channelRpmMax"),
   modalThumb: document.getElementById("modalThumb"),
   modalTitle: document.getElementById("modalTitle"),
   modalChannel: document.getElementById("modalChannel"),
@@ -254,7 +263,7 @@ function renderTable() {
           </div>
         </div>
       </td>
-      <td class="channel-cell">
+      <td class="channel-cell" data-channel-id="${v.channelId}">
         <img class="channel-cell__avatar" src="${v.channelThumbnail}" alt="" loading="lazy" />
         <span>${escapeHtml(v.channelTitle)}</span>
       </td>
@@ -270,6 +279,10 @@ function renderTable() {
 
   els.tbody.querySelectorAll(".comments-btn").forEach((btn) => {
     btn.addEventListener("click", () => openModal(btn.dataset.videoId));
+  });
+
+  els.tbody.querySelectorAll(".channel-cell").forEach((cell) => {
+    cell.addEventListener("click", () => openChannelModal(cell.dataset.channelId));
   });
 }
 
@@ -453,6 +466,100 @@ async function translateReply(replies, commentIdx, replyIdx) {
   }
 }
 
+// ---------- Channel stats modal ----------
+
+let currentChannelId = null;
+
+function openChannelModal(channelId) {
+  currentChannelId = channelId;
+  renderChannelModal();
+  els.channelModalOverlay.classList.add("open");
+}
+
+function closeChannelModal() {
+  els.channelModalOverlay.classList.remove("open");
+}
+
+function renderChannelModal() {
+  const videos = allVideos.filter((v) => v.channelId === currentChannelId);
+  if (!videos.length) return;
+  const c = videos[0];
+
+  els.channelModalAvatar.src = c.channelThumbnail;
+  els.channelModalName.textContent = c.channelTitle;
+  els.channelModalName.href = `https://www.youtube.com/channel/${c.channelId}`;
+  els.channelModalSub.textContent = `${fmtNumber(c.subscriberCount)} subscribers`;
+
+  const now = Date.now();
+  const day = 24 * 60 * 60 * 1000;
+  const totalViews = videos.reduce((s, v) => s + (v.viewCount || 0), 0);
+  const totalComments = videos.reduce((s, v) => s + (v.commentCount || 0), 0);
+  const views7d = videos
+    .filter((v) => now - new Date(v.publishedAt).getTime() <= 7 * day)
+    .reduce((s, v) => s + (v.viewCount || 0), 0);
+  const views30d = videos
+    .filter((v) => now - new Date(v.publishedAt).getTime() <= 30 * day)
+    .reduce((s, v) => s + (v.viewCount || 0), 0);
+
+  const dates = videos.map((v) => new Date(v.publishedAt).getTime()).sort((a, b) => a - b);
+  const spanDays = Math.max(1, (dates[dates.length - 1] - dates[0]) / day);
+  const videosPerWeek = (videos.length / spanDays) * 7;
+  const latestPublished = new Date(dates[dates.length - 1]);
+
+  const statCards = [
+    ["Subscribers", fmtNumber(c.subscriberCount)],
+    ["Tổng view kênh (all-time)", c.channelViewCount ? fmtNumber(c.channelViewCount) : "–"],
+    ["Tổng số video kênh", c.channelVideoCount ? fmtNumber(c.channelVideoCount) : "–"],
+    ["Video đang theo dõi", fmtNumber(videos.length)],
+    ["View trung bình / video", fmtNumber(Math.round(totalViews / videos.length))],
+    ["Bình luận trung bình / video", fmtNumber(Math.round(totalComments / videos.length))],
+    ["Tần suất đăng bài", `~${videosPerWeek.toFixed(1)} video/tuần`],
+    ["Video mới nhất", fmtDate(latestPublished.toISOString())],
+    ["View 7 ngày qua*", fmtNumber(views7d)],
+    ["View 30 ngày qua*", fmtNumber(views30d)],
+  ];
+
+  els.channelModalGrid.innerHTML = statCards
+    .map(
+      ([label, value]) => `
+    <div class="channel-stat">
+      <div class="channel-stat__label">${label}</div>
+      <div class="channel-stat__value">${value}</div>
+    </div>`
+    )
+    .join("");
+
+  renderChannelRevenue(views7d, views30d);
+}
+
+function renderChannelRevenue(views7d, views30d) {
+  let rpmMin = parseFloat(els.channelRpmMin.value) || 0;
+  let rpmMax = parseFloat(els.channelRpmMax.value) || 0;
+  if (rpmMin > rpmMax) [rpmMin, rpmMax] = [rpmMax, rpmMin];
+
+  const fmtMoney = (n) => `$${n.toFixed(2)}`;
+  const range = (views) => {
+    const lo = (views * rpmMin) / 1000;
+    const hi = (views * rpmMax) / 1000;
+    return rpmMin === rpmMax ? fmtMoney(lo) : `${fmtMoney(lo)} – ${fmtMoney(hi)}`;
+  };
+
+  const cards = [
+    ["Ước tính 7 ngày qua*", range(views7d)],
+    ["Ước tính 30 ngày qua*", range(views30d)],
+  ];
+
+  els.channelModalRevenue.innerHTML = cards
+    .map(
+      ([label, value]) => `
+    <div class="channel-stat channel-stat--money">
+      <div class="channel-stat__label">${label}</div>
+      <div class="channel-stat__value">${value}</div>
+    </div>`
+    )
+    .join("");
+}
+
 function closeModal() {
   els.modalOverlay.classList.remove("open");
 }
@@ -500,8 +607,21 @@ els.modalClose.addEventListener("click", closeModal);
 els.modalOverlay.addEventListener("click", (e) => {
   if (e.target === els.modalOverlay) closeModal();
 });
+els.channelModalClose.addEventListener("click", closeChannelModal);
+els.channelModalOverlay.addEventListener("click", (e) => {
+  if (e.target === els.channelModalOverlay) closeChannelModal();
+});
+els.channelRpmMin.addEventListener("input", () => {
+  if (currentChannelId) renderChannelModal();
+});
+els.channelRpmMax.addEventListener("input", () => {
+  if (currentChannelId) renderChannelModal();
+});
 document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") closeModal();
+  if (e.key === "Escape") {
+    closeModal();
+    closeChannelModal();
+  }
 });
 
 loadData();
