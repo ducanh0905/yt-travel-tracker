@@ -308,7 +308,7 @@ async function openModal(videoId) {
     <span>${fmtNumber(video.commentCount)} bình luận</span>
     <span>${fmtDate(video.publishedAt)}</span>
   `;
-  els.commentsList.innerHTML = `<div class="empty-state">Đang tải bình luận...</div>`;
+  els.commentsList.innerHTML = `<div class="empty-state"><span class="loading-plane">✈️</span> Đang tải bình luận...</div>`;
 
   try {
     const res = await fetch(`data/comments/${videoId}.json`, { cache: "no-store" });
