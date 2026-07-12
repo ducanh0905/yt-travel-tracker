@@ -142,6 +142,45 @@
   </div>
 </div>
 
+<div class="modal-overlay" id="channelModalOverlay">
+  <div class="modal modal--channel">
+    <button class="modal__close" id="channelModalClose" aria-label="Đóng">✕</button>
+    <div class="channel-modal__header">
+      <img id="channelModalAvatar" src="" alt="" class="channel-modal__avatar" />
+      <div>
+        <a id="channelModalName" class="channel-modal__name" href="#" target="_blank" rel="noopener">–</a>
+        <div class="channel-modal__sub" id="channelModalSub">–</div>
+      </div>
+    </div>
+
+    <div class="channel-modal__grid" id="channelModalGrid"></div>
+
+    <div class="channel-modal__revenue">
+      <div class="channel-modal__revenue-head">
+        <h3>💰 Doanh thu ước tính</h3>
+        <div class="channel-modal__rpm">
+          <label for="channelRpmMin">RPM giả định</label>
+          <span>$</span>
+          <input type="number" id="channelRpmMin" min="0" step="0.1" value="3" />
+          <span>–</span>
+          <span>$</span>
+          <input type="number" id="channelRpmMax" min="0" step="0.1" value="6" />
+          <span>/ 1.000 view</span>
+        </div>
+      </div>
+      <div class="channel-modal__revenue-grid" id="channelModalRevenue"></div>
+      <p class="channel-modal__disclaimer">
+        Đây chỉ là số ước tính tham khảo, tính bằng (lượt xem × RPM ÷ 1.000). Khoảng RPM mặc định
+        $3–$6 là mức tham khảo thô cho mảng du lịch, thị trường Tây Ban Nha (thực tế dao động khá rộng
+        tuỳ định dạng quảng cáo, tỷ lệ view bị chặn quảng cáo, mùa vụ...). "View 7/30 ngày" là tổng view
+        của các video được đăng trong khoảng thời gian đó (không phải view phát sinh mới trong khoảng
+        đó), vì hệ thống chỉ lưu số view cộng dồn hiện tại chứ không lưu lịch sử theo ngày. Bạn có thể
+        chỉnh khoảng RPM theo số liệu AdSense thực tế của kênh (nếu có) để ra khoảng số sát hơn.
+      </p>
+    </div>
+  </div>
+</div>
+
 <script src="app.js"></script>
 </body>
 </html>
