@@ -26,6 +26,13 @@ const els = {
   metaChannels: document.getElementById("metaChannels"),
   metaVideos: document.getElementById("metaVideos"),
   metaUpdated: document.getElementById("metaUpdated"),
+  fetchTriggerWrap: document.getElementById("fetchTriggerWrap"),
+  fetchTriggerBtn: document.getElementById("fetchTriggerBtn"),
+  fetchTriggerPanel: document.getElementById("fetchTriggerPanel"),
+  fetchPasswordInput: document.getElementById("fetchPasswordInput"),
+  fetchForceRefresh: document.getElementById("fetchForceRefresh"),
+  fetchTriggerSubmit: document.getElementById("fetchTriggerSubmit"),
+  fetchTriggerStatus: document.getElementById("fetchTriggerStatus"),
   modalOverlay: document.getElementById("modalOverlay"),
   modalClose: document.getElementById("modalClose"),
   channelModalOverlay: document.getElementById("channelModalOverlay"),
@@ -181,6 +188,73 @@ els.channelFilterBtn.addEventListener("click", (e) => {
 
 document.addEventListener("click", (e) => {
   if (!els.channelFilterWrap.contains(e.target)) toggleChannelPanel(false);
+  if (!els.fetchTriggerWrap.contains(e.target)) toggleFetchPanel(false);
+});
+
+function toggleFetchPanel(forceOpen) {
+  const isOpen = els.fetchTriggerWrap.classList.contains("open");
+  const shouldOpen = forceOpen !== undefined ? forceOpen : !isOpen;
+  els.fetchTriggerWrap.classList.toggle("open", shouldOpen);
+  if (shouldOpen) {
+    setFetchStatus("");
+    setTimeout(() => els.fetchPasswordInput.focus(), 50);
+  }
+}
+
+els.fetchTriggerBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  toggleFetchPanel();
+});
+
+function setFetchStatus(message, kind) {
+  els.fetchTriggerStatus.textContent = message;
+  els.fetchTriggerStatus.classList.toggle("visible", Boolean(message));
+  els.fetchTriggerStatus.classList.remove("fetch-trigger__status--ok", "fetch-trigger__status--error");
+  if (kind) els.fetchTriggerStatus.classList.add(`fetch-trigger__status--${kind}`);
+}
+
+async function submitFetchTrigger() {
+  const password = els.fetchPasswordInput.value;
+  if (!password) {
+    setFetchStatus("Nhập mật khẩu trước đã.", "error");
+    return;
+  }
+
+  els.fetchTriggerSubmit.disabled = true;
+  setFetchStatus("Đang gửi yêu cầu...", "");
+
+  try {
+    const res = await fetch("/api/trigger-fetch", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        password,
+        forceRefreshComments: els.fetchForceRefresh.checked,
+      }),
+    });
+    const data = await res.json().catch(() => ({}));
+
+    if (res.ok) {
+      setFetchStatus(
+        "Đã kích hoạt! Quá trình lấy dữ liệu chạy nền vài phút, tải lại trang sau đó để xem kết quả mới.",
+        "ok"
+      );
+      els.fetchPasswordInput.value = "";
+    } else if (res.status === 401) {
+      setFetchStatus("Sai mật khẩu.", "error");
+    } else {
+      setFetchStatus(data.error || "Có lỗi xảy ra, thử lại sau.", "error");
+    }
+  } catch (err) {
+    setFetchStatus("Không kết nối được tới server.", "error");
+  } finally {
+    els.fetchTriggerSubmit.disabled = false;
+  }
+}
+
+els.fetchTriggerSubmit.addEventListener("click", submitFetchTrigger);
+els.fetchPasswordInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") submitFetchTrigger();
 });
 
 els.selectAllChannels.addEventListener("click", () => {
@@ -626,75 +700,9 @@ document.addEventListener("keydown", (e) => {
 
 loadData();
 
-// ---------- Fetch-now button (triggers GitHub Actions via serverless function) ----------
-
-(function setupFetchButton() {
-  const fetchBtn = document.getElementById("fetchDataBtn");
-  const overlay = document.getElementById("fetchModalOverlay");
-  const closeBtn = document.getElementById("fetchModalClose");
-  const passwordInput = document.getElementById("fetchPasswordInput");
-  const submitBtn = document.getElementById("fetchSubmitBtn");
-  const statusMsg = document.getElementById("fetchStatusMsg");
-
-  if (!fetchBtn || !overlay) return;
-
-  function openFetchModal() {
-    overlay.classList.add("open");
-    passwordInput.value = "";
-    statusMsg.textContent = "";
-    setTimeout(() => passwordInput.focus(), 50);
-  }
-
-  function closeFetchModal() {
-    overlay.classList.remove("open");
-  }
-
-  fetchBtn.addEventListener("click", openFetchModal);
-  closeBtn.addEventListener("click", closeFetchModal);
-  overlay.addEventListener("click", (e) => {
-    if (e.target === overlay) closeFetchModal();
-  });
-  passwordInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") submitBtn.click();
-  });
-
-  submitBtn.addEventListener("click", async () => {
-    const password = passwordInput.value;
-    if (!password) {
-      statusMsg.style.color = "#f0654a";
-      statusMsg.textContent = "Vui lòng nhập mật khẩu.";
-      return;
-    }
-
-    submitBtn.disabled = true;
-    statusMsg.style.color = "var(--text-muted)";
-    statusMsg.textContent = "Đang gửi yêu cầu...";
-
-    try {
-      const res = await fetch("/api/fetch", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password }),
-      });
-      const data = await res.json().catch(() => ({}));
-
-      if (res.ok && data.ok) {
-        statusMsg.style.color = "var(--teal)";
-        statusMsg.textContent = "Đã kích hoạt! Dữ liệu mới sẽ có sau khoảng 1–3 phút, tải lại trang sau đó.";
-      } else {
-        statusMsg.style.color = "#f0654a";
-        statusMsg.textContent = data.error || "Có lỗi xảy ra, thử lại sau.";
-      }
-    } catch (err) {
-      statusMsg.style.color = "#f0654a";
-      statusMsg.textContent = "Không kết nối được server.";
-    } finally {
-      submitBtn.disabled = false;
-    }
-  });
-})();
-
 // ---------- AI chat (Gemini) - client-side only, user supplies their own API key ----------
+// This block is fully additive and does not touch any of the Fetch-trigger
+// or table/filter code above.
 
 (function setupAIChat() {
   const KEY_STORAGE = "gemini_api_key";
@@ -734,6 +742,9 @@ loadData();
     input.dataset.mode = "apikey";
   }
 
+  // Uses whatever is currently displayed on the table (respecting the
+  // search box, channel filter, and date-range filter that already exist),
+  // not the entire dataset.
   function currentFilteredList() {
     return typeof filteredVideos !== "undefined" && filteredVideos.length
       ? filteredVideos
@@ -767,13 +778,8 @@ loadData();
   input.addEventListener("keydown", (e) => {
     if (e.key === "Enter") sendBtn.click();
   });
-  dataModeToggle.addEventListener("change", () => {
-    updateDataModeCount();
-  });
+  dataModeToggle.addEventListener("change", updateDataModeCount);
 
-  // Compact one-line-per-video overview of whatever list is passed in (the
-  // CURRENTLY FILTERED/SEARCHED videos, not the whole dataset), so Gemini can
-  // answer aggregate questions scoped to what's on screen right now.
   function buildFullVideoList(list) {
     return list
       .map((v) => {
@@ -786,7 +792,6 @@ loadData();
       .join("\n");
   }
 
-  // Per-channel totals within the given (filtered) list.
   function buildChannelSummary(list) {
     const map = new Map();
     for (const v of list) {
@@ -818,9 +823,7 @@ loadData();
       .join("\n");
   }
 
-  // Pulls every comment for every video in the given (filtered) list - no
-  // topic filtering within that scope. Since the scope is now whatever is
-  // currently searched/filtered on the table (usually small), this stays fast.
+  // Pulls every comment for every video in the given (already filtered) list.
   async function gatherCommentContext(list, onProgress) {
     let done = 0;
     const parts = await Promise.all(
@@ -876,7 +879,7 @@ loadData();
     );
   }
 
-  async function handleSend() {
+  async function handleAISend() {
     const text = input.value.trim();
     if (!text) return;
 
@@ -936,10 +939,8 @@ CÂU HỎI: ${text}`;
       const answer = await callGemini(apiKey, contents);
       thinkingEl.textContent = answer;
 
-      // Only store the clean, un-augmented turns in history.
       conversationHistory.push({ role: "user", parts: [{ text }] });
       conversationHistory.push({ role: "model", parts: [{ text: answer }] });
-      // Keep history from growing unbounded.
       if (conversationHistory.length > 20) {
         conversationHistory = conversationHistory.slice(-20);
       }
@@ -950,5 +951,5 @@ CÂU HỎI: ${text}`;
     }
   }
 
-  sendBtn.addEventListener("click", handleSend);
+  sendBtn.addEventListener("click", handleAISend);
 })();
