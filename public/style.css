@@ -1207,6 +1207,70 @@ thead .col-num,
   transition: color 0.2s var(--ease), border-color 0.2s var(--ease), transform 0.2s var(--ease);
 }
 .ai-chat-panel__reset-key:hover { color: var(--teal); border-color: var(--teal); transform: rotate(45deg); }
+#aiChatNewBtn:hover { color: var(--teal); border-color: var(--teal); transform: none; }
+#aiChatHistoryBtn:hover { color: var(--violet, #a78bfa); border-color: var(--violet, #a78bfa); transform: none; }
+
+.ai-chat-history {
+  display: none;
+  max-height: 220px;
+  overflow-y: auto;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+}
+.ai-chat-history.open { display: block; }
+
+.ai-chat-history__empty {
+  padding: 16px;
+  font-size: 12px;
+  color: var(--text-faint);
+  text-align: center;
+}
+.ai-chat-history__empty.hidden { display: none; }
+
+.ai-chat-history__list { display: flex; flex-direction: column; }
+
+.ai-chat-history__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  cursor: pointer;
+  transition: background 0.15s var(--ease);
+}
+.ai-chat-history__item:hover { background: var(--panel-raised); }
+.ai-chat-history__item.active { background: var(--teal-soft); }
+.ai-chat-history__item:last-child { border-bottom: none; }
+
+.ai-chat-history__item-main { flex: 1; min-width: 0; }
+
+.ai-chat-history__item-title {
+  font-size: 12.5px;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ai-chat-history__item-date {
+  font-size: 10.5px;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+  margin-top: 2px;
+}
+
+.ai-chat-history__item-delete {
+  background: none;
+  border: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  font-size: 13px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  transition: color 0.15s var(--ease), background 0.15s var(--ease);
+}
+.ai-chat-history__item-delete:hover { color: var(--amber); background: var(--amber-soft); }
 
 .ai-chat-panel__messages {
   flex: 1;
