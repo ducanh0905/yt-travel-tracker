@@ -706,10 +706,18 @@ loadData();
 
 (function setupAIChat() {
   const KEY_STORAGE = "gemini_api_key";
+  const CHATS_STORAGE = "yt_tracker_ai_chats_v1";
+  const ACTIVE_CHAT_STORAGE = "yt_tracker_ai_active_chat_v1";
+
   const fab = document.getElementById("aiChatBtn");
   const panel = document.getElementById("aiChatPanel");
   const closeBtn = document.getElementById("aiChatClose");
   const resetKeyBtn = document.getElementById("aiChatResetKey");
+  const newChatBtn = document.getElementById("aiChatNewBtn");
+  const historyBtn = document.getElementById("aiChatHistoryBtn");
+  const historyPanel = document.getElementById("aiChatHistoryPanel");
+  const historyEmpty = document.getElementById("aiChatHistoryEmpty");
+  const historyList = document.getElementById("aiChatHistoryList");
   const messagesEl = document.getElementById("aiChatMessages");
   const input = document.getElementById("aiChatInput");
   const sendBtn = document.getElementById("aiChatSend");
@@ -722,19 +730,162 @@ loadData();
   const setApiKey = (key) => localStorage.setItem(KEY_STORAGE, key);
   const clearApiKey = () => localStorage.removeItem(KEY_STORAGE);
 
-  // Keeps the conversation feeling like a real chat. Only the plain text of
-  // each turn is stored here - the (possibly large) data context is added
-  // fresh to just the latest turn each time, not saved into history, so it
-  // doesn't get resent over and over as the conversation grows.
-  let conversationHistory = [];
+  // ---------- Chat persistence (all conversations saved in this browser) ----------
 
-  function appendMessage(text, who) {
+  function loadAllChats() {
+    try {
+      const raw = localStorage.getItem(CHATS_STORAGE);
+      const parsed = raw ? JSON.parse(raw) : [];
+      return Array.isArray(parsed) ? parsed : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function saveAllChats(chats) {
+    try {
+      localStorage.setItem(CHATS_STORAGE, JSON.stringify(chats));
+    } catch {
+      // Storage full or unavailable (private browsing etc.) - fail silently,
+      // the chat still works for the current session, just won't persist.
+    }
+  }
+
+  function makeChatId() {
+    return `chat_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+  }
+
+  function createChatRecord() {
+    const now = Date.now();
+    return { id: makeChatId(), title: "Đoạn chat mới", createdAt: now, updatedAt: now, history: [], messages: [] };
+  }
+
+  let allChats = loadAllChats();
+  let activeChatId = localStorage.getItem(ACTIVE_CHAT_STORAGE) || "";
+  let activeChat = allChats.find((c) => c.id === activeChatId) || null;
+
+  // Mirrors activeChat.history, kept as a separate variable so the rest of
+  // the send/receive logic below (unchanged) keeps working exactly as before.
+  let conversationHistory = activeChat ? activeChat.history : [];
+
+  function persistActiveChat() {
+    if (!activeChat) return;
+    activeChat.updatedAt = Date.now();
+    const idx = allChats.findIndex((c) => c.id === activeChat.id);
+    if (idx === -1) allChats.unshift(activeChat);
+    else allChats[idx] = activeChat;
+    saveAllChats(allChats);
+    localStorage.setItem(ACTIVE_CHAT_STORAGE, activeChat.id);
+  }
+
+  function ensureActiveChat() {
+    if (activeChat) return activeChat;
+    activeChat = createChatRecord();
+    conversationHistory = activeChat.history;
+    return activeChat;
+  }
+
+  function loadChatIntoView(chat) {
+    activeChat = chat;
+    conversationHistory = chat.history;
+    messagesEl.innerHTML = "";
+    for (const m of chat.messages) appendMessage(m.text, m.who, false);
+    localStorage.setItem(ACTIVE_CHAT_STORAGE, chat.id);
+  }
+
+  function startNewChat() {
+    activeChat = createChatRecord();
+    conversationHistory = activeChat.history;
+    messagesEl.innerHTML = "";
+    persistActiveChat();
+    renderHistoryList();
+    input.focus();
+  }
+
+  function deleteChat(id, evt) {
+    if (evt) evt.stopPropagation();
+    allChats = allChats.filter((c) => c.id !== id);
+    saveAllChats(allChats);
+    if (activeChat && activeChat.id === id) {
+      startNewChat();
+    }
+    renderHistoryList();
+  }
+
+  function fmtChatDate(ts) {
+    const d = new Date(ts);
+    return d.toLocaleString("vi-VN", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+  }
+
+  function renderHistoryList() {
+    const sorted = [...allChats].sort((a, b) => b.updatedAt - a.updatedAt);
+    historyEmpty.classList.toggle("hidden", sorted.length > 0);
+    historyList.innerHTML = sorted
+      .map(
+        (c) => `
+      <div class="ai-chat-history__item ${activeChat && c.id === activeChat.id ? "active" : ""}" data-chat-id="${c.id}">
+        <div class="ai-chat-history__item-main">
+          <div class="ai-chat-history__item-title">${escapeHtml(c.title || "Đoạn chat mới")}</div>
+          <div class="ai-chat-history__item-date">${fmtChatDate(c.updatedAt)}</div>
+        </div>
+        <button class="ai-chat-history__item-delete" data-delete-id="${c.id}" title="Xoá">✕</button>
+      </div>`
+      )
+      .join("");
+
+    historyList.querySelectorAll(".ai-chat-history__item").forEach((el) => {
+      el.addEventListener("click", (e) => {
+        if (e.target.closest(".ai-chat-history__item-delete")) return;
+        const chat = allChats.find((c) => c.id === el.dataset.chatId);
+        if (chat) {
+          loadChatIntoView(chat);
+          toggleHistoryPanel(false);
+        }
+      });
+    });
+    historyList.querySelectorAll(".ai-chat-history__item-delete").forEach((btn) => {
+      btn.addEventListener("click", (e) => deleteChat(btn.dataset.deleteId, e));
+    });
+  }
+
+  function toggleHistoryPanel(forceOpen) {
+    const isOpen = historyPanel.classList.contains("open");
+    const shouldOpen = forceOpen !== undefined ? forceOpen : !isOpen;
+    if (shouldOpen) renderHistoryList();
+    historyPanel.classList.toggle("open", shouldOpen);
+  }
+
+  newChatBtn.addEventListener("click", startNewChat);
+  historyBtn.addEventListener("click", () => toggleHistoryPanel());
+
+  function appendMessage(text, who, persist = true) {
     const div = document.createElement("div");
     div.className = `ai-msg ai-msg--${who}`;
     div.textContent = text;
     messagesEl.appendChild(div);
     messagesEl.scrollTop = messagesEl.scrollHeight;
+    if (persist && activeChat) {
+      activeChat.messages.push({ text, who });
+      div.dataset.msgIndex = activeChat.messages.length - 1;
+      persistActiveChat();
+    }
     return div;
+  }
+
+  // Updates a message bubble's final text (e.g. replacing "Đang trả lời..."
+  // with the real answer) and, if that bubble was persisted, patches the
+  // saved copy too so reloading history shows the real answer, not the
+  // transient "thinking..." placeholder.
+  function updateMessage(div, newText) {
+    div.textContent = newText;
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    if (activeChat && div.dataset.msgIndex !== undefined) {
+      const idx = Number(div.dataset.msgIndex);
+      if (activeChat.messages[idx]) {
+        activeChat.messages[idx].text = newText;
+        persistActiveChat();
+      }
+    }
   }
 
   function promptForApiKey() {
@@ -759,12 +910,20 @@ loadData();
 
   function openPanel() {
     panel.classList.add("open");
+    ensureActiveChat();
     if (!getApiKey()) promptForApiKey();
     updateDataModeCount();
     setTimeout(() => input.focus(), 50);
   }
   function closePanel() {
     panel.classList.remove("open");
+    toggleHistoryPanel(false);
+  }
+
+  // Restore whatever conversation was last active in this browser, if any,
+  // so re-opening the panel shows it without waiting for the user to click.
+  if (activeChat) {
+    for (const m of activeChat.messages) appendMessage(m.text, m.who, false);
   }
 
   fab.addEventListener("click", openPanel);
@@ -922,6 +1081,7 @@ loadData();
       return;
     }
 
+    ensureActiveChat();
     appendMessage(text, "user");
     input.value = "";
 
@@ -967,15 +1127,23 @@ CÂU HỎI: ${text}`;
       ];
 
       const answer = await callGemini(apiKey, contents);
-      thinkingEl.textContent = answer;
+      updateMessage(thinkingEl, answer);
 
       conversationHistory.push({ role: "user", parts: [{ text }] });
       conversationHistory.push({ role: "model", parts: [{ text: answer }] });
       if (conversationHistory.length > 20) {
-        conversationHistory = conversationHistory.slice(-20);
+        conversationHistory.splice(0, conversationHistory.length - 20);
+      }
+      if (activeChat) {
+        activeChat.history = conversationHistory;
+        if (!activeChat.title || activeChat.title === "Đoạn chat mới") {
+          activeChat.title = text.length > 42 ? text.slice(0, 42) + "…" : text;
+        }
+        persistActiveChat();
+        renderHistoryList();
       }
     } catch (err) {
-      thinkingEl.textContent = err.message || "Không gọi được Gemini API. Kiểm tra lại kết nối mạng hoặc API key.";
+      updateMessage(thinkingEl, err.message || "Không gọi được Gemini API. Kiểm tra lại kết nối mạng hoặc API key.");
     } finally {
       sendBtn.disabled = false;
     }
