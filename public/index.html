@@ -224,9 +224,19 @@
       <div class="ai-chat-panel__sub">Hỏi bất cứ điều gì - có sẵn dữ liệu kênh/video/bình luận</div>
     </div>
     <div class="ai-chat-panel__header-actions">
+      <button class="ai-chat-panel__reset-key" id="aiChatHistoryBtn" title="Lịch sử chat">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+      </button>
+      <button class="ai-chat-panel__reset-key" id="aiChatNewBtn" title="Đoạn chat mới">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+      </button>
       <button class="ai-chat-panel__reset-key" id="aiChatResetKey" title="Đổi API key">⚙</button>
       <button class="modal__close" id="aiChatClose" aria-label="Đóng">✕</button>
     </div>
+  </div>
+  <div class="ai-chat-history" id="aiChatHistoryPanel">
+    <div class="ai-chat-history__empty" id="aiChatHistoryEmpty">Chưa có đoạn chat nào được lưu.</div>
+    <div class="ai-chat-history__list" id="aiChatHistoryList"></div>
   </div>
   <div class="ai-chat-panel__messages" id="aiChatMessages"></div>
   <div class="ai-chat-panel__mode-row">
