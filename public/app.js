@@ -850,32 +850,62 @@ loadData();
     return parts.filter(Boolean).join("\n\n---\n\n");
   }
 
-  async function callGemini(apiKey, contents) {
-    const model = "gemini-1.5-flash-latest";
-    const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(
-        apiKey
-      )}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ contents }),
-      }
-    );
-    const data = await res.json().catch(() => null);
+  // Google regularly retires Gemini model names (1.5 and 2.0-flash are both
+  // already shut down as of mid-2026). Try a short list of currently-known
+  // working names in order, falling back to the next one on a 404, instead
+  // of hardcoding a single model that can silently break again later.
+  const MODEL_CANDIDATES = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite"];
 
-    if (!res.ok) {
-      throw new Error(
-        `Lỗi từ Gemini (${res.status}): ${data?.error?.message || "không rõ nguyên nhân"}. Kiểm tra lại API key hoặc thử lại sau.`
+  async function callGemini(apiKey, contents) {
+    let lastError = null;
+
+    for (const model of MODEL_CANDIDATES) {
+      let res, data;
+      try {
+        res = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(
+            apiKey
+          )}`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ contents }),
+          }
+        );
+        data = await res.json().catch(() => null);
+      } catch (networkErr) {
+        lastError = new Error("Không kết nối được tới Gemini API. Kiểm tra lại mạng.");
+        continue;
+      }
+
+      if (res.ok) {
+        const blockReason = data?.promptFeedback?.blockReason;
+        if (blockReason) {
+          throw new Error(`Gemini từ chối trả lời (lý do: ${blockReason}). Thử diễn đạt lại câu hỏi.`);
+        }
+        return (
+          data?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") ||
+          "Gemini không trả về nội dung nào."
+        );
+      }
+
+      // Model not found/not supported - try the next candidate. Any other
+      // error (bad key, quota, etc.) should surface immediately instead of
+      // silently trying more models.
+      const isModelNotFound = res.status === 404 || /not found|not supported/i.test(data?.error?.message || "");
+      if (!isModelNotFound) {
+        throw new Error(
+          `Lỗi từ Gemini (${res.status}): ${data?.error?.message || "không rõ nguyên nhân"}. Kiểm tra lại API key hoặc thử lại sau.`
+        );
+      }
+      lastError = new Error(
+        `Model "${model}" không còn khả dụng (${data?.error?.message || res.status}).`
       );
     }
-    const blockReason = data?.promptFeedback?.blockReason;
-    if (blockReason) {
-      throw new Error(`Gemini từ chối trả lời (lý do: ${blockReason}). Thử diễn đạt lại câu hỏi.`);
-    }
-    return (
-      data?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") ||
-      "Gemini không trả về nội dung nào."
+
+    throw new Error(
+      (lastError?.message ? lastError.message + " " : "") +
+        "Không có model Gemini nào trong danh sách còn hoạt động - Google có thể đã đổi tên model, thử lại sau hoặc báo để cập nhật danh sách model."
     );
   }
 
