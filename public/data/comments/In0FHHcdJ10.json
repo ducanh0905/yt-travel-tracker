@@ -9,8 +9,17 @@
       "text": "Número 2",
       "likeCount": 0,
       "publishedAt": "2026-07-14T03:35:33Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgywFJA8qDRkBYKIcct4AaABAg.AZE2JwrVr4kAZENAFLFzwR",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por tu comentario, me alegra que te haya gustado el número 2. ¿Qué fue lo que más te llamó la atención?",
+          "likeCount": 0,
+          "publishedAt": "2026-07-14T06:37:43Z"
+        }
+      ]
     },
     {
       "id": "UgxfplqFglCddYOZxgp4AaABAg",
