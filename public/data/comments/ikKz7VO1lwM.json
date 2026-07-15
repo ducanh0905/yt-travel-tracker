@@ -9,8 +9,17 @@
       "text": "Elijo 3",
       "likeCount": 0,
       "publishedAt": "2026-07-14T10:02:02Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwFKKJ6hor0gRZVoPp4AaABAg.AZEjYgYUpIGAZGVuc4Hze1",
+          "author": "@MundoDescifrado.001",
+          "authorImage": "https://yt3.ggpht.com/2ClRV2wxM2cwbUDsPtBKGjHdVgSqnjUFMJ9BBHOGAg8IMyTGgoY9RkJz7FLmF3indjQjkOqKJg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Gracias por ver nuestro video!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-15T02:32:34Z"
+        }
+      ]
     },
     {
       "id": "UgxKybqTzvqgM5IZiD94AaABAg",
