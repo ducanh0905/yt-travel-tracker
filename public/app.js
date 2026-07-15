@@ -1,5 +1,3 @@
-// Multi-market placeholder
-const CURRENT_MARKET="tbn";
 // public/app.js
 
 let allVideos = [];
