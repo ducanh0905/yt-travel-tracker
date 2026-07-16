@@ -13,6 +13,12 @@
 // Comments are shared across lists in public/data/comments/<videoId>.json
 // since a comment file only depends on the video, not which list found it.
 //
+// Each video record also gets:
+//   viewsPerHour        - view velocity (see computeViewsPerHour() below for the
+//                          "recent vs lifetime" logic)
+//   viewsPerHourSource   - "recent" (real delta since last fetch) or "lifetime"
+//                          (fallback average, used only the first time a video is seen)
+//
 // Run locally:   YOUTUBE_API_KEY=xxx node scripts/fetch-data.mjs
 // Run in CI:      see .github/workflows/fetch-data.yml
 //
@@ -330,6 +336,42 @@ async function loadPreviousVideos(listName) {
   }
 }
 
+async function loadPreviousFetchTime(listName) {
+  try {
+    const raw = await readFile(metaFileFor(listName), "utf-8");
+    const meta = JSON.parse(raw);
+    return meta.lastUpdated ? new Date(meta.lastUpdated) : null;
+  } catch {
+    return null;
+  }
+}
+
+// Views/hour has two flavors:
+//  - "recent": (viewCount now - viewCount at last successful fetch) / hours between
+//    the two fetches. This is what actually shows "is this video hot RIGHT NOW",
+//    including old videos that suddenly spike again. Needs a previous data point.
+//  - "lifetime": viewCount / hours since publishedAt. Used as a fallback the first
+//    time we ever see a video (no previous data point to diff against yet). It's a
+//    lifetime average, not a velocity, so it under-reports spikes on older videos -
+//    but it's the only number available until the next fetch gives us a real delta.
+function computeViewsPerHour(video, prevVideo, previousFetchTime, now) {
+  if (prevVideo && previousFetchTime) {
+    const hoursBetweenFetches = (now - previousFetchTime) / 3600000;
+    if (hoursBetweenFetches >= 0.5) {
+      const delta = video.viewCount - prevVideo.viewCount;
+      return {
+        viewsPerHour: Math.round(Math.max(0, delta) / hoursBetweenFetches),
+        viewsPerHourSource: "recent",
+      };
+    }
+  }
+  const hoursSincePublish = Math.max((now - new Date(video.publishedAt)) / 3600000, 1);
+  return {
+    viewsPerHour: Math.round(video.viewCount / hoursSincePublish),
+    viewsPerHourSource: "lifetime",
+  };
+}
+
 async function loadChannelMap(listName) {
   try {
     const raw = await readFile(channelMapFileFor(listName), "utf-8");
@@ -361,6 +403,8 @@ async function fetchList(listName, rawChannels) {
   console.log(`\n########## Danh sách: ${listName} (${rawChannels.length} kênh) ##########`);
 
   const previousVideos = await loadPreviousVideos(listName);
+  const previousFetchTime = await loadPreviousFetchTime(listName);
+  const now = new Date();
   const channelMap = await loadChannelMap(listName); // rawChannel -> channelId, from last successful resolve
   const allVideos = [];
   const errors = [];
@@ -387,6 +431,9 @@ async function fetchList(listName, rawChannels) {
       const stats = await getVideoStats(videoIds);
 
       for (const v of stats) {
+        const prev = previousVideos.get(v.videoId);
+        const { viewsPerHour, viewsPerHourSource } = computeViewsPerHour(v, prev, previousFetchTime, now);
+
         allVideos.push({
           ...v,
           channelId: channel.channelId,
@@ -395,9 +442,10 @@ async function fetchList(listName, rawChannels) {
           subscriberCount: channel.subscriberCount,
           channelViewCount: channel.channelViewCount,
           channelVideoCount: channel.channelVideoCount,
+          viewsPerHour,
+          viewsPerHourSource,
         });
 
-        const prev = previousVideos.get(v.videoId);
         const needsCommentRefresh =
           FORCE_REFRESH_COMMENTS ||
           !prev ||
