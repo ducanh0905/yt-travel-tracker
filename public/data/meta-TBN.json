@@ -1,15 +1,16 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-07-16T01:16:44.801Z",
+  "lastUpdated": "2026-07-16T01:34:04.769Z",
   "channelCount": 18,
   "videoCount": 0,
-  "quotaUnitsUsed": 23,
-  "apiKeysConfigured": 2,
+  "quotaUnitsUsed": 20,
+  "apiKeysConfigured": 3,
   "allKeysExhausted": true,
+  "usedCachedFallback": false,
   "errors": [
     {
       "channel": "https://www.youtube.com/@ExploralosPa%C3%ADses1",
-      "error": "playlistItems failed: quotaExceeded"
+      "error": "channels failed: quotaExceeded"
     },
     {
       "channel": "https://www.youtube.com/@CalleSinRetorno",
@@ -21,7 +22,7 @@
     },
     {
       "channel": "https://www.youtube.com/@WorldstoDiscover24",
-      "error": "playlistItems failed: quotaExceeded"
+      "error": "channels failed: quotaExceeded"
     },
     {
       "channel": "https://www.youtube.com/@MundoelporAventuras",
@@ -73,11 +74,11 @@
     },
     {
       "channel": "https://www.youtube.com/@BeastFinance7",
-      "error": "playlistItems failed: quotaExceeded"
+      "error": "channels failed: quotaExceeded"
     },
     {
       "channel": "https://www.youtube.com/@BelloMundo-Br",
-      "error": "playlistItems failed: quotaExceeded"
+      "error": "channels failed: quotaExceeded"
     }
   ],
   "replyErrors": []
