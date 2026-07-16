@@ -2,8 +2,7 @@ name: Fetch YouTube Data
 
 on:
   schedule:
-    - cron: "0 23 * * *"
-    - cron: "0 11 * * *"
+    - cron: "0 23 * * *" # 23:00 UTC = 06:00 giờ Việt Nam, chạy 1 lần/ngày
   workflow_dispatch:
     inputs:
       force_refresh_comments:
