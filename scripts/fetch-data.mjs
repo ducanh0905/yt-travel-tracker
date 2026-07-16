@@ -24,6 +24,11 @@
 //
 // Config via env vars (all optional):
 //   MAX_VIDEOS_PER_CHANNEL   default 50   - how many most-recent videos to track per channel
+//   FULL_CHANNEL_HISTORY     default false - when true, ignores MAX_VIDEOS_PER_CHANNEL and
+//                            pulls every video in each channel's uploads playlist (full
+//                            back-catalog, not just the most recent ones). Uses more quota -
+//                            meant for an occasional manual "fetch toàn bộ" run, not every
+//                            scheduled run.
 //   MAX_COMMENTS_PER_VIDEO   default 100  - how many top-level comments to store per video
 //   MAX_REPLIES_PER_COMMENT  default 20   - how many replies to store per top-level comment
 //   COMMENT_ORDER            default "relevance" (or "time") - ignored when
@@ -68,6 +73,10 @@ if (API_KEYS.length < 2) {
 }
 
 const MAX_VIDEOS_PER_CHANNEL = parseInt(process.env.MAX_VIDEOS_PER_CHANNEL || "50", 10);
+const FULL_CHANNEL_HISTORY = /^true$/i.test(process.env.FULL_CHANNEL_HISTORY || "");
+if (FULL_CHANNEL_HISTORY) {
+  console.log("FULL_CHANNEL_HISTORY=true - sẽ lấy TOÀN BỘ video của mỗi kênh (bỏ qua giới hạn MAX_VIDEOS_PER_CHANNEL).");
+}
 const MAX_COMMENTS_PER_VIDEO = parseInt(process.env.MAX_COMMENTS_PER_VIDEO || "100", 10);
 const MAX_REPLIES_PER_COMMENT = parseInt(process.env.MAX_REPLIES_PER_COMMENT || "20", 10);
 const COMMENT_ORDER = process.env.COMMENT_ORDER || "relevance";
@@ -186,18 +195,19 @@ async function resolveChannel(raw) {
 async function getRecentVideoIds(uploadsPlaylistId, max) {
   const ids = [];
   let pageToken = "";
-  while (ids.length < max) {
+  while (max === Infinity || ids.length < max) {
+    const remaining = max === Infinity ? 50 : max - ids.length;
     const json = await apiGetWithRetry("playlistItems", {
       part: "contentDetails",
       playlistId: uploadsPlaylistId,
-      maxResults: String(Math.min(50, max - ids.length)),
+      maxResults: String(Math.min(50, remaining)),
       ...(pageToken ? { pageToken } : {}),
     });
     for (const it of json.items || []) ids.push(it.contentDetails.videoId);
     if (!json.nextPageToken) break;
     pageToken = json.nextPageToken;
   }
-  return ids.slice(0, max);
+  return max === Infinity ? ids : ids.slice(0, max);
 }
 
 function chunk(arr, size) {
@@ -425,7 +435,10 @@ async function fetchList(listName, rawChannels) {
       channelMap[rawChannel] = channel.channelId;
       console.log(`Resolved: ${channel.channelTitle} (${channel.channelId})`);
 
-      const videoIds = await getRecentVideoIds(channel.uploadsPlaylistId, MAX_VIDEOS_PER_CHANNEL);
+      const videoIds = await getRecentVideoIds(
+        channel.uploadsPlaylistId,
+        FULL_CHANNEL_HISTORY ? Infinity : MAX_VIDEOS_PER_CHANNEL
+      );
       console.log(`Found ${videoIds.length} videos`);
 
       const stats = await getVideoStats(videoIds);
