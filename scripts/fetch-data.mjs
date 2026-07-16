@@ -47,6 +47,20 @@ if (API_KEYS.length === 0) {
 let apiKeyIndex = 0;
 let keysExhausted = false; // true once every key has hit quotaExceeded
 
+// Log this clearly at startup - the #1 cause of "key 2 never gets used" bug
+// reports is that the workflow only passes YOUTUBE_API_KEY (singular) as an
+// env var, so this array only ever has 1 entry no matter how many secrets
+// exist in GitHub. Check this line in the Action logs first when debugging.
+console.log(
+  `Loaded ${API_KEYS.length} API key(s): ${API_KEYS.map((k) => k.slice(0, 4) + "…" + k.slice(-4)).join(", ")}`
+);
+if (API_KEYS.length < 2) {
+  console.log(
+    `  (Chỉ có 1 key - nếu bạn nghĩ mình đã cấu hình nhiều key, kiểm tra workflow đang set biến ` +
+      `YOUTUBE_API_KEYS (số nhiều, cách nhau dấu phẩy) chứ không phải YOUTUBE_API_KEY.)`
+  );
+}
+
 const MAX_VIDEOS_PER_CHANNEL = parseInt(process.env.MAX_VIDEOS_PER_CHANNEL || "50", 10);
 const MAX_COMMENTS_PER_VIDEO = parseInt(process.env.MAX_COMMENTS_PER_VIDEO || "100", 10);
 const MAX_REPLIES_PER_COMMENT = parseInt(process.env.MAX_REPLIES_PER_COMMENT || "20", 10);
@@ -60,6 +74,10 @@ const COMMENTS_DIR = path.join(DATA_DIR, "comments");
 const CHANNELS_FILE = path.join(ROOT, "channels.json");
 const videosFileFor = (listName) => path.join(DATA_DIR, `videos-${listName}.json`);
 const metaFileFor = (listName) => path.join(DATA_DIR, `meta-${listName}.json`);
+// Remembers rawChannel -> channelId even across a run where resolveChannel()
+// itself failed (e.g. quota ran out before we could even resolve it), so a
+// later failed run can still find that channel's previously-cached videos.
+const channelMapFileFor = (listName) => path.join(DATA_DIR, `channel-map-${listName}.json`);
 
 let quotaUnits = 0;
 const API_BASE = "https://www.googleapis.com/youtube/v3";
@@ -312,6 +330,19 @@ async function loadPreviousVideos(listName) {
   }
 }
 
+async function loadChannelMap(listName) {
+  try {
+    const raw = await readFile(channelMapFileFor(listName), "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return {};
+  }
+}
+
+async function saveChannelMap(listName, map) {
+  await writeFile(channelMapFileFor(listName), JSON.stringify(map, null, 2));
+}
+
 // Normalizes channels.json into { listName: [rawChannel, ...] } pairs.
 // Supports the current named-lists object format, e.g. { "TBN": [...], "4K": [...] },
 // and also accepts a plain array (treated as a single implicit "default" list)
@@ -330,13 +361,24 @@ async function fetchList(listName, rawChannels) {
   console.log(`\n########## Danh sách: ${listName} (${rawChannels.length} kênh) ##########`);
 
   const previousVideos = await loadPreviousVideos(listName);
+  const channelMap = await loadChannelMap(listName); // rawChannel -> channelId, from last successful resolve
   const allVideos = [];
   const errors = [];
+  let usedFallback = false;
+
+  // Pulls this channel's videos from the last successful run (matched by
+  // channelId) so a failed fetch doesn't wipe out previously-good data.
+  function fallbackVideosFor(channelId) {
+    if (!channelId) return [];
+    return [...previousVideos.values()].filter((v) => v.channelId === channelId);
+  }
 
   for (const rawChannel of rawChannels) {
+    let channel = null;
     try {
       console.log(`\n=== Channel: ${rawChannel} ===`);
-      const channel = await resolveChannel(rawChannel);
+      channel = await resolveChannel(rawChannel);
+      channelMap[rawChannel] = channel.channelId;
       console.log(`Resolved: ${channel.channelTitle} (${channel.channelId})`);
 
       const videoIds = await getRecentVideoIds(channel.uploadsPlaylistId, MAX_VIDEOS_PER_CHANNEL);
@@ -385,10 +427,25 @@ async function fetchList(listName, rawChannels) {
         }
       }
     } catch (err) {
-      console.error(`! Failed channel "${rawChannel}": ${err.message}`);
-      errors.push({ channel: rawChannel, error: err.message });
+      // Don't just drop this channel - fall back to whatever we had for it
+      // last successful run, so a quota blip doesn't wipe the site's data.
+      const knownChannelId = channel?.channelId || channelMap[rawChannel];
+      const fallback = fallbackVideosFor(knownChannelId);
+      if (fallback.length) {
+        allVideos.push(...fallback);
+        usedFallback = true;
+        console.error(
+          `! Failed channel "${rawChannel}": ${err.message} - dùng lại ${fallback.length} video đã lưu từ lần chạy trước.`
+        );
+        errors.push({ channel: rawChannel, error: err.message, usedCachedFallback: true, fallbackVideoCount: fallback.length });
+      } else {
+        console.error(`! Failed channel "${rawChannel}": ${err.message}`);
+        errors.push({ channel: rawChannel, error: err.message });
+      }
     }
   }
+
+  await saveChannelMap(listName, channelMap);
 
   allVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   await writeFile(videosFileFor(listName), JSON.stringify(allVideos, null, 2));
@@ -403,6 +460,7 @@ async function fetchList(listName, rawChannels) {
         quotaUnitsUsed: quotaUnits,
         apiKeysConfigured: API_KEYS.length,
         allKeysExhausted: keysExhausted,
+        usedCachedFallback: usedFallback,
         errors,
         replyErrors,
       },
