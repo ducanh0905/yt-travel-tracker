@@ -64,6 +64,7 @@
       <select id="sortField">
         <option value="publishedAt">Ngày đăng</option>
         <option value="viewCount">Lượt xem</option>
+        <option value="viewsPerHour">View/giờ</option>
         <option value="likeCount">Lượt thích</option>
         <option value="commentCount">Bình luận</option>
         <option value="subscriberCount">Sub kênh</option>
@@ -132,6 +133,7 @@
         <col class="cg-num" />
         <col class="cg-num" />
         <col class="cg-num" />
+        <col class="cg-num" />
       </colgroup>
       <thead>
         <tr>
@@ -140,13 +142,14 @@
           <th class="col-num" data-field="publishedAt">Ngày đăng</th>
           <th class="col-num" data-field="duration">Thời lượng</th>
           <th class="col-num" data-field="viewCount">Lượt xem</th>
+          <th class="col-num" data-field="viewsPerHour" title="Tốc độ tăng view gần đây (view/giờ). Nếu chưa có dữ liệu lần fetch trước, hiển thị trung bình cả đời video.">View/giờ</th>
           <th class="col-num" data-field="likeCount">Thích</th>
           <th class="col-num" data-field="commentCount">Bình luận</th>
           <th class="col-num" data-field="subscriberCount">Sub kênh</th>
         </tr>
       </thead>
       <tbody id="videoTableBody">
-        <tr><td colspan="8" class="empty-state"><span class="loading-plane">✈️</span> Đang tải dữ liệu...</td></tr>
+        <tr><td colspan="9" class="empty-state"><span class="loading-plane">✈️</span> Đang tải dữ liệu...</td></tr>
       </tbody>
     </table>
   </div>
