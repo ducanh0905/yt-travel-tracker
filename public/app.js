@@ -60,6 +60,18 @@ function fmtNumber(n) {
   return new Intl.NumberFormat("vi-VN").format(n);
 }
 
+// viewsPerHourSource is "recent" (real delta vs. last fetch - reliable velocity)
+// or "lifetime" (fallback average since publish - only happens for videos we're
+// seeing for the first time, no previous data point to diff against yet).
+function fmtViewsPerHour(v) {
+  if (v.viewsPerHour === null || v.viewsPerHour === undefined) return "–";
+  const num = fmtNumber(v.viewsPerHour);
+  if (v.viewsPerHourSource === "lifetime") {
+    return `${num} <span class="vph-badge" title="Chưa có dữ liệu lần fetch trước - đây là trung bình cả đời video, không phải tốc độ gần đây">~</span>`;
+  }
+  return num;
+}
+
 function fmtDate(iso) {
   if (!iso) return "–";
   const d = new Date(iso);
@@ -93,7 +105,7 @@ function fmtDuration(iso) {
 }
 
 async function loadData() {
-  els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state"><span class="loading-plane">✈️</span> Đang tải dữ liệu...</td></tr>`;
+  els.tbody.innerHTML = `<tr><td colspan="9" class="empty-state"><span class="loading-plane">✈️</span> Đang tải dữ liệu...</td></tr>`;
   try {
     const [videosRes, metaRes] = await Promise.all([
       fetch(`data/videos-${currentList}.json`, { cache: "no-store" }),
@@ -112,7 +124,7 @@ async function loadData() {
     }
     applyFilters();
   } catch (err) {
-    els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos-${currentList}.json tồn tại.</td></tr>`;
+    els.tbody.innerHTML = `<tr><td colspan="9" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos-${currentList}.json tồn tại.</td></tr>`;
     console.error(err);
   }
 }
@@ -338,7 +350,7 @@ function renderTable() {
   });
 
   if (!filteredVideos.length) {
-    els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state">Không có video phù hợp.</td></tr>`;
+    els.tbody.innerHTML = `<tr><td colspan="9" class="empty-state">Không có video phù hợp.</td></tr>`;
     return;
   }
 
@@ -364,6 +376,7 @@ function renderTable() {
       <td class="col-num">${fmtDate(v.publishedAt)}</td>
       <td class="col-num">${fmtDuration(v.duration)}</td>
       <td class="col-num">${fmtNumber(v.viewCount)}</td>
+      <td class="col-num">${fmtViewsPerHour(v)}</td>
       <td class="col-num">${fmtNumber(v.likeCount)}</td>
       <td class="col-num">${fmtNumber(v.commentCount)}</td>
       <td class="col-num">${fmtNumber(v.subscriberCount)}</td>
