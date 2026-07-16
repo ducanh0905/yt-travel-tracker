@@ -304,6 +304,40 @@ button, select, input { font-family: inherit; }
   margin: 0 auto;
 }
 
+.market-tabs {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  gap: 8px;
+  max-width: 1440px;
+  margin: 18px auto 0;
+  padding: 0 clamp(16px, 4vw, 48px);
+  animation: fadeInUp 0.5s var(--ease) both;
+  animation-delay: 0.04s;
+}
+
+.market-tab {
+  background: linear-gradient(135deg, var(--panel), var(--panel-raised));
+  border: 1px solid var(--line);
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  padding: 10px 22px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: border-color 0.25s var(--ease), color 0.25s var(--ease), box-shadow 0.25s var(--ease), transform 0.15s var(--ease);
+}
+.market-tab:hover { border-color: var(--amber); color: var(--text); box-shadow: 0 6px 18px rgba(255, 122, 82, 0.15); }
+.market-tab:active { transform: scale(0.97); }
+.market-tab.active {
+  background: linear-gradient(135deg, var(--amber), #ff9466);
+  border-color: var(--amber);
+  color: #1a0e08;
+  box-shadow: 0 8px 22px rgba(255, 122, 82, 0.3);
+}
+
 .controls {
   position: relative;
   z-index: 30;
