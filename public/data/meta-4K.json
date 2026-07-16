@@ -1,8 +1,12 @@
 {
   "list": "4K",
-  "lastUpdated": null,
-  "channelCount": 0,
-  "videoCount": 0,
-  "quotaUnitsUsed": 0,
-  "errors": []
+  "lastUpdated": "2026-07-16T02:49:57.923Z",
+  "channelCount": 8,
+  "videoCount": 335,
+  "quotaUnitsUsed": 4153,
+  "apiKeysConfigured": 2,
+  "allKeysExhausted": false,
+  "usedCachedFallback": false,
+  "errors": [],
+  "replyErrors": []
 }

@@ -1,85 +1,12 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-07-16T01:34:04.769Z",
+  "lastUpdated": "2026-07-16T02:47:06.195Z",
   "channelCount": 18,
-  "videoCount": 0,
-  "quotaUnitsUsed": 20,
-  "apiKeysConfigured": 3,
-  "allKeysExhausted": true,
+  "videoCount": 557,
+  "quotaUnitsUsed": 2770,
+  "apiKeysConfigured": 2,
+  "allKeysExhausted": false,
   "usedCachedFallback": false,
-  "errors": [
-    {
-      "channel": "https://www.youtube.com/@ExploralosPa%C3%ADses1",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@CalleSinRetorno",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@RealLifeCountryES",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@WorldstoDiscover24",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@MundoelporAventuras",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@mundosincensura",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/channel/UCghbfZwzVb-cLMHascxxNPw",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/channel/UCdo-ZQdoAJOcLTl5s3rl7cg",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/channel/UCJYUMYNNUazoIDXMXoG71QA",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@GlobeESNew",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@EXGlobalES",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@Mundocaptado7",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@TierrasOcultas2026",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/channel/UCYgb619zKOdhNJZlz_OKxsg",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@MundoDescifrado.001",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@RitualesdelMundo",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@BeastFinance7",
-      "error": "channels failed: quotaExceeded"
-    },
-    {
-      "channel": "https://www.youtube.com/@BelloMundo-Br",
-      "error": "channels failed: quotaExceeded"
-    }
-  ],
+  "errors": [],
   "replyErrors": []
 }
