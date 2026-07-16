@@ -9,6 +9,10 @@ on:
         description: "Ép lấy lại toàn bộ bình luận + reply (bỏ qua cache)"
         type: boolean
         default: false
+      full_channel_history:
+        description: "Lấy TOÀN BỘ video của mỗi kênh (bỏ qua giới hạn ~50 video gần nhất) - tốn nhiều quota hơn"
+        type: boolean
+        default: false
   push:
     paths:
       - "channels.json"
@@ -35,6 +39,7 @@ jobs:
           YOUTUBE_API_KEYS: ${{ secrets.YOUTUBE_API_KEYS }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           MAX_VIDEOS_PER_CHANNEL: "50"
+          FULL_CHANNEL_HISTORY: ${{ github.event.inputs.full_channel_history || 'false' }}
           MAX_COMMENTS_PER_VIDEO: "100"
           MAX_REPLIES_PER_COMMENT: "20"
           COMMENT_ORDER: "relevance"
