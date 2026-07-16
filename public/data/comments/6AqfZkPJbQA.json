@@ -19,8 +19,17 @@
       "text": "Me encantaría conocer 1",
       "likeCount": 0,
       "publishedAt": "2026-07-14T16:16:24Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzzDpQT8ceHHtgHTfV4AaABAg.AZFPObdeZ9bAZJvXSWIY3H",
+          "author": "@RealLifeCountryES",
+          "authorImage": "https://yt3.ggpht.com/SQBP776833gvZEn-0vWO8T4RLP0d8P7qDiHoBdsY8VcZRc1ZJiNMWOojabygkeFJmTlDqzTGFA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por tu comentario. ¿Y en qué país te gustaría conocer mujeres?",
+          "likeCount": 0,
+          "publishedAt": "2026-07-16T10:22:55Z"
+        }
+      ]
     }
   ]
 }
