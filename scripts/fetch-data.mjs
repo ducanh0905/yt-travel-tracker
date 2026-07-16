@@ -1,9 +1,17 @@
 // scripts/fetch-data.mjs
 //
-// Pulls stats for a list of YouTube channels (videos + stats + comments)
-// and writes static JSON files into public/data/ so the frontend (hosted
-// as a static site on Netlify) never needs to touch the YouTube API or an
-// API key directly.
+// Pulls stats for one or more named lists of YouTube channels (videos +
+// stats + comments) and writes static JSON files into public/data/ so the
+// frontend (hosted as a static site on Netlify) never needs to touch the
+// YouTube API or an API key directly.
+//
+// channels.json holds named lists ("markets"/tabs in the frontend), e.g.:
+//   { "TBN": ["@kenh1", "..."], "4K": ["@kenh2", "..."] }
+// Each list name produces its own output files:
+//   public/data/videos-<LIST>.json
+//   public/data/meta-<LIST>.json
+// Comments are shared across lists in public/data/comments/<videoId>.json
+// since a comment file only depends on the video, not which list found it.
 //
 // Run locally:   YOUTUBE_API_KEY=xxx node scripts/fetch-data.mjs
 // Run in CI:      see .github/workflows/fetch-data.yml
@@ -50,8 +58,8 @@ const ROOT = path.resolve(new URL(".", import.meta.url).pathname, "..");
 const DATA_DIR = path.join(ROOT, "public", "data");
 const COMMENTS_DIR = path.join(DATA_DIR, "comments");
 const CHANNELS_FILE = path.join(ROOT, "channels.json");
-const VIDEOS_FILE = path.join(DATA_DIR, "videos.json");
-const META_FILE = path.join(DATA_DIR, "meta.json");
+const videosFileFor = (listName) => path.join(DATA_DIR, `videos-${listName}.json`);
+const metaFileFor = (listName) => path.join(DATA_DIR, `meta-${listName}.json`);
 
 let quotaUnits = 0;
 const API_BASE = "https://www.googleapis.com/youtube/v3";
@@ -292,9 +300,9 @@ async function getComments(videoId, max, order, maxRepliesPerComment, maxAgeDays
   return { disabled: false, comments };
 }
 
-async function loadPreviousVideos() {
+async function loadPreviousVideos(listName) {
   try {
-    const raw = await readFile(VIDEOS_FILE, "utf-8");
+    const raw = await readFile(videosFileFor(listName), "utf-8");
     const arr = JSON.parse(raw);
     const map = new Map();
     for (const v of arr) map.set(v.videoId, v);
@@ -304,12 +312,24 @@ async function loadPreviousVideos() {
   }
 }
 
-async function main() {
-  await mkdir(COMMENTS_DIR, { recursive: true });
+// Normalizes channels.json into { listName: [rawChannel, ...] } pairs.
+// Supports the current named-lists object format, e.g. { "TBN": [...], "4K": [...] },
+// and also accepts a plain array (treated as a single implicit "default" list)
+// for backwards compatibility with older channels.json files.
+function normalizeChannelLists(parsed) {
+  if (Array.isArray(parsed)) {
+    return { default: parsed };
+  }
+  if (parsed && typeof parsed === "object") {
+    return parsed;
+  }
+  throw new Error("channels.json must be either an array or an object of named lists.");
+}
 
-  const rawChannels = JSON.parse(await readFile(CHANNELS_FILE, "utf-8"));
-  const previousVideos = await loadPreviousVideos();
+async function fetchList(listName, rawChannels) {
+  console.log(`\n########## Danh sách: ${listName} (${rawChannels.length} kênh) ##########`);
 
+  const previousVideos = await loadPreviousVideos(listName);
   const allVideos = [];
   const errors = [];
 
@@ -370,26 +390,13 @@ async function main() {
     }
   }
 
-  // Prune comment files for videos no longer tracked
-  try {
-    const trackedIds = new Set(allVideos.map((v) => v.videoId));
-    const existingFiles = await readdir(COMMENTS_DIR);
-    for (const file of existingFiles) {
-      const id = file.replace(/\.json$/, "");
-      if (!trackedIds.has(id)) {
-        await unlink(path.join(COMMENTS_DIR, file));
-      }
-    }
-  } catch {
-    // ignore
-  }
-
   allVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
-  await writeFile(VIDEOS_FILE, JSON.stringify(allVideos, null, 2));
+  await writeFile(videosFileFor(listName), JSON.stringify(allVideos, null, 2));
   await writeFile(
-    META_FILE,
+    metaFileFor(listName),
     JSON.stringify(
       {
+        list: listName,
         lastUpdated: new Date().toISOString(),
         channelCount: rawChannels.length,
         videoCount: allVideos.length,
@@ -404,10 +411,45 @@ async function main() {
     )
   );
 
-  console.log(`\nDone. Videos: ${allVideos.length}. Estimated quota units used: ${quotaUnits}.`);
+  console.log(`\n[${listName}] Done. Videos: ${allVideos.length}.`);
   if (errors.length) {
-    console.log(`Completed with ${errors.length} error(s) - see meta.json`);
+    console.log(`[${listName}] Completed with ${errors.length} error(s) - see meta-${listName}.json`);
   }
+
+  return allVideos;
+}
+
+async function main() {
+  await mkdir(COMMENTS_DIR, { recursive: true });
+
+  const channelLists = normalizeChannelLists(JSON.parse(await readFile(CHANNELS_FILE, "utf-8")));
+  const listNames = Object.keys(channelLists);
+
+  let grandTotalVideos = [];
+  for (const listName of listNames) {
+    const videos = await fetchList(listName, channelLists[listName]);
+    grandTotalVideos = grandTotalVideos.concat(videos);
+    if (keysExhausted) {
+      console.log("\nTất cả API key đã hết quota, dừng sớm các danh sách còn lại.");
+      break;
+    }
+  }
+
+  // Prune comment files for videos no longer tracked in ANY list.
+  try {
+    const trackedIds = new Set(grandTotalVideos.map((v) => v.videoId));
+    const existingFiles = await readdir(COMMENTS_DIR);
+    for (const file of existingFiles) {
+      const id = file.replace(/\.json$/, "");
+      if (!trackedIds.has(id)) {
+        await unlink(path.join(COMMENTS_DIR, file));
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  console.log(`\nHoàn tất tất cả danh sách (${listNames.join(", ")}). Tổng video: ${grandTotalVideos.length}. Ước tính quota dùng: ${quotaUnits}.`);
 }
 
 main().catch((err) => {
