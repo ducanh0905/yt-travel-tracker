@@ -9,9 +9,11 @@ let commentSortField = "likeCount";
 let commentSortDir = "desc";
 let allChannelIds = [];
 let selectedChannelIds = new Set(); // empty set = all channels selected
+let currentList = "TBN"; // which named channel list (tab) is active
 
 const els = {
   tbody: document.getElementById("videoTableBody"),
+  marketTabs: document.getElementById("marketTabs"),
   search: document.getElementById("searchInput"),
   sortField: document.getElementById("sortField"),
   sortDir: document.getElementById("sortDir"),
@@ -91,10 +93,11 @@ function fmtDuration(iso) {
 }
 
 async function loadData() {
+  els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state"><span class="loading-plane">✈️</span> Đang tải dữ liệu...</td></tr>`;
   try {
     const [videosRes, metaRes] = await Promise.all([
-      fetch("data/videos.json", { cache: "no-store" }),
-      fetch("data/meta.json", { cache: "no-store" }),
+      fetch(`data/videos-${currentList}.json`, { cache: "no-store" }),
+      fetch(`data/meta-${currentList}.json`, { cache: "no-store" }),
     ]);
     allVideos = videosRes.ok ? await videosRes.json() : [];
     const meta = metaRes.ok ? await metaRes.json() : null;
@@ -109,10 +112,27 @@ async function loadData() {
     }
     applyFilters();
   } catch (err) {
-    els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos.json tồn tại.</td></tr>`;
+    els.tbody.innerHTML = `<tr><td colspan="8" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos-${currentList}.json tồn tại.</td></tr>`;
     console.error(err);
   }
 }
+
+function switchList(listName) {
+  if (listName === currentList) return;
+  currentList = listName;
+  els.marketTabs.querySelectorAll(".market-tab").forEach((btn) => {
+    const isActive = btn.dataset.list === currentList;
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-selected", String(isActive));
+  });
+  els.search.value = "";
+  els.dateRangeFilter.value = "0";
+  loadData();
+}
+
+els.marketTabs.querySelectorAll(".market-tab").forEach((btn) => {
+  btn.addEventListener("click", () => switchList(btn.dataset.list));
+});
 
 function populateChannelFilter() {
   const channels = new Map();
