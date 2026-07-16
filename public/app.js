@@ -33,6 +33,7 @@ const els = {
   fetchTriggerPanel: document.getElementById("fetchTriggerPanel"),
   fetchPasswordInput: document.getElementById("fetchPasswordInput"),
   fetchForceRefresh: document.getElementById("fetchForceRefresh"),
+  fetchFullHistory: document.getElementById("fetchFullHistory"),
   fetchTriggerSubmit: document.getElementById("fetchTriggerSubmit"),
   fetchTriggerStatus: document.getElementById("fetchTriggerStatus"),
   modalOverlay: document.getElementById("modalOverlay"),
@@ -262,6 +263,7 @@ async function submitFetchTrigger() {
       body: JSON.stringify({
         password,
         forceRefreshComments: els.fetchForceRefresh.checked,
+        fullChannelHistory: els.fetchFullHistory.checked,
       }),
     });
     const data = await res.json().catch(() => ({}));
