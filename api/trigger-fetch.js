@@ -31,7 +31,7 @@ module.exports = async function handler(req, res) {
   }
 
   const body = typeof req.body === "string" ? safeJsonParse(req.body) : req.body || {};
-  const { password, forceRefreshComments } = body;
+  const { password, forceRefreshComments, fullChannelHistory } = body;
 
   const expectedPassword = process.env.FETCH_TRIGGER_PASSWORD || "ducanh090506";
   if (!password || password !== expectedPassword) {
@@ -65,6 +65,7 @@ module.exports = async function handler(req, res) {
           ref,
           inputs: {
             force_refresh_comments: forceRefreshComments ? "true" : "false",
+            full_channel_history: fullChannelHistory ? "true" : "false",
           },
         }),
       }
