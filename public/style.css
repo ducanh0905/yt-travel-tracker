@@ -715,6 +715,15 @@ col.cg-num { width: 9%; }
   color: var(--text);
 }
 
+.vph-badge {
+  display: inline-block;
+  margin-left: 3px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--text-muted);
+  cursor: help;
+}
+
 thead .col-num,
 .board-table thead th.col-num { text-align: right; }
 
