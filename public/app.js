@@ -747,6 +747,7 @@ loadData();
   const fab = document.getElementById("aiChatBtn");
   const panel = document.getElementById("aiChatPanel");
   const closeBtn = document.getElementById("aiChatClose");
+  const expandBtn = document.getElementById("aiChatExpandBtn");
   const resetKeyBtn = document.getElementById("aiChatResetKey");
   const newChatBtn = document.getElementById("aiChatNewBtn");
   const historyBtn = document.getElementById("aiChatHistoryBtn");
@@ -950,16 +951,29 @@ loadData();
     updateDataModeCount();
     setTimeout(() => input.focus(), 50);
   }
+  const EXPANDED_ICON = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/></svg>`;
+  const COLLAPSED_ICON = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3v4a2 2 0 0 1-2 2H3M15 3v4a2 2 0 0 0 2 2h4M9 21v-4a2 2 0 0 0-2-2H3M15 21v-4a2 2 0 0 1 2-2h4"/></svg>`;
+
+  function setExpanded(expanded) {
+    panel.classList.toggle("expanded", expanded);
+    if (expandBtn) {
+      expandBtn.innerHTML = expanded ? COLLAPSED_ICON : EXPANDED_ICON;
+      expandBtn.title = expanded ? "Thu nhỏ" : "Phóng to";
+    }
+  }
+  if (expandBtn) {
+    expandBtn.addEventListener("click", () => setExpanded(!panel.classList.contains("expanded")));
+  }
+
   function closePanel() {
     panel.classList.remove("open");
     toggleHistoryPanel(false);
   }
 
-  // Now that the panel is a full-screen overlay (like the channel stats
-  // modal), clicking the backdrop itself - not the chat box inside it -
-  // should close it.
+  // Backdrop-click-to-close only makes sense in expanded mode - the mini
+  // dock has no backdrop to click since the box fills the whole panel.
   panel.addEventListener("click", (e) => {
-    if (e.target === panel) closePanel();
+    if (panel.classList.contains("expanded") && e.target === panel) closePanel();
   });
 
   // Restore whatever conversation was last active in this browser, if any,
