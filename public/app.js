@@ -955,6 +955,13 @@ loadData();
     toggleHistoryPanel(false);
   }
 
+  // Now that the panel is a full-screen overlay (like the channel stats
+  // modal), clicking the backdrop itself - not the chat box inside it -
+  // should close it.
+  panel.addEventListener("click", (e) => {
+    if (e.target === panel) closePanel();
+  });
+
   // Restore whatever conversation was last active in this browser, if any,
   // so re-opening the panel shows it without waiting for the user to click.
   if (activeChat) {
