@@ -230,39 +230,41 @@
 </button>
 
 <div class="ai-chat-panel" id="aiChatPanel">
-  <div class="ai-chat-panel__header">
-    <div>
-      <div class="ai-chat-panel__title">Trợ lý phân tích · Gemini</div>
-      <div class="ai-chat-panel__sub">Hỏi bất cứ điều gì - có sẵn dữ liệu kênh/video/bình luận</div>
+  <div class="ai-chat-panel__box">
+    <div class="ai-chat-panel__header">
+      <div>
+        <div class="ai-chat-panel__title">Trợ lý phân tích · Gemini</div>
+        <div class="ai-chat-panel__sub">Hỏi bất cứ điều gì - có sẵn dữ liệu kênh/video/bình luận</div>
+      </div>
+      <div class="ai-chat-panel__header-actions">
+        <button class="ai-chat-panel__reset-key" id="aiChatHistoryBtn" title="Lịch sử chat">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        </button>
+        <button class="ai-chat-panel__reset-key" id="aiChatNewBtn" title="Đoạn chat mới">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <button class="ai-chat-panel__reset-key" id="aiChatResetKey" title="Đổi API key">⚙</button>
+        <button class="modal__close" id="aiChatClose" aria-label="Đóng">✕</button>
+      </div>
     </div>
-    <div class="ai-chat-panel__header-actions">
-      <button class="ai-chat-panel__reset-key" id="aiChatHistoryBtn" title="Lịch sử chat">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
-      </button>
-      <button class="ai-chat-panel__reset-key" id="aiChatNewBtn" title="Đoạn chat mới">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
-      </button>
-      <button class="ai-chat-panel__reset-key" id="aiChatResetKey" title="Đổi API key">⚙</button>
-      <button class="modal__close" id="aiChatClose" aria-label="Đóng">✕</button>
+    <div class="ai-chat-history" id="aiChatHistoryPanel">
+      <div class="ai-chat-history__empty" id="aiChatHistoryEmpty">Chưa có đoạn chat nào được lưu.</div>
+      <div class="ai-chat-history__list" id="aiChatHistoryList"></div>
     </div>
-  </div>
-  <div class="ai-chat-history" id="aiChatHistoryPanel">
-    <div class="ai-chat-history__empty" id="aiChatHistoryEmpty">Chưa có đoạn chat nào được lưu.</div>
-    <div class="ai-chat-history__list" id="aiChatHistoryList"></div>
-  </div>
-  <div class="ai-chat-panel__messages" id="aiChatMessages"></div>
-  <div class="ai-chat-panel__mode-row">
-    <label class="ai-toggle">
-      <input type="checkbox" id="aiDataModeToggle" />
-      <span class="ai-toggle__slider"></span>
-    </label>
-    <span class="ai-chat-panel__mode-label">
-      Phân tích dữ liệu đang xem (<span id="aiDataModeCount">0</span> video)
-    </span>
-  </div>
-  <div class="ai-chat-panel__input-row">
-    <input type="text" id="aiChatInput" placeholder="Việt Nam - khán giả đang bình luận gì?" autocomplete="off" />
-    <button id="aiChatSend" class="dir-btn dir-btn--small" title="Gửi">➤</button>
+    <div class="ai-chat-panel__messages" id="aiChatMessages"></div>
+    <div class="ai-chat-panel__mode-row">
+      <label class="ai-toggle">
+        <input type="checkbox" id="aiDataModeToggle" />
+        <span class="ai-toggle__slider"></span>
+      </label>
+      <span class="ai-chat-panel__mode-label">
+        Phân tích dữ liệu đang xem (<span id="aiDataModeCount">0</span> video)
+      </span>
+    </div>
+    <div class="ai-chat-panel__input-row">
+      <input type="text" id="aiChatInput" placeholder="Việt Nam - khán giả đang bình luận gì?" autocomplete="off" />
+      <button id="aiChatSend" class="dir-btn dir-btn--small" title="Gửi">➤</button>
+    </div>
   </div>
 </div>
 
