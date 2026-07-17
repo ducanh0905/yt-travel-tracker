@@ -1207,9 +1207,10 @@ thead .col-num,
    centered, full-screen overlay - same treatment as the channel stats modal -
    so long AI answers are easier to read. Default stays the small dock. */
 .ai-chat-panel.expanded {
-  inset: 0;
-  right: auto;
-  bottom: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: auto;
   height: auto;
   background: rgba(4, 5, 14, 0.8);
