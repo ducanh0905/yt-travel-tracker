@@ -1195,8 +1195,23 @@ thead .col-num,
 .ai-chat-panel {
   display: none;
   position: fixed;
-  inset: 0;
+  right: 22px;
+  bottom: 90px;
   z-index: 61;
+  width: min(380px, calc(100vw - 32px));
+  height: min(560px, calc(100vh - 140px));
+}
+.ai-chat-panel.open { display: flex; }
+
+/* Expanded mode (toggled via the ⤢ button) turns the mini dock into a
+   centered, full-screen overlay - same treatment as the channel stats modal -
+   so long AI answers are easier to read. Default stays the small dock. */
+.ai-chat-panel.expanded {
+  inset: 0;
+  right: auto;
+  bottom: auto;
+  width: auto;
+  height: auto;
   background: rgba(4, 5, 14, 0.8);
   backdrop-filter: blur(4px);
   align-items: center;
@@ -1204,11 +1219,10 @@ thead .col-num,
   padding: 32px 16px;
   animation: fadeIn 0.2s var(--ease);
 }
-.ai-chat-panel.open { display: flex; }
 
 .ai-chat-panel__box {
-  width: min(880px, 100%);
-  height: min(760px, calc(100vh - 64px));
+  width: 100%;
+  height: 100%;
   background: linear-gradient(165deg, var(--panel-raised) 0%, var(--panel) 60%);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg, 16px);
@@ -1216,6 +1230,11 @@ thead .col-num,
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+.ai-chat-panel.expanded .ai-chat-panel__box {
+  width: min(880px, 100%);
+  height: min(760px, calc(100vh - 64px));
   animation: popIn 0.25s var(--ease) both;
 }
 
@@ -1239,8 +1258,9 @@ thead .col-num,
   font-size: 11.5px;
   color: var(--text-muted);
   margin-top: 3px;
-  max-width: 520px;
+  max-width: 220px;
 }
+.ai-chat-panel.expanded .ai-chat-panel__sub { max-width: 520px; }
 
 .ai-chat-panel__header-actions {
   display: flex;
@@ -1434,6 +1454,7 @@ thead .col-num,
 @media (max-width: 480px) {
   .ai-chat-fab span { display: none; }
   .ai-chat-fab { padding: 13px; }
-  .ai-chat-panel { padding: 0; }
-  .ai-chat-panel__box { width: 100%; height: 100%; border-radius: 0; }
+  .ai-chat-panel { right: 12px; bottom: 82px; }
+  .ai-chat-panel.expanded { padding: 0; }
+  .ai-chat-panel.expanded .ai-chat-panel__box { width: 100%; height: 100%; border-radius: 0; }
 }
