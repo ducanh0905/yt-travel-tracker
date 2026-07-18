@@ -58,8 +58,17 @@
       "text": "Me gusta",
       "likeCount": 0,
       "publishedAt": "2026-06-25T14:09:12Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzYBFWzudCRDRaQ4R54AaABAg.AYUFjMP2IYRAZOVK7G6jAq",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Nos alegra mucho que hayas disfrutado del video.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-18T05:01:23Z"
+        }
+      ]
     },
     {
       "id": "UgxThNvuO88xYu_Q4Bd4AaABAg",
