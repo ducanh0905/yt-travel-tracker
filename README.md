@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/30215614/README.md)
 # Bảng theo dõi kênh Du lịch YouTube
 
 Web app tĩnh (deploy trên Netlify) để theo dõi thống kê của một danh sách kênh YouTube
@@ -80,7 +81,7 @@ Repo trên GitHub → **Settings → Secrets and variables → Actions → New r
 ## 5. Sửa danh sách kênh cần theo dõi
 
 Mở `channels.json`. File này chứa nhiều danh sách có tên — mỗi tên tương ứng 1 tab
-trên giao diện (hiện có `TBN` và `4K`). Mỗi kênh hỗ trợ cả 3 dạng nhập:
+trên giao diện (hiện có `TBN`, `4K`, `TA_LIFE_IN`, `4K_LIVING_IN`, `TA_4K`). Mỗi kênh hỗ trợ cả 3 dạng nhập:
 
 ```json
 {
