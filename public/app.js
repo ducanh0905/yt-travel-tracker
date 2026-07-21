@@ -25,6 +25,7 @@ const els = {
   channelFilterLabel: document.getElementById("channelFilterLabel"),
   selectAllChannels: document.getElementById("selectAllChannels"),
   clearAllChannels: document.getElementById("clearAllChannels"),
+  metaTotalVph: document.getElementById("metaTotalVph"),
   metaChannels: document.getElementById("metaChannels"),
   metaVideos: document.getElementById("metaVideos"),
   metaUpdated: document.getElementById("metaUpdated"),
@@ -123,9 +124,14 @@ async function loadData() {
     } else {
       els.metaVideos.textContent = allVideos.length;
     }
+    // Tổng VPH của cả tab - tính trên toàn bộ video của danh sách đang chọn,
+    // không bị ảnh hưởng bởi tìm kiếm/lọc kênh hiện tại.
+    const totalVph = allVideos.reduce((sum, v) => sum + (v.viewsPerHour || 0), 0);
+    els.metaTotalVph.textContent = fmtNumber(totalVph);
     applyFilters();
   } catch (err) {
     els.tbody.innerHTML = `<tr><td colspan="9" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos-${currentList}.json tồn tại.</td></tr>`;
+    els.metaTotalVph.textContent = "–";
     console.error(err);
   }
 }
