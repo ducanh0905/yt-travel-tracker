@@ -25,6 +25,8 @@ const els = {
   channelFilterLabel: document.getElementById("channelFilterLabel"),
   selectAllChannels: document.getElementById("selectAllChannels"),
   clearAllChannels: document.getElementById("clearAllChannels"),
+  metaViews1d: document.getElementById("metaViews1d"),
+  metaViews7d: document.getElementById("metaViews7d"),
   metaTotalVph: document.getElementById("metaTotalVph"),
   metaChannels: document.getElementById("metaChannels"),
   metaVideos: document.getElementById("metaVideos"),
@@ -124,6 +126,20 @@ async function loadData() {
     } else {
       els.metaVideos.textContent = allVideos.length;
     }
+    // Tổng view 1/7 ngày = tổng lượt xem (hiện tại) của các video ĐĂNG trong
+    // khoảng thời gian đó - không phải tốc độ tăng view.
+    const now = Date.now();
+    const DAY_MS = 24 * 60 * 60 * 1000;
+    let views1d = 0;
+    let views7d = 0;
+    for (const v of allVideos) {
+      if (!v.publishedAt) continue;
+      const ageMs = now - new Date(v.publishedAt).getTime();
+      if (ageMs <= 7 * DAY_MS) views7d += v.viewCount || 0;
+      if (ageMs <= DAY_MS) views1d += v.viewCount || 0;
+    }
+    els.metaViews1d.textContent = fmtNumber(views1d);
+    els.metaViews7d.textContent = fmtNumber(views7d);
     // Tổng VPH của cả tab - tính trên toàn bộ video của danh sách đang chọn,
     // không bị ảnh hưởng bởi tìm kiếm/lọc kênh hiện tại.
     const totalVph = allVideos.reduce((sum, v) => sum + (v.viewsPerHour || 0), 0);
@@ -132,6 +148,8 @@ async function loadData() {
   } catch (err) {
     els.tbody.innerHTML = `<tr><td colspan="9" class="empty-state">Không tải được dữ liệu. Hãy chắc chắn GitHub Action đã chạy ít nhất 1 lần và public/data/videos-${currentList}.json tồn tại.</td></tr>`;
     els.metaTotalVph.textContent = "–";
+    els.metaViews1d.textContent = "–";
+    els.metaViews7d.textContent = "–";
     console.error(err);
   }
 }
