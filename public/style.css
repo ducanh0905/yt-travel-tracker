@@ -308,6 +308,7 @@ button, select, input { font-family: inherit; }
   position: relative;
   z-index: 20;
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   max-width: 1440px;
   margin: 18px auto 0;
