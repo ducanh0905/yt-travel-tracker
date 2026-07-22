@@ -103,8 +103,17 @@
       "text": "I randomly grew an obsession for Afghanistan",
       "likeCount": 1,
       "publishedAt": "2026-07-22T02:27:02Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxBgH2Y23AO5rpJGh14AaABAg.AZYWqAfI2u-AZYqdZCwvZn",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "That's awesome to hear! It's such a fascinating country with so much rich history and culture to explore.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T05:28:49Z"
+        }
+      ]
     },
     {
       "id": "UgxAv6797x1iRSKW1kh4AaABAg",
