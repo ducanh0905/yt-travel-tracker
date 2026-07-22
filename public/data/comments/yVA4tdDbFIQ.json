@@ -7,7 +7,7 @@
       "author": "@AgustinReal-h1h",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lE-2v4pt1Am5Vt4Pedf4xjFjaVCExlg_cJVl7OY2xcwvV1BhXRzUSHIHLwFa5dONFuTw=s48-c-k-c0x00ffffff-no-rj",
       "text": "DESDE  FLORIDA USA",
-      "likeCount": 1,
+      "likeCount": 2,
       "publishedAt": "2026-07-20T19:34:27Z",
       "replyCount": 0,
       "replies": []
@@ -17,10 +17,19 @@
       "author": "@joseluisparrasgarcia2704",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_muMkHSWhhz9nejfyTCnZ74gdH-4-NcsUq6tHENWyk=s48-c-k-c0x00ffffff-no-rj",
       "text": "Saludó desde México gracias",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-07-20T18:56:19Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxvpg3Ruo_gSBYbull4AaABAg.AZV8TC5dP0RAZZzGQ3HO_t",
+          "author": "@joseluisparrasgarcia2704",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_muMkHSWhhz9nejfyTCnZ74gdH-4-NcsUq6tHENWyk=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias amigó saludos a todos ustedes pasensela chingón",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T16:03:24Z"
+        }
+      ]
     }
   ]
 }

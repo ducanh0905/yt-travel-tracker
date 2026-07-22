@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyxPiXdSGtGMUHISp14AaABAg",
+      "author": "@angelitocasimiro2023",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kli0k3C-RDbTpqOliVbT34Ikn-oTv3_V2RCefRrDn7vl9ySG3kVOKW5vZSl9ROpKUKsg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Philippines 9:15 pm",
+      "likeCount": 0,
+      "publishedAt": "2026-07-22T13:21:41Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxApWDqOjLsbiPaOnp4AaABAg",
       "author": "@EdgeTalesDocs",
       "authorImage": "https://yt3.ggpht.com/m_z9R8DzcVq6oF0Wvu2LAEKfHBpajastAejmvtnmajtjXSEEfTyS-1V-up8vUKtr_8nVLKuC=s48-c-k-c0x00ffffff-no-rj",
       "text": "This documentary was breathtaking! Norway just shot to the top of my bucket list. The idea of living by friluftsliv and koselig sounds like the perfect balance.",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-07-22T02:33:02Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxApWDqOjLsbiPaOnp4AaABAg.AZYXX9vvQqWAZ_5IVIQv2c",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "I’m so glad the documentary inspired you to add Norway to your travel list!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T17:04:51Z"
+        }
+      ]
     },
     {
       "id": "Ugzxui2hHUrh6xKdjHR4AaABAg",
@@ -49,8 +68,17 @@
       "text": "I love this places",
       "likeCount": 1,
       "publishedAt": "2026-07-21T05:29:22Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwY2Jerx6zIDdyj-ql4AaABAg.AZWGulhkpDqAZ_5ZgkI_pg",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "It really is a beautiful place to explore.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T17:07:12Z"
+        }
+      ]
     },
     {
       "id": "UgzcAXCcSXvWTBcCbm94AaABAg",

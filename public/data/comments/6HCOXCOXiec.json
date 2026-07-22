@@ -9,28 +9,55 @@
       "text": "👍🏽👍🏽👍🏽👍🏽👍🏽👍🏽",
       "likeCount": 0,
       "publishedAt": "2026-07-21T15:22:09Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwafrXJriOQAE0j-Ut4AaABAg.AZXKkPNY-M9AZZeLT_qQvT",
+          "author": "@Turispedia",
+          "authorImage": "https://yt3.ggpht.com/okfIkXn_DqtVvL4z2AitPZaPMoFwnGAvZYDg8ZCSJWqFrW0HNDkI4pCC3PWruofeLK8wT8Lb2Tc=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Saludos Walter👍🏽",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T13:00:35Z"
+        }
+      ]
     },
     {
       "id": "UgzJCq-WUMSg4EKqc3F4AaABAg",
       "author": "@linahincapie2005",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nSLSFwXwpn5lH5wEdyuRUVhHtaeKvldoJSQXhhfl4AcPDc=s48-c-k-c0x00ffffff-no-rj",
       "text": "Excelente reportaje, gracias a Planeta Remoto por mostrarme ese hermoso pais, saludos desde Pereira, Colombia ❤",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-07-21T02:13:43Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzJCq-WUMSg4EKqc3F4AaABAg.AZVvWoGys_sAZZeH4zZ4ki",
+          "author": "@Turispedia",
+          "authorImage": "https://yt3.ggpht.com/okfIkXn_DqtVvL4z2AitPZaPMoFwnGAvZYDg8ZCSJWqFrW0HNDkI4pCC3PWruofeLK8wT8Lb2Tc=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias por tus palabras y un saludo muy especial hasta Colombia! ❤️",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T12:59:59Z"
+        }
+      ]
     },
     {
       "id": "Ugw18JI_dhqbntabPLx4AaABAg",
       "author": "@dorisdelsocorroguevara4793",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nd9CUTH_vUS6yLFfCh_EH5NHiIQaskwp1Eiz_BGHeJdhT6LRhIGrQvmGbeGa18USPkig=s48-c-k-c0x00ffffff-no-rj",
       "text": "Dios que bendición,",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-07-20T22:21:56Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw18JI_dhqbntabPLx4AaABAg.AZVW-7S-5hpAZZeISWV6J7",
+          "author": "@Turispedia",
+          "authorImage": "https://yt3.ggpht.com/okfIkXn_DqtVvL4z2AitPZaPMoFwnGAvZYDg8ZCSJWqFrW0HNDkI4pCC3PWruofeLK8wT8Lb2Tc=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Amén, qué alegría que te haya gustado el video!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T13:00:10Z"
+        }
+      ]
     }
   ]
 }
