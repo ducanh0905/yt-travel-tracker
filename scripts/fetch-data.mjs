@@ -13,6 +13,16 @@
 // Comments are shared across lists in public/data/comments/<videoId>.json
 // since a comment file only depends on the video, not which list found it.
 //
+// IMPORTANT - videos-<LIST>.json is a MERGE across runs, not a rebuild:
+// a normal run only fetches each channel's most recent MAX_VIDEOS_PER_CHANNEL
+// videos and adds/updates just those - it does NOT delete older videos that
+// fall outside that window. Only a full-history run (FULL_CHANNEL_HISTORY or
+// a channel matched in FULL_HISTORY_CHANNELS) is treated as authoritative for
+// that channel and reconciles deletions (removes videos that no longer show
+// up). This means the very first fetch for a list should normally be a
+// full-history run - otherwise every subsequent normal run stays capped at
+// whatever that first run happened to catch.
+//
 // Each video record also gets:
 //   viewsPerHour        - view velocity (see computeViewsPerHour() below for the
 //                          "recent vs lifetime" logic)
@@ -25,10 +35,14 @@
 // Config via env vars (all optional):
 //   MAX_VIDEOS_PER_CHANNEL   default 50   - how many most-recent videos to track per channel
 //   FULL_CHANNEL_HISTORY     default false - when true, ignores MAX_VIDEOS_PER_CHANNEL and
-//                            pulls every video in each channel's uploads playlist (full
-//                            back-catalog, not just the most recent ones). Uses more quota -
-//                            meant for an occasional manual "fetch toàn bộ" run, not every
-//                            scheduled run.
+//                            pulls every video in EVERY channel's uploads playlist. Uses a
+//                            lot more quota - meant for an occasional manual "fetch toàn bộ"
+//                            run, not every scheduled run.
+//   FULL_HISTORY_CHANNELS    default "" - comma-separated handles/URLs (as they appear in
+//                            channels.json). Only THESE channels get the full-history
+//                            treatment this run; everything else still uses
+//                            MAX_VIDEOS_PER_CHANNEL. Handy right after adding a new channel -
+//                            no need to re-fetch every other channel's full history too.
 //   MAX_COMMENTS_PER_VIDEO   default 100  - how many top-level comments to store per video
 //   MAX_REPLIES_PER_COMMENT  default 20   - how many replies to store per top-level comment
 //   COMMENT_ORDER            default "relevance" (or "time") - ignored when
@@ -77,6 +91,27 @@ const FULL_CHANNEL_HISTORY = /^true$/i.test(process.env.FULL_CHANNEL_HISTORY || 
 if (FULL_CHANNEL_HISTORY) {
   console.log("FULL_CHANNEL_HISTORY=true - sẽ lấy TOÀN BỘ video của mỗi kênh (bỏ qua giới hạn MAX_VIDEOS_PER_CHANNEL).");
 }
+
+// Comma-separated list of channel handles/URLs (as they appear in
+// channels.json) that should get the FULL video history this run, without
+// forcing every other channel to also re-fetch its full history. Useful
+// right after adding a brand-new channel - only that one needs a backfill,
+// everything else can keep using the normal MAX_VIDEOS_PER_CHANNEL cap.
+// Matching is loose (case-insensitive substring) so pasting just "@handle"
+// still matches a full "https://www.youtube.com/@handle" entry.
+const FULL_HISTORY_CHANNELS = (process.env.FULL_HISTORY_CHANNELS || "")
+  .split(",")
+  .map((s) => s.trim().toLowerCase())
+  .filter(Boolean);
+if (FULL_HISTORY_CHANNELS.length) {
+  console.log(`FULL_HISTORY_CHANNELS: sẽ lấy toàn bộ lịch sử riêng cho: ${FULL_HISTORY_CHANNELS.join(", ")}`);
+}
+function shouldUseFullHistory(rawChannel) {
+  if (FULL_CHANNEL_HISTORY) return true;
+  const lower = rawChannel.toLowerCase();
+  return FULL_HISTORY_CHANNELS.some((c) => lower.includes(c) || c.includes(lower));
+}
+
 const MAX_COMMENTS_PER_VIDEO = parseInt(process.env.MAX_COMMENTS_PER_VIDEO || "100", 10);
 const MAX_REPLIES_PER_COMMENT = parseInt(process.env.MAX_REPLIES_PER_COMMENT || "20", 10);
 const COMMENT_ORDER = process.env.COMMENT_ORDER || "relevance";
@@ -416,16 +451,21 @@ async function fetchList(listName, rawChannels) {
   const previousFetchTime = await loadPreviousFetchTime(listName);
   const now = new Date();
   const channelMap = await loadChannelMap(listName); // rawChannel -> channelId, from last successful resolve
-  const allVideos = [];
   const errors = [];
-  let usedFallback = false;
 
-  // Pulls this channel's videos from the last successful run (matched by
-  // channelId) so a failed fetch doesn't wipe out previously-good data.
-  function fallbackVideosFor(channelId) {
-    if (!channelId) return [];
-    return [...previousVideos.values()].filter((v) => v.channelId === channelId);
-  }
+  // The video set is a MERGE across runs, not a fresh rebuild each time:
+  //  - Start from everything we've ever recorded for this list.
+  //  - A normal run (capped at MAX_VIDEOS_PER_CHANNEL) only ADDS/UPDATES the
+  //    videos it actually fetched - older videos outside that window are left
+  //    untouched, so the historical backlog from a past full-history fetch
+  //    survives every ordinary cron run instead of being wiped down to ~50/kênh.
+  //  - A full-history run for a channel (FULL_CHANNEL_HISTORY or that channel
+  //    matched in FULL_HISTORY_CHANNELS) IS authoritative for that channel's
+  //    entire video set, so it also prunes any of that channel's videos that
+  //    weren't returned this time (genuinely deleted/privated on YouTube).
+  //  - A channel that fails entirely this run simply isn't touched - whatever
+  //    was already in the map for it (from any earlier run) stays as-is.
+  const videoMap = new Map(previousVideos);
 
   for (const rawChannel of rawChannels) {
     let channel = null;
@@ -435,19 +475,25 @@ async function fetchList(listName, rawChannels) {
       channelMap[rawChannel] = channel.channelId;
       console.log(`Resolved: ${channel.channelTitle} (${channel.channelId})`);
 
+      const useFullHistory = shouldUseFullHistory(rawChannel);
+      if (useFullHistory && !FULL_CHANNEL_HISTORY) {
+        console.log(`  -> full history riêng cho kênh này (khớp FULL_HISTORY_CHANNELS)`);
+      }
       const videoIds = await getRecentVideoIds(
         channel.uploadsPlaylistId,
-        FULL_CHANNEL_HISTORY ? Infinity : MAX_VIDEOS_PER_CHANNEL
+        useFullHistory ? Infinity : MAX_VIDEOS_PER_CHANNEL
       );
       console.log(`Found ${videoIds.length} videos`);
 
       const stats = await getVideoStats(videoIds);
+      const fetchedIds = new Set();
 
       for (const v of stats) {
+        fetchedIds.add(v.videoId);
         const prev = previousVideos.get(v.videoId);
         const { viewsPerHour, viewsPerHourSource } = computeViewsPerHour(v, prev, previousFetchTime, now);
 
-        allVideos.push({
+        videoMap.set(v.videoId, {
           ...v,
           channelId: channel.channelId,
           channelTitle: channel.channelTitle,
@@ -487,28 +533,27 @@ async function fetchList(listName, rawChannels) {
           errors.push({ videoId: v.videoId, error: err.message });
         }
       }
-    } catch (err) {
-      // Don't just drop this channel - fall back to whatever we had for it
-      // last successful run, so a quota blip doesn't wipe the site's data.
-      const knownChannelId = channel?.channelId || channelMap[rawChannel];
-      const fallback = fallbackVideosFor(knownChannelId);
-      if (fallback.length) {
-        allVideos.push(...fallback);
-        usedFallback = true;
-        console.error(
-          `! Failed channel "${rawChannel}": ${err.message} - dùng lại ${fallback.length} video đã lưu từ lần chạy trước.`
-        );
-        errors.push({ channel: rawChannel, error: err.message, usedCachedFallback: true, fallbackVideoCount: fallback.length });
-      } else {
-        console.error(`! Failed channel "${rawChannel}": ${err.message}`);
-        errors.push({ channel: rawChannel, error: err.message });
+
+      // Full-history runs reconcile deletions for THIS channel only - never
+      // for channels that used the normal capped fetch this run, since a
+      // capped fetch legitimately doesn't see older videos and that's not
+      // the same thing as those videos having been deleted.
+      if (useFullHistory) {
+        for (const [videoId, v] of videoMap) {
+          if (v.channelId === channel.channelId && !fetchedIds.has(videoId)) {
+            videoMap.delete(videoId);
+          }
+        }
       }
+    } catch (err) {
+      console.error(`! Failed channel "${rawChannel}": ${err.message}`);
+      errors.push({ channel: rawChannel, error: err.message });
     }
   }
 
   await saveChannelMap(listName, channelMap);
 
-  allVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  const allVideos = [...videoMap.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   await writeFile(videosFileFor(listName), JSON.stringify(allVideos, null, 2));
   await writeFile(
     metaFileFor(listName),
@@ -521,7 +566,6 @@ async function fetchList(listName, rawChannels) {
         quotaUnitsUsed: quotaUnits,
         apiKeysConfigured: API_KEYS.length,
         allKeysExhausted: keysExhausted,
-        usedCachedFallback: usedFallback,
         errors,
         replyErrors,
       },
