@@ -455,8 +455,17 @@
       "text": "I would love to visit Yemen...such a rich history. Thank you for sharing this beautiful piece of history. I never knew this history. Very informative.",
       "likeCount": 12,
       "publishedAt": "2026-05-14T18:24:25Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw242hS-hv07sPWWpt4AaABAg.AWnZYsXI9W_AZY_qyhaZBR",
+          "author": "@Nathaneell",
+          "authorImage": "https://yt3.ggpht.com/T2flaRq-o68ueuF1YdLlauELbFfCcVx9ZdX7238ZwNyS_gmkORLmZ5yy_Gvovjz8g6efRfoX=s48-c-k-c0x00ffffff-no-rj",
+          "text": "oh you don't",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T03:02:06Z"
+        }
+      ]
     },
     {
       "id": "Ugzg9vkw1AgnttfRMAd4AaABAg",
@@ -1141,35 +1150,6 @@
       "publishedAt": "2026-04-23T08:17:54Z",
       "replyCount": 0,
       "replies": []
-    },
-    {
-      "id": "UgznSEvtTJeZpDHnYTJ4AaABAg",
-      "author": "@LKemp-lr1ky",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lXoESSo0d3-tSvahSnHTpVmogNeoHiUNk-wAzvk4L8NrI=s48-c-k-c0x00ffffff-no-rj",
-      "text": "A sacred doctrine that has women walking around in sacks!?  The idea would never would have taken off without some stupid woman willing to go along with the joke.",
-      "likeCount": 1,
-      "publishedAt": "2026-04-22T18:02:01Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzLVSNK6GVr3FAkA5N4AaABAg",
-      "author": "@ehorvath24",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n3BKUnvJfiIZT1nCpzXOeSsEQ2zutlQDoVJUAQ_PUzww=s48-c-k-c0x00ffffff-no-rj",
-      "text": "can't imagine living on this place but it looks so cool.",
-      "likeCount": 3,
-      "publishedAt": "2026-04-22T08:57:25Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgzLVSNK6GVr3FAkA5N4AaABAg.AVtuAmjR_zxAVvej8xbN_P",
-          "author": "@trueglobe66",
-          "authorImage": "https://yt3.ggpht.com/RFcxmnk-Pf5gG-QETE5vXGV9aW49y0tEtEFZJHNi4x9EEIeEcB5ySAdktkGqHn_Kyv0NwUTczw=s48-c-k-c0x00ffffff-no-rj",
-          "text": "It really is hard to imagine. Places like this feel almost unreal until you see how people have adapted to the mountains and built a life there.",
-          "likeCount": 3,
-          "publishedAt": "2026-04-23T01:20:55Z"
-        }
-      ]
     }
   ]
 }

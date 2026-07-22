@@ -1,5 +1,64 @@
 {
   "videoId": "JOAEnFNaGhM",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "Ugxukw0qCsIIyzZTFiB4AaABAg",
+      "author": "@PlanetaDiferenteTV",
+      "authorImage": "https://yt3.ggpht.com/8fOyA754BNUtulOBarTsT1Y7sOuBzUfZMaNuGcTvOnvec0wthzGGMxcKrJhYez5hSEbN625M=s48-c-k-c0x00ffffff-no-rj",
+      "text": "¿Cuál de estas rutas te pareció la más peligrosa? ¿Te atreverías a recorrer alguna o preferirías verla solo desde la pantalla? ¡Cuéntanos tu opinión!",
+      "likeCount": 1,
+      "publishedAt": "2026-07-22T01:51:50Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugy-OFKiPwohO58e8gp4AaABAg",
+      "author": "@PlanetaDesconocidoDoc",
+      "authorImage": "https://yt3.ggpht.com/0Daghr81Lj5PoB6jjB_F6wiTA6596bQmq5FOnhJ4IfoRko1Iy8AR2zeZcuLzaqtEev3_4XFSsQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "La verdad, varias de estas rutas se ven peligrosas, pero algunas están demasiado exageradas. He visto carreteras mucho peores que ni siquiera mencionaron",
+      "likeCount": 0,
+      "publishedAt": "2026-07-22T04:13:52Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzNvNyv63XJuC_CkfN4AaABAg",
+      "author": "@MundoMágicoTV-t15k",
+      "authorImage": "https://yt3.ggpht.com/ZYmVw6rrrTfZpMQdxI8X7Z50Wf5Qw8CH4gPwDtLqazQCP9d8bwe1M1xs166nMjwX-O9ITu9b=s48-c-k-c0x00ffffff-no-rj",
+      "text": "¿Te atreverías a conducir por alguna de estas rutas o preferirías admirarlas solo desde el documental?",
+      "likeCount": 0,
+      "publishedAt": "2026-07-22T01:32:10Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzNvNyv63XJuC_CkfN4AaABAg.AZYQZLjZCejAZYSX0b1i5_",
+          "author": "@PlanetaDiferenteTV",
+          "authorImage": "https://yt3.ggpht.com/8fOyA754BNUtulOBarTsT1Y7sOuBzUfZMaNuGcTvOnvec0wthzGGMxcKrJhYez5hSEbN625M=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Creo que me animaría a recorrer algunas de ellas, aunque con mucho respeto y preparación! Otras... mejor disfrutarlas desde el documental. ¿Y tú, cuál te atreverías a conducir?",
+          "likeCount": 1,
+          "publishedAt": "2026-07-22T01:49:20Z"
+        }
+      ]
+    },
+    {
+      "id": "UgxtKyB21AbvG9i8RBx4AaABAg",
+      "author": "@mundoinexploradodocumental",
+      "authorImage": "https://yt3.ggpht.com/i0vRqh26YVYvy2_zqMt64zVG6GFDxLpe6PehUYAZxe1vShE4zz9kX4EILcrQ3jRwrssl9FpH=s48-c-k-c0x00ffffff-no-rj",
+      "text": "¡Qué documental tan impresionante! Estas rutas son tan peligrosas como increíbles.",
+      "likeCount": 0,
+      "publishedAt": "2026-07-22T01:21:16Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxtKyB21AbvG9i8RBx4AaABAg.AZYPJXCJ73lAZYSbJ9n7Kv",
+          "author": "@PlanetaDiferenteTV",
+          "authorImage": "https://yt3.ggpht.com/8fOyA754BNUtulOBarTsT1Y7sOuBzUfZMaNuGcTvOnvec0wthzGGMxcKrJhYez5hSEbN625M=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias! Nos alegra que lo hayas disfrutado. La naturaleza puede ser tan hermosa como desafiante, y estas rutas son el mejor ejemplo. ¿Cuál fue la que más te impresionó?",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T01:50:03Z"
+        }
+      ]
+    }
+  ]
 }

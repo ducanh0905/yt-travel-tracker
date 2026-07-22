@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzQVKzF7mjvWk3iUnl4AaABAg",
+      "author": "@ExploralosPaíses1",
+      "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Es increíble ver cómo doman el agua en los Países Bajos. Planear un viaje para ver estos canales demuestra que la vida en una nación bajo el mar es única.",
+      "likeCount": 0,
+      "publishedAt": "2026-07-22T02:08:37Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugxz3zmrkhBTDJ9E0pl4AaABAg",
       "author": "@MiguelTortosaDelgado",
       "authorImage": "https://yt3.ggpht.com/vwcg2YGWSscLx9s1P1lfZymWWZw6J0RLBYTMgekUFvOohzZ2IdSUinJb2SRE4S5AM1mXrBI4Sxc=s48-c-k-c0x00ffffff-no-rj",
       "text": "En Giethoorn  hay una invasión de turistas molestos.",
       "likeCount": 0,
       "publishedAt": "2026-07-21T20:19:10Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxz3zmrkhBTDJ9E0pl4AaABAg.AZXrjoHX4bdAZYUo1Qjefw",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Totalmente. En el video se ve hermoso, pero dicen que en temporada alta se llena tanto que casi no puedes ni caminar por los puentes. Qué agobio.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-22T02:09:16Z"
+        }
+      ]
     }
   ]
 }

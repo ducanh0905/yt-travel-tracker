@@ -19,18 +19,17 @@
       "text": "me gusta",
       "likeCount": 0,
       "publishedAt": "2026-07-21T01:27:21Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugxzt7X5jXvkbv8uXs14AaABAg",
-      "author": "@SlamboG-h3v",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_meLtS1C8gl1i7ctdw977aqXq65ZlRYz3nJcpNHxhajLNpRpb2AVHlBghoDuIef2xu6gQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Watching from USA. Thanks for the balanced and thoughtful coverage.",
-      "likeCount": 0,
-      "publishedAt": "2026-07-20T17:42:14Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzopGn1kArpWzBDGsl4AaABAg.AZVqD8nLFfyAZYPbCJLjEE",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Qué bueno! 🇪🇸 🎯 Glad you liked it! What was your favorite scene from the video?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T01:23:49Z"
+        }
+      ]
     },
     {
       "id": "UgyVNDK6WUO81JyS8Yp4AaABAg",
@@ -49,8 +48,17 @@
       "text": "@06:00 That is Dubai and not Cairo",
       "likeCount": 0,
       "publishedAt": "2026-07-20T14:24:59Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxgnQeSgG9qjOedCOJ4AaABAg.AZUePpdbuQUAZYPr_9NVOh",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sharp eye on the visual edit! 🔍 🏙️ Good catch on the skyline distinction. What gave it away for you first—the architecture or the tower layout?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-07-22T01:26:03Z"
+        }
+      ]
     },
     {
       "id": "UgxEIqrfXh_GqHyUpgp4AaABAg",
@@ -1200,7 +1208,7 @@
       "author": "@NofallinoArifin",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l4B4Et88vx1Nh-zoDUEExgQBXEzbfzBCApObVOvXyroAdDDlnOOH5OFkBTiMvJuqH4ng=s48-c-k-c0x00ffffff-no-rj",
       "text": "My name is Arifin, from Jakarta, Indonesia. I am Indonesian, 90 years old. The time in Jakarta  is now 12.30 p.m.\n  Indonesia Western Time,  WIB.",
-      "likeCount": 5,
+      "likeCount": 6,
       "publishedAt": "2026-07-12T05:50:38Z",
       "replyCount": 1,
       "replies": [
@@ -1209,7 +1217,7 @@
           "author": "@DimaDima-t6q",
           "authorImage": "https://yt3.ggpht.com/6r7o7G3rR5CCH1Z2fOQWmsscm28hLT1yEXefXs2K2z5m28u257pY58IBe94CwYOn9s2-UZHNqAY=s48-c-k-c0x00ffffff-no-rj",
           "text": "@NofallinoArifin 💐🤲🏽",
-          "likeCount": 0,
+          "likeCount": 1,
           "publishedAt": "2026-07-17T22:23:54Z"
         }
       ]
