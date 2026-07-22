@@ -1,17 +1,11 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-07-22T18:24:00.348Z",
+  "lastUpdated": "2026-07-22T18:46:27.795Z",
   "channelCount": 20,
   "videoCount": 1496,
-  "quotaUnitsUsed": 1675,
+  "quotaUnitsUsed": 89,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "usedCachedFallback": false,
-  "errors": [
-    {
-      "videoId": "S_7YYe74Y4I",
-      "error": "commentThreads failed: processingFailure"
-    }
-  ],
+  "errors": [],
   "replyErrors": []
 }

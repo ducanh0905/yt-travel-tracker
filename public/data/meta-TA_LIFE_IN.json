@@ -1,12 +1,11 @@
 {
   "list": "TA_LIFE_IN",
-  "lastUpdated": "2026-07-22T18:27:11.979Z",
+  "lastUpdated": "2026-07-22T18:46:45.939Z",
   "channelCount": 10,
   "videoCount": 314,
-  "quotaUnitsUsed": 3330,
+  "quotaUnitsUsed": 257,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "usedCachedFallback": false,
   "errors": [],
   "replyErrors": []
 }

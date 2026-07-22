@@ -1,12 +1,11 @@
 {
   "list": "4K_LIVING_IN",
-  "lastUpdated": "2026-07-22T18:32:13.332Z",
+  "lastUpdated": "2026-07-22T18:46:58.813Z",
   "channelCount": 15,
   "videoCount": 889,
-  "quotaUnitsUsed": 6025,
+  "quotaUnitsUsed": 388,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "usedCachedFallback": false,
   "errors": [],
   "replyErrors": []
 }
