@@ -9,8 +9,17 @@
       "text": "Great documentary",
       "likeCount": 0,
       "publishedAt": "2026-07-20T21:36:36Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwFJRXgAeaNnuXkDLB4AaABAg.AZVQo5UJsklAZX6IQBa_-J",
+          "author": "@AmazingGlobalDiscoveries",
+          "authorImage": "https://yt3.ggpht.com/T2v50f6Jyxr5W4Rgq36zJV5ZHEJoK26sCLPrt8u9s0ecJuedWFhcgw42MdyvKjOVmgzbVSm3Qw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "I’m glad you enjoyed the video! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-07-21T13:15:51Z"
+        }
+      ]
     },
     {
       "id": "Ugzds58nb7gmlzyS5fV4AaABAg",
