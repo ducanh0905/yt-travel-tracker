@@ -19,8 +19,17 @@
       "text": "1",
       "likeCount": 0,
       "publishedAt": "2026-07-21T21:39:36Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwZJiMiBkKIW1lMrCx4AaABAg.AZY-x-691acAZagq9iscDH",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "welcome",
+          "likeCount": 0,
+          "publishedAt": "2026-07-23T08:00:52Z"
+        }
+      ]
     },
     {
       "id": "UgzqtQhyP_PlFnff0MF4AaABAg",
@@ -29,8 +38,17 @@
       "text": "Sunny 🌞 today 😎. \nWill it be Sunny in China?",
       "likeCount": 0,
       "publishedAt": "2026-07-21T16:08:08Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzqtQhyP_PlFnff0MF4AaABAg.AZXQ0APTRfVAZagiUp-_UP",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "yes, Sunny",
+          "likeCount": 0,
+          "publishedAt": "2026-07-23T07:59:50Z"
+        }
+      ]
     },
     {
       "id": "UgwLSX3nY8VQHKhT6Zx4AaABAg",

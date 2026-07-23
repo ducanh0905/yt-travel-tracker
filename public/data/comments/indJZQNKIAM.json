@@ -28,8 +28,17 @@
       "text": "It looks like a black country to me.",
       "likeCount": 0,
       "publishedAt": "2026-07-22T13:45:40Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyGGxAWcqbN8HS2qR14AaABAg.AZZjVbZaSnzAZagtcfftoN",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "yes",
+          "likeCount": 0,
+          "publishedAt": "2026-07-23T08:01:21Z"
+        }
+      ]
     },
     {
       "id": "UgxdiVdVEi-TR1PbZZx4AaABAg",

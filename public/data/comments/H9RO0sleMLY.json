@@ -9,8 +9,17 @@
       "text": "Morocco is so beautiful but I didn't visit it ever.",
       "likeCount": 1,
       "publishedAt": "2026-07-22T11:07:51Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxc43vrWng6NXZSwR54AaABAg.AZZSRisoMLtAZaEA8Wa1ex",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "You totally should! It's awesome there.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-23T03:41:36Z"
+        }
+      ]
     },
     {
       "id": "UgwEFCV8h_5VvaWk9pB4AaABAg",
