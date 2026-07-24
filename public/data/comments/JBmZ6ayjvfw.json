@@ -267,8 +267,17 @@
       "text": "Empezo siendo Dubai y termino siendo Iran",
       "likeCount": 3,
       "publishedAt": "2026-07-03T04:05:33Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzEq1BCvntQNhLe-ON4AaABAg.AYmm02N8nDjAZbuPytZ6dS",
+          "author": "@AlexanderPoveda-ex2oy",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n0P3r2dt_xOW7IMpld2RrxGBWw0u14CCrewTD_k6rGgh-rAJJjEjQc9tcAQhDqX28vZA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "En todo país existe también la pobreza y, esto nada tiene que ver con dictaduras.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-23T19:18:44Z"
+        }
+      ]
     },
     {
       "id": "UgyHcTZWBFTBPhG9qgV4AaABAg",

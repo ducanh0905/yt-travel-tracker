@@ -336,8 +336,17 @@
       "text": "Born and raised here. The best kept secret in the world. Just a real paradise.",
       "likeCount": 24,
       "publishedAt": "2026-05-05T06:45:53Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyspaFIFm5NmasQ9Gp4AaABAg.AWQ8SouHSfxAZcxf5KHkkn",
+          "author": "@user-zb9qb3mv6k",
+          "authorImage": "https://yt3.ggpht.com/qIYxXEF_EIFOwzgAIQQzl-XQxUCJFl_cFhpz9bxuT2kBhohXGnhz0nnFTmP7UB-_MBW3b_ueKFo=s48-c-k-c0x00ffffff-no-rj",
+          "text": "I’m an American and when I retire I would love to leave all this hustle and just slow way down and live the rest of my days in peace and quiet in Tasmania. You have beautiful country.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-24T05:06:23Z"
+        }
+      ]
     },
     {
       "id": "UgzsFj5MBSg1Rr9T6BB4AaABAg",
@@ -451,7 +460,7 @@
           "author": "@grasslipper8856",
           "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kxKcpAmpqAzVRKeqXCsdk805Gr1kk3WYIoMGQ2-1v8z1r3YeMOa9PsH8iPqbDD5joqcA=s48-c-k-c0x00ffffff-no-rj",
           "text": "And a lot of what you said also applies to parts of the mainland",
-          "likeCount": 6,
+          "likeCount": 7,
           "publishedAt": "2026-05-06T09:50:30Z"
         },
         {

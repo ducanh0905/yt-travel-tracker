@@ -19,8 +19,17 @@
       "text": "California",
       "likeCount": 1,
       "publishedAt": "2026-07-17T13:39:52Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxy9857Lk5C6tcNuit4AaABAg.AZMqrp2YrfSAZahIHGztO_",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "welcome",
+          "likeCount": 0,
+          "publishedAt": "2026-07-23T08:04:51Z"
+        }
+      ]
     },
     {
       "id": "UgzwyUofU-g7dwexdnd4AaABAg",
