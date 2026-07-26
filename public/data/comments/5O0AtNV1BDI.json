@@ -28,8 +28,17 @@
       "text": "Saigon, Vietnam, local 11:31am",
       "likeCount": 0,
       "publishedAt": "2026-07-14T04:31:20Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxgxEeE1X80SpYiLtZ4AaABAg.AZE8hXzd85wAZg2KMzoQXm",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Chào Sài Gòn! 🇻🇳 ☕ 11:31 AM—just in time for a mid-day coffee break and a quick travel trip. Hope you're having a great weekend!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-25T09:53:34Z"
+        }
+      ]
     },
     {
       "id": "UgyXQ1eBquQUOBUSGfd4AaABAg",
@@ -74,7 +83,7 @@
           "author": "@reallifeincountries",
           "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
           "text": "You raise a fascinating point! 🎭 Traditional festivals like Carnival Del Diablo have such a complex, unique cultural depth that goes beyond the surface. Do you feel like these celebrations help strengthen the local community's faith, or do they serve more as a historical heritage?",
-          "likeCount": 0,
+          "likeCount": 1,
           "publishedAt": "2026-07-06T02:13:23Z"
         }
       ]

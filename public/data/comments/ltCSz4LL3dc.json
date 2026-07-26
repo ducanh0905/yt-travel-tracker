@@ -396,8 +396,25 @@
       "text": "Texas usa",
       "likeCount": 0,
       "publishedAt": "2026-07-14T06:25:14Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgzjlxGIH4wOjqb_MoJ4AaABAg.AZELjlsYkS7AZg4UNPo0iN",
+          "author": "@iftikharshah5240",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mLEChNwe_lx5IJHHpTTyeQDZF6dqNzqdv0qIYwxwOIZFEIqKZ4yJI21xrQfhWDIZaP-Q=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@reallifeincountries \nHowdy ‘ I’m originally from Pakistan AjK ‘ moved to NY in 1973 ‘ and then to  SA Texas in 2008 \nWhat stood out to me was the great food  and friendly people and the hospitality ‘",
+          "likeCount": 0,
+          "publishedAt": "2026-07-25T10:12:25Z"
+        },
+        {
+          "id": "UgzjlxGIH4wOjqb_MoJ4AaABAg.AZELjlsYkS7AZfz_trsaIS",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "\"Big shoutout to Texas! 🇺🇸 🤠 Great to have the Lone Star State tuning in. What destination in the video hit best for you?\"",
+          "likeCount": 1,
+          "publishedAt": "2026-07-25T09:20:53Z"
+        }
+      ]
     },
     {
       "id": "Ugxo1IqU4qokY-_whbZ4AaABAg",
@@ -406,16 +423,6 @@
       "text": "Misleading title and fake thumbnail.  Shame on you!",
       "likeCount": 1,
       "publishedAt": "2026-07-14T01:28:08Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyTOZSmbeQ4IPi0hd54AaABAg",
-      "author": "@adamadam97737",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k2yUp33fsCnYHD9wUeu8biIQTDLSI5XK0Yu8WSlkI=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I am originally from Karachi. The country is beautiful and full of resources, but people are corrupt, dishonest, and use religion for their own benefits. There are few people who have fear of God; the rest of them are misusing religion for their personal agenda. May Allah guide them, or otherwise they will end like Prophet Noha, Thumud, Ad, and Lot's nation; they are pretty much close to all those characteristic natures.",
-      "likeCount": 0,
-      "publishedAt": "2026-07-14T00:18:22Z",
       "replyCount": 0,
       "replies": []
     },
@@ -455,8 +462,17 @@
       "text": "Cambridge",
       "likeCount": 0,
       "publishedAt": "2026-07-13T20:08:27Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwyQOD01-llPyLNHsN4AaABAg.AZDF9Nu5ANSAZg2LntzmBq",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "\"Greetings to historic Cambridge! 🇬🇧 📚 Beautiful city to be tuning in from. Are you watching from the UK or Cambridge, Massachusetts?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-07-25T09:53:46Z"
+        }
+      ]
     },
     {
       "id": "UgyRSbgpsVOCXXN-yM94AaABAg",

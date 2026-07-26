@@ -184,7 +184,7 @@
           "author": "@reallifeincountries",
           "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
           "text": "\"Mabuhay Philippines! 🇵🇭 ✨ Great to have you with us. Are you watching this from Manila or another region?\"",
-          "likeCount": 0,
+          "likeCount": 1,
           "publishedAt": "2026-07-23T01:11:44Z"
         }
       ]
@@ -1783,8 +1783,17 @@
       "text": "Watching from somaliland",
       "likeCount": 1,
       "publishedAt": "2026-07-14T15:02:56Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugy51xlmLyYW6fJmrmt4AaABAg.AZFGzUOBGE9AZfzYBdE1Qw",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Somaliland! 🌍 ✨ Awesome to have viewers tuning in from the Horn of Africa. What scene caught your eye today?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-07-25T09:20:31Z"
+        }
+      ]
     },
     {
       "id": "UgzygwtlnBrpoMxl8Gl4AaABAg",
@@ -1793,8 +1802,17 @@
       "text": "How can I get here",
       "likeCount": 0,
       "publishedAt": "2026-07-14T14:08:40Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzygwtlnBrpoMxl8Gl4AaABAg.AZFAm7T7pGwAZfz8Ey0wib",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "\"Pack your bags—adventure is calling! ✈️ 🌍 Which exact spot in the video gave you the ultimate travel itch?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-07-25T09:16:58Z"
+        }
+      ]
     },
     {
       "id": "UgxL9WVbmXU9MX2Wbvx4AaABAg",

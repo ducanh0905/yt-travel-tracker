@@ -9,8 +9,17 @@
       "text": "2 me gusta este pais",
       "likeCount": 0,
       "publishedAt": "2026-07-25T02:05:39Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgytqIvIg3rUBFMeCTt4AaABAg.AZfCmC2oe9NAZg_PGWOMRT",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Me alegra que te guste este país! Suecia realmente tiene mucho que ofrecer.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-25T14:51:20Z"
+        }
+      ]
     },
     {
       "id": "UgzN_8JKG4WOfZKm5cN4AaABAg",
