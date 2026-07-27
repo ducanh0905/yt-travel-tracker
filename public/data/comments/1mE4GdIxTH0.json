@@ -1,5 +1,26 @@
 {
   "videoId": "1mE4GdIxTH0",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgyrWy6LUVM69syl9K94AaABAg",
+      "author": "@miguelgarrido1258",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_leA91lKprlirENvVQBnL0qZeMie82BgUSnRXCw8eylZT-2=s48-c-k-c0x00ffffff-no-rj",
+      "text": "5",
+      "likeCount": 0,
+      "publishedAt": "2026-07-26T17:14:57Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgylUds7i--zBI909lp4AaABAg",
+      "author": "@miguelgarrido1258",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_leA91lKprlirENvVQBnL0qZeMie82BgUSnRXCw8eylZT-2=s48-c-k-c0x00ffffff-no-rj",
+      "text": "España",
+      "likeCount": 0,
+      "publishedAt": "2026-07-26T17:10:15Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

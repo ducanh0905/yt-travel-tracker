@@ -103,8 +103,17 @@
       "text": "Would you accept a stranger inviting you home for coffee, or would you think it's too risky ?",
       "likeCount": 0,
       "publishedAt": "2026-07-15T10:09:07Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwZ-4GuBjsOGY_aMRN4AaABAg.AZHK9OyLQxTAZjIekfaos-",
+          "author": "@samhassanq",
+          "authorImage": "https://yt3.ggpht.com/yfTmKvY994YnmUZibSVKkvHd-TLcewnpNjmtEAUTpDiVSGi3QYCPBwhR3iC_SGDXmaqHRXnJPQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Not in Jordan",
+          "likeCount": 0,
+          "publishedAt": "2026-07-26T16:14:02Z"
+        }
+      ]
     },
     {
       "id": "Ugz3gFx2EBjm1oYGJmJ4AaABAg",
