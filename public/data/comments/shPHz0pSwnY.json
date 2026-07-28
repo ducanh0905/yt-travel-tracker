@@ -47,10 +47,19 @@
       "author": "@ladiguaman8299",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l_rB9irPL02AzC42m7lT5_zWsqc_9QSlGxCrENloy7Eg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Ho my good",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-06-15T19:46:46Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzgSWsb6O8MxbiTAwJ4AaABAg.AY56Q1Ig2r1AZlyCwRDeSZ",
+          "author": "@travpedia",
+          "authorImage": "https://yt3.ggpht.com/f48hXFGxf3xzUQVbOaf2R7hTez9zUgLZpg9nwrIdd-eMHrQs21crQ4vFuxQH3LBkBW3ShKYPCg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for watching",
+          "likeCount": 0,
+          "publishedAt": "2026-07-27T17:04:19Z"
+        }
+      ]
     },
     {
       "id": "UgxjvhG_Xiwnn6JHGiF4AaABAg",
@@ -100,16 +109,6 @@
           "publishedAt": "2026-05-12T19:03:44Z"
         }
       ]
-    },
-    {
-      "id": "UgzW8IcvQaWwTIKIAIZ4AaABAg",
-      "author": "@RoseAngelHalbreich316",
-      "authorImage": "https://yt3.ggpht.com/whbGKLVgnlbksF1SOgidhTQ-nz7ujWur061yMkaGniMp9KR5MTKWiNl-eqw-EPlZm9EfeESHu2c=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Beautiful Earth\nSo much to us; it is worth\nCreated by God above\nGiven as  a gift with Love\nBuilt with His Mighty Hand\nAs a Spiritual Testimony; it Eternally will stand",
-      "likeCount": 0,
-      "publishedAt": "2026-04-28T18:58:51Z",
-      "replyCount": 0,
-      "replies": []
     }
   ]
 }

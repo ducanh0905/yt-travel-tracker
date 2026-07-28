@@ -9,8 +9,25 @@
       "text": "Parece outro mundo 😊",
       "likeCount": 0,
       "publishedAt": "2026-07-25T13:01:35Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgwAIpNoUlygoO31qRl4AaABAg.AZgNqPihR5lAZlFLYhGvXr",
+          "author": "@ItáliaFilomena",
+          "authorImage": "https://yt3.ggpht.com/ZOahxOFQ_puaS7JLjdZoJxCN_AMK6JxkBtmOk0JoEhjMFilhvzvoQzK55SXltN9mdKhr-OXdhg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "​@ViagenscomEstilosim",
+          "likeCount": 0,
+          "publishedAt": "2026-07-27T10:23:32Z"
+        },
+        {
+          "id": "UgwAIpNoUlygoO31qRl4AaABAg.AZgNqPihR5lAZl-kWLKcCn",
+          "author": "@ViagenscomEstilo",
+          "authorImage": "https://yt3.ggpht.com/CTB9z-F3BFtBGI1esB_Dmb71UFV0yVjfSlzbEPmy2vqBf1FhCdzeLXT2-UkP46umFlrjw2AD=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Sim, este lugar é incrível. Tudo é tão mágico, não é, meu amigo?",
+          "likeCount": 1,
+          "publishedAt": "2026-07-27T08:07:16Z"
+        }
+      ]
     },
     {
       "id": "UgxMygmHReDss3WFcyZ4AaABAg",

@@ -29,8 +29,16 @@
       "text": "My father and husband are going to Mongolia on the 12th  of july",
       "likeCount": 0,
       "publishedAt": "2026-07-02T13:10:50Z",
-      "replyCount": 1,
+      "replyCount": 2,
       "replies": [
+        {
+          "id": "UgxP_1h0BK31C8_C6XF4AaABAg.AYlAbyu3Zn0AZkMT-c4tV9",
+          "author": "@MONGOLIANUMBER1FAN",
+          "authorImage": "https://yt3.ggpht.com/Od5Te0ztocC4AIUY96RcQl32FX_bQ_GxuxFztcAUQaWJomIcSQPRIxQi-0ZMRGU1mNOWkpNsfg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Guess my favorite country",
+          "likeCount": 0,
+          "publishedAt": "2026-07-27T02:06:29Z"
+        },
         {
           "id": "UgxP_1h0BK31C8_C6XF4AaABAg.AYlAbyu3Zn0AZ6ftlTs7NW",
           "author": "@debb6464",
@@ -149,25 +157,6 @@
       "publishedAt": "2026-05-12T18:44:03Z",
       "replyCount": 0,
       "replies": []
-    },
-    {
-      "id": "Ugy3HhG0JP4UoXWOnDF4AaABAg",
-      "author": "@del-ic7ox",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mppDQFPIUwJsfv3s7whDFxWLr475ssGE5SOmiZ0hT-rSSNAdEVrRPVqDi7lp5BBFrlWA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "What their languages?",
-      "likeCount": 0,
-      "publishedAt": "2026-04-28T08:50:23Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "Ugy3HhG0JP4UoXWOnDF4AaABAg.AW8L8_oIqaFAYGqgnhKxyk",
-          "author": "@amgalanaquaticasofjargalsa6323",
-          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ndVDJMyNsGckuSZ7S9tbfGjcIqMdUXx7iNJBssdVydNw0=s48-c-k-c0x00ffffff-no-rj",
-          "text": "we speak mongolian.",
-          "likeCount": 1,
-          "publishedAt": "2026-06-20T09:11:32Z"
-        }
-      ]
     }
   ]
 }

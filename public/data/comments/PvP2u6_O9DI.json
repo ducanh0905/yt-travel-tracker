@@ -445,8 +445,17 @@
       "text": "usa 11:04 pm 2304",
       "likeCount": 0,
       "publishedAt": "2026-07-11T03:05:33Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyTn8OClx2oDZG_-bl4AaABAg.AZ6GVcol7HOAZkGlMB1Jp8",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "\"11:04 PM late-night check-in from the USA! 🇺🇸 🌙 Bingeing travel documentaries before sleep is the best feeling. What kept you watching?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-07-27T01:16:42Z"
+        }
+      ]
     },
     {
       "id": "UgxpCTmI0CQ2T-w_had4AaABAg",

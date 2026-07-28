@@ -13,14 +13,33 @@
       "replies": []
     },
     {
+      "id": "UgxrEUDpCwXFwR1cLaF4AaABAg",
+      "author": "@MundoelporAventuras",
+      "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Este documental muestra una mezcla cultural única que no te esperas de Europa. Un viaje allá te hace ver que la vida en Francia tiene mucha más diversidad de la que imaginamos.",
+      "likeCount": 1,
+      "publishedAt": "2026-07-27T04:23:20Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugz750Ws6N6r3pv8Vs54AaABAg",
       "author": "@johanssonmaria6063",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mXl5vEZetSFCfuG2B7_VLqc38fE5TVJMtL_CGIeMUbdXJf55quvy5KONcX81xCv66Llw=s48-c-k-c0x00ffffff-no-rj",
       "text": "Algunas  islas robadas entre esas la isla Clipperton",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-07-17T04:29:54Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugz750Ws6N6r3pv8Vs54AaABAg.AZLrvf-TYdJAZkb91_vAaB",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Es una locura cómo México perdió Clipperton. Esa disputa con Francia duró años y al final nos quedamos sin nada. Menuda historia tan triste.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-27T04:23:34Z"
+        }
+      ]
     }
   ]
 }

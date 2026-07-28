@@ -9,8 +9,17 @@
       "text": "Primeiro Like primeira visualização",
       "likeCount": 0,
       "publishedAt": "2026-07-26T13:02:59Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw_u6bi7XYQbaG1-gp4AaABAg.AZixnSvNzQIAZl-SwwLcbM",
+          "author": "@ViagenscomEstilo",
+          "authorImage": "https://yt3.ggpht.com/CTB9z-F3BFtBGI1esB_Dmb71UFV0yVjfSlzbEPmy2vqBf1FhCdzeLXT2-UkP46umFlrjw2AD=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Obrigado, olá irmão. Por favor, nos apoie.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-27T08:04:44Z"
+        }
+      ]
     }
   ]
 }

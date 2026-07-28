@@ -1,5 +1,55 @@
 {
   "videoId": "NtIGSMr4zg8",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgxHwGB4hqkB-BtFk8d4AaABAg",
+      "author": "@FauistoSaburio",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lSxERKmuXpC-ZC9j7fDJwYA7IckYaELucXUsk6JqJMNWOrJkgdwEv1hl_g-6nsJoGqnQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "#2",
+      "likeCount": 0,
+      "publishedAt": "2026-07-27T22:19:02Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwonpkHw2r1h26RAS94AaABAg",
+      "author": "@GabrielTefel",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nORjyYIWeImlv59lRgvisV2wPTNRvaz6BPN6eJqOLH6WLF56Ie3Pd9ifSOmICck_CnBA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "#2",
+      "likeCount": 0,
+      "publishedAt": "2026-07-27T14:52:58Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw8qw8N18YDWIs9_Ad4AaABAg",
+      "author": "@GabrielTefel",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nORjyYIWeImlv59lRgvisV2wPTNRvaz6BPN6eJqOLH6WLF56Ie3Pd9ifSOmICck_CnBA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Nicaragua",
+      "likeCount": 0,
+      "publishedAt": "2026-07-27T14:50:31Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxAGd74AJUyA6XOOD94AaABAg",
+      "author": "@DanielRosario-g8o",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nd9CUTH_vUS6yLFfCh_EH5NHiIQaskwp1Eiz_BGHeJdhT6LRhIGrQvmGbeGa18USPkig=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Desde Puerto Rico",
+      "likeCount": 0,
+      "publishedAt": "2026-07-27T01:15:12Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxAGd74AJUyA6XOOD94AaABAg.AZkGaNRnaUaAZkUMSTgB83",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Saludos hasta Puerto Rico! Me alegra mucho que el documental haya llegado tan lejos.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-27T03:15:29Z"
+        }
+      ]
+    }
+  ]
 }
