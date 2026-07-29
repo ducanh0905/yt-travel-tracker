@@ -147,8 +147,17 @@
       "text": "Watching from Tashkent, Uzbekistan !!!!!!",
       "likeCount": 1,
       "publishedAt": "2026-07-05T21:19:55Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxFCS205WqnOvLKYBJ4AaABAg.AYtlykTHPmAAZnlwW7ELpB",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "welcome",
+          "likeCount": 0,
+          "publishedAt": "2026-07-28T09:55:33Z"
+        }
+      ]
     },
     {
       "id": "UgwuXEiI9OVop3YVjP54AaABAg",
