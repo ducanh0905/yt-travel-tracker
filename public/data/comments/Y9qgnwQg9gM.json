@@ -9,8 +9,25 @@
       "text": "Hello, I am wondering that are you real person or AI? Your English is very good. Or this video is just be dubbed in AI's Englished.",
       "likeCount": 0,
       "publishedAt": "2026-07-28T06:33:26Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgxhZqOUlH3WYvRGXDp4AaABAg.AZnPo6PdYaTAZqlP_2evNv",
+          "author": "@HappinessAus",
+          "authorImage": "https://yt3.ggpht.com/dkt8uEBWwgJWuWC4-Vjl0bZB4dbtjjWBuD4LC1syq5h7QhUKh7hLca_vr6nsT7zqOeNNzEi5p8Y=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@ThePlanetJournalGlobe Great!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-29T13:48:39Z"
+        },
+        {
+          "id": "UgxhZqOUlH3WYvRGXDp4AaABAg.AZnPo6PdYaTAZpf_vkMbt_",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We are definitely a team of real creators, @HappinessAus! We put a lot of effort into our scripts and high-quality production to ensure the best experience for our viewers. Thanks for the compliment on our English!",
+          "likeCount": 1,
+          "publishedAt": "2026-07-29T03:38:32Z"
+        }
+      ]
     },
     {
       "id": "UgwSQlrpjHD3hnaEMdN4AaABAg",
@@ -19,8 +36,17 @@
       "text": "How do I contact you for collaboration?",
       "likeCount": 0,
       "publishedAt": "2026-07-27T20:46:21Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwSQlrpjHD3hnaEMdN4AaABAg.AZmMcCgHV_5AZpfv1-tFlb",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@Waquas_Ahmad, thank you for reaching out!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-29T03:41:24Z"
+        }
+      ]
     },
     {
       "id": "Ugxm0MWTdTtzn1nAP5p4AaABAg",
@@ -29,8 +55,17 @@
       "text": "good idea",
       "likeCount": 0,
       "publishedAt": "2026-07-25T16:04:33Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxm0MWTdTtzn1nAP5p4AaABAg.AZghmTlK_ULAZpgzr4ZvHt",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Glad you liked the concept of this documentary, @ThompsonRyan-u4h! Thanks for joining us on this journey.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-29T03:50:48Z"
+        }
+      ]
     }
   ]
 }

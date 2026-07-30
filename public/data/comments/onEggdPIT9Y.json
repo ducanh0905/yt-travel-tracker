@@ -19,8 +19,17 @@
       "text": "Hong Kong, 12:02am, 29/7/2026",
       "likeCount": 0,
       "publishedAt": "2026-07-28T16:03:12Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzCG0rNAVQ262OAz1J4AaABAg.AZoR0BluvdUAZqJtdt2Ngz",
+          "author": "@GlobeDiscovery-NY",
+          "authorImage": "https://yt3.ggpht.com/JJBYg-Ol71Fe91U4gb7Vk7UFayfp0TLL95xOGZyra6gWFDzOOi0K07ao0ItEZGkED9ywY2g0=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Shout out to Hong Kong! Thanks for tuning in late at 12:02 AM. Hope you enjoyed the video, and see you in the next one!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-29T09:39:29Z"
+        }
+      ]
     },
     {
       "id": "Ugz_wiru9I9gT8MjK1N4AaABAg",

@@ -1,5 +1,25 @@
 {
   "videoId": "WYAxFnhcFA4",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "Ugya09nRupC0RUKC8fx4AaABAg",
+      "author": "@JoseRodrigues-yh9ov",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lT8Qu4LCD_pf9EwiAYpLW0gk_IeN8X9SN8VrwEe_FldWB8_Tdy3pM5DhTGCs4a8PJ_Cg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "São Paulo.",
+      "likeCount": 1,
+      "publishedAt": "2026-07-29T11:07:25Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugya09nRupC0RUKC8fx4AaABAg.AZqTxet7Eb4AZrNpDRSOOY",
+          "author": "@LeandraGarcia-y6g",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lQP04o0156tOjgYNl3HX_KZUnYFCol3dSz9PAyoVldVAeL5nOEnPGdwcXswTRrMOFkSQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "❤",
+          "likeCount": 0,
+          "publishedAt": "2026-07-29T19:33:04Z"
+        }
+      ]
+    }
+  ]
 }
