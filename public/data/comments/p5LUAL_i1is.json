@@ -3,6 +3,26 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugw9mhe-82eZTv9Lde94AaABAg",
+      "author": "@GilbertOngwenyi",
+      "authorImage": "https://yt3.ggpht.com/p2MxWpw24kubDkQ2PKPHhG_GYwm16R9VQnbsi5u3yo_3HCN9Yr3_9M36mnswUNiLMyelTP6s=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Great!",
+      "likeCount": 0,
+      "publishedAt": "2026-07-30T20:23:14Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxPUBsPgdq1hUdJTIN4AaABAg",
+      "author": "@mosesgonzales8820",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lw8Nn17cdV9Kkf2KSfap85AJ4uKMH82yJ41wtaADQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "1",
+      "likeCount": 0,
+      "publishedAt": "2026-07-30T13:42:14Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxxqYk1ifUjcDD2gOV4AaABAg",
       "author": "@AmazingDiscoveriesTopUS",
       "authorImage": "https://yt3.ggpht.com/MBKB6SW-9Im-6wTVRC4bkBcOw4xj1onTZa79Lhxt5yKoEJTB-lNUvxCu2Ay4oPUbe8qjcoUe=s48-c-k-c0x00ffffff-no-rj",
@@ -46,10 +66,27 @@
       "author": "@CountryDocumentary8386",
       "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
       "text": "Thank you for watching our video, have a nice day!",
-      "likeCount": 1,
+      "likeCount": 2,
       "publishedAt": "2026-07-25T08:36:15Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgxAxG-n5FZhhZK35Ql4AaABAg.AZfuU412xIoAZu1prUO9M5",
+          "author": "@GilbertOngwenyi",
+          "authorImage": "https://yt3.ggpht.com/p2MxWpw24kubDkQ2PKPHhG_GYwm16R9VQnbsi5u3yo_3HCN9Yr3_9M36mnswUNiLMyelTP6s=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Wow, great watching!",
+          "likeCount": 1,
+          "publishedAt": "2026-07-30T20:18:39Z"
+        },
+        {
+          "id": "UgxAxG-n5FZhhZK35Ql4AaABAg.AZfuU412xIoAZu1iBCD6cA",
+          "author": "@GilbertOngwenyi",
+          "authorImage": "https://yt3.ggpht.com/p2MxWpw24kubDkQ2PKPHhG_GYwm16R9VQnbsi5u3yo_3HCN9Yr3_9M36mnswUNiLMyelTP6s=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Wow! I enjoyed watching",
+          "likeCount": 1,
+          "publishedAt": "2026-07-30T20:17:36Z"
+        }
+      ]
     }
   ]
 }

@@ -9,8 +9,17 @@
       "text": "Soy del salvador",
       "likeCount": 0,
       "publishedAt": "2026-07-29T20:20:39Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxagzLMfJLd99HE1y14AaABAg.AZrTGkeFiS3AZsVP_Vn1AF",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué genial que nos acompañas desde El Salvador! Me alegra que el video te haya llegado tan lejos.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-30T05:58:35Z"
+        }
+      ]
     },
     {
       "id": "Ugzc2OZHNTvLDopsU_J4AaABAg",
@@ -19,8 +28,17 @@
       "text": "Gracias por compartir, saludos desde QUERÉTARO, MÉXICO.",
       "likeCount": 0,
       "publishedAt": "2026-07-29T03:34:32Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugzc2OZHNTvLDopsU_J4AaABAg.AZpf7hWCpyvAZsVObqFj90",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡De nada! Me alegra que te haya gustado el documental. Saludos hasta Querétaro, México.",
+          "likeCount": 0,
+          "publishedAt": "2026-07-30T05:58:27Z"
+        }
+      ]
     },
     {
       "id": "UgxP_L2gUyR6q7vmos54AaABAg",

@@ -9,8 +9,17 @@
       "text": "Hi     switzerland",
       "likeCount": 0,
       "publishedAt": "2026-07-28T06:06:06Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxSPVqxF2w-HHq1X494AaABAg.AZnMfviBkKBAZth7frwGHd",
+          "author": "@HistoryFiles-g7q",
+          "authorImage": "https://yt3.ggpht.com/szdG0JrEeCdxFghVXDArO9_7yAMB0huWixe8b2zPHmX1K1tnF4EBJeuQk5hMWsEfyz0y3yoJSg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Hello! Thanks for watching. ❤️",
+          "likeCount": 0,
+          "publishedAt": "2026-07-30T17:08:58Z"
+        }
+      ]
     },
     {
       "id": "UgxnA8Xzehz8h1xos1F4AaABAg",
