@@ -3,6 +3,35 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugw3nAYupKw6h175rBx4AaABAg",
+      "author": "@luis-ou7ml",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nRD9z_0T7cdFN6O1NO_ucfJFxA9iOhJ2Q4kywmoWclsZmxoRho6WAgrB2lx-azSlMAeg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Que lastima que lo que se dice no va de acuerdo a lo que se ve",
+      "likeCount": 0,
+      "publishedAt": "2026-07-31T10:33:21Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzOw7ipnMB8BH8YOAp4AaABAg",
+      "author": "@EddyPita-to3bv",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kFKyUfpTt-g7ZZ-6LZ1sANP6791YgWTIsbAPxggknb2p4vMYee8SivclGdDEQnvFVPyg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Buenos tardes Colombia .",
+      "likeCount": 0,
+      "publishedAt": "2026-07-31T01:39:05Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzOw7ipnMB8BH8YOAp4AaABAg.AZubVo9avMyAZup1mjR16_",
+          "author": "@MundoDescifrado.001",
+          "authorImage": "https://yt3.ggpht.com/2ClRV2wxM2cwbUDsPtBKGjHdVgSqnjUFMJ9BBHOGAg8IMyTGgoY9RkJz7FLmF3indjQjkOqKJg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por ver nuestro video. ¡Nos vemos en los próximos videos de exploración!",
+          "likeCount": 0,
+          "publishedAt": "2026-07-31T03:37:19Z"
+        }
+      ]
+    },
+    {
       "id": "Ugyd6gFhPZ2CGS4pnoh4AaABAg",
       "author": "@RodolfoSarasua-o4w",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kgeb3tvIBGrdY-IdjHykSG-MSKpwcehWUAO3_O6TXPgadO46BAk4RkoG8qNgXDJBfHxg=s48-c-k-c0x00ffffff-no-rj",
@@ -26,7 +55,7 @@
       "author": "@joaquincastellanos6782",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mZTaHB_dUrjdxVPzWHPSBBiQ8yLcuryhd4EkW86K1c1ICS_z_qpEkyUfbcf4p_XGWlCw=s48-c-k-c0x00ffffff-no-rj",
       "text": "Yo quiero ver mujeres no guerrilla ni el difunto Escobar",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-07-21T01:48:08Z",
       "replyCount": 1,
       "replies": [
@@ -104,8 +133,16 @@
       "text": "Interesantes hechos, pero las imágenes aunque son buenas no corresponden a la narración. Qué lástima!!!!",
       "likeCount": 1,
       "publishedAt": "2026-07-14T02:41:15Z",
-      "replyCount": 2,
+      "replyCount": 3,
       "replies": [
+        {
+          "id": "UgxlJ6mG-1oekAF0DTB4AaABAg.AZDx6If4WQkAZu_BJqn0G8",
+          "author": "@ViajeGlobal",
+          "authorImage": "https://yt3.ggpht.com/bSIp__XUxk8C3smNIAzHKqf86Urti-6-DgAQ71HZHE9Cov-CB0C6x5ZCoywL7j_kAGJe2R9Z=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¿Qué aspecto de los elementos visuales crees que necesita mejorar más para que se ajuste mejor al contenido?",
+          "likeCount": 0,
+          "publishedAt": "2026-07-31T01:18:48Z"
+        },
         {
           "id": "UgxlJ6mG-1oekAF0DTB4AaABAg.AZDx6If4WQkAZLgEbfGNXD",
           "author": "@VictorHugoLandscaping",
