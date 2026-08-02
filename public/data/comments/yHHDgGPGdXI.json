@@ -69,8 +69,17 @@
       "text": "Good video I like watching it you see and learn a lot thanks your info",
       "likeCount": 1,
       "publishedAt": "2026-07-08T00:16:39Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugy6qESdDyizdspqhvx4AaABAg.AYzEmvI_1PvAZxSxLmVKfy",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for your feedback.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-01T04:13:19Z"
+        }
+      ]
     },
     {
       "id": "UgykWrsrJR0CzIBHDMF4AaABAg",
@@ -79,8 +88,17 @@
       "text": "USA",
       "likeCount": 0,
       "publishedAt": "2026-07-07T14:42:07Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgykWrsrJR0CzIBHDMF4AaABAg.AYyD2-90ddoAZxRpc_UcON",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "welcome",
+          "likeCount": 0,
+          "publishedAt": "2026-08-01T04:03:31Z"
+        }
+      ]
     },
     {
       "id": "UgyfEqeRYI1fygOpVYJ4AaABAg",

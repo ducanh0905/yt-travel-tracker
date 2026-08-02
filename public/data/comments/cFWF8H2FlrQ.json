@@ -1,5 +1,16 @@
 {
   "videoId": "cFWF8H2FlrQ",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "Ugw0APqz7btQixCYhw14AaABAg",
+      "author": "@LuisCastro-ug1et",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lNFbuqm68Jy2kMhSLRryrADqzOCVjayjv_QVbwO2dLQlch=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Where is the sound",
+      "likeCount": 0,
+      "publishedAt": "2026-08-01T03:01:30Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

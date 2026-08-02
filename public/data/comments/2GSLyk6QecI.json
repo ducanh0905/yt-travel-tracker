@@ -3,24 +3,62 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzwMMj8rJcYvNlF0f54AaABAg",
+      "author": "@travelintolife",
+      "authorImage": "https://yt3.ggpht.com/CtizGHrwfYKaRxW5BABv58hFpGE9tQnFNT-I8TH_fGoI8B4onEPVK_KKSSE0C1hwyF3RGMrGwWs=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I expected stunning Arctic scenery, but I came away admiring the people even more. Life in such a remote village must require resilience, trust, and a real appreciation for simple things.",
+      "likeCount": 1,
+      "publishedAt": "2026-08-01T10:30:44Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwSHYstOyh5EGlmkCR4AaABAg",
+      "author": "@TravelBeyond4K",
+      "authorImage": "https://yt3.ggpht.com/Ik5oODoFXvlSLV1Q_yvpEqTFs7tXBI8qEr85tTl0bkP_JoTEFeatMQC4g4fATwk1xllMk4Z47Ko=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The cinematography is breathtaking and captures the true essence of the far north perfectly. This is an incredible documentary that feels so raw and authentic.",
+      "likeCount": 2,
+      "publishedAt": "2026-08-01T04:54:03Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxdCJQkgbAtXaUiwh94AaABAg",
       "author": "@DiscoveryTimeTravel",
       "authorImage": "https://yt3.ggpht.com/elb04XTTTCKSM6yNmGlSfueGfRRjruMgo3DTSNDujuWeSkLMPkZ43PMaDDtpNI-o0wg3VllT=s48-c-k-c0x00ffffff-no-rj",
       "text": "Amazing",
-      "likeCount": 0,
+      "likeCount": 2,
       "publishedAt": "2026-07-31T18:37:57Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxdCJQkgbAtXaUiwh94AaABAg.AZwR6FipNv3AZxBZORT3Ua",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@DiscoveryTimeTravel, thank you! We're thrilled that you found our look at Finland amazing.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-01T01:41:22Z"
+        }
+      ]
     },
     {
       "id": "UgyirNbCKAzyje2QsvZ4AaABAg",
       "author": "@KarniGauSevak65",
       "authorImage": "https://yt3.ggpht.com/hp0mj_16mU3_zZzYloS7TPI2xDOI3KMB07Rz06Jo6XCTe7566xM8ToqjnW_wskoB9jh8G8V0-Q=s48-c-k-c0x00ffffff-no-rj",
       "text": "Guy",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-07-30T08:38:33Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyirNbCKAzyje2QsvZ4AaABAg.AZsmiCHnuINAZxPfmOhl7r",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Glad to have you watching our Finland documentary, @KarniGauSevak65! We hope you enjoyed the journey to the North.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-01T03:44:42Z"
+        }
+      ]
     }
   ]
 }
