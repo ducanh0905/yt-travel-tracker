@@ -254,8 +254,17 @@
       "text": "Y las morenitas de la portada del vídeo? 😻 Me estafaron. 😞",
       "likeCount": 2,
       "publishedAt": "2026-07-22T19:07:58Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyO08rWbR5lEVl0SvV4AaABAg.AZ_JOE0g2lUA_2b0entVEP",
+          "author": "@ezequielsaavedra9670",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kNvEH7Swm8WJNSfAhu-XEiQDoztbzlbsYhlberfIQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "No hay en Argentina",
+          "likeCount": 0,
+          "publishedAt": "2026-08-03T13:27:59Z"
+        }
+      ]
     },
     {
       "id": "UgzOeV0UWw9w75mxF754AaABAg",
@@ -377,7 +386,7 @@
           "author": "@chrystophergraterol",
           "authorImage": "https://yt3.ggpht.com/cNWeYSk1pQ-g6HOhuypI16LX52MgTSEcuSef5K2_S1RPEeZzvr6CBvYPlKLSHwleAXoUTWJyWw=s48-c-k-c0x00ffffff-no-rj",
           "text": "Es verdad, tengo un amigo que trabaja en cocina y cobra 1.400.000, y yo estoy por 1.550.000 pesos",
-          "likeCount": 0,
+          "likeCount": 1,
           "publishedAt": "2026-07-23T20:48:25Z"
         }
       ]

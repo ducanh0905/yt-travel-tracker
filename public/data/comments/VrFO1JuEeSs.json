@@ -9,8 +9,25 @@
       "text": "Hola , buenas tardes Alemania , quiero resolver viajar hasta alla ,",
       "likeCount": 0,
       "publishedAt": "2026-07-31T20:19:37Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgxjTh6dZINkrRv6R6V4AaABAg.AZwbjtTX62JA_1T_pAJURx",
+          "author": "@MundoDescifrado.001",
+          "authorImage": "https://yt3.ggpht.com/2ClRV2wxM2cwbUDsPtBKGjHdVgSqnjUFMJ9BBHOGAg8IMyTGgoY9RkJz7FLmF3indjQjkOqKJg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por ver nuestro video. Si visitas Alemania, ¡por favor explora y comparte con nosotros más cosas interesantes sobre la vida cotidiana allí!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-03T02:55:03Z"
+        },
+        {
+          "id": "UgxjTh6dZINkrRv6R6V4AaABAg.AZwbjtTX62JA_1TH6y8tQC",
+          "author": "@MundoDescifrado.001",
+          "authorImage": "https://yt3.ggpht.com/2ClRV2wxM2cwbUDsPtBKGjHdVgSqnjUFMJ9BBHOGAg8IMyTGgoY9RkJz7FLmF3indjQjkOqKJg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por ver nuestro video. ¡Nos vemos en los próximos videos de exploración!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-03T02:52:21Z"
+        }
+      ]
     },
     {
       "id": "UgxNEX0dXLCtHFLY_oV4AaABAg",
