@@ -9,8 +9,17 @@
       "text": "❤❤❤",
       "likeCount": 0,
       "publishedAt": "2026-08-02T00:37:50Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzQagxPvcpYRMcJNzl4AaABAg.AZze4xttX-DA_42hq8XBBc",
+          "author": "@TOURGUIDE-05",
+          "authorImage": "https://yt3.ggpht.com/n8pzlEL2E7Nic6elOsdea1BIWavVw-A-Al_lvcDVz3CltIELOn4lzHO6_eCb-9RdtGRLVoWFXhM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for watching!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-04T02:57:56Z"
+        }
+      ]
     }
   ]
 }
