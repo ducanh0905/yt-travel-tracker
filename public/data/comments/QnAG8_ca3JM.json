@@ -19,8 +19,17 @@
       "text": "Me gusta",
       "likeCount": 0,
       "publishedAt": "2026-07-31T22:04:49Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxKWS7lJKnZr0iUz614AaABAg.AZwnmRMLiutA_78G2hylwr",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-05T07:44:09Z"
+        }
+      ]
     },
     {
       "id": "Ugy9CfCG_otMAugQEMR4AaABAg",
@@ -29,8 +38,17 @@
       "text": "Me gusta❤",
       "likeCount": 0,
       "publishedAt": "2026-07-31T21:55:23Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugy9CfCG_otMAugQEMR4AaABAg.AZwmhGd5XnzA_77oXFNG80",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias por tu comentario!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-05T07:40:15Z"
+        }
+      ]
     },
     {
       "id": "Ugxs1GGa4CFJWJrRYWF4AaABAg",
@@ -39,8 +57,17 @@
       "text": "Me gusta",
       "likeCount": 0,
       "publishedAt": "2026-07-31T21:37:46Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxs1GGa4CFJWJrRYWF4AaABAg.AZwkgJCFpnJA_77sfz__nV",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias por tu comentario!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-05T07:40:49Z"
+        }
+      ]
     },
     {
       "id": "UgwPnRcBVtqAxNUSBQB4AaABAg",
@@ -59,8 +86,17 @@
       "text": "Mi gusta",
       "likeCount": 2,
       "publishedAt": "2026-07-31T16:53:55Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx29cEqZ-BjRDU9fo94AaABAg.AZwFCJoPnNPA_77uVhZADk",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias por tu comentario!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-05T07:41:04Z"
+        }
+      ]
     },
     {
       "id": "Ugya7yhdXIr7yMHQ_Ht4AaABAg",
@@ -96,8 +132,17 @@
       "text": "Mejuta",
       "likeCount": 1,
       "publishedAt": "2026-07-31T16:01:04Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxR918lktDcoggFYRZ4AaABAg.AZw999jiXj4A_78Bahw9El",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias! Nos alegra mucho que te haya gustado.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-05T07:43:32Z"
+        }
+      ]
     }
   ]
 }

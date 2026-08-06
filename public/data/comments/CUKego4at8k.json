@@ -28,8 +28,17 @@
       "text": "I really like this place OMG",
       "likeCount": 0,
       "publishedAt": "2026-08-04T15:22:50Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzEf-ebehYhZUQ-Wq14AaABAg.A_5NxfRHJ9xA_710O0RytU",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We’re so glad you enjoyed catching a glimpse of this stunning village! 🇳🇴",
+          "likeCount": 0,
+          "publishedAt": "2026-08-05T06:40:51Z"
+        }
+      ]
     },
     {
       "id": "UgywOnDdP5NrGRLOJSl4AaABAg",

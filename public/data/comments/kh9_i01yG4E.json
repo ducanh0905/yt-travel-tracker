@@ -9,8 +9,17 @@
       "text": "Nunca",
       "likeCount": 0,
       "publishedAt": "2026-07-31T16:55:48Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxBhU0rw8m2116TUZx4AaABAg.AZwFQ7rJR4FA_78FWFq_Ks",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-05T07:44:05Z"
+        }
+      ]
     }
   ]
 }
