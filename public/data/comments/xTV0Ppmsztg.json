@@ -56,10 +56,20 @@
           "author": "@PlanetVista4K",
           "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
           "text": "Tristan da Cunha might be the perfect place to switch off from the world for a while. Would you stay for a week or a month?",
-          "likeCount": 7,
+          "likeCount": 8,
           "publishedAt": "2026-06-14T05:08:53Z"
         }
       ]
+    },
+    {
+      "id": "UgyWhv0BGKV2MoLPodh4AaABAg",
+      "author": "@TheOutlier-c6o",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mglSGNWk20-HpB6wp4hDTlkjSknX7Mob79E28e-oGndr22p_2wSbntTBphlxeuIcZhlA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Apollo never reached the moon...",
+      "likeCount": 0,
+      "publishedAt": "2026-08-06T20:16:30Z",
+      "replyCount": 0,
+      "replies": []
     },
     {
       "id": "Ugxy4LJYfacoEkebVud4AaABAg",
@@ -87,8 +97,17 @@
       "text": "Some of the WORST AI voicing I've heard yet ... \"E-D-En-Burruh of the Seven Seas\"? What a load of BS",
       "likeCount": 0,
       "publishedAt": "2026-08-04T04:19:52Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxDdElTxu9ox7o_-eF4AaABAg.A_4C4wwiuMvA_9lp6wKKiK",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Apologies for the AI voice quality, we're working on improving it for future videos. Edinburgh of the Seven Seas is the correct pronunciation for the settlement.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-06T08:17:05Z"
+        }
+      ]
     },
     {
       "id": "UgyffPTS5N0ES2Y3SA54AaABAg",
@@ -1953,16 +1972,6 @@
           "publishedAt": "2026-08-02T10:59:57Z"
         }
       ]
-    },
-    {
-      "id": "Ugza96022HfWiJ51hRZ4AaABAg",
-      "author": "@JohnTilloson",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mXl5vEZetSFCfuG2B7_VLqc38fE5TVJMtL_CGIeMUbdXJf55quvy5KONcX81xCv66Llw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Mike Johnson will one day go to prison",
-      "likeCount": 0,
-      "publishedAt": "2026-06-27T04:30:52Z",
-      "replyCount": 0,
-      "replies": []
     }
   ]
 }
