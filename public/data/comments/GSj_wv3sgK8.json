@@ -476,10 +476,19 @@
       "author": "@BonsaiA.Barcelona-j4x5h",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k9UxnvSEs8JwuJDQ-mV6u1Ei1FmVZ81IqmMkbvtyEEUuGBEHgOsXdETp1IQUaanB9mRA=s48-c-k-c0x00ffffff-no-rj",
       "text": "I'm from Philippines 🇵🇭 but my dream country is Switzerland 🇨🇭",
-      "likeCount": 4,
+      "likeCount": 5,
       "publishedAt": "2026-07-14T13:09:41Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxpX64JYYgb_J9NfMV4AaABAg.AZF410r9JzwA_CtHLphksl",
+          "author": "@CarmelinGanzan",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nEaD_Rk3gYEqhmikjMp7vwgj1kjo_1clhZVFPoWzf4kyAVnj5RvUUogQGgDuScZLz2rA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Me too",
+          "likeCount": 1,
+          "publishedAt": "2026-08-07T13:19:58Z"
+        }
+      ]
     },
     {
       "id": "UgxEivOvdH4r-MV8Xht4AaABAg",
