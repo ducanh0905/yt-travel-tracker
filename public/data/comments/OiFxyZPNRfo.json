@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyoRRaWZ91Pi8H8v4d4AaABAg",
+      "author": "@judithgrace9850",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mXl5vEZetSFCfuG2B7_VLqc38fE5TVJMtL_CGIeMUbdXJf55quvy5KONcX81xCv66Llw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I ❤ Singapore.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-08T15:46:18Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgwMbnomxu6qeoHDGzx4AaABAg",
       "author": "@samchung9557",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mA5iYFWQWr-erQfOrpRSPi7uAL1ykOBKRSbPBDp88Z1xyBT7Je5IKp6_AckwgwsDEc-Q=s48-c-k-c0x00ffffff-no-rj",
       "text": "Discipline is the only word to name this country!",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-06T20:19:01Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwMbnomxu6qeoHDGzx4AaABAg.A_B3RkUBKipA_ELiXcCte0",
+          "author": "@uncensoredworldtravel",
+          "authorImage": "https://yt3.ggpht.com/3m_p5xKbtnNkl9yWW5hHDpVILmgDQWpN3xg05mhNGN2aqjZ5tm7433PKoufomC3yvdM4X3-SMGM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Đúng vậy, \"kỷ luật\" thực sự là một từ khóa quan trọng khi nói về Singapore. Cảm ơn bạn đã chia sẻ nhận xét!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-08T02:56:27Z"
+        }
+      ]
     },
     {
       "id": "UgylE0dUBsA6s7ENsrh4AaABAg",
@@ -27,10 +46,27 @@
       "author": "@philipthomas5053",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nusKmZATTFepe_OlKa8JyO-6iYOa1X47MpI9Y2RzmxHnb3yNgJRjgNAhXoZlMjqL8eQA=s48-c-k-c0x00ffffff-no-rj",
       "text": "If only the rest of the world was like this Country. Great place.",
-      "likeCount": 0,
+      "likeCount": 2,
       "publishedAt": "2026-07-26T09:31:22Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgyzWTv0uXzopfOhwA94AaABAg.AZi__XDGMTjA_Fiv_hYBtL",
+          "author": "@judithgrace9850",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mXl5vEZetSFCfuG2B7_VLqc38fE5TVJMtL_CGIeMUbdXJf55quvy5KONcX81xCv66Llw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "​@uncensoredworldtravellike everywhere.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-08T15:47:11Z"
+        },
+        {
+          "id": "UgyzWTv0uXzopfOhwA94AaABAg.AZi__XDGMTjA_EX79tbjzo",
+          "author": "@uncensoredworldtravel",
+          "authorImage": "https://yt3.ggpht.com/3m_p5xKbtnNkl9yWW5hHDpVILmgDQWpN3xg05mhNGN2aqjZ5tm7433PKoufomC3yvdM4X3-SMGM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Cảm ơn bạn đã chia sẻ suy nghĩ! Singapore thực sự có những nét độc đáo riêng, cả về mặt tích cực lẫn tiêu cực.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-08T04:36:04Z"
+        }
+      ]
     }
   ]
 }

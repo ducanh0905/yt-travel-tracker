@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwvKI_ZcXzW5l9JDmF4AaABAg",
+      "author": "@EddyPita-to3bv",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kFKyUfpTt-g7ZZ-6LZ1sANP6791YgWTIsbAPxggknb2p4vMYee8SivclGdDEQnvFVPyg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Irak esta bueno",
+      "likeCount": 0,
+      "publishedAt": "2026-08-08T22:35:26Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugx5tjnuUVD-M--keXB4AaABAg",
       "author": "@ReymundoHernandez-j4e8b",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kVt-2KnstlTCEKQNERtFu1r0nkoGfCbDaBeHqzzAeOW6FjInY1ji4XDCDXS_eKGhY0Pw=s48-c-k-c0x00ffffff-no-rj",
       "text": "Ala 1.14",
       "likeCount": 0,
       "publishedAt": "2026-08-07T19:15:01Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx5tjnuUVD-M--keXB4AaABAg.A_DWuqSWo_SA_EFUX7gKPd",
+          "author": "@MundoDescifrado.001",
+          "authorImage": "https://yt3.ggpht.com/2ClRV2wxM2cwbUDsPtBKGjHdVgSqnjUFMJ9BBHOGAg8IMyTGgoY9RkJz7FLmF3indjQjkOqKJg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Gracias por ver nuestro video!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-08T02:01:58Z"
+        }
+      ]
     }
   ]
 }

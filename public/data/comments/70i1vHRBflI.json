@@ -1,5 +1,26 @@
 {
   "videoId": "70i1vHRBflI",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgxBKTSuqIb8K8x0fv14AaABAg",
+      "author": "@macomesipermette",
+      "authorImage": "https://yt3.ggpht.com/kCtAGyDXE12IVC7ejGVB-9PFsx0erF-8ei89NrHtdBtBrBX95gUeHysoCQgzO1Woo5nkcy2cmg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "IA me hizo reir del acento que no combina ni en español, ni en portugués, pero se entiende igual. Muy lindas imágenes, aún sin respetar las Cataratas del Iguazú que están totalmente fuera, lejos de la Amazonia",
+      "likeCount": 0,
+      "publishedAt": "2026-08-08T14:56:15Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwuIaAxlfXzMc8dHaV4AaABAg",
+      "author": "@GuillermoMateo-e3y",
+      "authorImage": "https://yt3.ggpht.com/EV9qJqE-lx-3MoWEN-Kaxgj8waTNP78ziQcbef_MsJztqDuVkAYNvkVnyqMt13Gc9XhFXvC-gg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "desde Desert Hot Spring California",
+      "likeCount": 0,
+      "publishedAt": "2026-08-08T05:04:03Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

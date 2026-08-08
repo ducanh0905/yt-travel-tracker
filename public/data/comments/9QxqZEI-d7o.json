@@ -1,5 +1,25 @@
 {
   "videoId": "9QxqZEI-d7o",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgyAKdZkskFHWD5hiWd4AaABAg",
+      "author": "@Globallife.documentary",
+      "authorImage": "https://yt3.ggpht.com/UT4yqZ2DrZ2fBIIQWOCcVrQYBje265v4HWuZn65ElT3j5IRtHyIw-Ezzb6kX6kLSxPFTaiT5EkE=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The rent is exorbitantly high.",
+      "likeCount": 1,
+      "publishedAt": "2026-08-08T07:23:06Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyAKdZkskFHWD5hiWd4AaABAg.A_EpEZS2DxHA_EzbHsN-ls",
+          "author": "@uncensoredworldtravel",
+          "authorImage": "https://yt3.ggpht.com/3m_p5xKbtnNkl9yWW5hHDpVILmgDQWpN3xg05mhNGN2aqjZ5tm7433PKoufomC3yvdM4X3-SMGM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Đúng vậy, chi phí thuê nhà ở một số khu vực của Indonesia có thể khá cao, đặc biệt là ở các thành phố lớn hoặc khu du lịch nổi tiếng.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-08T08:53:44Z"
+        }
+      ]
+    }
+  ]
 }
