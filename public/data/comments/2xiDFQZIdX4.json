@@ -57,8 +57,17 @@
       "text": "Very beautiful country.  Hope to visit one day in the foreseeable future.",
       "likeCount": 0,
       "publishedAt": "2026-07-19T15:39:58Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwhihdNJCvZ9lS8ptB4AaABAg.AZSDCBz-5hPA_I6CwynUDo",
+          "author": "@TOURGUIDE-05",
+          "authorImage": "https://yt3.ggpht.com/n8pzlEL2E7Nic6elOsdea1BIWavVw-A-Al_lvcDVz3CltIELOn4lzHO6_eCb-9RdtGRLVoWFXhM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "I hope you do! Argentina is definitely worth the visit. 🇦🇷",
+          "likeCount": 0,
+          "publishedAt": "2026-08-09T13:57:54Z"
+        }
+      ]
     }
   ]
 }
