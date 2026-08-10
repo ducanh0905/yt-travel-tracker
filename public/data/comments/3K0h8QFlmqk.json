@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwsbnsNxB7TNWFQF654AaABAg",
+      "author": "@JourneyForge-42",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n5CE76MVQkMhu6a4iK8az9kQPv_kPr-iuQ5nXhdG29qrENWaHeBnsbgnZdiKIuS-Wfkw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "nice country",
+      "likeCount": 0,
+      "publishedAt": "2026-08-10T01:43:31Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgzoUntwddjkWwufAKV4AaABAg",
       "author": "@HorizonHidden",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nWYWEApFtIJntK9shwlEwV9_wRtAHtPupeYUpmVYicAgNsz9R5Ritb9w2bJZCVPccFrA=s48-c-k-c0x00ffffff-no-rj",
       "text": "good video",
       "likeCount": 0,
       "publishedAt": "2026-08-09T19:35:26Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzoUntwddjkWwufAKV4AaABAg.A_Ihq7JQsmnA_JH3pwDf0L",
+          "author": "@WorldTravelDoc",
+          "authorImage": "https://yt3.ggpht.com/9tMdz766ER0IeeY8hASGitUipJl1L974V6tMVftpqKMRjlZaMZj_AKgWxsnCDD873-4BXiwE2g0=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We’re so glad you enjoyed our journey through Japan! 🇯🇵✨",
+          "likeCount": 0,
+          "publishedAt": "2026-08-10T00:52:01Z"
+        }
+      ]
     },
     {
       "id": "UgwLGCsCt4V-JdjWUzp4AaABAg",

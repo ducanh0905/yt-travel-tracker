@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyzwODsXBetlKleCTF4AaABAg",
+      "author": "@RichardM-u4j",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lkDhfR4IQoQOti0IosPsSAEqhLLgtyGqmMmRGIpKBIdhtOTK_iy1Z_GU0MKBc9sh8dlA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Richard   Lafayette Colorado   8/10/26  7:40am",
+      "likeCount": 0,
+      "publishedAt": "2026-08-10T13:40:50Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgyrqzYtwkVeyZyGooN4AaABAg",
       "author": "@syedali-tt3io",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kAV1oeMgRrPu17a6LlycnUZGnpf_OZ9ac61WL56Pudjg=s48-c-k-c0x00ffffff-no-rj",
       "text": "01:30 p.m. New Jersey USA",
       "likeCount": 0,
       "publishedAt": "2026-08-09T17:31:41Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyrqzYtwkVeyZyGooN4AaABAg.A_IUfqHLljrA_JJQU30BEN",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Afternoon check-in from New Jersey! 🇺🇸 🕜 Thanks for spending your afternoon watching with us. Enjoying the video?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-08-10T01:12:35Z"
+        }
+      ]
     },
     {
       "id": "UgyQqd7bB6L_zhat-GZ4AaABAg",
@@ -19,8 +38,17 @@
       "text": "I like these videos very much, I am watching this from North Nazimabad Karachi, Sindh, Pakistan..",
       "likeCount": 0,
       "publishedAt": "2026-08-09T17:20:57Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyQqd7bB6L_zhat-GZ4AaABAg.A_ITSCQF0CkA_JJ3taV4I7",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "\"Shoutout to Karachi, Pakistan! 🇵🇰 ✨ Really happy to know you're enjoying our videos. Hope you have a wonderful day ahead!\"",
+          "likeCount": 1,
+          "publishedAt": "2026-08-10T01:09:30Z"
+        }
+      ]
     },
     {
       "id": "Ugx4eGYbGbkDU1xrcLZ4AaABAg",

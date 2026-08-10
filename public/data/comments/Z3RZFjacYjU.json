@@ -1,5 +1,54 @@
 {
   "videoId": "Z3RZFjacYjU",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "Ugx0ewxKxWCArJLN2S94AaABAg",
+      "author": "@planetunreal4K",
+      "authorImage": "https://yt3.ggpht.com/reMvEPCi6IKzWv3gLD11P65ZqUJADr84IRDiaKuHwMLvKCZF6b9weVLG412Vk9FQXQTeMnbhMw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "This documentary makes everyday life feel so beautiful. The 4K visuals are incredible!",
+      "likeCount": 0,
+      "publishedAt": "2026-08-10T10:22:11Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxFIrk-YpqqDlDYVMN4AaABAg",
+      "author": "@KarniGauSevak65",
+      "authorImage": "https://yt3.ggpht.com/hp0mj_16mU3_zZzYloS7TPI2xDOI3KMB07Rz06Jo6XCTe7566xM8ToqjnW_wskoB9jh8G8V0-Q=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Good",
+      "likeCount": 0,
+      "publishedAt": "2026-08-10T07:58:16Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxFIrk-YpqqDlDYVMN4AaABAg.A_K1qseIfu5A_K4fS8zrjD",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We’re so glad you enjoyed the documentary! 🌊✨",
+          "likeCount": 0,
+          "publishedAt": "2026-08-10T08:22:56Z"
+        }
+      ]
+    },
+    {
+      "id": "UgyTq8OGUFMqVlPWtRB4AaABAg",
+      "author": "@EdgeTalesDocs",
+      "authorImage": "https://yt3.ggpht.com/m_z9R8DzcVq6oF0Wvu2LAEKfHBpajastAejmvtnmajtjXSEEfTyS-1V-up8vUKtr_8nVLKuC=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Such an eye-opening and beautiful documentary! It's incredible to see how the people of Kiribati adapt and thrive. 🌊❤ If you were to visit, which island would you want to explore first?",
+      "likeCount": 0,
+      "publishedAt": "2026-08-10T01:51:32Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyTq8OGUFMqVlPWtRB4AaABAg.A_JNsngb2oWA_JujovhOdP",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you, @EdgeTalesDocs! Kiribati is truly inspiring. If we were to visit, Christmas Island (Kiritimati) would definitely be first on our list due to its unique geography and scale!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-10T06:47:24Z"
+        }
+      ]
+    }
+  ]
 }

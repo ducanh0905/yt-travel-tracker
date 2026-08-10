@@ -9,8 +9,17 @@
       "text": "absolutely  cinema",
       "likeCount": 0,
       "publishedAt": "2026-08-05T15:03:01Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzYWimbWz2L2MYTzFZ4AaABAg.A_7vUOhqeM9A_K5jT-dzus",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We put a lot of heart into the visuals, so hearing that it’s \"absolutely cinema\" means a lot coming from you, @EarthTravel4K!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-10T08:32:13Z"
+        }
+      ]
     },
     {
       "id": "UgyUYWWl8EMNmgyULNB4AaABAg",
