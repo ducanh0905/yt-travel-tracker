@@ -9,8 +9,17 @@
       "text": "Richard   Lafayette Colorado   8/10/26  7:40am",
       "likeCount": 0,
       "publishedAt": "2026-08-10T13:40:50Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyzwODsXBetlKleCTF4AaABAg.A_Ke2rqBeMNA_Lu7GLzP64",
+          "author": "@reallifeincountries",
+          "authorImage": "https://yt3.ggpht.com/SnRYW5T182VNVn8IFqTcJSqIN0hgQl-3fOFN-Bqx2BpzorecPNslK95gFDrPebXBZ3ZlVl91HQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "\"Good morning, Richard! 🇺🇸 ☕ Greetings to Lafayette, Colorado. Thanks for starting your day watching with us! Enjoying your morning coffee?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-08-11T01:20:29Z"
+        }
+      ]
     },
     {
       "id": "UgyrqzYtwkVeyZyGooN4AaABAg",

@@ -68,8 +68,17 @@
       "text": "What a lovely place to live...far from the madness of the rest of the world...",
       "likeCount": 0,
       "publishedAt": "2026-08-10T20:33:28Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxrmqqdHyvSskCcIgF4AaABAg.A_LOH6HKz84A_LsVIah0-k",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "A lot of people say exactly that about St Helena. Around 4,500 people live there, 1,200 miles from the nearest African coast, so the quiet is built into the geography.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-11T01:06:17Z"
+        }
+      ]
     },
     {
       "id": "UgwshuPILvyAMDVuIkZ4AaABAg",

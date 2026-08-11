@@ -9,8 +9,17 @@
       "text": "Argentina is beautiful!",
       "likeCount": 0,
       "publishedAt": "2026-08-10T22:50:49Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyNhDq-I_YegxrbTSx4AaABAg.A_Ld-36h0s0A_NUe0nNFkb",
+          "author": "@travellifestyletv",
+          "authorImage": "https://yt3.ggpht.com/czOM-hfuJRJ8c8m-OpiUrvZKfoYqR0RJH8vO4Otp5JNMIis1q_Z9o0O-bZnF2V0wrAUFQzWK=s48-c-k-c0x00ffffff-no-rj",
+          "text": "That's right. Argentina is amazing. Have you ever been there?",
+          "likeCount": 0,
+          "publishedAt": "2026-08-11T16:07:39Z"
+        }
+      ]
     },
     {
       "id": "UgzbqQGXWI5lQ_h6FXh4AaABAg",
@@ -29,8 +38,17 @@
       "text": "Gran documental de mi país, con una explicación bastante acertada de lo que somos. Felicitaciones a los creadores del documental. Toda persona del mundo que comparta los buenos valores de Occidente es bienvenida en Argentina. Eso lo dice nuestra constitución. Sentimos orgullo por nuestra gente, nuestra identidad y nuestra cultura, somos patriotas, y a algunas personas eso no les gusta. Espero que todos puedan visitar mi país antes de opinar sobre nosotros sin saber. Gracias",
       "likeCount": 0,
       "publishedAt": "2026-08-07T16:35:52Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxFWgyOn0FMcKD7Sr94AaABAg.A_DEhCCvF-HA_NVkwpIwBu",
+          "author": "@travellifestyletv",
+          "authorImage": "https://yt3.ggpht.com/czOM-hfuJRJ8c8m-OpiUrvZKfoYqR0RJH8vO4Otp5JNMIis1q_Z9o0O-bZnF2V0wrAUFQzWK=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Hello, my friend. I'm so glad you're happy with it. Please continue to support us; we have many more projects related to Argentina in the works.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-11T16:17:20Z"
+        }
+      ]
     },
     {
       "id": "UgzUcGVsyuxqeRfeNEd4AaABAg",
