@@ -29,8 +29,17 @@
       "text": "I live in Trinidad",
       "likeCount": 0,
       "publishedAt": "2026-08-08T17:52:57Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzZWfrAjDnqINt2UuR4AaABAg.A_FxJh_S1-zA_OYBc3Rpdc",
+          "author": "@truehorizons66",
+          "authorImage": "https://yt3.ggpht.com/ZWRHD3ekbdJF2m5Bx2raTHNMRW6L4Cal9783mVTs3SHwwf6-2cP5oAKE8EfU6JD_NcmMYBdd7A=s48-c-k-c0x00ffffff-no-rj",
+          "text": "That’s wonderful! 🇹🇹 We hope the documentary did justice to the beauty and character of Trinidad. Thanks for watching!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-12T01:57:49Z"
+        }
+      ]
     },
     {
       "id": "UgxlAFuO2k7yYqb0XnN4AaABAg",

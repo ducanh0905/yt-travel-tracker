@@ -177,8 +177,17 @@
       "text": "East coast USA 7:30PM",
       "likeCount": 0,
       "publishedAt": "2026-08-02T23:39:50Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzTPQVdIBdcYNZs3NZ4AaABAg.A_17F1CVUI4A_OVcr40Jd3",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to the US East Coast! 🇺🇸 Thanks for tuning in with us this evening. Are you planning any travel trips soon?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-08-12T01:35:28Z"
+        }
+      ]
     },
     {
       "id": "UgyF1tEJVQbFk32PAxt4AaABAg",
@@ -187,8 +196,17 @@
       "text": "Kenosha, Wisconsin USA",
       "likeCount": 0,
       "publishedAt": "2026-08-02T18:17:44Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyF1tEJVQbFk32PAxt4AaABAg.A_0YNvBfaLVA_OVpnpG3MA",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Kenosha, Wisconsin! 🇺🇸 Thanks for stopping by to watch with us. How is the weather over in Wisconsin today?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-08-12T01:37:14Z"
+        }
+      ]
     },
     {
       "id": "Ugwy2dTQlCHR-iTv14Z4AaABAg",
