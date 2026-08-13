@@ -385,8 +385,33 @@
       "text": "This video deserve way more views! I try to make my content just as engaging and polished.",
       "likeCount": 5,
       "publishedAt": "2026-07-17T05:20:53Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 3,
+      "replies": [
+        {
+          "id": "UgxEwjhU-go1ytu8aXl4AaABAg.AZLxl42gV8iA_RJnYTiuwM",
+          "author": "@TheHiddenFacts4u",
+          "authorImage": "https://yt3.ggpht.com/dKyletxQ2bqhKSvvrDTjZap2Lp2PwPlqqdKOP0ZYTGES91lPWy19wCZKKQYS7SoiTSlvUg6AvA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@MuhammadZohaib-4t9 this is my channel",
+          "likeCount": 0,
+          "publishedAt": "2026-08-13T03:49:47Z"
+        },
+        {
+          "id": "UgxEwjhU-go1ytu8aXl4AaABAg.AZLxl42gV8iA_RJlTXZO78",
+          "author": "@TheHiddenFacts4u",
+          "authorImage": "https://yt3.ggpht.com/dKyletxQ2bqhKSvvrDTjZap2Lp2PwPlqqdKOP0ZYTGES91lPWy19wCZKKQYS7SoiTSlvUg6AvA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@MuhammadZohaib-4t9 www.youtube.com/@TheHiddenFacts4u",
+          "likeCount": 0,
+          "publishedAt": "2026-08-13T03:49:30Z"
+        },
+        {
+          "id": "UgxEwjhU-go1ytu8aXl4AaABAg.AZLxl42gV8iA_R8wFSK6dR",
+          "author": "@MuhammadZohaib-4t9",
+          "authorImage": "https://yt3.ggpht.com/kFrcSpcrcNtUZ5ZVh5YLjfi5mj_KVwmXqI3zkD5K9FEW-JVsUGk7T-gvhci9W2MdR9A9clgFuA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Is this vedio is made by you?",
+          "likeCount": 0,
+          "publishedAt": "2026-08-13T02:14:52Z"
+        }
+      ]
     },
     {
       "id": "UgwALe-kCC2XomiNhDt4AaABAg",

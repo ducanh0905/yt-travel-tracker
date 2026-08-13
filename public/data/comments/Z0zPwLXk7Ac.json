@@ -9,8 +9,17 @@
       "text": "Another amazing video",
       "likeCount": 0,
       "publishedAt": "2026-08-12T16:25:34Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwJh8FZquqBLmuUDIV4AaABAg.A_Q5V6StRcAA_QuZEqhGJf",
+          "author": "@ImpossibleTravel38",
+          "authorImage": "https://yt3.ggpht.com/jIkotvj5_lQhw2mcDlb5BkO-Df2LnjMadSRe9EHitp6aX34LhCuC31_oO3v-YsCuzlJxNDTynA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for the kind words! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-08-13T00:00:30Z"
+        }
+      ]
     },
     {
       "id": "UgxzNUyYbzHPF5n_xZV4AaABAg",
@@ -205,7 +214,7 @@
     {
       "id": "UgxeCLmmnwh78QvN9gt4AaABAg",
       "author": "@DanielVelasco-n9q2t",
-      "authorImage": "https://yt3.ggpht.com/kU74XFMd-moATO36ALCmHTmAB5KUt-__gp-ITsSLN9gMnlV4OoocPbiKnu8n2hT7YoDJCwtjEw=s48-c-k-c0x00ffffff-no-rj",
+      "authorImage": "https://yt3.ggpht.com/gJNFmJIxqfFb3AFXISCqEb0bkeXD8w7Uj4yow3nCxZLiUGuwz1ws3TmPn6OmITO40JjV3oEbwg=s48-c-k-c0x00ffffff-no-rj",
       "text": "14:50 These stone houses are so unique—they really bring back childhood memories.",
       "likeCount": 1,
       "publishedAt": "2026-08-07T02:18:19Z",

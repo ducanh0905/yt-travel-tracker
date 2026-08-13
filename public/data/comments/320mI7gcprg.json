@@ -128,8 +128,17 @@
       "text": "serbia  is 1000 times better  but whatevere",
       "likeCount": 1,
       "publishedAt": "2026-07-26T01:51:40Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxGz6q8Wpx39jWcD2d4AaABAg.AZhkyga2rIJA_RxRnrsmsv",
+          "author": "@CountryDocumentary8386",
+          "authorImage": "https://yt3.ggpht.com/Et1Rc1MspE15PK3r-TLfvMuDDmywDZy8xbOafUdebxEUPheVgUkL9FDL9H6TZ6azxOEp00CJTA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Really?",
+          "likeCount": 0,
+          "publishedAt": "2026-08-13T09:44:57Z"
+        }
+      ]
     },
     {
       "id": "Ugy37e73ioX8MbOFION4AaABAg",
@@ -545,8 +554,8 @@
     },
     {
       "id": "UgwpFqnw84xNCxR0CB14AaABAg",
-      "author": "@scook3417",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nuVi8UoytMuh0IggQPVMUzxdOMyY4GfbzNkSJ9FJI=s48-c-k-c0x00ffffff-no-rj",
+      "author": "@someone.crg346",
+      "authorImage": "https://yt3.ggpht.com/GPlgod2ZGftL7xQ2N2M5s1anxUGm9YHhwR-mFy9QjHx8Y-DkpCeDe9J90iajkd8FWslyCi1TyA=s48-c-k-c0x00ffffff-no-rj",
       "text": "USA - Arizona.   yes, i would live in Sweden for a year",
       "likeCount": 4,
       "publishedAt": "2026-07-11T09:05:54Z",
