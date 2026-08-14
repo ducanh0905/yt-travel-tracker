@@ -9,8 +9,17 @@
       "text": "India Mumbai",
       "likeCount": 1,
       "publishedAt": "2026-08-13T11:40:37Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxVin6baaM6UjNByv94AaABAg.A_S9fx724MnA_Ux1sXARoD",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "That's interesting! Are you sharing a connection to Mumbai or suggesting it as a future travel destination?",
+          "likeCount": 0,
+          "publishedAt": "2026-08-14T13:39:08Z"
+        }
+      ]
     },
     {
       "id": "Ugzh1Q2bDw4YqPylMRJ4AaABAg",
