@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugz6z8omKUE02x_iJc14AaABAg",
+      "author": "@jesusalbertomoralesyactayo2841",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mvkTV39bk1FgnNNo5M1cgCSmCAtki-Y75k0ueoUgmloI0=s48-c-k-c0x00ffffff-no-rj",
+      "text": "peruuuuu",
+      "likeCount": 0,
+      "publishedAt": "2026-08-15T01:28:32Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugycx60vyxSotGFqioZ4AaABAg",
       "author": "@ManuelAlvarez-qu2rm",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k18TQOefWzLa5SvdJmEE0dDZLfk4am4CaTqv-UUpCP4ll3lucs6Ttsxlbnh6UOy4Y8dw=s48-c-k-c0x00ffffff-no-rj",
       "text": "De Córdoba Argentina",
       "likeCount": 0,
       "publishedAt": "2026-08-14T18:05:26Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugycx60vyxSotGFqioZ4AaABAg.A_VQWKvI9QbA_W8BGz6glG",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Saludos hasta Córdoba, Argentina, ¡muchas gracias por ver el video! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-08-15T00:44:31Z"
+        }
+      ]
     },
     {
       "id": "UgwG23lj-IoXpAkS50N4AaABAg",
@@ -19,8 +38,17 @@
       "text": "Qué hermosos paisajes naturales tiene Tailandia. La vida en este paraíso tropical sin duda vale la pena el viaje.",
       "likeCount": 0,
       "publishedAt": "2026-08-14T02:37:05Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwG23lj-IoXpAkS50N4AaABAg.A_TlGvduU1GA_W8CD8e5xP",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Totalmente de acuerdo, es un destino realmente espectacular y lleno de magia! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-08-15T00:44:38Z"
+        }
+      ]
     },
     {
       "id": "UgxI6s11p7SaXGAP54R4AaABAg",

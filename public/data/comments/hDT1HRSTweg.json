@@ -1,5 +1,35 @@
 {
   "videoId": "hDT1HRSTweg",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "Ugz675D7Kt19tN3e_MN4AaABAg",
+      "author": "@humbertocastillo-c3p",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_np4HTDD9428QK57XHm455I-zCSgZyAmygR59D0AOW1_E_YTk60oOaDNaSZGvRpQ-rhQw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Número 2",
+      "likeCount": 0,
+      "publishedAt": "2026-08-15T18:36:52Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwTpSpEGNy8NHTOETB4AaABAg",
+      "author": "@RealLifeCountryES",
+      "authorImage": "https://yt3.ggpht.com/SQBP776833gvZEn-0vWO8T4RLP0d8P7qDiHoBdsY8VcZRc1ZJiNMWOojabygkeFJmTlDqzTGFA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "¿Estás usando mi miniatura sin mi permiso? Deja de copiar y utilizar la propiedad intelectual y las ideas de otras personas.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-12T03:47:20Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwTpSpEGNy8NHTOETB4AaABAg.A_Ojig_OTqIA_Os3v-A88b",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Entiendo tu preocupación por el uso de miniaturas. Te aseguro que todas las imágenes que utilizamos son originales o tienen licencia adecuada. Si pudieras darnos más detalles sobre la miniatura a la que te refieres, podríamos revisarlo.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-12T05:00:16Z"
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,16 @@
 {
   "videoId": "ozscPxY6HE4",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgwuokCuJaWhD3ezSSt4AaABAg",
+      "author": "@FernandoIrizarry-v7k8c",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n1UKC1gAN-YFZhCUog2kUuCJSGEwpbZCeeUyGChCtqFwdMgMoUCpJptjOM5HdMhNgHCg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "No",
+      "likeCount": 0,
+      "publishedAt": "2026-08-15T17:01:25Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

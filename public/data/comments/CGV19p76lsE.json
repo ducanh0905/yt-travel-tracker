@@ -7,7 +7,7 @@
       "author": "@RafaelO.Hernandez-in5bn",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lTsn_SEf4XL2vXIaaoqLUud5NQ9oq-8qVva6nli6qHfYKIw450e_k2BCXQMQ4EGZfOvw=s48-c-k-c0x00ffffff-no-rj",
       "text": "Desde Venezuela.",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-11T14:13:19Z",
       "replyCount": 0,
       "replies": []
@@ -17,7 +17,7 @@
       "author": "@rosacarbajalcuellar395",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nF_VHt36kUxAWm8At_hp1FbOk01JHJnMSNgtAM49M=s48-c-k-c0x00ffffff-no-rj",
       "text": "Desde Bolivia 🇧🇴👋",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-11T02:55:00Z",
       "replyCount": 0,
       "replies": []
@@ -27,7 +27,7 @@
       "author": "@anyriveros676",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mzogx3HEHqxulQoHAcdEiy_V-TPXORAhLKKRBxf1A=s48-c-k-c0x00ffffff-no-rj",
       "text": "DESIERTO  FLORIDO  CHILE❤🇨🇱🇨🇱🇨🇱",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-11T00:54:22Z",
       "replyCount": 0,
       "replies": []
@@ -37,20 +37,38 @@
       "author": "@anyriveros676",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mzogx3HEHqxulQoHAcdEiy_V-TPXORAhLKKRBxf1A=s48-c-k-c0x00ffffff-no-rj",
       "text": "LAS CATEDRALES DE MARMOL  BELLISMAS  SON DD CHILE 🇨🇱🇨🇱😅😅🥰❤",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-11T00:08:37Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugy51qRzU0XaTvVgoAx4AaABAg.A_LlttRmeHDA_WQseTJ_H_",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Así es! Chile tiene unos paisajes hermosos y las catedrales de mármol son de lo mejor. ¡Qué orgullo para Sudamérica!",
+          "likeCount": 1,
+          "publishedAt": "2026-08-15T03:27:51Z"
+        }
+      ]
     },
     {
       "id": "UgzfJwzSi5aq2QFAu9d4AaABAg",
       "author": "@HugoPerrachon-vk9kh",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lHAXskYwYGn2RQiGNHbblD12NIdmx4A2gfMGamOxfH-D6b-sPLkV_0RxCV0PvgSmrPtg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Que  ellos conocer ése lugar,  saludos desde Punta del Este Uruguay",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-10T22:53:35Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzfJwzSi5aq2QFAu9d4AaABAg.A_LdJHmV6kYA_WQr6YPA1a",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Sí! Esas cuevas de mármol se ven increíbles. Ojalá podamos visitarlas algún día. ¡Saludos hasta Uruguay!",
+          "likeCount": 1,
+          "publishedAt": "2026-08-15T03:27:39Z"
+        }
+      ]
     }
   ]
 }

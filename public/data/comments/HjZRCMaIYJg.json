@@ -28,8 +28,17 @@
       "text": "I wish this part was longer",
       "likeCount": 0,
       "publishedAt": "2026-07-29T04:46:35Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxivWd12IY3gncVKi14AaABAg.AZpnNLLMj5FA_X1Vq6q_fQ",
+          "author": "@MiradasViajeras",
+          "authorImage": "https://yt3.ggpht.com/pXWyF2vLWxIrB2mxxdupD5zktpQX-QhjGk7ZpYifach1TGX0bakLosHMdAKNc401m3eDdPko2eA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you! We’ll keep that in mind for future videos.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-15T09:05:23Z"
+        }
+      ]
     },
     {
       "id": "UgxOQ8FDwfaHM-ji3SF4AaABAg",
