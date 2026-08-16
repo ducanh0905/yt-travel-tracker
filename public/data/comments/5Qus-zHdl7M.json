@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyqGYnbBMf71zO_ppB4AaABAg",
+      "author": "@BajaGirl302",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kP-7M78RzeBbkl_tquCJRwZdcoKTvheAbLs7gTCNZRk3w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "In Florida, we are only 10’ above sea level!!",
+      "likeCount": 0,
+      "publishedAt": "2026-08-16T15:31:11Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugw1mxaaq2jrFN9illR4AaABAg",
       "author": "@RafaelHernandezFernandez-q2r",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lBG4Q2j7htJbxg-phr_qVcAKlNOGbhJhWBe0SkBAuX3EdiRFA_mJUmpSD86gxTbRG5GQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "Es muy curioso que sea el único lugar de la tierra que toca los 4 hemisferios",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-14T23:03:05Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw1mxaaq2jrFN9illR4AaABAg.A_Vx_SRUbuCA_YoVK42Vwt",
+          "author": "@ImpossibleTravel38",
+          "authorImage": "https://yt3.ggpht.com/jIkotvj5_lQhw2mcDlb5BkO-Df2LnjMadSRe9EHitp6aX34LhCuC31_oO3v-YsCuzlJxNDTynA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Así es!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-16T01:41:28Z"
+        }
+      ]
     },
     {
       "id": "UgylQm3N16OvolFkcJh4AaABAg",
