@@ -1,5 +1,26 @@
 {
   "videoId": "W1eEoL1hWro",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "Ugw1ppX9uOPrWEAvM8t4AaABAg",
+      "author": "@GordonMiller-g8f",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_meqQRL0zCllAnC_OULHvyioHnxQgDv5V6pOJ1FBeFlkNyG-K1JF6XOiPI9PZt3p3irAw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Pennsylvania",
+      "likeCount": 0,
+      "publishedAt": "2026-08-19T21:03:24Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw-6LsnaXawwEitYSl4AaABAg",
+      "author": "@philipbowyer-t5m",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_my8RqJptc6jTAC6JvdvWBNJzLMoC-tOKxDtWZexjDCSnzmFpbsp_jmDCXuuSGPLyrJ_w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "From England",
+      "likeCount": 0,
+      "publishedAt": "2026-08-19T19:38:23Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

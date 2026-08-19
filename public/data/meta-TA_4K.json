@@ -1,11 +1,16 @@
 {
   "list": "TA_4K",
-  "lastUpdated": "2026-08-18T23:33:23.205Z",
+  "lastUpdated": "2026-08-19T23:35:58.418Z",
   "channelCount": 18,
-  "videoCount": 930,
-  "quotaUnitsUsed": 6933,
+  "videoCount": 933,
+  "quotaUnitsUsed": 8112,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "errors": [],
+  "errors": [
+    {
+      "channel": "https://www.youtube.com/@TruePlanetOffical",
+      "error": "Channel not found for \"https://www.youtube.com/@TruePlanetOffical\""
+    }
+  ],
   "replyErrors": []
 }
