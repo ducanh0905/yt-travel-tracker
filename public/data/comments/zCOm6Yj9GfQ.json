@@ -1,5 +1,16 @@
 {
   "videoId": "zCOm6Yj9GfQ",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgziQe1QeV0ZThcXJKJ4AaABAg",
+      "author": "@AlvaroDiaz-j4j",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mIq3VHfPUrGhS9seKsJqeGzc2vC6doz0-nM2OENLkRxafGhMnaFzOjB0stCwcIPBngbw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "😂",
+      "likeCount": 0,
+      "publishedAt": "2026-08-20T08:26:15Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

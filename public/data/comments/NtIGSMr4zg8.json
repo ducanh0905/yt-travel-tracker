@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwqQMVv8adR7caF1Ul4AaABAg",
+      "author": "@RaulRodriguez-qk8it",
+      "authorImage": "https://yt3.ggpht.com/Z1QhzlQgEighRSsROiR7_ylJbH1ChkYo35v5k1i3EsuX4-1VL-MQRH8QlZU9kjWyhhsLOOfV=s48-c-k-c0x00ffffff-no-rj",
+      "text": "2",
+      "likeCount": 0,
+      "publishedAt": "2026-08-20T09:51:21Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxnqEOFUt9BZ37_bhh4AaABAg",
       "author": "@joseeuclidescastellanos6339",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ltG5Vixvi3d0Yh00mrIlUB2on93_zWY8hkMojmBpX9mvBiNJjt4vNgL5Rn8XCPf9bnFg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Eccuador",
       "likeCount": 0,
       "publishedAt": "2026-08-19T12:51:26Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxnqEOFUt9BZ37_bhh4AaABAg.A_gjYu5PhNcA_ht2adSdkX",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por tu comentario. Es interesante ver las diferentes interpretaciones de la cultura que se pueden tener.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-19T23:33:38Z"
+        }
+      ]
     },
     {
       "id": "Ugzh9U_npb5_RwFT_L14AaABAg",

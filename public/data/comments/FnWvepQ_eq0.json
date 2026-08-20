@@ -3,14 +3,43 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyYiZYf_eHzSlHQ1lV4AaABAg",
+      "author": "@javiersanchezydelagarza1598",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mVyy0n6_hPPnpvQ5-Md4RY_uGoJNK7Z1mQ82phvso=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Estoy viendo desde la Ciudad de México 👍😊",
+      "likeCount": 0,
+      "publishedAt": "2026-08-20T18:29:01Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxUYU_odKtAwO_-RwJ4AaABAg",
+      "author": "@juanargueta5444",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_ltIu98QW9aVmbqVxBW_IQi0xR-vFgzH-Rl4Tsb2VD6G1NqCdIv6pqabuAAW4pBrhtoAw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "El  Salvador  saludos",
+      "likeCount": 1,
+      "publishedAt": "2026-08-20T10:49:47Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgwYn6Pu21lg8K4pWQ94AaABAg",
       "author": "@oscarrenemelendezarias7449",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m_0rsUgo-LgH7qpknrU0anMXcVg8rTjXFqyR_CMLvQsNU=s48-c-k-c0x00ffffff-no-rj",
       "text": "Desde El Salvador, belleza Caboverdiana",
       "likeCount": 0,
       "publishedAt": "2026-08-19T14:44:40Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwYn6Pu21lg8K4pWQ94AaABAg.A_gwWINPu8TA_iKyRNO6QT",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Saludos hasta El Salvador, ¡es un lugar increíble y me alegra que te haya gustado conocer un poco más de su cultura! 👋",
+          "likeCount": 0,
+          "publishedAt": "2026-08-20T03:46:21Z"
+        }
+      ]
     },
     {
       "id": "UgxD1ueQhaFGleo1NZx4AaABAg",
@@ -19,8 +48,17 @@
       "text": "Desde el rico y hermoso chimbote ancash. Peru",
       "likeCount": 0,
       "publishedAt": "2026-08-18T13:15:09Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxD1ueQhaFGleo1NZx4AaABAg.A_eCTjo5S3lA_iLNl-ci4C",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué gusto saludarte hasta Chimbote, muchas gracias por ver el video! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-08-20T03:49:56Z"
+        }
+      ]
     },
     {
       "id": "UgxBjF2Su6CQreFe0dV4AaABAg",
@@ -1069,26 +1107,6 @@
       "text": "Desde México",
       "likeCount": 0,
       "publishedAt": "2026-08-07T13:18:23Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwKjDXmkr8X3hzWSX14AaABAg",
-      "author": "@willysmartinez",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lHq7nyOQOfims3HaL7WVdERI9RRMCkFIh5R21icJiVxc15lI8jurnAjKeeUVvfLfAcZw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Venezuela",
-      "likeCount": 0,
-      "publishedAt": "2026-08-07T13:16:06Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugx1dtY1lVaa8te0-yJ4AaABAg",
-      "author": "@pedroruiz1844",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kK_BoszRWv1A4Y4VEJrG36zi3XoSgPlzMQDlkplJc=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Desde eeuu",
-      "likeCount": 1,
-      "publishedAt": "2026-08-07T13:07:50Z",
       "replyCount": 0,
       "replies": []
     }
