@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyOLifgXgChXkWoYwF4AaABAg",
+      "author": "@AmazingDiscoveriesTopUS",
+      "authorImage": "https://yt3.ggpht.com/MBKB6SW-9Im-6wTVRC4bkBcOw4xj1onTZa79Lhxt5yKoEJTB-lNUvxCu2Ay4oPUbe8qjcoUe=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Would you actually live on Guam - thousands of miles from the US mainland but surroundede by this incredible Pacific beauty? YEs or NO?",
+      "likeCount": 0,
+      "publishedAt": "2026-08-21T08:27:04Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgygqJN5i0okOGAi0oJ4AaABAg",
       "author": "@JmvJoeToBee",
       "authorImage": "https://yt3.ggpht.com/IysTgBq5RhEBnTzljzdWYg7FK7pZFLYluyKOGPxi_Ybgh2WkmTPcNb9ogVB6O_FGzqACP6jW5g=s48-c-k-c0x00ffffff-no-rj",
       "text": "Florida, 6:20pm 8/20/2026",
-      "likeCount": 1,
+      "likeCount": 2,
       "publishedAt": "2026-08-20T22:20:51Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgygqJN5i0okOGAi0oJ4AaABAg.A_kKWKz6Ef3A_kjwqeQzKV",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Florida checking in — thanks for watching. Hope Guam made for a good evening.",
+          "likeCount": 1,
+          "publishedAt": "2026-08-21T02:11:48Z"
+        }
+      ]
     }
   ]
 }

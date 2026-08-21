@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgxcxRqT6OoQrCUjFF94AaABAg",
+      "author": "@abrahamtrimmingham8327",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lU_qsGSyPUj5xYtcan04AQ4S88EoJ1Eo7aUU5ZcVW_uQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Trinidad and Tobago  6:36am",
+      "likeCount": 1,
+      "publishedAt": "2026-08-21T10:36:16Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgyOy36BmgSun1mRSMR4AaABAg",
       "author": "@jongriepentrog8132",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n0giGUZBce6OX8sREBDMzssEQ836_WphdfdKU5A0E=s48-c-k-c0x00ffffff-no-rj",
       "text": "German from the USA",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-20T17:03:36Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyOy36BmgSun1mRSMR4AaABAg.A_jlCmIozReA_kjxNWuoPA",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Good to have you along — Manaus is a long way from home in every direction.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-21T02:11:52Z"
+        }
+      ]
     },
     {
       "id": "UgzX9RpfZLrWqP6XvR14AaABAg",
