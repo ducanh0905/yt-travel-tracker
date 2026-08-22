@@ -9,8 +9,17 @@
       "text": "Hola amigo soy de chile me encanta",
       "likeCount": 1,
       "publishedAt": "2026-07-30T11:55:56Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzDGk3K4uv55KeLnE94AaABAg.AZt8Ivefhw9A_oSyv5HHoX",
+          "author": "@BrilliantTravel7",
+          "authorImage": "https://yt3.ggpht.com/I4qOKFAmJTQR4IemPYHFKL0s3Xox_cyXAlI5waL3pdsb9gM7G_rvdsNCmu5Uonw_TjsoZmgr=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Hola! Me alegra que te guste Chile. ¿Qué es lo que más te gusta de ese país?",
+          "likeCount": 0,
+          "publishedAt": "2026-08-22T12:51:45Z"
+        }
+      ]
     },
     {
       "id": "UgyqL75pYZoOhQssfZd4AaABAg",

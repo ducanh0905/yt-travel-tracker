@@ -28,8 +28,17 @@
       "text": "Thanks for sharing!",
       "likeCount": 0,
       "publishedAt": "2026-08-21T02:59:45Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzGh_O2M9otzcrEFrZ4AaABAg.A_kpR2U93lnA_m8Cv2mGlh",
+          "author": "@WhereonEarth4K",
+          "authorImage": "https://yt3.ggpht.com/eGYI9iH4DF7Eb8QJYMMO2qNL_ls-4aNbWgY0tHLbCMrP4phySA3gN8SnhWB02TzySTEBGRXAIg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for watching.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-21T15:11:49Z"
+        }
+      ]
     },
     {
       "id": "UgzitO_HSDd5jYCivqh4AaABAg",

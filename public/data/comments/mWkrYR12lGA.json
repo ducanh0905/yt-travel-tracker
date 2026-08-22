@@ -1,5 +1,36 @@
 {
   "videoId": "mWkrYR12lGA",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgynWpQg1caH0lkmq7l4AaABAg",
+      "author": "@MANUELSALVADORVASQUEZYEPES-l8p",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_meZQDvkVwIytlz05tUr4sKYRoxduo30MYm6fDWZDFwo5Dx5x44u4bpmQY2f_R4uW4yGQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "5",
+      "likeCount": 0,
+      "publishedAt": "2026-08-22T07:19:27Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxnRj8o2MvfFHv1_m94AaABAg",
+      "author": "@antoniobedon3460",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m0ZYvLcC9ZPcy7wg42FbzMWSqjFmwWXO5hGg6M33o-dA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Excelente reportaje vivencias, costumbres, normas, la generosidad de la gente Pakistaní nos adentran en un mundo diferente. Saludos desde Ambato-Ecuador Sud América.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-22T05:11:10Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgztSFHxweRSCG2vmP54AaABAg",
+      "author": "@antoniobedon3460",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m0ZYvLcC9ZPcy7wg42FbzMWSqjFmwWXO5hGg6M33o-dA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "5",
+      "likeCount": 0,
+      "publishedAt": "2026-08-22T04:54:23Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

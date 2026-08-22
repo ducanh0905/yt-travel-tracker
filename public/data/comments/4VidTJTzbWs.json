@@ -1,5 +1,25 @@
 {
   "videoId": "4VidTJTzbWs",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgyO9nsQwYKZYQMSknd4AaABAg",
+      "author": "@GCMGrabados",
+      "authorImage": "https://yt3.ggpht.com/VoLaQxwtvDRUFBRPo70GRFdjNnqMHoL9T39Qg1oag5-iuFUAN7N_S1UgQkPeSLJ9MfZIhO0J=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Tienes un canal muy bonito",
+      "likeCount": 0,
+      "publishedAt": "2026-08-22T20:49:09Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyO9nsQwYKZYQMSknd4AaABAg.A_pJbRDqimeA_pZXXO3ClQ",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Muchas gracias por el cumplido, me alegra mucho que te guste el canal.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-22T23:08:17Z"
+        }
+      ]
+    }
+  ]
 }

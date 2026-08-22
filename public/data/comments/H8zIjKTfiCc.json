@@ -1,5 +1,16 @@
 {
   "videoId": "H8zIjKTfiCc",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "Ugx8RQbRPFajzKkEtqp4AaABAg",
+      "author": "@juanmariaceladaortiz1521",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mhsmnYE8s43yKvrOUEuO15ubUhsinTg2sCvnzOqI9_bv10vBFKsBHnJGDP5ESWQFEWmg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "No había conocido a Tuvalu es marabilloso",
+      "likeCount": 0,
+      "publishedAt": "2026-08-22T05:13:46Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

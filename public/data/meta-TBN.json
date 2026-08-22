@@ -1,11 +1,16 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-08-21T23:22:54.229Z",
+  "lastUpdated": "2026-08-22T23:21:10.944Z",
   "channelCount": 20,
-  "videoCount": 1782,
-  "quotaUnitsUsed": 675,
+  "videoCount": 1792,
+  "quotaUnitsUsed": 1506,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "errors": [],
+  "errors": [
+    {
+      "channel": "https://www.youtube.com/@Viajespedia-l5r",
+      "error": "Channel not found for \"https://www.youtube.com/@Viajespedia-l5r\""
+    }
+  ],
   "replyErrors": []
 }

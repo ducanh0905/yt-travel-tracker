@@ -1,5 +1,26 @@
 {
   "videoId": "D_kMtgYBg1w",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgxI5dPPzrl_Du_kPWh4AaABAg",
+      "author": "@kolaheadoffice503",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nR7k4bJQF7Gq6SZiPlcopDAtX4LmCNa4itJCFfvZE=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Great Curacao. Lagos , Nigeria.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-22T14:52:17Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwSfrYoIIfwVey0-9p4AaABAg",
+      "author": "@davidwilsonbayamweri.3948",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nN-dfuZE4EDCSPvddxdjz0Hp7rfgKsrNeIDx3PrbyPAE0=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Watching this video from MSABAHA - MALINDI - KENYA.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-22T13:14:48Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

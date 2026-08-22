@@ -29,8 +29,17 @@
       "text": "chile",
       "likeCount": 0,
       "publishedAt": "2026-08-21T16:41:02Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxczuo_akm2RA6dP554AaABAg.A_mIQHb0u1nA_mgj7E9l05",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que te gustó el video! Mauricio es un lugar increíble.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-21T20:22:11Z"
+        }
+      ]
     },
     {
       "id": "Ugwp-SEbLps1FJ0299d4AaABAg",
@@ -87,8 +96,16 @@
       "text": "¡Qué documental tan completo y fascinante! Es admirable cómo Mauricio ha logrado construir un país pacífico, sin ejército y enfocado en el bienestar y la educación de su gente. Un verdadero ejemplo de convivencia para el resto del mundo.",
       "likeCount": 1,
       "publishedAt": "2026-08-19T03:29:47Z",
-      "replyCount": 2,
+      "replyCount": 3,
       "replies": [
+        {
+          "id": "UgweQBuZ3a2rmTzXPBJ4AaABAg.A_fjHHf9QW3A_nS3qRr1dk",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué observación tan interesante! Realmente es una paradoja divertida, considerando que la isla es tan pacífica.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-22T03:24:35Z"
+        },
         {
           "id": "UgweQBuZ3a2rmTzXPBJ4AaABAg.A_fjHHf9QW3A_mhoJ2WQeo",
           "author": "@macomesipermette",
@@ -233,8 +250,16 @@
       "text": "Te veo desde Chicago soy cubano",
       "likeCount": 0,
       "publishedAt": "2026-08-14T01:55:01Z",
-      "replyCount": 2,
+      "replyCount": 3,
       "replies": [
+        {
+          "id": "UgzMXuZstQ-VBPaiMM54AaABAg.A_TgSlKcP9_A_nS5Z7-4-2",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que el video te inspiró! Mauricio es realmente un lugar especial y te encantará.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-22T03:24:49Z"
+        },
         {
           "id": "UgzMXuZstQ-VBPaiMM54AaABAg.A_TgSlKcP9_A_Zx7zsyyLQ",
           "author": "@macomesipermette",
