@@ -9,8 +9,17 @@
       "text": "República Dominicana.",
       "likeCount": 1,
       "publishedAt": "2026-08-05T04:59:34Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzWe-o9pKKFKjjSMDV4AaABAg.A_6qQfPRSLCA_mfe6Az1SA",
+          "author": "@BrilliantTravel7",
+          "authorImage": "https://yt3.ggpht.com/I4qOKFAmJTQR4IemPYHFKL0s3Xox_cyXAlI5waL3pdsb9gM7G_rvdsNCmu5Uonw_TjsoZmgr=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Un país hermoso e interesante! Lo apuntamos en nuestra lista para futuros documentales de viajes.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-21T20:12:46Z"
+        }
+      ]
     },
     {
       "id": "UgzdzXCG0JaZYXUTN7d4AaABAg",

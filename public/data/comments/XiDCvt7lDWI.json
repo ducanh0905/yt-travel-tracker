@@ -3,14 +3,62 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwlqILffHMir3Mq9Ah4AaABAg",
+      "author": "@CecilioRaúl",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_njv5bj96nXZPdVSGWFsAya7ecRhM4u_78FX5cOyq1Aefxs0LYhy-CVDYRCpSNnYeaQwA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Quiero formar una familia con una mujer belga",
+      "likeCount": 0,
+      "publishedAt": "2026-08-23T18:21:05Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxFuEFQvko2WmhIFFx4AaABAg",
+      "author": "@CecilioRaúl",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_njv5bj96nXZPdVSGWFsAya7ecRhM4u_78FX5cOyq1Aefxs0LYhy-CVDYRCpSNnYeaQwA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Saludos desde Cuba 🇨🇺",
+      "likeCount": 0,
+      "publishedAt": "2026-08-23T18:16:11Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwdF7_1cO_XbXV2_C14AaABAg",
+      "author": "@CecilioRaúl",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_njv5bj96nXZPdVSGWFsAya7ecRhM4u_78FX5cOyq1Aefxs0LYhy-CVDYRCpSNnYeaQwA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Saludos desde Cuba 🇨🇺",
+      "likeCount": 0,
+      "publishedAt": "2026-08-23T18:15:49Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwdF7_1cO_XbXV2_C14AaABAg.A_rbrIUrEe0A_rnuTrPY0S",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué gusto saludarte hasta Cuba, muchas gracias por ver el video! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-08-23T20:01:07Z"
+        }
+      ]
+    },
+    {
       "id": "UgxwvsmUb1zEo1_XACV4AaABAg",
       "author": "@YanielRamirezLeiva",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lk8UN6Sm2yXevei5XBZ0muyiJhvTS1zIloiZrEPT_2wh0ZN2PNXNrKYz2OHyMARUfXcg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Saludos para todos los amigos y para esa nación linda ❤❤❤,me gustaría conocerla",
       "likeCount": 0,
       "publishedAt": "2026-08-22T20:54:17Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxwvsmUb1zEo1_XACV4AaABAg.A_pKC2ivnh_A_rnvL5dTsX",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué gusto saludarte, ojalá muy pronto tengas la oportunidad de conocer ese hermoso país! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-08-23T20:01:14Z"
+        }
+      ]
     },
     {
       "id": "Ugw-5NYaYrir-BAtyWl4AaABAg",
@@ -19,8 +67,17 @@
       "text": "Saludos desde Guayaquil Ecuador",
       "likeCount": 0,
       "publishedAt": "2026-08-22T17:07:42Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw-5NYaYrir-BAtyWl4AaABAg.A_ovGWyi7yUA_rnut1pupg",
+          "author": "@Mundocaptado7",
+          "authorImage": "https://yt3.ggpht.com/P0Q_tHCL1NxlhtGZRa7J7dh_IYS5eNmp9p9ywFO-mzqBNELE7OF05ijVO1t4b2z_XdzdirwA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué gusto saludarte hasta Guayaquil, muchas gracias por ver el video! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-08-23T20:01:10Z"
+        }
+      ]
     }
   ]
 }

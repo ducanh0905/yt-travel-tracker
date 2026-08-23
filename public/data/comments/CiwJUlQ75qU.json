@@ -9,8 +9,17 @@
       "text": "Saludos y cariños para esos humanos",
       "likeCount": 1,
       "publishedAt": "2026-08-13T21:40:22Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzGKcjVZ7V4CXSIu_t4AaABAg.A_TEJhAruh8A_mhiry-v1e",
+          "author": "@BrilliantTravel7",
+          "authorImage": "https://yt3.ggpht.com/I4qOKFAmJTQR4IemPYHFKL0s3Xox_cyXAlI5waL3pdsb9gM7G_rvdsNCmu5Uonw_TjsoZmgr=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Agradecemos de corazón tus palabras y el afecto hacia las personas que mostramos en este recorrido.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-21T20:30:54Z"
+        }
+      ]
     }
   ]
 }

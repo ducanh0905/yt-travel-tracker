@@ -28,8 +28,17 @@
       "text": "4",
       "likeCount": 0,
       "publishedAt": "2026-08-05T06:22:08Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwBawULTZdOBniI7jp4AaABAg.A_6zsOIMnkVA_mfe5crbnL",
+          "author": "@BrilliantTravel7",
+          "authorImage": "https://yt3.ggpht.com/I4qOKFAmJTQR4IemPYHFKL0s3Xox_cyXAlI5waL3pdsb9gM7G_rvdsNCmu5Uonw_TjsoZmgr=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Gracias por darte una vuelta por el canal! Un saludo muy especial para ti.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-21T20:12:46Z"
+        }
+      ]
     },
     {
       "id": "Ugx-OhEQxYFNvABp5gV4AaABAg",
@@ -38,8 +47,17 @@
       "text": "Qué buen documental para planear un viaje a Alemania y ver sus paisajes limpios y silenciosos. La vida en esta hermosa nación realmente te hace querer empacar las maletas hoy mismo.",
       "likeCount": 1,
       "publishedAt": "2026-08-05T03:02:10Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx-OhEQxYFNvABp5gV4AaABAg.A_6czmhPF1QA_mfe66VYTU",
+          "author": "@BrilliantTravel7",
+          "authorImage": "https://yt3.ggpht.com/I4qOKFAmJTQR4IemPYHFKL0s3Xox_cyXAlI5waL3pdsb9gM7G_rvdsNCmu5Uonw_TjsoZmgr=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Qué bueno que te sirva para planear tu viaje! Alemania guarda paisajes verdaderamente cautivadores y llenos de paz.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-21T20:12:46Z"
+        }
+      ]
     },
     {
       "id": "UgyGEILI8dA8Xdsz16F4AaABAg",

@@ -89,8 +89,17 @@
       "text": "This is one of my favourite videos,  simplicity in its self of the old city and relay beautiful 🫶.",
       "likeCount": 1,
       "publishedAt": "2026-08-09T12:54:05Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzBqmClcK3GU1cB17l4AaABAg.A_HzuaeKm5eA_nHFceJRiP",
+          "author": "@WorldTravelDoc",
+          "authorImage": "https://yt3.ggpht.com/9tMdz766ER0IeeY8hASGitUipJl1L974V6tMVftpqKMRjlZaMZj_AKgWxsnCDD873-4BXiwE2g0=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We’re so happy to hear that this journey through Japan’s hidden gems has become one of your favorites! 🇯🇵✨",
+          "likeCount": 0,
+          "publishedAt": "2026-08-22T01:50:05Z"
+        }
+      ]
     },
     {
       "id": "UgxrWhHT4KKmUQI96EZ4AaABAg",
@@ -989,25 +998,6 @@
       "publishedAt": "2026-05-26T09:53:20Z",
       "replyCount": 0,
       "replies": []
-    },
-    {
-      "id": "UgwEZuSemfSpXU9gczV4AaABAg",
-      "author": "@Fuマクマクリカバリー-d1q",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mYTYoKF1B7tFs9gD1sl44yurR_Y02Iy7QE6tkZv623fEgSNVDLr4xTAKTESIRb6ryFFg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "サムネの映像、あの崖の上の家が在る写真‼️‼️あれ日本じゃ無い気がします‼️‼️‼️",
-      "likeCount": 12,
-      "publishedAt": "2026-05-25T00:40:13Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgwEZuSemfSpXU9gczV4AaABAg.AXCzW1_nhzwAXczCef1bbw",
-          "author": "@かあ-l9f",
-          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kX68pVPFyK2B8j9czj5X_3EGpFTPRQzeMo40LvjBCJZw=s48-c-k-c0x00ffffff-no-rj",
-          "text": "私もそう思った！\n中国風ですよね",
-          "likeCount": 6,
-          "publishedAt": "2026-06-04T12:17:04Z"
-        }
-      ]
     }
   ]
 }
