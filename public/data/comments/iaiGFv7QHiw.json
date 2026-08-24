@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzbXQWwpvHiN1gVMTN4AaABAg",
+      "author": "@chapwetumelo9601",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lHTTb3bKLvkzcSSWsDx3E7RjeuR1N0_kvCLv2vad2W49I=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Zambia. Lusaka. 21:14",
+      "likeCount": 0,
+      "publishedAt": "2026-08-24T19:14:29Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxQBQZ8S9A15m8IAFp4AaABAg",
       "author": "@DavidAcquah-o7h9f",
       "authorImage": "https://yt3.ggpht.com/2_qR6Qv1S7Y2eGRkQHXhZNv5SPxA2sV1xxRV_lXi5qovbS2tvf1BiIJ1vOJ4nNTUEgrwFbNMOw=s48-c-k-c0x00ffffff-no-rj",
       "text": "Watching from Ghana 2pm",
       "likeCount": 0,
       "publishedAt": "2026-08-23T14:43:28Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxQBQZ8S9A15m8IAFp4AaABAg.A_rEYzx86tmA_sxnlFZDd7",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Ghana! 🇬🇭 Appreciate you spending your afternoon watching with us. How is the weather over in Ghana today?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T06:46:49Z"
+        }
+      ]
     },
     {
       "id": "UgzXCpTRZZJmNnB6_RZ4AaABAg",
@@ -19,8 +38,17 @@
       "text": "Botswana is home of peace",
       "likeCount": 0,
       "publishedAt": "2026-08-23T08:34:14Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzXCpTRZZJmNnB6_RZ4AaABAg.A_q_Ib7SrOGA_szauaPpaD",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Botswana! 🇧🇼 It is indeed famous for its stability and incredible wildlife. What is your favorite national park or safari spot in Botswana?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T07:02:32Z"
+        }
+      ]
     },
     {
       "id": "UgxeGvfPkObiIRD0_YZ4AaABAg",
@@ -1898,25 +1926,6 @@
       "publishedAt": "2026-07-31T01:05:40Z",
       "replyCount": 0,
       "replies": []
-    },
-    {
-      "id": "Ugyu2t9focaqE_qQKKl4AaABAg",
-      "author": "@lindamashiqa2330",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_klbXKod3vsSPhPe6Bjf4fcZgTNM9f9Bl0AcXl600cPeoc=s48-c-k-c0x00ffffff-no-rj",
-      "text": "We South Africans we love Batswana they are our cousins",
-      "likeCount": 15,
-      "publishedAt": "2026-07-30T13:53:38Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "Ugyu2t9focaqE_qQKKl4AaABAg.AZtLlu9J3btA_XKcfgZpVG",
-          "author": "@LancohmotlhahPhuswane",
-          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mMCFGLpx-oVhpUD-5nWuGkQGaSnhc77pZDhv7mEa7cxk6UAAgzralettYUi9Lid9Cr3w=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Hey cousin am in gabs,Botswana",
-          "likeCount": 0,
-          "publishedAt": "2026-08-15T11:52:29Z"
-        }
-      ]
     }
   ]
 }

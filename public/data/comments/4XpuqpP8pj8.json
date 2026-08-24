@@ -1,5 +1,25 @@
 {
   "videoId": "4XpuqpP8pj8",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgwMELifxWmETSZvN354AaABAg",
+      "author": "@vdviajes",
+      "authorImage": "https://yt3.ggpht.com/et-gJIJZTKzrx5Uo9pD1RwQqX3Hdy9GxCs6l-ZP5VHxxGR872l4jRmy-AclP7D03LYOroMwpjfM=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Las festividades locales son una ventana maravillosa para entender la alegría y la cohesión social de una comunidad. Me encantó ver cómo las personas de distintas edades se unen para celebrar sus fechas importantes con música, bailes coloridos y expresiones artísticas únicas. Esas muestras de identidad colectiva no solo mantienen viva la memoria histórica de un pueblo, sino que también transmiten una sensación incomparable de pertenencia y orgullo cultural que conecta a generaciones enteras.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-24T04:30:24Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwMELifxWmETSZvN354AaABAg.A_siBd0Gm8ZA_t-d2D50z7",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Totalmente de acuerdo! Las festividades son el corazón de la cultura y es increíble cómo unen a la gente. Me alegra que hayas captado esa esencia.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T07:11:34Z"
+        }
+      ]
+    }
+  ]
 }

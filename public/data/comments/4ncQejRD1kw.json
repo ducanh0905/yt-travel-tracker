@@ -9,8 +9,17 @@
       "text": "I am watching from Germany",
       "likeCount": 0,
       "publishedAt": "2026-08-23T17:06:38Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgypmoZ5OD7Q1PmVyIR4AaABAg.A_rUwW44U4DA_sOAlZCRS2",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "\"Greetings to Germany! 🇩🇪 Thank you for joining us today. Which city in Germany are you watching from?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T01:26:47Z"
+        }
+      ]
     },
     {
       "id": "UgzHlrDn9S4f4LIG5jZ4AaABAg",

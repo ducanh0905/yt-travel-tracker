@@ -253,8 +253,17 @@
       "text": "Argentina 🇦🇷🩵🤍🩵 most beautiful country in the world!",
       "likeCount": 7,
       "publishedAt": "2026-07-27T12:36:26Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzmPbWKjRkljA4DKMF4AaABAg.AZlUYy3B7f3A_u5a6n6qRl",
+          "author": "@danharris2007",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nxsasRr2B0VesJ1CezWUibI1VS4sQ1ZsZexXuZdgo=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Then u haven't seen Switzerland.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T17:22:50Z"
+        }
+      ]
     },
     {
       "id": "Ugybdkx4GzLkiuphKSV4AaABAg",
@@ -369,7 +378,7 @@
       "author": "@waseemzuhairkhan7810",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k8RnJ_e9w_n-q2ttwlOusa0szDqf1KF7jFE9vtf_Y=s48-c-k-c0x00ffffff-no-rj",
       "text": "I visited Argentina in 2008\nIt was excellent experience",
-      "likeCount": 4,
+      "likeCount": 5,
       "publishedAt": "2026-07-22T21:16:49Z",
       "replyCount": 0,
       "replies": []

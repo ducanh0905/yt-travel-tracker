@@ -3,6 +3,36 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugz26GQJ7sVU2lMlBq94AaABAg",
+      "author": "@JoaoMelo-e2e8f",
+      "authorImage": "https://yt3.ggpht.com/rg0VBe48Tf0XExcg4kPgz3fbJBgsevk7zqGB9534OLjF57cj8fl8lWSU4vub7VRFkbMV82XmSA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Porto",
+      "likeCount": 0,
+      "publishedAt": "2026-08-24T19:11:56Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzMpztDz9PAWGP0Sv14AaABAg",
+      "author": "@denisemendonca403",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lEcKqcSl_J0pG3utCB_GvCBrm5nBTZc5qO8QazKsI5V0E=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Lagarto Sergipe nordeste brasileiro",
+      "likeCount": 0,
+      "publishedAt": "2026-08-24T08:26:47Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugwyl-zQ8NI62Ptpt3F4AaABAg",
+      "author": "@ismaelpalacios5407",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kfBWzgfHn_NOhyxXs3rKlvQuHZKqfA1ZMrxZMUGQkjW8Dqu0CswMyWj8F3pmGfexqucg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Zipaquirá",
+      "likeCount": 0,
+      "publishedAt": "2026-08-24T02:26:32Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxIAMfYF3PzD8rsxth4AaABAg",
       "author": "@vanderluciopereira8625",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kW_bXWV7k4rFx3O4HSuLuPPIiF4METw-9WTio0KxCwg4CGcdBkOEn6xuHTqAYiwQcNLQ=s48-c-k-c0x00ffffff-no-rj",
@@ -385,7 +415,7 @@
     {
       "id": "UgyCH3kiEYxorqd7BJ14AaABAg",
       "author": "@MariaRodrigues-ts8un",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mfkH8i-PhSRf32kArS813CCTiIudUMwJvFX5lUo4M=s48-c-k-c0x00ffffff-no-rj",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nvmX5zNymV4WfRKYX1zMgRovbGkbPcFf-7byONjT6u3797=s48-c-k-c0x00ffffff-no-rj",
       "text": "Mato grosso do sul",
       "likeCount": 0,
       "publishedAt": "2026-08-15T22:13:41Z",
@@ -978,45 +1008,6 @@
       "text": "S  Ctarina  B  Camburiu",
       "likeCount": 1,
       "publishedAt": "2026-08-10T22:42:35Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgztUIPWPdeOIEMgunZ4AaABAg",
-      "author": "@SilvanaOliveira-v8x",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mGCcO77qRAILeeq23h9y6AoVb-S6jhNjs55xh4H1JqzRtYoueMFrSC8S9Y7lZhzF6Tww=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Sp Silvana",
-      "likeCount": 0,
-      "publishedAt": "2026-08-10T18:48:01Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgztUIPWPdeOIEMgunZ4AaABAg.A_LCCmaXvy1A_LccM6z3mL",
-          "author": "@lidiaperez1447",
-          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kv6SHN7ybotay2iT8KFUw3q3JgWI_XfDtZOsWrB8qK2A4=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Desde costa Rica. Centro América",
-          "likeCount": 0,
-          "publishedAt": "2026-08-10T22:47:35Z"
-        }
-      ]
-    },
-    {
-      "id": "UgwR07iUzvTkiZG1LNt4AaABAg",
-      "author": "@SilvanaOliveira-v8x",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mGCcO77qRAILeeq23h9y6AoVb-S6jhNjs55xh4H1JqzRtYoueMFrSC8S9Y7lZhzF6Tww=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Sp Silvana",
-      "likeCount": 0,
-      "publishedAt": "2026-08-10T18:47:48Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxM5pJIt49FWqkoVZh4AaABAg",
-      "author": "@SilvanaOliveira-v8x",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mGCcO77qRAILeeq23h9y6AoVb-S6jhNjs55xh4H1JqzRtYoueMFrSC8S9Y7lZhzF6Tww=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Sp Silvana",
-      "likeCount": 0,
-      "publishedAt": "2026-08-10T18:46:19Z",
       "replyCount": 0,
       "replies": []
     }

@@ -3,14 +3,52 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzqcZOxLX6ixil0M8Z4AaABAg",
+      "author": "@RodneyVein",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lXNBnVor2T5FVc9Go-w378cXn6JmX-YLkW1G6mVZyFzwgLjg01XTaBOrjvCuKmfuRq9g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "South Africa 11.23🇿🇦",
+      "likeCount": 0,
+      "publishedAt": "2026-08-24T21:24:16Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwRacEy9DT5rcZf0Tx4AaABAg",
+      "author": "@KentonHalstead",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kedlxAby9tBfPJkXZ8EQhn6bmlgHTDhb0RGpWJWrn_Xk7rZowkOmPXdaOCOCTpsF7fXg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I am watching from Spanish Town, Jamaica at 9:03 PM",
+      "likeCount": 1,
+      "publishedAt": "2026-08-24T02:03:19Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwRacEy9DT5rcZf0Tx4AaABAg.A_sSMN-SZ4hA_si11Dk5hF",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "That's awesome! So cool to know you're watching all the way from Spanish Town, Jamaica. Hope you enjoyed the documentary!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T04:28:57Z"
+        }
+      ]
+    },
+    {
       "id": "UgzQnUMf1PMMU_zCPsV4AaABAg",
       "author": "@JosephArmbrister",
       "authorImage": "https://yt3.ggpht.com/YpGivGaLDZ6IeZ4Dk5ePDrdchVXgG9EUVJo4X-NiRtN7-1ZYtwczU3VJq-YLe83n8CY-FQBzfM4=s48-c-k-c0x00ffffff-no-rj",
       "text": "interested information",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-23T22:04:57Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzQnUMf1PMMU_zCPsV4AaABAg.A_s14Sar1mFA_sa4LEXNYG",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you — glad it was worth your time. There is a lot more going on inland in Jamaica than the beach strip lets on.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T03:19:30Z"
+        }
+      ]
     },
     {
       "id": "UgyL-RKyyuRPFUjUVhZ4AaABAg",

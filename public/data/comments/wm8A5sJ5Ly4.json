@@ -9,8 +9,17 @@
       "text": "I love Italy 🇮🇹",
       "likeCount": 0,
       "publishedAt": "2026-08-23T17:00:05Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwpogXBr2qNozfC7ih4AaABAg.A_rUBZLwV_bA_ui2E9O_OM",
+          "author": "@TraceTheGlobe",
+          "authorImage": "https://yt3.ggpht.com/nZghbwFly3acvcDxTCjSvCvK-BzlQSwcCBKmoghIzV17Mg8y83gEFrzZqcVqWXbEv7y7rjkUOdE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for watching!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T23:07:36Z"
+        }
+      ]
     },
     {
       "id": "Ugz-4TN6VBKctL3mpaF4AaABAg",
