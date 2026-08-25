@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgxPpxIH9SPimG1BgqV4AaABAg",
+      "author": "@OdysseyDocs",
+      "authorImage": "https://yt3.ggpht.com/qumBxrEM3ux3Uei4sWP0scCq5Cb78nN5FOauamUVG07bBZGfQMAwvmAjpeHfyYm6vqKflDbq9w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Alaska is truly wealthy and prosperous; life here is a real paradise.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-25T13:06:39Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgwduR_oqlyywCF0-OR4AaABAg",
       "author": "@angelmatos9143",
       "authorImage": "https://yt3.ggpht.com/x8W981Qq-xOpL6lE-YbHLmmOtuBhqqKtVVcyjyvmosZZgEQ4UTWRgyjJuGvqTnO74NyJMsV_rQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "Unforgettable! 😇",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-25T09:28:00Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwduR_oqlyywCF0-OR4AaABAg.A_vp2DPtwMRA_wcI9b5BgM",
+          "author": "@BestTravel2",
+          "authorImage": "https://yt3.ggpht.com/bRGuSBcOk9h0r9_Utlih802wDE-XvNOzBpjdji8u01_aw9M49R9jufdA44H4FjAzLiRSB4DEtJ8=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for the kind words, I'm happy you enjoyed the documentary!",
+          "likeCount": 1,
+          "publishedAt": "2026-08-25T16:55:50Z"
+        }
+      ]
     },
     {
       "id": "UgwvbSRgALgYEz_MhLd4AaABAg",
@@ -27,10 +46,19 @@
       "author": "@SleepTimePodcast",
       "authorImage": "https://yt3.ggpht.com/lN-67muakZJohPpULOm6T9EnVb5d-sFow5ZSOpIVsW8IL77Cs1iiergJsy8qlrHyqgCltcAUtw=s48-c-k-c0x00ffffff-no-rj",
       "text": "Alaska truly feels like a different planet. The resilience of the people living there is just incredible. Anyone else here dreaming of visiting?",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-25T03:06:58Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwzG92Nh2oBtkiiUvJ4AaABAg.A_v8RPIgAY8A_wcOs1zrQk",
+          "author": "@BestTravel2",
+          "authorImage": "https://yt3.ggpht.com/bRGuSBcOk9h0r9_Utlih802wDE-XvNOzBpjdji8u01_aw9M49R9jufdA44H4FjAzLiRSB4DEtJ8=s48-c-k-c0x00ffffff-no-rj",
+          "text": "So glad you picked up on that! The resilience of Alaskans is something I truly admire and wanted to highlight. Thanks for watching!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T16:56:45Z"
+        }
+      ]
     },
     {
       "id": "UgzoigLCdxAsp9wTv4d4AaABAg",
@@ -47,10 +75,19 @@
       "author": "@PhạmHảiAnh-x9c",
       "authorImage": "https://yt3.ggpht.com/Tk84H9bvT5tBrCkCIKRgGBXifAYQM5aEF3fsm30uyDwr_Zyc11rZqNJibgqfSylWesNrzp7baPE=s48-c-k-c0x00ffffff-no-rj",
       "text": "I almost skipped this because the title and thumbnail looked like typical clickbait exaggerating the hardship. Glad I clicked anyway! You actually delivered a deeply respectful and well-researched look into their culture instead of just showing surface-level tropes.",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-24T07:52:09Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgydVtYipx8K9KoUe-d4AaABAg.A_t4HDiyb-8A_wcVMweccf",
+          "author": "@BestTravel2",
+          "authorImage": "https://yt3.ggpht.com/bRGuSBcOk9h0r9_Utlih802wDE-XvNOzBpjdji8u01_aw9M49R9jufdA44H4FjAzLiRSB4DEtJ8=s48-c-k-c0x00ffffff-no-rj",
+          "text": "I'm really glad you decided to give it a watch! It means a lot to know that the effort put into respectful representation came through.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T16:57:38Z"
+        }
+      ]
     },
     {
       "id": "UgzOGyn8ndiy78hFo-t4AaABAg",
@@ -214,7 +251,7 @@
       "author": "@thebroadlife",
       "authorImage": "https://yt3.ggpht.com/3YPesBSsJqiXwddMNkq89kWiy9pba4gc7iZHbGNI8VPf_pKrOQt6r4eP4nPZHlpEyJxBUKDD3Q=s48-c-k-c0x00ffffff-no-rj",
       "text": "Alaska feels like a completely different world, where life is shaped by nature, distance, and the seasons. Such a fascinating look at what everyday life is really like at the edge of America!",
-      "likeCount": 3,
+      "likeCount": 4,
       "publishedAt": "2026-08-22T08:42:49Z",
       "replyCount": 0,
       "replies": []
@@ -781,7 +818,7 @@
       "author": "@NgocNgaDinh-r6s8q",
       "authorImage": "https://yt3.ggpht.com/QWrueWZhX4qwbKD1o6EDxiVLdURIx4G5Gehz1WyH58ZrodDE38AkQYQx_8lTgaUSfyB_12W_M2E=s48-c-k-c0x00ffffff-no-rj",
       "text": "Living in Alaska completely redefines what human resilience actually means. Watching how the locals deal with endless frozen winters, months of dark polar nights, and extreme isolation with such calm acceptance is deeply humbling. It really makes you realize that living at the edge of the continent isn't a scenic holiday—it's a daily commitment to survival and preparation.",
-      "likeCount": 13,
+      "likeCount": 15,
       "publishedAt": "2026-08-20T15:46:33Z",
       "replyCount": 3,
       "replies": [
@@ -798,7 +835,7 @@
           "author": "@TravelBeyond4K",
           "authorImage": "https://yt3.ggpht.com/Ik5oODoFXvlSLV1Q_yvpEqTFs7tXBI8qEr85tTl0bkP_JoTEFeatMQC4g4fATwk1xllMk4Z47Ko=s48-c-k-c0x00ffffff-no-rj",
           "text": "I totally agree with you. It is amazing to see how they adapt to such harsh conditions while keeping such a positive perspective on life.",
-          "likeCount": 1,
+          "likeCount": 2,
           "publishedAt": "2026-08-21T03:24:45Z"
         },
         {
@@ -835,7 +872,7 @@
       "author": "@wondervista-90",
       "authorImage": "https://yt3.ggpht.com/ODTGg-JXs6bQ1xvmeM-Q2inz9w7FJqTewYnnX5beap90NYm54_0ZtveU0pcn1XCsF9C87pxT=s48-c-k-c0x00ffffff-no-rj",
       "text": "In Skagway, grocery prices can be so steep that locals sometimes drive 2.5 hours into Canada just to shop at Walmart. For them, the long drive to Whitehorse is often cheaper than doing the weekly grocery run at home.",
-      "likeCount": 16,
+      "likeCount": 19,
       "publishedAt": "2026-08-20T13:13:49Z",
       "replyCount": 7,
       "replies": [
