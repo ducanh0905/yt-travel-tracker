@@ -19,8 +19,36 @@
       "text": "What a beautiful place.",
       "likeCount": 1,
       "publishedAt": "2026-08-24T11:05:06Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugyv7VP6L6NySBrGtbl4AaABAg.A_tQMWW-HniA_v4zdoLGGQ",
+          "author": "@PlanetExplorer-DB",
+          "authorImage": "https://yt3.ggpht.com/H0qDmzLGZejOPrGfUQ5xQiCrsOp19sPrHgv9_YP8_IaOwd-Lu0GlioXLhbvpsmv8iPDiWJp2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "The natural beauty of the mountains there is simply unmatched.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T02:36:49Z"
+        }
+      ]
+    },
+    {
+      "id": "UgwmlhGJ_GOUX_EUcL14AaABAg",
+      "author": "@BoundlessGlobalDiscoveries",
+      "authorImage": "https://yt3.ggpht.com/-3R1Qb0cqmi75vKMgClxuzyZNzeSE-sJZwyCeTisNFPtbZKooNne3OUibSo37cH3KA-MJjsT7Q=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Kyrgyzstan looks absolutely stunning! That bride-kidnapping tradition is wild to learn about, but the scenery and culture are so beautiful. Definitely adding this spot to my travel bucket list!",
+      "likeCount": 0,
+      "publishedAt": "2026-08-24T04:17:03Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwmlhGJ_GOUX_EUcL14AaABAg.A_sget6VxlDA_shP_3WYpW",
+          "author": "@PlanetExplorer-DB",
+          "authorImage": "https://yt3.ggpht.com/H0qDmzLGZejOPrGfUQ5xQiCrsOp19sPrHgv9_YP8_IaOwd-Lu0GlioXLhbvpsmv8iPDiWJp2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "It is a land of striking contrasts, where ancient traditions and breathtaking scenery leave a lasting impression on every traveler. 🇰🇬",
+          "likeCount": 0,
+          "publishedAt": "2026-08-24T04:23:34Z"
+        }
+      ]
     },
     {
       "id": "UgwSvfQLf84iQty7U-R4AaABAg",

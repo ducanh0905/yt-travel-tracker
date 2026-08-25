@@ -17,20 +17,38 @@
       "author": "@AtlasStudios-k8l",
       "authorImage": "https://yt3.ggpht.com/jpk4KkE_1K9nf7vAeeim-sYVndRSfo4J2T4EUjKwj-TW3JY9NpSxLTrlyGfNseFCwuV-lyBcVqA=s48-c-k-c0x00ffffff-no-rj",
       "text": "Cuba looks completely different from what I imagined. The old cars and architecture are fascinating, but the stories about power outages and shortages really caught my attention. Could you live there for a year?",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-24T16:30:51Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyMes9Cy67uiN8P-H94AaABAg.A_u-dJ79mTQA_v5sRPWnnr",
+          "author": "@PlanetExplorer-DB",
+          "authorImage": "https://yt3.ggpht.com/H0qDmzLGZejOPrGfUQ5xQiCrsOp19sPrHgv9_YP8_IaOwd-Lu0GlioXLhbvpsmv8iPDiWJp2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "The contrast is fascinating, but living with those shortages for a full year would be incredibly difficult. Could you do it?",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T02:44:35Z"
+        }
+      ]
     },
     {
       "id": "Ugz1wSZ15BnBH9WbVoF4AaABAg",
       "author": "@ThomasDeLello",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n82hATCU_ZBcIe3sNA2sLW8dhj06ci1cXSGcRivD78KKY=s48-c-k-c0x00ffffff-no-rj",
       "text": "Parts of Los Angeles look like this now. This is where Karen Bass got her indoctrination.",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-24T14:29:19Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugz1wSZ15BnBH9WbVoF4AaABAg.A_tmj9ZEVD8A_v5taL-mdn",
+          "author": "@PlanetExplorer-DB",
+          "authorImage": "https://yt3.ggpht.com/H0qDmzLGZejOPrGfUQ5xQiCrsOp19sPrHgv9_YP8_IaOwd-Lu0GlioXLhbvpsmv8iPDiWJp2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "The similarities are difficult to ignore. What do you think Los Angeles needs to change first?",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T02:44:44Z"
+        }
+      ]
     },
     {
       "id": "Ugz7dMliIr59gY7rLRp4AaABAg",
@@ -39,8 +57,17 @@
       "text": "\"The visual storytelling here is incredible. The juxtaposition of the vibrant, classical cars moving through fading, cracked facades really captures that 'frozen in time' feeling. Excellent cinematography and color grading!\"",
       "likeCount": 1,
       "publishedAt": "2026-08-24T12:39:05Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugz7dMliIr59gY7rLRp4AaABAg.A_ta6t1jH5YA_v5--pb-8N",
+          "author": "@PlanetExplorer-DB",
+          "authorImage": "https://yt3.ggpht.com/H0qDmzLGZejOPrGfUQ5xQiCrsOp19sPrHgv9_YP8_IaOwd-Lu0GlioXLhbvpsmv8iPDiWJp2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for noticing those details; capturing the contrast between the vibrant history and the current reality of Cuba was our main focus. 🇨🇺",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T02:36:52Z"
+        }
+      ]
     },
     {
       "id": "UgzTV5SINVTCMKyNgtZ4AaABAg",
@@ -49,8 +76,17 @@
       "text": "Amazing country!",
       "likeCount": 1,
       "publishedAt": "2026-08-24T12:29:30Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzTV5SINVTCMKyNgtZ4AaABAg.A_t_0flc6mcA_v4zwEWduI",
+          "author": "@PlanetExplorer-DB",
+          "authorImage": "https://yt3.ggpht.com/H0qDmzLGZejOPrGfUQ5xQiCrsOp19sPrHgv9_YP8_IaOwd-Lu0GlioXLhbvpsmv8iPDiWJp2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Cuba certainly has a unique spirit and beauty all its own.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T02:36:52Z"
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,43 @@
 {
   "videoId": "sUrbnEll3dA",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgzYsqDEewGjyIWHhh94AaABAg",
+      "author": "@GeraldMantel",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mW0HX8nY-Aegy1UXDgfTB3j4snP03S3Xy5MBGZkW1hUbbYoGKtw-0B2eroA56mHZ8mFQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "We look at idiotic Google ads and no longer wonder why Amerikans lost wars to Iran, Iraq, Afghanistan and Vietnam.",
+      "likeCount": 1,
+      "publishedAt": "2026-07-24T23:49:47Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzaFmwAO4EGJTke2kF4AaABAg",
+      "author": "@GeraldMantel",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mW0HX8nY-Aegy1UXDgfTB3j4snP03S3Xy5MBGZkW1hUbbYoGKtw-0B2eroA56mHZ8mFQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Do they have Arby's?",
+      "likeCount": 2,
+      "publishedAt": "2026-07-24T23:31:32Z",
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "UgzaFmwAO4EGJTke2kF4AaABAg.AZew8MLYb74AZgWLk1z3Ge",
+          "author": "@GeraldMantel",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mW0HX8nY-Aegy1UXDgfTB3j4snP03S3Xy5MBGZkW1hUbbYoGKtw-0B2eroA56mHZ8mFQ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "​@BestTravel2Yes --- but --- do they have Arby's?",
+          "likeCount": 1,
+          "publishedAt": "2026-07-25T14:15:54Z"
+        },
+        {
+          "id": "UgzaFmwAO4EGJTke2kF4AaABAg.AZew8MLYb74AZgVxx8R1Sn",
+          "author": "@BestTravel2",
+          "authorImage": "https://yt3.ggpht.com/bRGuSBcOk9h0r9_Utlih802wDE-XvNOzBpjdji8u01_aw9M49R9jufdA44H4FjAzLiRSB4DEtJ8=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for the chuckle! It's always fun to see what questions pop into people's minds after watching.",
+          "likeCount": 1,
+          "publishedAt": "2026-07-25T14:12:31Z"
+        }
+      ]
+    }
+  ]
 }
