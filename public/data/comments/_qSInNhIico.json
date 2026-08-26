@@ -36,8 +36,17 @@
       "text": "great video",
       "likeCount": 0,
       "publishedAt": "2026-08-24T14:17:05Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugylpl5v02hCPSFB6y14AaABAg.A_tlKdVe0ooA_wai38RJOz",
+          "author": "@WhereonEarth4K",
+          "authorImage": "https://yt3.ggpht.com/eGYI9iH4DF7Eb8QJYMMO2qNL_ls-4aNbWgY0tHLbCMrP4phySA3gN8SnhWB02TzySTEBGRXAIg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Glad you enjoyed the documentary. 🌿",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T16:42:01Z"
+        }
+      ]
     },
     {
       "id": "UgxYTmVNTexmL-Z5N6V4AaABAg",
@@ -90,7 +99,7 @@
     {
       "id": "Ugxwe0I3jMHZyauiF5B4AaABAg",
       "author": "@Docusdocu",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mQEHeFdit8DCqFxmJdNxieUdmln03KSeGvb-KPkxKUOaJ1ItZl4CLGlAugfCE-iXUMWg=s48-c-k-c0x00ffffff-no-rj",
+      "authorImage": "https://yt3.ggpht.com/ayQlA3vAvpAzkDbk0HGEo6etkqs_xBI-k9_Ze0aQHm-sJTNnp7I04qxMmRQy3zg7aXvxUXRJ=s48-c-k-c0x00ffffff-no-rj",
       "text": "👍👍",
       "likeCount": 0,
       "publishedAt": "2026-08-16T22:40:00Z",
@@ -113,25 +122,6 @@
           "text": "Thank you for watching.",
           "likeCount": 0,
           "publishedAt": "2026-08-19T17:26:47Z"
-        }
-      ]
-    },
-    {
-      "id": "Ugx_1lHBIuse2IWo6Xx4AaABAg",
-      "author": "@HailieEstler",
-      "authorImage": "https://yt3.ggpht.com/faSamS8WTbNbcafRZfalGqQGtFFWTW0tXCQfoYD6Vq3g-iZRQyd7USQiaA4Q8_cTI-FwAvqX=s48-c-k-c0x00ffffff-no-rj",
-      "text": "great video",
-      "likeCount": 0,
-      "publishedAt": "2026-08-14T12:32:15Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "Ugx_1lHBIuse2IWo6Xx4AaABAg.A_UpO2LtsSdA_hE5FTIJ2V",
-          "author": "@WhereonEarth4K",
-          "authorImage": "https://yt3.ggpht.com/eGYI9iH4DF7Eb8QJYMMO2qNL_ls-4aNbWgY0tHLbCMrP4phySA3gN8SnhWB02TzySTEBGRXAIg=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Thank you for watching. 🌿",
-          "likeCount": 0,
-          "publishedAt": "2026-08-19T17:27:00Z"
         }
       ]
     },
@@ -1663,6 +1653,25 @@
           "text": "Drone footage has genuinely changed what's possible in documentary storytelling — Norway rewards it more than almost anywhere. 🙏",
           "likeCount": 0,
           "publishedAt": "2026-06-16T11:29:47Z"
+        }
+      ]
+    },
+    {
+      "id": "Ugyvvq9T7s8chEI8KbR4AaABAg",
+      "author": "@andrewSUN17",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nC6YNYrkUNqUsWi0Vq12ebNfEcl9NhX5PSJynjNZygIQg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Brilliant, well narrated and eloquently spoken documentary! I have some very good Norwegian friends. Lovely people!",
+      "likeCount": 0,
+      "publishedAt": "2026-06-16T05:06:45Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugyvvq9T7s8chEI8KbR4AaABAg.AY66VT5Ry5OAY6m7HpCamF",
+          "author": "@WhereonEarth4K",
+          "authorImage": "https://yt3.ggpht.com/eGYI9iH4DF7Eb8QJYMMO2qNL_ls-4aNbWgY0tHLbCMrP4phySA3gN8SnhWB02TzySTEBGRXAIg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Norway's warmth tends to take visitors by surprise — really glad it came through in the film. 🙏",
+          "likeCount": 1,
+          "publishedAt": "2026-06-16T11:19:11Z"
         }
       ]
     }

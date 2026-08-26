@@ -128,8 +128,17 @@
       "text": "Me convenció,me voy ya para Suiza",
       "likeCount": 3,
       "publishedAt": "2026-06-26T21:38:23Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxDf6mVKENAPSt8bol4AaABAg.AYXcwB2NuKSA_xBfTWgS25",
+          "author": "@franciscipardoyotampoco5604",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mhNIy6UV5juFH3wuYmn5NdpXA3-7h9n4N7Mki6sYE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "No para echar cohetes yo viví 20 años si quieres vivir como en España lo tienes difícil",
+          "likeCount": 0,
+          "publishedAt": "2026-08-25T22:13:43Z"
+        }
+      ]
     },
     {
       "id": "Ugw-UPe75Lbg8JvVMFl4AaABAg",
@@ -241,7 +250,7 @@
       "author": "@thehrodric8828",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nkphqN5_gBtlZebComEBk6nrWsvtAlHVS80pseJHXo=s48-c-k-c0x00ffffff-no-rj",
       "text": "Cada ves tengo mas ganas de irme a suiza .",
-      "likeCount": 7,
+      "likeCount": 8,
       "publishedAt": "2026-06-15T06:37:00Z",
       "replyCount": 5,
       "replies": [
