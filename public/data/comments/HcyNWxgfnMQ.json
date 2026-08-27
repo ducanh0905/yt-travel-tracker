@@ -1,5 +1,25 @@
 {
   "videoId": "HcyNWxgfnMQ",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "Ugx_IQq8CKxLAxGNGk54AaABAg",
+      "author": "@vdviajes",
+      "authorImage": "https://yt3.ggpht.com/et-gJIJZTKzrx5Uo9pD1RwQqX3Hdy9GxCs6l-ZP5VHxxGR872l4jRmy-AclP7D03LYOroMwpjfM=s48-c-k-c0x00ffffff-no-rj",
+      "text": "La experiencia de viajar en el transporte público de otro país es siempre una aventura fascinante. Me encantó la forma en que mostraste cómo se compran los billetes, la señalización en las estaciones y el comportamiento respetuoso de los pasajeros. Estos pequeños aspectos cotidianos son fundamentales para cualquier viajero que desee adaptarse rápidamente a un nuevo destino. Gracias por explicar cada paso de forma tan clara y entretenida.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-26T04:10:31Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx_IQq8CKxLAxGNGk54AaABAg.A_xpVhMskdfA_xu7uSmzi5",
+          "author": "@MundoelporAventuras",
+          "authorImage": "https://yt3.ggpht.com/WxqCtSVYH7qW6P-BlccyXkGIKpDVRsjbx8V8a3JOhwsBN8dHWXD8NPwxjzY2juwkPQ1jWTYD5Ts=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Me alegra mucho que te haya gustado el detalle de los aspectos cotidianos del transporte público. ¡Esos pequeños tips realmente hacen la diferencia para los viajeros!",
+          "likeCount": 0,
+          "publishedAt": "2026-08-26T04:50:57Z"
+        }
+      ]
+    }
+  ]
 }
