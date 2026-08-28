@@ -9,8 +9,17 @@
       "text": "Thailand is beautiful ❤",
       "likeCount": 1,
       "publishedAt": "2026-08-26T13:43:45Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwVtoJHZHBMYxWywSt4AaABAg.A_yr6CaVnwtAa0KoxzSV9i",
+          "author": "@TraceTheGlobe",
+          "authorImage": "https://yt3.ggpht.com/nZghbwFly3acvcDxTCjSvCvK-BzlQSwcCBKmoghIzV17Mg8y83gEFrzZqcVqWXbEv7y7rjkUOdE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you! ❤ Thailand truly has an incredible beauty, and we’re happy we could share a little of it with you. 🇹🇭✨",
+          "likeCount": 0,
+          "publishedAt": "2026-08-27T12:50:37Z"
+        }
+      ]
     },
     {
       "id": "UgwmoNbPx2KsRheMspl4AaABAg",
