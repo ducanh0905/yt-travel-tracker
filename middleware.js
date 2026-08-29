@@ -115,12 +115,13 @@ export default async function middleware(request) {
     const input = String(form.get("password") || "");
 
     if (input === password) {
-      const res = Response.redirect(new URL("/", request.url), 303);
-      res.headers.append(
-        "Set-Cookie",
-        `${COOKIE_NAME}=${expectedCookie}; Max-Age=${COOKIE_MAX_AGE}; Path=/; HttpOnly; Secure; SameSite=Lax`
-      );
-      return res;
+      return new Response(null, {
+        status: 303,
+        headers: {
+          Location: new URL("/", request.url).toString(),
+          "Set-Cookie": `${COOKIE_NAME}=${expectedCookie}; Max-Age=${COOKIE_MAX_AGE}; Path=/; HttpOnly; Secure; SameSite=Lax`,
+        },
+      });
     }
 
     return new Response(loginPage({ error: true }), {
