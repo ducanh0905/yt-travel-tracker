@@ -1,12 +1,16 @@
 {
   "list": "TBN",
-  "lastUpdated": "2026-08-29T04:01:21.957Z",
+  "lastUpdated": "2026-08-30T01:04:49.134Z",
   "channelCount": 23,
-  "videoCount": 1914,
-  "quotaUnitsUsed": 111,
+  "videoCount": 1795,
+  "quotaUnitsUsed": 514,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
   "errors": [
+    {
+      "channel": "https://www.youtube.com/@BeastFinance7",
+      "error": "Channel not found for \"https://www.youtube.com/@BeastFinance7\""
+    },
     {
       "channel": "https://www.youtube.com/@Viajespedia-l5r",
       "error": "Channel not found for \"https://www.youtube.com/@Viajespedia-l5r\""
