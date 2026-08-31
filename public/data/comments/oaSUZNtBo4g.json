@@ -3,14 +3,42 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwWuB8VcrT39Aq3hGV4AaABAg",
+      "author": "@JorgeLAxeGrinderBobe",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m3yH3CkDYbBlrEro0QnKb_ItobeFHLwKuQcGuP0f6Bn7OoKZ8W5OF5gGcuK2Gkd9LxEg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "A land I always wanted to visit or live.",
+      "likeCount": 0,
+      "publishedAt": "2026-08-30T12:53:55Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwWuB8VcrT39Aq3hGV4AaABAg.Aa83_gUEEh3Aa8bCuL0hsz",
+          "author": "@WhereonEarth4K",
+          "authorImage": "https://yt3.ggpht.com/eGYI9iH4DF7Eb8QJYMMO2qNL_ls-4aNbWgY0tHLbCMrP4phySA3gN8SnhWB02TzySTEBGRXAIg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for watching - hope you make it there someday.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-30T17:56:30Z"
+        }
+      ]
+    },
+    {
       "id": "UgzrIc0IkG9nYQFQTKR4AaABAg",
       "author": "@TravelBeyond4K",
       "authorImage": "https://yt3.ggpht.com/Ik5oODoFXvlSLV1Q_yvpEqTFs7tXBI8qEr85tTl0bkP_JoTEFeatMQC4g4fATwk1xllMk4Z47Ko=s48-c-k-c0x00ffffff-no-rj",
       "text": "The sheer windswept isolation of these islands is insane! Watching massive king penguin colonies thrive across that bleak, treeless landscape really shows how fierce the South Atlantic environment is.",
       "likeCount": 1,
       "publishedAt": "2026-08-27T02:11:15Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzrIc0IkG9nYQFQTKR4AaABAg.Aa-Be6rh8ybAa8bEBqfT7n",
+          "author": "@WhereonEarth4K",
+          "authorImage": "https://yt3.ggpht.com/eGYI9iH4DF7Eb8QJYMMO2qNL_ls-4aNbWgY0tHLbCMrP4phySA3gN8SnhWB02TzySTEBGRXAIg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you - that scale of wildlife against such a harsh, empty landscape is genuinely hard to comprehend until you see it.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-30T17:56:40Z"
+        }
+      ]
     }
   ]
 }

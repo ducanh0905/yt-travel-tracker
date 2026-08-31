@@ -1162,14 +1162,22 @@
       "text": "What is the song at 12:16?",
       "likeCount": 2,
       "publishedAt": "2026-07-11T15:50:57Z",
-      "replyCount": 2,
+      "replyCount": 3,
       "replies": [
+        {
+          "id": "UgxSSEOn6uLHYbZjhaF4AaABAg.AZ7d5d_skWCAa7ZvsKpoCT",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "That track comes from a licensed music library rather than a commercial release, so it is not on Spotify or YouTube Music — that is why your search keeps coming up empty. Sorry we cannot point you to a link for it.",
+          "likeCount": 0,
+          "publishedAt": "2026-08-30T08:17:19Z"
+        },
         {
           "id": "UgxSSEOn6uLHYbZjhaF4AaABAg.AZ7d5d_skWCAZFajjf2HPH",
           "author": "@pgdivraniya",
           "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lJH0xX433dc_QeSZ31AaPaqSc2P-gF0Y3w7fLHsduGpKo=s48-c-k-c0x00ffffff-no-rj",
           "text": "​@PlanetVista4K can you please provide a link to the song? Not able to find it on YouTube or Spotify.",
-          "likeCount": 0,
+          "likeCount": 1,
           "publishedAt": "2026-07-14T18:04:17Z"
         },
         {
