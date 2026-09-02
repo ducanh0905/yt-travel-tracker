@@ -1,5 +1,35 @@
 {
   "videoId": "kjEjtYNOWl0",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "Ugz7wv7pGw6pe6mJBj54AaABAg",
+      "author": "@PedroMacanaAriza",
+      "authorImage": "https://yt3.ggpht.com/A5fHybtb2YCBg1Ll57bbXDLY1qyUY57bn_7Uzmpjh0vZB94tUAttZ-eVLtWLNupqlYcQBM8f0w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Esto es una verdad",
+      "likeCount": 1,
+      "publishedAt": "2026-09-01T17:39:11Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugx1IPp5-GB87RkfOqV4AaABAg",
+      "author": "@PedroMacanaAriza",
+      "authorImage": "https://yt3.ggpht.com/A5fHybtb2YCBg1Ll57bbXDLY1qyUY57bn_7Uzmpjh0vZB94tUAttZ-eVLtWLNupqlYcQBM8f0w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Excelente historia",
+      "likeCount": 1,
+      "publishedAt": "2026-09-01T17:31:10Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx1IPp5-GB87RkfOqV4AaABAg.AaDhu8fe019AaEA3AbZoCJ",
+          "author": "@ViajaElMundoo",
+          "authorImage": "https://yt3.ggpht.com/03heRF50csJcH7DJjeBVwcJmjv1Ja-3SkrIeYQSyqBWVT3Rpeg6sDhAIK-18Iar_Nje1Xdpz=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias por ver el video y valorar la historia! ❤",
+          "likeCount": 0,
+          "publishedAt": "2026-09-01T21:45:57Z"
+        }
+      ]
+    }
+  ]
 }

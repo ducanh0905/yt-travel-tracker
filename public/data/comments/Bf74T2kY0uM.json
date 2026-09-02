@@ -1,5 +1,26 @@
 {
   "videoId": "Bf74T2kY0uM",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgyEcWhmIpQJq_cCOjd4AaABAg",
+      "author": "@johnsalus7893",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n-mHAYjCwZF148gV6X_vL1b4u4ctABYZdYH1HxeTzTM_Y=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Seattle Washington USA",
+      "likeCount": 1,
+      "publishedAt": "2026-09-02T00:14:30Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugz64iF59VePmYGsH3h4AaABAg",
+      "author": "@tesfai5931",
+      "authorImage": "https://yt3.ggpht.com/1RQbiWMf8XyZ70HwxU3L5xbldhhXHxn-m0l7XH59lzGtTD35XD2sf2769syjfg11vmAFFfm0=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Dear YouTuber wel come to Egypt",
+      "likeCount": 1,
+      "publishedAt": "2026-09-01T09:26:24Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }
