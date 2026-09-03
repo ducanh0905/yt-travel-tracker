@@ -9,8 +9,17 @@
       "text": "I love this!",
       "likeCount": 0,
       "publishedAt": "2026-09-01T20:58:31Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw-G8FzDaHN4tbJLDp4AaABAg.AaE4crSApr0AaEao4ZOGHa",
+          "author": "@ImpossibleTravel38",
+          "authorImage": "https://yt3.ggpht.com/jIkotvj5_lQhw2mcDlb5BkO-Df2LnjMadSRe9EHitp6aX34LhCuC31_oO3v-YsCuzlJxNDTynA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for the kind words! 🏝️✨",
+          "likeCount": 0,
+          "publishedAt": "2026-09-02T01:48:25Z"
+        }
+      ]
     },
     {
       "id": "UgxI4SW9xdak9kquoql4AaABAg",

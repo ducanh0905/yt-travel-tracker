@@ -44,8 +44,17 @@
       "text": "my love",
       "likeCount": 0,
       "publishedAt": "2026-09-01T13:05:22Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzamCQEEzKaoWc_oOR4AaABAg.AaDEUHINcJ_AaFgDcMKil-",
+          "author": "@4kfilmsbyadnan",
+          "authorImage": "https://yt3.ggpht.com/TwfAED6W9tI8x0lJ2XEG-aPn19loaTgdBRC-Ol8-e2mP9ogQ3aoFP_TiBH1MjeqsfKwvJpydDZM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Much love to the Philippines! 🇵🇭❤️",
+          "likeCount": 0,
+          "publishedAt": "2026-09-02T11:54:58Z"
+        }
+      ]
     },
     {
       "id": "UgyXFBTV1V5Sve8pGXx4AaABAg",

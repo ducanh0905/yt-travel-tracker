@@ -1,5 +1,25 @@
 {
   "videoId": "G2Xl6wcT9As",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgwYgB7t97ixDejXzbp4AaABAg",
+      "author": "@RumaldoRodriguez-h1j4g",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mC-F_LUNsLxxHq0iRkdThSk-g8rlByJUfRPLo8n2HtbmB0G7VDfzswGgLJModTHVY6_A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Me gusta la informacion",
+      "likeCount": 1,
+      "publishedAt": "2026-09-02T13:15:02Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwYgB7t97ixDejXzbp4AaABAg.AaFpO0uO0rJAaGB8Hcjr03",
+          "author": "@JesusSotovirgen",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mhYMd8eRIZw_raiPQ_0axWm9uyydiERTzQTiAUmcLwaXTp-LIqnfZZsPeFGM2BjEvxXw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "tu madre 😂",
+          "likeCount": 0,
+          "publishedAt": "2026-09-02T16:33:52Z"
+        }
+      ]
+    }
+  ]
 }
