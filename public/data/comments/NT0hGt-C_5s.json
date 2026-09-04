@@ -49,8 +49,17 @@
       "text": "Fascinating country, I've visited Romania nearly a dozen times now and have always had a good time. Brasov and Cluj are my favorite cities.",
       "likeCount": 4,
       "publishedAt": "2026-08-23T12:01:15Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxWe1UZY-FLIhQjGDV4AaABAg.A_qwzom-eVHAaHqzW7rVwr",
+          "author": "@WorldTravelDoc",
+          "authorImage": "https://yt3.ggpht.com/9tMdz766ER0IeeY8hASGitUipJl1L974V6tMVftpqKMRjlZaMZj_AKgWxsnCDD873-4BXiwE2g0=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for sharing your experience! 🇷🇴✨",
+          "likeCount": 0,
+          "publishedAt": "2026-09-03T08:07:30Z"
+        }
+      ]
     }
   ]
 }
