@@ -9,8 +9,17 @@
       "text": "No sound! Why?",
       "likeCount": 0,
       "publishedAt": "2026-09-04T13:08:19Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwUDFr7ZSf2sFOiOuV4AaABAg.AaKyCXHXYbBAaN2HL_D3eN",
+          "author": "@TheGlobalTruth04",
+          "authorImage": "https://yt3.ggpht.com/HjXWUE8utGk052NDqOHRFbwNysPCO6CBfCDF3hvEChSZHOOxuo3up8I4x-CuEK8tSnDQ0Ykq1w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Please check your device; our movie has full audio.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-05T08:31:08Z"
+        }
+      ]
     }
   ]
 }

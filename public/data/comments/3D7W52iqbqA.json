@@ -3,16 +3,6 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgwLrqEuWUUPlMHAmCB4AaABAg",
-      "author": "@peterfillippsss",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nKkIBEl86bDoyoZYcEvMwbd0x5Axmi0i87zaV1WT0oqGA60CgbEDEinqUAaa9pb4TwIQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Another great, interesting and well put together documentary. So glad i subscribed to receive your notifications of new episodes. Thank you",
-      "likeCount": 0,
-      "publishedAt": "2026-09-04T23:42:08Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgzWQbXyQIXQestZ9uN4AaABAg",
       "author": "@EpicEarthYTB",
       "authorImage": "https://yt3.ggpht.com/HVeo4ZS4uBGsjoC1_8ke1TjVRzOOXuwDxAxxO-4aZ-y2xzrz4LJctRUsE2xryhR4KwFulQ_r=s48-c-k-c0x00ffffff-no-rj",
@@ -21,6 +11,25 @@
       "publishedAt": "2026-09-04T14:22:13Z",
       "replyCount": 0,
       "replies": []
+    },
+    {
+      "id": "UgwLrqEuWUUPlMHAmCB4AaABAg",
+      "author": "@peterfillippsss",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nKkIBEl86bDoyoZYcEvMwbd0x5Axmi0i87zaV1WT0oqGA60CgbEDEinqUAaa9pb4TwIQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Another great, interesting and well put together documentary. So glad i subscribed to receive your notifications of new episodes. Thank you",
+      "likeCount": 1,
+      "publishedAt": "2026-09-04T23:42:08Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwLrqEuWUUPlMHAmCB4AaABAg.AaM5jo4zt9SAaMJTwYP95c",
+          "author": "@EpicEarthYTB",
+          "authorImage": "https://yt3.ggpht.com/HVeo4ZS4uBGsjoC1_8ke1TjVRzOOXuwDxAxxO-4aZ-y2xzrz4LJctRUsE2xryhR4KwFulQ_r=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you so much for your wonderful support! ❤ Knowing that you’ve turned on notifications means the world to me. I’m thrilled you enjoyed the documentary style—it’s viewers like you who keep me motivated to create more.",
+          "likeCount": 1,
+          "publishedAt": "2026-09-05T01:42:10Z"
+        }
+      ]
     }
   ]
 }
