@@ -171,14 +171,22 @@
       "text": "Thanks, this problems is everywhere.",
       "likeCount": 4,
       "publishedAt": "2026-08-28T20:20:19Z",
-      "replyCount": 2,
+      "replyCount": 3,
       "replies": [
+        {
+          "id": "UgzzfpMZ3Tv8UGQuu8d4AaABAg.Aa3i4UrQ5hDAaOpz9dMfi9",
+          "author": "@PlanetExplorer-DB",
+          "authorImage": "https://yt3.ggpht.com/H0qDmzLGZejOPrGfUQ5xQiCrsOp19sPrHgv9_YP8_IaOwd-Lu0GlioXLhbvpsmv8iPDiWJp2=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for offering a local perspective.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-06T01:13:24Z"
+        },
         {
           "id": "UgzzfpMZ3Tv8UGQuu8d4AaABAg.Aa3i4UrQ5hDAaNvSpFMRbu",
           "author": "@nightravenonline",
           "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m22xBCvPist3dyjgGnmUFwcM4dVr9iNPoVGbgtf7xHiNY=s48-c-k-c0x00ffffff-no-rj",
           "text": "Is it ? Not here in scandinavia",
-          "likeCount": 0,
+          "likeCount": 1,
           "publishedAt": "2026-09-05T16:42:03Z"
         },
         {
