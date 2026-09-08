@@ -1,11 +1,16 @@
 {
   "list": "TBN_4K",
-  "lastUpdated": "2026-09-07T00:43:01.750Z",
+  "lastUpdated": "2026-09-08T00:56:15.196Z",
   "channelCount": 11,
-  "videoCount": 1108,
-  "quotaUnitsUsed": 812,
+  "videoCount": 1109,
+  "quotaUnitsUsed": 933,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "errors": [],
+  "errors": [
+    {
+      "channel": "https://www.youtube.com/@ViajesSecretosES/videos",
+      "error": "playlistItems failed: playlistNotFound"
+    }
+  ],
   "replyErrors": []
 }
