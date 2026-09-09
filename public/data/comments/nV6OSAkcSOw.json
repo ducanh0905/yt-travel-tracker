@@ -9,8 +9,17 @@
       "text": "I am from the Bahamas.",
       "likeCount": 1,
       "publishedAt": "2026-09-07T23:04:09Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx3tPt7hDSOqkOg5o94AaABAg.AaTkmFtzXJIAaTz6pciu5z",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks a lot, we really hope you like the video about the beautiful Bahamas!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-08T01:09:26Z"
+        }
+      ]
     },
     {
       "id": "UgxVFkbrlhhepi-v01p4AaABAg",

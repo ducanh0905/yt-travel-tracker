@@ -7,10 +7,19 @@
       "author": "@gerardoruiz1191",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mW0HX8nY-Aegy1UXDgfTB3j4snP03S3Xy5MBGZkW1hUbbYoGKtw-0B2eroA56mHZ8mFQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "1",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-06-25T17:30:43Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwDgO80vCbtYBvR8-F4AaABAg.AYUbnIPunncAaUdsPrcRs8",
+          "author": "@EXGlobalES",
+          "authorImage": "https://yt3.ggpht.com/gAg-mqo8-X2ASmx3gFwtJQbJig-eF6NFdVoKvL7ljqAIL1y5CY8cl7x4hkNhVb4Mka_he64d7Q=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Gracias por sus comentarios.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-08T07:23:04Z"
+        }
+      ]
     }
   ]
 }
