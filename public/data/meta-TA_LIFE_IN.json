@@ -1,16 +1,11 @@
 {
   "list": "TA_LIFE_IN",
-  "lastUpdated": "2026-09-09T01:09:21.032Z",
+  "lastUpdated": "2026-09-10T00:57:02.529Z",
   "channelCount": 20,
-  "videoCount": 995,
-  "quotaUnitsUsed": 3526,
+  "videoCount": 1011,
+  "quotaUnitsUsed": 3227,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "errors": [
-    {
-      "channel": "https://www.youtube.com/@AmazingDiscoveriesTopUS",
-      "error": "Channel not found for \"https://www.youtube.com/@AmazingDiscoveriesTopUS\""
-    }
-  ],
+  "errors": [],
   "replyErrors": []
 }

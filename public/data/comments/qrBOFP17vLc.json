@@ -9,8 +9,17 @@
       "text": "w thumbnail",
       "likeCount": 0,
       "publishedAt": "2026-09-03T10:13:50Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw1v7CpFEMNd4lnOC14AaABAg.AaI4Rk5C6WlAaWcXUxWobA",
+          "author": "@truehorizons66",
+          "authorImage": "https://yt3.ggpht.com/ZWRHD3ekbdJF2m5Bx2raTHNMRW6L4Cal9783mVTs3SHwwf6-2cP5oAKE8EfU6JD_NcmMYBdd7A=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for watching the video.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-09T01:49:49Z"
+        }
+      ]
     },
     {
       "id": "UgzimAm3OSVUxY4ivyV4AaABAg",
@@ -282,33 +291,6 @@
           "text": "Thank you for watching the video and pointing that out.",
           "likeCount": 0,
           "publishedAt": "2026-06-13T06:52:34Z"
-        }
-      ]
-    },
-    {
-      "id": "UgyA2WMUq0PdLvoAIzF4AaABAg",
-      "author": "@jimharlan4559",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mOmQylzcYBdjhpRdq2M1AbGTC3H4aAjkzhCO4rcAw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The use of Ai throughout the video...not good.",
-      "likeCount": 0,
-      "publishedAt": "2026-06-10T01:23:46Z",
-      "replyCount": 2,
-      "replies": [
-        {
-          "id": "UgyA2WMUq0PdLvoAIzF4AaABAg.AXrGD2mkqXmA_5l4uSvQA0",
-          "author": "@miscancionesRR",
-          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m2enek8Hb5YGcNuLTqe5Oz83gE-cvJFztAmLM5LEEufg=s48-c-k-c0x00ffffff-no-rj",
-          "text": "There are definitely a few images that do not correspond to the narrated places, but the great majority are from this majestically beautiful peninsula. Thank you for this spectacular video showcasing Baja California.",
-          "likeCount": 0,
-          "publishedAt": "2026-08-04T18:53:40Z"
-        },
-        {
-          "id": "UgyA2WMUq0PdLvoAIzF4AaABAg.AXrGD2mkqXmAXuQkOBcJKz",
-          "author": "@truehorizons66",
-          "authorImage": "https://yt3.ggpht.com/ZWRHD3ekbdJF2m5Bx2raTHNMRW6L4Cal9783mVTs3SHwwf6-2cP5oAKE8EfU6JD_NcmMYBdd7A=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Thank you for your honest feedback. We will continue our efforts to improve the viewing experience in future documentaries. Thank you for following.",
-          "likeCount": 0,
-          "publishedAt": "2026-06-11T06:53:33Z"
         }
       ]
     }
