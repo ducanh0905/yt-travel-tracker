@@ -9,8 +9,17 @@
       "text": "❤",
       "likeCount": 0,
       "publishedAt": "2026-08-08T15:54:43Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxeKjuTKI1taFiah1R4AaABAg.A_FjmiEYvZgAaa0ZhWxaCo",
+          "author": "@ChaEnuWoo-z7w",
+          "authorImage": "https://yt3.ggpht.com/7aUmHNHi5JkDHgT2rvKNFYlgdTfXSk3Ov2wxe2bq1pr5WXjqmB6eqVOMyohabyBFwCurad_kmBg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Nice city",
+          "likeCount": 0,
+          "publishedAt": "2026-09-10T18:45:32Z"
+        }
+      ]
     },
     {
       "id": "Ugw6SxqvDg-b3a-aFLt4AaABAg",
@@ -19,8 +28,17 @@
       "text": "Brazil🇧🇷 is my favorite country",
       "likeCount": 0,
       "publishedAt": "2026-08-01T02:17:38Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw6SxqvDg-b3a-aFLt4AaABAg.AZxFi6JwVNmAaa0b6sC9Wx",
+          "author": "@ChaEnuWoo-z7w",
+          "authorImage": "https://yt3.ggpht.com/7aUmHNHi5JkDHgT2rvKNFYlgdTfXSk3Ov2wxe2bq1pr5WXjqmB6eqVOMyohabyBFwCurad_kmBg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "❤",
+          "likeCount": 0,
+          "publishedAt": "2026-09-10T18:45:52Z"
+        }
+      ]
     },
     {
       "id": "UgxFdVgLm4kmTH7gJFJ4AaABAg",
@@ -31,45 +49,6 @@
       "publishedAt": "2026-07-15T21:46:42Z",
       "replyCount": 0,
       "replies": []
-    },
-    {
-      "id": "Ugzht3dfBVVUJGMzH5p4AaABAg",
-      "author": "@curtisnotestine3134",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lc61ZLJKXvJcrqw7QQR1os9TBjlFYcemXKKjfu1fMpdA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The cathedrals in Ouro Preto are magnificent!",
-      "likeCount": 0,
-      "publishedAt": "2026-05-30T02:26:44Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugx7NUM9TaQU0E69FWN4AaABAg",
-      "author": "@firouz256",
-      "authorImage": "https://yt3.ggpht.com/uBX1m9TwmgKGyI6FW1vQjG9szOwpZLC6U5XyZB8XccOhlqw7mgw8dgJMHp3t7HpG8uabeX7HSSQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Brazil is the place where god kissed the earth!",
-      "likeCount": 0,
-      "publishedAt": "2026-05-28T20:25:33Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyZxMiFlDX7bRaLkWJ4AaABAg",
-      "author": "@MikeTank-e6r8f",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k0PVo4Ayjzf9FlRcdjZAQYBwK430_hLvWlP9jgikQjC65W-ONDWjkk4dykteuHJ96HgQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "My wife and I will be visiting Brazil real soon, our names is Jeff&Cin outta Alief TX!",
-      "likeCount": 0,
-      "publishedAt": "2026-05-25T04:21:31Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgyZxMiFlDX7bRaLkWJ4AaABAg.AXDNptyifmPAZg_NCzy2RL",
-          "author": "@Idiomanatela",
-          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nWBkhs3XZcENi1MSPCdcXzpUjnMm2sZJbVobSifX-nvmmNb8bXfpOmj_RTnLGbL03qbA=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Sejam muito bem vindos, e aproveitem.",
-          "likeCount": 0,
-          "publishedAt": "2026-07-25T14:51:04Z"
-        }
-      ]
     }
   ]
 }

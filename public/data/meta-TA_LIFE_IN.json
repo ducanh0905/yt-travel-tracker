@@ -1,11 +1,48 @@
 {
   "list": "TA_LIFE_IN",
-  "lastUpdated": "2026-09-10T00:57:02.529Z",
+  "lastUpdated": "2026-09-11T00:54:31.432Z",
   "channelCount": 20,
-  "videoCount": 1011,
-  "quotaUnitsUsed": 3227,
+  "videoCount": 1015,
+  "quotaUnitsUsed": 2244,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
-  "errors": [],
+  "errors": [
+    {
+      "channel": "https://www.youtube.com/@AmazingGlobalDiscoveries",
+      "error": "Channel not found for \"https://www.youtube.com/@AmazingGlobalDiscoveries\""
+    },
+    {
+      "channel": "https://www.youtube.com/@reallifeincountries",
+      "error": "Channel not found for \"https://www.youtube.com/@reallifeincountries\""
+    },
+    {
+      "channel": "https://www.youtube.com/@TheGlobalTruth04",
+      "error": "Channel not found for \"https://www.youtube.com/@TheGlobalTruth04\""
+    },
+    {
+      "channel": "https://www.youtube.com/@LifeNest-3",
+      "error": "Channel not found for \"https://www.youtube.com/@LifeNest-3\""
+    },
+    {
+      "channel": "https://www.youtube.com/@uncensoredworldtravel",
+      "error": "Channel not found for \"https://www.youtube.com/@uncensoredworldtravel\""
+    },
+    {
+      "channel": "https://www.youtube.com/@Outland_US",
+      "error": "Channel not found for \"https://www.youtube.com/@Outland_US\""
+    },
+    {
+      "channel": "https://www.youtube.com/@GlobeDiscovery-NY",
+      "error": "Channel not found for \"https://www.youtube.com/@GlobeDiscovery-NY\""
+    },
+    {
+      "channel": "https://www.youtube.com/@PlanetExplorer-DB/videos",
+      "error": "Channel not found for \"https://www.youtube.com/@PlanetExplorer-DB/videos\""
+    },
+    {
+      "channel": "https://www.youtube.com/@NVLGLOBE/videos",
+      "error": "Channel not found for \"https://www.youtube.com/@NVLGLOBE/videos\""
+    }
+  ],
   "replyErrors": []
 }
