@@ -148,8 +148,17 @@
       "text": "Every country is the most beautiful in the world. All have much to offer.",
       "likeCount": 1,
       "publishedAt": "2026-08-24T18:18:12Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzUq1G95KwupxMIH0B4AaABAg.A_uBvd4Vz-pAac4v2c4A-q",
+          "author": "@francescograziano1819",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_myOu0qcKm6ZfcbJY4ZImEht8TRUvykCWAi_mBrNsE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "L Italia ha oltre il 70% del patrimonio artistico e culturale dell intero mondo, non penso che tutti i paesi siano uguali, L Italia ha praticamente tutto",
+          "likeCount": 0,
+          "publishedAt": "2026-09-11T14:02:01Z"
+        }
+      ]
     },
     {
       "id": "UgzFYe4MY6-LLm2ZgBt4AaABAg",
