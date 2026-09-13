@@ -1,5 +1,36 @@
 {
   "videoId": "BLWB3-OlZG8",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgzU89m2bcI1j10lI1R4AaABAg",
+      "author": "@mariadangeleszanjaszanjas.5408",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lPAu5LcUW1h_9K92DDPIFAt7oKeKn1gaScOAfzdeLy0FyHMrhcwYmEo-u21qNz3kJRkA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "UNA CULTURA EXTRAORDINARIA.!",
+      "likeCount": 0,
+      "publishedAt": "2026-09-12T13:20:25Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugx4lLOQoL-QIiNuz5V4AaABAg",
+      "author": "@faustinoperezestrella6418",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nLfOnFMQ6NzSrw2H6I0IxTOTRaFU4KZF3Ivl1BybLM4uIzdNMIJ_YKaZy2rosNSpTifw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "El mundo al revés, un matriarcado, igual en un distrito peruano en la sierra mandan las mujeres. Increíble???. Pero cierto.😅😅😅😅",
+      "likeCount": 1,
+      "publishedAt": "2026-09-12T12:11:21Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugxm1WeWV0sCb2LgDGp4AaABAg",
+      "author": "@luisvegasilva9403",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lnxDG5i69DiFcDFaE7NtTWzEXwXhD2vOZ0EjIEo-HaApNw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Primera vez",
+      "likeCount": 0,
+      "publishedAt": "2026-09-12T05:01:04Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

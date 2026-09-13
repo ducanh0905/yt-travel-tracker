@@ -1,5 +1,25 @@
 {
   "videoId": "lgst0j13aFU",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgyKv9gVkPjMTVbiznJ4AaABAg",
+      "author": "@KOFFINGORANTOUSSAINT",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lqZZRWVeH6XqGcG2ZzeqBwu4JEmbDI7YNnRMhtqBHk1FvxA0I=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Dos ✌️",
+      "likeCount": 1,
+      "publishedAt": "2026-09-12T20:35:45Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyKv9gVkPjMTVbiznJ4AaABAg.AafMli7ZGrzAafhuwKQtWo",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Me alegra que te haya gustado! Es un país increíble con gente maravillosa.",
+          "likeCount": 1,
+          "publishedAt": "2026-09-12T23:49:15Z"
+        }
+      ]
+    }
+  ]
 }

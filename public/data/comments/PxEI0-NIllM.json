@@ -9,6 +9,25 @@
       "text": "04:01 Would you dare experience weather that changes in just ten minutes?",
       "likeCount": 3,
       "publishedAt": "2026-07-29T07:28:18Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxiDCL0cMeFgTWgi0V4AaABAg.AZq4srclDnAAadIzfFu140",
+          "author": "@katesuze8418",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k9-C339hJwIikQfcPfW0I8q6Bv6EGf4uBm2AFDoVE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Living in the Midwest of the US. Just got plowed by a derecho last month. I'm cool with the weather!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-12T01:24:14Z"
+        }
+      ]
+    },
+    {
+      "id": "Ugw8Ffq36E1hgLq-EOt4AaABAg",
+      "author": "@Earthcue",
+      "authorImage": "https://yt3.ggpht.com/iQz_3dWSTJp44j0m4mCXBNiaYUbd6OG3TbJ2ShLfVxB9Cn7GAzNOxVX5kHYk_aECUy4uZxMkaQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Seeing icebergs drift past the coast of Newfoundland & Labrador is still one of the coolest things to me. Some of that ice broke off glaciers in Greenland and can be thousands of years old…",
+      "likeCount": 0,
+      "publishedAt": "2026-09-12T04:44:25Z",
       "replyCount": 0,
       "replies": []
     },
@@ -17,20 +36,46 @@
       "author": "@katesuze8418",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k9-C339hJwIikQfcPfW0I8q6Bv6EGf4uBm2AFDoVE=s48-c-k-c0x00ffffff-no-rj",
       "text": "I'd like to go live there ♥🍁",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-11T03:31:49Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "Ugzett5_qM0-2kHJEnd4AaABAg.AaaxnFFs5qgAadaXi7dPw5",
+          "author": "@katesuze8418",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k9-C339hJwIikQfcPfW0I8q6Bv6EGf4uBm2AFDoVE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "@trueglobe66 I recently found I have Canadian ancestry... 5 generations ago.  Working on it.  New Foundland and Labrador sound like a wonderful place to live if I can prove my ancestry.  I believe some of my ancestors came through NF... and I have skills that would contribute.  Hope to make it!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-12T04:06:18Z"
+        },
+        {
+          "id": "Ugzett5_qM0-2kHJEnd4AaABAg.AaaxnFFs5qgAadHombSZUh",
+          "author": "@trueglobe66",
+          "authorImage": "https://yt3.ggpht.com/RFcxmnk-Pf5gG-QETE5vXGV9aW49y0tEtEFZJHNi4x9EEIeEcB5ySAdktkGqHn_Kyv0NwUTczw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "It’s truly a special place, with such a warm and resilient spirit among the people living on the edge of the Atlantic! 🥰🌊",
+          "likeCount": 1,
+          "publishedAt": "2026-09-12T01:14:00Z"
+        }
+      ]
     },
     {
       "id": "Ugz3Y9p0z3L8lq1_utl4AaABAg",
       "author": "@mfh1567",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lPAu5LcUW1h_9K92DDPIFAt7oKeKn1gaScOAfzdeLy0FyHMrhcwYmEo-u21qNz3kJRkA=s48-c-k-c0x00ffffff-no-rj",
       "text": "AI SLOP -  the entire video is AI generated and enhanced.",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-10T13:05:10Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugz3Y9p0z3L8lq1_utl4AaABAg.Aa_PbjoVzv0AadHrQaUd7Q",
+          "author": "@trueglobe66",
+          "authorImage": "https://yt3.ggpht.com/RFcxmnk-Pf5gG-QETE5vXGV9aW49y0tEtEFZJHNi4x9EEIeEcB5ySAdktkGqHn_Kyv0NwUTczw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "This documentary features authentic, captured footage documenting the unique landscapes, culture, and history of Newfoundland and Labrador. 🙏",
+          "likeCount": 0,
+          "publishedAt": "2026-09-12T01:14:22Z"
+        }
+      ]
     },
     {
       "id": "Ugx6EKfVGdy6UMIqQSR4AaABAg",

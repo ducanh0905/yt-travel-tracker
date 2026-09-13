@@ -1,5 +1,26 @@
 {
   "videoId": "zuYpVtIjZg4",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgwPi7Ef-17Bf__whlt4AaABAg",
+      "author": "@joseangelfernandez714",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kQ4AGZ2RWx8Ua3495gm_6w_dO0_Q1cVksgjL_s9lMApZ4=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Soy un niño de 10 años pongan a Pulgarcito",
+      "likeCount": 0,
+      "publishedAt": "2026-09-12T10:21:28Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw6FZhAxXav4pRK9Jx4AaABAg",
+      "author": "@joseangelfernandez714",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kQ4AGZ2RWx8Ua3495gm_6w_dO0_Q1cVksgjL_s9lMApZ4=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Yo soy un niño que veo que me pongan el tebeo del guerrero del antifaz sino lloro",
+      "likeCount": 0,
+      "publishedAt": "2026-09-12T10:08:33Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }
