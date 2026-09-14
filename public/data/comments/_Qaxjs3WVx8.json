@@ -178,10 +178,19 @@
       "author": "@EmilMily24",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_naJrvkpwKCBghEJAtuxs22Unb_ZodjOw57IeUqc6A=s48-c-k-c0x00ffffff-no-rj",
       "text": "Come visit us!",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-12T18:33:44Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxZwRkDqC_H5MBp2EV4AaABAg.Aaf8nxBwNn7AahXc4gSe-f",
+          "author": "@HorizonBoulevard",
+          "authorImage": "https://yt3.ggpht.com/trs-IGoImuHbHXh02HBqEMTBxx1lgTOzda4i5FHXhJzJOVR15fl8Sm_Z5LOEbFaCi2oWSvqSfw4=s48-c-k-c0x00ffffff-no-rj",
+          "text": "😊",
+          "likeCount": 0,
+          "publishedAt": "2026-09-13T16:49:02Z"
+        }
+      ]
     },
     {
       "id": "UgzTCi7BJ-hz-2qqB0t4AaABAg",

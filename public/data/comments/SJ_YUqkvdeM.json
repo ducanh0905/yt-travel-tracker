@@ -9,8 +9,17 @@
       "text": "5:15 interesting",
       "likeCount": 0,
       "publishedAt": "2026-09-12T19:58:14Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwJr1GA3vCsUTeCwQ94AaABAg.AafITulEsBRAagEALGarAU",
+          "author": "@TraceTheGlobe",
+          "authorImage": "https://yt3.ggpht.com/nZghbwFly3acvcDxTCjSvCvK-BzlQSwcCBKmoghIzV17Mg8y83gEFrzZqcVqWXbEv7y7rjkUOdE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you! We’re glad you found that part interesting. 🌺",
+          "likeCount": 0,
+          "publishedAt": "2026-09-13T04:39:51Z"
+        }
+      ]
     },
     {
       "id": "UgxDKw6UIYP3ybhAqF54AaABAg",
