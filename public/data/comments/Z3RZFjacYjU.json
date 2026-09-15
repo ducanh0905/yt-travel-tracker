@@ -9,8 +9,17 @@
       "text": "Love this videos",
       "likeCount": 0,
       "publishedAt": "2026-09-12T09:54:19Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxO0Uq3obsGsYxpjSh4AaABAg.AaeDMfZiQRbAaikAtxilF4",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We’re so happy you’re enjoying our documentary series! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-09-14T04:06:46Z"
+        }
+      ]
     },
     {
       "id": "Ugwm3glNSAH_tLKrV0V4AaABAg",
@@ -318,8 +327,8 @@
     },
     {
       "id": "Ugws62Rjw9jJTGVMcV94AaABAg",
-      "author": "@BeyondOurPlanet001",
-      "authorImage": "https://yt3.ggpht.com/caQLAsOmwE7FsYNomJdZkml8gp-hXVKWCtEucSGM40lmoXeaQ632ja1_N9zUPrhsu6e1mLqYEQ=s48-c-k-c0x00ffffff-no-rj",
+      "author": "@BeyondOurPlanets",
+      "authorImage": "https://yt3.ggpht.com/4fetdbeJsLzL5IQXWMMkaPL28c1Npa4hWJUtomgDAQAloOSTHfAI4XEc48xq2oZsQp_WPEszGTg=s48-c-k-c0x00ffffff-no-rj",
       "text": "I love this documentary",
       "likeCount": 1,
       "publishedAt": "2026-08-13T14:59:29Z",

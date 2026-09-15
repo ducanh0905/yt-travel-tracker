@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzkcuGXXYjU8O8tOhh4AaABAg",
+      "author": "@AmazingDiscoveriesTopUS",
+      "authorImage": "https://yt3.ggpht.com/mWQlW84MbnlW7e78Ln_Hiexvd-tTPHfRZFQKud6DoN3cbWfnlpLwnUJCzCh4l80FPm8TX2xC=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Amazing video.",
+      "likeCount": 0,
+      "publishedAt": "2026-09-14T10:17:43Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgzoS05Mmr9Km0r2e394AaABAg",
       "author": "@GlobeLifeHidden",
       "authorImage": "https://yt3.ggpht.com/ZMzDJNlstEgNjdniglDSfon-IP08VCu6ylNi1i3TBFE0Qj0ahnjZdhGa65kqSvio2y6zHB4r=s48-c-k-c0x00ffffff-no-rj",
       "text": "Imagine living at 16,000 fet with no roads, hospitals or easy way out. Could you survive here for one month?",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-13T02:14:08Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzoS05Mmr9Km0r2e394AaABAg.AafyV1DMna-AajKgEpvm0s",
+          "author": "@Globallife.documentary",
+          "authorImage": "https://yt3.ggpht.com/UT4yqZ2DrZ2fBIIQWOCcVrQYBje265v4HWuZn65ElT3j5IRtHyIw-Ezzb6kX6kLSxPFTaiT5EkE=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We often romanticize mountain peace through a screen, but surviving 30 days under those physical terms is brutal arithmetic.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-14T09:34:30Z"
+        }
+      ]
     },
     {
       "id": "UgyCOdGIm1RM9hbNL2h4AaABAg",

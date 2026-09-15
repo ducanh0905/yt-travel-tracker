@@ -1,5 +1,16 @@
 {
   "videoId": "cyjUh5HAIc4",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgxswpnWty7vfqDDcb14AaABAg",
+      "author": "@WillianGarcía-y9v",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kOR2RYzLQ5028v3gXX3mVXtZlSVDLYomBPvPXDE2x2PsrrK9mEAaJCQJkebLqwEkdCbw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "No lo conocía",
+      "likeCount": 0,
+      "publishedAt": "2026-09-14T03:19:57Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

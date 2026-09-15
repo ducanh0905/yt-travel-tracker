@@ -9,8 +9,17 @@
       "text": "My wife and I are moving there Monday. Can't wait",
       "likeCount": 0,
       "publishedAt": "2026-09-12T00:05:51Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugy_G5e8ZS6RyPIN0dV4AaABAg.AadA0ZYZfNDAakx30h2nZB",
+          "author": "@TOURGUIDE-05",
+          "authorImage": "https://yt3.ggpht.com/n8pzlEL2E7Nic6elOsdea1BIWavVw-A-Al_lvcDVz3CltIELOn4lzHO6_eCb-9RdtGRLVoWFXhM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for watching \nMake sure to have a nice time there",
+          "likeCount": 0,
+          "publishedAt": "2026-09-15T00:37:46Z"
+        }
+      ]
     },
     {
       "id": "UgypWFDE0dZyspEiR_V4AaABAg",
