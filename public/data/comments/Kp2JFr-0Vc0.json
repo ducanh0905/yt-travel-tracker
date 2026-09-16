@@ -9,8 +9,17 @@
       "text": "❤❤❤ 0:10",
       "likeCount": 1,
       "publishedAt": "2026-09-12T21:08:41Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyilmuVtLdMRY8rRPB4AaABAg.AafQXqUTXyxAalM82PDJwQ",
+          "author": "@DescifraelMundo",
+          "authorImage": "https://yt3.ggpht.com/hKXsd3x04aYRjTtBpadkEYOhJ1bP4O5DQkCBwJsf8Yt3KRd9YMsyyNKkh-Oln6X2KXK_OetN=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for pointing out that specific timestamp! Glad you found it impactful.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-15T04:25:39Z"
+        }
+      ]
     }
   ]
 }

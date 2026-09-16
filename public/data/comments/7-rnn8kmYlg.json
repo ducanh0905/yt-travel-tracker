@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyH8iliFCUZUUtInbt4AaABAg",
+      "author": "@VIAJESSUPERIORES6868",
+      "authorImage": "https://yt3.ggpht.com/nYkC5_mo-7CSgYeRWmp4ZwWjEoxdwTUdFi5UuzD8DaENI6lszIgJslq8ZOefHb2sTBurhO5Ucg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Muy informativo y útil. ¡Gracias!",
+      "likeCount": 0,
+      "publishedAt": "2026-09-15T09:22:03Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgzRi9FEoSPCHKWZWxl4AaABAg",
       "author": "@goplanetaexploracion",
       "authorImage": "https://yt3.ggpht.com/H-V-0k36dwPnW5bYEGJNODigioVLEwuEPmFJCj3gTEsepHgDjwQAhCFO8IJkUWbsZVfKKsVl=s48-c-k-c0x00ffffff-no-rj",
       "text": "Este documental demuestra que en gargantas inestables como las del Valle de Astore o Tusheti, los conductores no dominan la montaña; negocian con ella con absoluta humildad en cada curva.",
       "likeCount": 0,
       "publishedAt": "2026-09-14T04:15:07Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzRi9FEoSPCHKWZWxl4AaABAg.Aail83I45ntAal6bpTSsBe",
+          "author": "@PlanetaDiferenteTV",
+          "authorImage": "https://yt3.ggpht.com/8fOyA754BNUtulOBarTsT1Y7sOuBzUfZMaNuGcTvOnvec0wthzGGMxcKrJhYez5hSEbN625M=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muy bien dicho!  La montaña siempre tiene la última palabra, especialmente en rutas tan extremas.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-15T02:10:02Z"
+        }
+      ]
     },
     {
       "id": "Ugws9Yv1MoKuNESn5pl4AaABAg",
@@ -19,8 +38,17 @@
       "text": "¿De verdad vale la pena arriesgar la vida por manejar en una carretera así? Yo digo que ninguna vista lo justifica.",
       "likeCount": 0,
       "publishedAt": "2026-09-13T03:17:54Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugws9Yv1MoKuNESn5pl4AaABAg.Aag4n9NZkSzAal6mfA454T",
+          "author": "@PlanetaDiferenteTV",
+          "authorImage": "https://yt3.ggpht.com/8fOyA754BNUtulOBarTsT1Y7sOuBzUfZMaNuGcTvOnvec0wthzGGMxcKrJhYez5hSEbN625M=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Te entiendo perfectamente.  Hay paisajes increíbles, pero no sé si yo tendría el valor de conducir por ahí.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-15T02:11:31Z"
+        }
+      ]
     }
   ]
 }
