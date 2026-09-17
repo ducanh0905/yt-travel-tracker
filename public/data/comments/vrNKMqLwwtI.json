@@ -3,6 +3,16 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugz2pF0l_BULqqDL8ER4AaABAg",
+      "author": "@josetangarife9758",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mYkH11Ll2TJPfJ_znjK58Imk5ClJOdFSqvpoWZG3Y=s48-c-k-c0x00ffffff-no-rj",
+      "text": "HOLA.   DESDE  MEDELLÍN COLOMBIA.",
+      "likeCount": 0,
+      "publishedAt": "2026-09-16T18:34:20Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugx5QroCnJw6a5TbOqV4AaABAg",
       "author": "@dani7545",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n29zTID5T9Au0xgCoNrTmq3OmuSyW1kX02eef_K7z_dA=s48-c-k-c0x00ffffff-no-rj",
@@ -19,8 +29,25 @@
       "text": "Saludos desde Chicago 😊😊😊",
       "likeCount": 1,
       "publishedAt": "2026-09-14T02:54:45Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 2,
+      "replies": [
+        {
+          "id": "Ugy7an84Gi-KxRkHd0l4AaABAg.AaibwT5lnwdAapDQ_6sPXl",
+          "author": "@laparard9959",
+          "authorImage": "https://yt3.ggpht.com/ch_mwmKlQkV0A_VZ9BKBAgLwZErcWXSJesIFJrrMXYsaM39N34OL5MHiZOjjV5GgblY4VHXv=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Que tiene que ver la narrativa con el video que es todo diferente",
+          "likeCount": 0,
+          "publishedAt": "2026-09-16T16:26:30Z"
+        },
+        {
+          "id": "Ugy7an84Gi-KxRkHd0l4AaABAg.AaibwT5lnwdAancbE2Wn0t",
+          "author": "@GlobeESNew",
+          "authorImage": "https://yt3.ggpht.com/vHsnGSVZ-jdkHgktpcq_p-T3suQochdWqsaTkqZxvFXIJ5L8Iz1vP-sXTLEOGNDQNNpnvkyRiw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Saludos hasta Chicago. Con el ritmo tan acelerado que tienen allá, ¿qué parte de la vida cotidiana en China te llamó más la atención?",
+          "likeCount": 0,
+          "publishedAt": "2026-09-16T01:36:48Z"
+        }
+      ]
     }
   ]
 }

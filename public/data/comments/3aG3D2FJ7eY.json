@@ -1,5 +1,35 @@
 {
   "videoId": "3aG3D2FJ7eY",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgxOHFhL2X9TxC4PR_N4AaABAg",
+      "author": "@ChaloMendez-e8j",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kobtIKB48kYbyoIbTaEMN7k6Obdij_-kVeSMbC28jaAlf34P-acLGJTORMNvUS62PM0Q=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Siempre muestran la Paz nomás.. Bolívia tiene nueve departamentos..",
+      "likeCount": 0,
+      "publishedAt": "2026-09-16T18:26:37Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugwa-9UlFPbkbyNxXUx4AaABAg",
+      "author": "@hugorodriguez457",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mI1u7AhkZlzY7W-M9jU-4ndUys9FpL6Hx_YaXxuW0=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Una cosa es un idioma, la mayoría son dialectos que hablan un reducido número de habitantes",
+      "likeCount": 0,
+      "publishedAt": "2026-09-16T04:15:47Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugwa-9UlFPbkbyNxXUx4AaABAg.Aanunh6u-sOAao-szifZtl",
+          "author": "@DescifraelMundo",
+          "authorImage": "https://yt3.ggpht.com/hKXsd3x04aYRjTtBpadkEYOhJ1bP4O5DQkCBwJsf8Yt3KRd9YMsyyNKkh-Oln6X2KXK_OetN=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Tienes un buen punto, la diversidad lingüística en Bolivia es fascinante, con muchos idiomas y dialectos.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-16T05:08:56Z"
+        }
+      ]
+    }
+  ]
 }

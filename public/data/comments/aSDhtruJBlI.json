@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgyfhKfAogZlTTaoeWJ4AaABAg",
+      "author": "@VerborgenesLand",
+      "authorImage": "https://yt3.ggpht.com/xStA2TVoP1hwQNhNn-mzIfzpdntAt0or-d4hg4vMSrlOGWIyyn5uG4al51aVWy5AayMoIV6CQd0=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Tristan Island ist wirklich einzigartig und urig, und die Menschen dort sind wunderbar.",
+      "likeCount": 0,
+      "publishedAt": "2026-09-16T02:01:25Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgxQ8QyYGpZPoK7yu5N4AaABAg",
       "author": "@Gebruikersstation",
       "authorImage": "https://yt3.ggpht.com/LbSM__Ii7s-QjcQT8UaDm6BPIXsDkuwALMM90WtwHyy3dmYQYuv8E3mf7VxQwfZQ6cy8yQ3r4g=s48-c-k-c0x00ffffff-no-rj",
       "text": "AI generated video. Full of BS",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-15T22:21:39Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxQ8QyYGpZPoK7yu5N4AaABAg.AanHGwEzVrsAandUJz0d0o",
+          "author": "@ImpossibleTravel38",
+          "authorImage": "https://yt3.ggpht.com/jIkotvj5_lQhw2mcDlb5BkO-Df2LnjMadSRe9EHitp6aX34LhCuC31_oO3v-YsCuzlJxNDTynA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "I am sorry for making you uncomfortable. However, I would like to clarify one thing: we only use AI for the audio portion of the piece. Everything else—from content research and analysis to video editing—is handled entirely by our human team.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-16T01:44:27Z"
+        }
+      ]
     },
     {
       "id": "UgwWgFirbyyARlnDzuh4AaABAg",
@@ -1132,16 +1151,6 @@
           "publishedAt": "2026-08-08T11:03:22Z"
         }
       ]
-    },
-    {
-      "id": "UgzGruYzpymTxJ25ps14AaABAg",
-      "author": "@AdamsChloe-m3t",
-      "authorImage": "https://yt3.ggpht.com/-pacDqDMjp68wKLYc6QcOQoGN9lnJJMNheXKG22Kp2LKZQAnCf166MCXydZ4NhmEQ1L4X5fp=s48-c-k-c0x00ffffff-no-rj",
-      "text": "A very peaceful place",
-      "likeCount": 1,
-      "publishedAt": "2026-08-03T08:35:18Z",
-      "replyCount": 0,
-      "replies": []
     }
   ]
 }

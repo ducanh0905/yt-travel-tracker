@@ -9,8 +9,17 @@
       "text": "Suma 3",
       "likeCount": 0,
       "publishedAt": "2026-09-15T20:22:33Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwMnPSGyHkyQ0yPQ2J4AaABAg.Aan3ddBi7nLAao-tohhJ3F",
+          "author": "@DescifraelMundo",
+          "authorImage": "https://yt3.ggpht.com/hKXsd3x04aYRjTtBpadkEYOhJ1bP4O5DQkCBwJsf8Yt3KRd9YMsyyNKkh-Oln6X2KXK_OetN=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Me alegra que te haya gustado el video! Colombia realmente tiene mucho que ofrecer.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-16T05:09:03Z"
+        }
+      ]
     },
     {
       "id": "UgzKNxQZURHf0w_mX654AaABAg",
