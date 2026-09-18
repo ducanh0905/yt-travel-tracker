@@ -28,8 +28,17 @@
       "text": "Amazing place",
       "likeCount": 0,
       "publishedAt": "2026-09-16T14:28:41Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgySx9F4gqRZMvvHFvB4AaABAg.Aap-wiPSajGAar8s27BcIO",
+          "author": "@HistoryFiles-g7q",
+          "authorImage": "https://yt3.ggpht.com/szdG0JrEeCdxFghVXDArO9_7yAMB0huWixe8b2zPHmX1K1tnF4EBJeuQk5hMWsEfyz0y3yoJSg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "It really is such a beautiful country to explore! ❤️",
+          "likeCount": 0,
+          "publishedAt": "2026-09-17T10:25:10Z"
+        }
+      ]
     },
     {
       "id": "UgxvWGPz-519R0THD6F4AaABAg",

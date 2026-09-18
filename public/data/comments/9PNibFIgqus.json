@@ -1,5 +1,16 @@
 {
   "videoId": "9PNibFIgqus",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "Ugw_gGyLrrabNgcpKFZ4AaABAg",
+      "author": "@ricardobarbazchavez3244",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kf_PZFyxsxOPwjbFsBgeftuoltYoRk1yNlCnxJm_o=s48-c-k-c0x00ffffff-no-rj",
+      "text": "interesante",
+      "likeCount": 0,
+      "publishedAt": "2026-09-17T10:56:37Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }
