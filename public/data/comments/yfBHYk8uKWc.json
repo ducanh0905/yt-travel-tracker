@@ -805,7 +805,7 @@
     {
       "id": "UgzvYqOsq6HXQYSLv_p4AaABAg",
       "author": "@joelagonman-c2x",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mnHqUY0FTKsamoZjH0P9tQoBWlZXzGsND_80ZbUCQumHxnzproI3u1-WllQUnlU-r34g=s48-c-k-c0x00ffffff-no-rj",
+      "authorImage": "https://yt3.ggpht.com/gdOqo49KyJGww-KsArn7_WHD7OTHION51b4irPMovS6WRE3W9Diwfz9pQpUABm4k3KIP_VHUgA=s48-c-k-c0x00ffffff-no-rj",
       "text": "i like it",
       "likeCount": 2,
       "publishedAt": "2026-08-26T06:30:07Z",
@@ -1486,8 +1486,17 @@
       "text": "South Korea has a completely futuristic vibe.",
       "likeCount": 72,
       "publishedAt": "2026-08-18T02:07:46Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxvRqcxaKtWUI7c4T94AaABAg.A_d05hWScw3Aaso6Yr1rM4",
+          "author": "@mapakee8182",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nM5Um3yFLtNx_yHHLrCTMLDJL0L1rJ1vFn4uS7GsB2d0k=s48-c-k-c0x00ffffff-no-rj",
+          "text": "No, Old n New combination 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-09-18T01:53:32Z"
+        }
+      ]
     }
   ]
 }
