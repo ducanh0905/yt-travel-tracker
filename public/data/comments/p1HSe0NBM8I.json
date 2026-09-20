@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwIK-McckaTJ6q4wEJ4AaABAg",
+      "author": "@BeyondOur",
+      "authorImage": "https://yt3.ggpht.com/omnVopLFQqWcPO0pevwAMJc138I4zo4MEYsbUKmkVplRNUgIWZ-ax-bU7eAJzqdGPYFrgXTsf8k=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I'd love to visit here someday",
+      "likeCount": 0,
+      "publishedAt": "2026-09-19T08:50:47Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgzaX_t0gy7CFKj-ADp4AaABAg",
       "author": "@LivesOnTheMap",
       "authorImage": "https://yt3.ggpht.com/R5PVlBPYSHPHUGFml6huCI24K0jK_6woX8_xSi8QQu8jTnJGwAlHh5mBhZg9QHJtG_BN1zm94Y0=s48-c-k-c0x00ffffff-no-rj",
       "text": "🔥🔥",
       "likeCount": 0,
       "publishedAt": "2026-09-18T21:48:18Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzaX_t0gy7CFKj-ADp4AaABAg.AauwqJnGpm7AavKS_lLHxY",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for the fiery support, @LivesOnTheMap! We're glad you enjoyed the journey to Saba. 🔥",
+          "likeCount": 0,
+          "publishedAt": "2026-09-19T01:23:23Z"
+        }
+      ]
     },
     {
       "id": "Ugwz2AmwUMmS14objzd4AaABAg",
@@ -19,8 +38,17 @@
       "text": "I never knew this place existed. The world is full of surprises.",
       "likeCount": 0,
       "publishedAt": "2026-09-18T12:14:03Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugwz2AmwUMmS14objzd4AaABAg.Aatv7QeUhASAavKRKrxwIf",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Uncovering these hidden, forgotten corners of the globe is exactly why we make these films, @SunnyTravel4K! Saba really is full of incredible surprises.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-19T01:23:13Z"
+        }
+      ]
     }
   ]
 }
