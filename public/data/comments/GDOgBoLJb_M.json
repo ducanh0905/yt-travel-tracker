@@ -1,5 +1,26 @@
 {
   "videoId": "GDOgBoLJb_M",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "UgxA4w-A5KzCTuZraFB4AaABAg",
+      "author": "@alexandersotomartinez7555",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k-bM-uqTWenFPyTCJZcXMzn4dmEi-N_SdDN5Q9ni-lo2s=s48-c-k-c0x00ffffff-no-rj",
+      "text": "No soy capaz de entrar a ese rio",
+      "likeCount": 1,
+      "publishedAt": "2026-09-20T07:55:23Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw14TxydUpoXT-eu1x4AaABAg",
+      "author": "@alexandersotomartinez7555",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k-bM-uqTWenFPyTCJZcXMzn4dmEi-N_SdDN5Q9ni-lo2s=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Saludos cordiales desde la República Dominicana 🇩🇴 aquí un nuevo suscriptor muchasbendiciones para todos",
+      "likeCount": 1,
+      "publishedAt": "2026-09-20T07:50:04Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }
