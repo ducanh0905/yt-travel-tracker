@@ -1,5 +1,25 @@
 {
   "videoId": "e27ASmaYeps",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgzEBLfesVQmZ6lcEFt4AaABAg",
+      "author": "@LoafAlot",
+      "authorImage": "https://yt3.ggpht.com/uW9f1XvpnYbiR1CfePRtpFPlzgObXvIwfEBtLAbV1IQtk_0DF1ibSmPcjVM6TdDibY76UI4uWA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "i have been to Bali, its perfect for its price",
+      "likeCount": 1,
+      "publishedAt": "2026-09-21T16:12:02Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzEBLfesVQmZ6lcEFt4AaABAg.Ab13k3Sgx7pAb18OTli434",
+          "author": "@AtlasPlanetOfficial",
+          "authorImage": "https://yt3.ggpht.com/uWfMYAyjFvn4JmJeg7njjPjzwoQ_LHSCSQYkt-2-ho1Q3UPWVqGYmWuoOpiKLY2cHwjgn-j13g=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Absolutely! Bali offers an amazing balance of beautiful places, experiences, and everyday life for the price. Glad you had the chance to experience it!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-21T16:52:39Z"
+        }
+      ]
+    }
+  ]
 }
