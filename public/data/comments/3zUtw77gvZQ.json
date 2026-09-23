@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzmNVjkTLBrifhvXxN4AaABAg",
+      "author": "@EmeldaDzingai",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nj7PAq489rI6NHK471MkFocojz6YJXKcDqEE2K1NQlj-I_sNgBPBPSsnyomX85OyBptw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "watching from England",
+      "likeCount": 0,
+      "publishedAt": "2026-09-22T20:08:51Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgwybGxGna2TiEm42bZ4AaABAg",
       "author": "@AshPenley",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nLOZiVoOnOY9sRG6PEfbeJQZgNEc94Ld_-R0YhapW-QHpFlNNHtQIwpPu8VJKX5wVYKg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Scotland",
       "likeCount": 0,
       "publishedAt": "2026-09-21T22:52:57Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwybGxGna2TiEm42bZ4AaABAg.Ab1mcSKMxEaAb3asS8y0dp",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Scotland, we appreciate you watching our documentary!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-22T15:48:46Z"
+        }
+      ]
     },
     {
       "id": "Ugy8dkxNP4A7HKIFDHt4AaABAg",

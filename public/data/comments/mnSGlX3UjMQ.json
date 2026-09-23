@@ -7,10 +7,19 @@
       "author": "@ElCaminoRe",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kIlEeQ4OACNIy4MLudGsL9DTagn5RKE7hatI9E0_FFdCTBbMQSp-RsS-u8gOIa7AM2aQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "Saludos desde Puerto Vallarta, Jalisco, México.",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-21T22:07:28Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgybagqrimZaQSzcwMh4AaABAg.Ab1hQKX8H7FAb3RVZeLO-Z",
+          "author": "@Turispedia",
+          "authorImage": "https://yt3.ggpht.com/okfIkXn_DqtVvL4z2AitPZaPMoFwnGAvZYDg8ZCSJWqFrW0HNDkI4pCC3PWruofeLK8wT8Lb2Tc=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Saludos. Gracias por ver nuestro contenido.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-22T14:18:07Z"
+        }
+      ]
     }
   ]
 }
