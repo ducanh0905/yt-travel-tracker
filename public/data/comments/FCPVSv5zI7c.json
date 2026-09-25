@@ -28,8 +28,17 @@
       "text": "Iam in New York. Its about 6:45am",
       "likeCount": 0,
       "publishedAt": "2026-09-17T10:45:52Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyVs-twYMy7IdkI2eh4AaABAg.AarBEck2gITAb7ChDL8h6E",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Good morning, New York! 🗽 Thanks for starting your day with us! What part of the documentary did you enjoy most?\"",
+          "likeCount": 0,
+          "publishedAt": "2026-09-24T01:25:44Z"
+        }
+      ]
     },
     {
       "id": "UgxbU5NO9oXD3EXO6bt4AaABAg",

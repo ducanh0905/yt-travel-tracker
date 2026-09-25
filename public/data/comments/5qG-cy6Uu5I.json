@@ -3,14 +3,52 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgwZEJ4lzeSQDhhqG2d4AaABAg",
+      "author": "@NoemiTorizmedel",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kFgGxM3aDBe2sjrvElqL8HYiQIcKxyeF6QF8z_b6y2RlZHraJr0i89ffz9uvpBtF7hrQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Dos",
+      "likeCount": 0,
+      "publishedAt": "2026-09-24T14:54:44Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxJsA7JWT7vlG596vZ4AaABAg",
+      "author": "@hectorm.9441",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mhOsVvyiOR2DKy9B1rrzX-He2qQZ1jqeEpHRZoUYxTFaBeYJh5jM0kO6i-v0IKU5wb0w=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Que maravilla de gente y costumbres \nYo si podría vivir ahí sin problema",
+      "likeCount": 1,
+      "publishedAt": "2026-09-24T03:49:57Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxJsA7JWT7vlG596vZ4AaABAg.Ab7TCWZBHFsAb7XlBNdBSh",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Me alegra mucho que te haya gustado el video y que aprecies la cultura de Laos. ¡Es un lugar realmente especial!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-24T04:29:47Z"
+        }
+      ]
+    },
+    {
       "id": "UgwxDqYXX3ei_OhK6dV4AaABAg",
       "author": "@wilianestradadavila6243",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kz3lQ9Hqs6oAEsOL6PXqKBaGQAfhnhuZ4AM0OQgQz89_f1bm0WwWRi6kOnIQ-se2plZQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "2",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-22T19:30:19Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwxDqYXX3ei_OhK6dV4AaABAg.Ab4-ECFFK_pAb7YErOAdW4",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for watching! Hope you enjoyed the video.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-24T04:33:58Z"
+        }
+      ]
     },
     {
       "id": "UgypGc1882EQYjYTFpR4AaABAg",

@@ -9,15 +9,24 @@
       "text": "What a beautiful part of the world.",
       "likeCount": 0,
       "publishedAt": "2026-09-23T06:53:29Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzW2_XhbH1YmYTK1Jd4AaABAg.Ab5DPsX0BswAb7ClXgKok2",
+          "author": "@trueglobe66",
+          "authorImage": "https://yt3.ggpht.com/RFcxmnk-Pf5gG-QETE5vXGV9aW49y0tEtEFZJHNi4x9EEIeEcB5ySAdktkGqHn_Kyv0NwUTczw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "❤❤❤",
+          "likeCount": 1,
+          "publishedAt": "2026-09-24T01:26:20Z"
+        }
+      ]
     },
     {
       "id": "UgxHl-RgFKNj7Kp5XMp4AaABAg",
       "author": "@HiddenTravels98",
       "authorImage": "https://yt3.ggpht.com/mCtzgq8RY7ZCv5ZUReIgdzLTeWiYU4u9IHl1yVqnRxVngjww2HUZWeYNZwjdGwVVxUdWxeQWoQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "Do those waterfalls actually flow underground?",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-23T02:55:20Z",
       "replyCount": 0,
       "replies": []
@@ -27,10 +36,19 @@
       "author": "@TravelCipher",
       "authorImage": "https://yt3.ggpht.com/M1y8AH08RrFgSDbbEUmQUW7qIeU1IuSWMGxP6t4Hlv-A2hCCdKJvhOFDh-_tYmqq3epoDNPFAlc=s48-c-k-c0x00ffffff-no-rj",
       "text": "I love these waterfalls.",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-22T02:58:49Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzZoIWJXQs-fX2v2th4AaABAg.Ab2DlFXLJX7Ab7Cn69xd9M",
+          "author": "@trueglobe66",
+          "authorImage": "https://yt3.ggpht.com/RFcxmnk-Pf5gG-QETE5vXGV9aW49y0tEtEFZJHNi4x9EEIeEcB5ySAdktkGqHn_Kyv0NwUTczw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "❤❤❤",
+          "likeCount": 0,
+          "publishedAt": "2026-09-24T01:26:32Z"
+        }
+      ]
     },
     {
       "id": "Ugw79hYrmi6RPeABDAd4AaABAg",
