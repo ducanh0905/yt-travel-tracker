@@ -299,8 +299,17 @@
       "text": "MontesClaros - Minas Gerais.",
       "likeCount": 1,
       "publishedAt": "2026-09-04T19:12:11Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwqU4xth9YXLi5tF594AaABAg.AaLbqZH6SgqAbBgNNITGQ_",
+          "author": "@Monicatablet-x3v",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mzwk73fmnfDwFs4aca8l6kkQx6GyTAVAtENSyHlH_Zex_oOyaCVbcQl_w7mzDMX7MLRg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Falo do Angola.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-25T19:10:44Z"
+        }
+      ]
     },
     {
       "id": "Ugz7iU3UeKUNLRDOY494AaABAg",

@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgxCQw_oYSXaoiR75WB4AaABAg",
+      "author": "@alvydas3",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kOig6a6yGh7RnCU1TgFTVmlRpKzHYVwvYfZsp0D9ENm1g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Desde Asturias España. Soy lituano. Pero vivo en España más de 30 años.",
+      "likeCount": 0,
+      "publishedAt": "2026-09-25T18:05:27Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugzf9hpUH6eQUJqQseZ4AaABAg",
       "author": "@henrymanuelcorreaperez9449",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_n14VfaJx7-Nx-uYsNa_r4T2An9PFn1QfDDHBi3kZq9F5c2y6qSdYwkKa6AmV-YlsKZJQ=s48-c-k-c0x00ffffff-no-rj",
       "text": "Desde cali colombia,si me gustaría ir allá",
       "likeCount": 0,
       "publishedAt": "2026-09-24T16:45:10Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugzf9hpUH6eQUJqQseZ4AaABAg.Ab8qvMXCe6LAbA6MZB1DZu",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Un saludo enorme hasta Cali, Colombia! 🇨🇴 Ojalá algún día puedas hacer ese viaje y conocerlo en persona. Seguro sería una experiencia muy especial. 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-09-25T04:28:04Z"
+        }
+      ]
     },
     {
       "id": "UgwsMdQ-f5N_XHL-KSR4AaABAg",
