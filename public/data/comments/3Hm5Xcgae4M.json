@@ -1,5 +1,16 @@
 {
   "videoId": "3Hm5Xcgae4M",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "Ugw2nz1AeUWdPz5eNHd4AaABAg",
+      "author": "@MichaelVillarreal-o9s",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nWBkhs3XZcENi1MSPCdcXzpUjnMm2sZJbVobSifX-nvmmNb8bXfpOmj_RTnLGbL03qbA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Desde Colombia en suramerica",
+      "likeCount": 0,
+      "publishedAt": "2026-09-26T01:56:48Z",
+      "replyCount": 0,
+      "replies": []
+    }
+  ]
 }

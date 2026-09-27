@@ -3,14 +3,42 @@
   "disabled": false,
   "comments": [
     {
+      "id": "Ugxn1xrEuy6LZNsKpZt4AaABAg",
+      "author": "@Travel.Documentary.365",
+      "authorImage": "https://yt3.ggpht.com/orPghk80f4iEnsZdx1CMw2oPFWyKdLsyJ0iYgzETxj6aHrN1c5TglbrV-a4OEV9tFV7FwkGX=s48-c-k-c0x00ffffff-no-rj",
+      "text": "My favorite destination",
+      "likeCount": 0,
+      "publishedAt": "2026-09-26T07:08:33Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugxn1xrEuy6LZNsKpZt4AaABAg.AbCyWp5ONFyAbD3i5T1H-R",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "We’re glad to hear Sweden holds such a special place for you! 😊",
+          "likeCount": 0,
+          "publishedAt": "2026-09-26T08:02:39Z"
+        }
+      ]
+    },
+    {
       "id": "UgyQCA9qwhwY6_1RKht4AaABAg",
       "author": "@rayunseitig6367",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k2vD2GPguin90JRz3ZJc1umOi9ws2sSEYYJZFtG-VWKg=s48-c-k-c0x00ffffff-no-rj",
       "text": "nice",
       "likeCount": 0,
       "publishedAt": "2026-09-25T04:35:02Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgyQCA9qwhwY6_1RKht4AaABAg.AbA79W9ipOSAbD4DKFNXiK",
+          "author": "@ThePlanetJournalGlobe",
+          "authorImage": "https://yt3.ggpht.com/VexI9Vshk9m23BPgNLkGnKZ0urbxMQvWmLm2L-J0z1tdVjOhnzFhDsE3Ber8wn45HtM8ge0jOA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you for tuning in and supporting our Sweden documentary, @rayunseitig6367! We're glad you liked it.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-26T08:07:03Z"
+        }
+      ]
     },
     {
       "id": "Ugz-FYI-dYh1WV8iC0N4AaABAg",
