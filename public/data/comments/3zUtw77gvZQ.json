@@ -3,14 +3,61 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzMlqwsrfA0lC5UFiF4AaABAg",
+      "author": "@normanward9807",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mLGpTRpdHBzHkKZjc-80PC8q1zAvujXNBbfo-qi2cuWz0=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I'm watching from Carson, California at 11:30am 27Sep2026",
+      "likeCount": 0,
+      "publishedAt": "2026-09-27T18:31:24Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzMlqwsrfA0lC5UFiF4AaABAg.AbGlT-u3E2dAbHUyJDF9yP",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Carson, thanks for tuning in to our Seychelles documentary!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-28T01:17:46Z"
+        }
+      ]
+    },
+    {
+      "id": "Ugz_hhoV2wRMwYsuAih4AaABAg",
+      "author": "@sridharbalakrishnan8365",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_k4TSQVaHl1RbuJzvyjeApO2T1vxw6EgmHJrCu4Jd0Y3ks=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I stay in Chennai the time now is 3:00",
+      "likeCount": 0,
+      "publishedAt": "2026-09-27T09:20:19Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugz_hhoV2wRMwYsuAih4AaABAg.AbFmOlHCUDvAbG0Pmbg1gw",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Chennai, thanks for tuning in to our documentary!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-27T11:31:32Z"
+        }
+      ]
+    },
+    {
       "id": "UgwlqucqsVXe0Lz5zoh4AaABAg",
       "author": "@stephentimmalual4622",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m0IxFa9G75aANhN0RlKHMYdMzv1DUg7z_1j4ENMjt_EhI=s48-c-k-c0x00ffffff-no-rj",
       "text": "Juba, South Sudan. 11:57pm",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-09-26T21:57:31Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwlqucqsVXe0Lz5zoh4AaABAg.AbEZFji0L0-AbG0ZWPuxM2",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to Sudan, thanks for tuning in to our documentary!",
+          "likeCount": 0,
+          "publishedAt": "2026-09-27T11:32:51Z"
+        }
+      ]
     },
     {
       "id": "UgyNmkuqxAWKh534Dxp4AaABAg",

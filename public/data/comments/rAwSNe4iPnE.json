@@ -1,5 +1,44 @@
 {
   "videoId": "rAwSNe4iPnE",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "Ugws_fXDRXxApC-DzH54AaABAg",
+      "author": "@VIAJESSUPERIORES6868",
+      "authorImage": "https://yt3.ggpht.com/nYkC5_mo-7CSgYeRWmp4ZwWjEoxdwTUdFi5UuzD8DaENI6lszIgJslq8ZOefHb2sTBurhO5Ucg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Paisajes increíbles, excelente documental",
+      "likeCount": 0,
+      "publishedAt": "2026-09-27T09:39:31Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugws_fXDRXxApC-DzH54AaABAg.AbFoaPmOwPVAbHSyBw8bsR",
+          "author": "@PlanetaDiferenteTV",
+          "authorImage": "https://yt3.ggpht.com/8fOyA754BNUtulOBarTsT1Y7sOuBzUfZMaNuGcTvOnvec0wthzGGMxcKrJhYez5hSEbN625M=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Muchas gracias! 😊 Hay lugares que realmente parecen sacados de otro mundo.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-28T01:00:16Z"
+        }
+      ]
+    },
+    {
+      "id": "Ugx_wPEaM5B_34U0k8t4AaABAg",
+      "author": "@goplanetaexploracion",
+      "authorImage": "https://yt3.ggpht.com/H-V-0k36dwPnW5bYEGJNODigioVLEwuEPmFJCj3gTEsepHgDjwQAhCFO8IJkUWbsZVfKKsVl=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Muchos ven estas carreteras como una locura, pero para algunas comunidades son la única conexión con el resto del mundo.",
+      "likeCount": 0,
+      "publishedAt": "2026-09-27T04:17:37Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugx_wPEaM5B_34U0k8t4AaABAg.AbFEklAiJk-AbHT-6BHGDC",
+          "author": "@PlanetaDiferenteTV",
+          "authorImage": "https://yt3.ggpht.com/8fOyA754BNUtulOBarTsT1Y7sOuBzUfZMaNuGcTvOnvec0wthzGGMxcKrJhYez5hSEbN625M=s48-c-k-c0x00ffffff-no-rj",
+          "text": "La locura de unos es la vitalidad de otros. Una perspectiva que definitivamente nos invita a reflexionar sobre la infraestructura global.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-28T01:00:32Z"
+        }
+      ]
+    }
+  ]
 }

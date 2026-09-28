@@ -1,5 +1,25 @@
 {
   "videoId": "AOEYZmddIJA",
-  "disabled": true,
-  "comments": []
+  "disabled": false,
+  "comments": [
+    {
+      "id": "Ugy6PwaA_VDkcMRO4MJ4AaABAg",
+      "author": "@patxiddcj",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mPCBoMSHT2ydGHDRlwjKLngeRaqCH26Wim6Z5UrbtB_roR=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Desde España",
+      "likeCount": 1,
+      "publishedAt": "2026-09-27T12:58:29Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugy6PwaA_VDkcMRO4MJ4AaABAg.AbGAMbkZUJOAbHIxL8hlDp",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Un saludo hasta España! Me alegro mucho de que el documental esté llegando tan lejos.",
+          "likeCount": 1,
+          "publishedAt": "2026-09-27T23:32:46Z"
+        }
+      ]
+    }
+  ]
 }
