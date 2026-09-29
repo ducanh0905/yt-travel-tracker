@@ -1,5 +1,25 @@
 {
   "videoId": "EEb8OVlAYKQ",
   "disabled": false,
-  "comments": []
+  "comments": [
+    {
+      "id": "UgwfwJEW-_QBdLqS9Wx4AaABAg",
+      "author": "@MundoDescifrado.001",
+      "authorImage": "https://yt3.ggpht.com/2ClRV2wxM2cwbUDsPtBKGjHdVgSqnjUFMJ9BBHOGAg8IMyTGgoY9RkJz7FLmF3indjQjkOqKJg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Siempre me asombra la cultura local durante mi viaje. La vida en estas calles parece increíble.",
+      "likeCount": 2,
+      "publishedAt": "2026-09-28T14:57:34Z",
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwfwJEW-_QBdLqS9Wx4AaABAg.AbIxmhMRulHAbJ18tctpaY",
+          "author": "@ExploralosPaíses1",
+          "authorImage": "https://yt3.ggpht.com/nWU8jxbzMs8HQX7yKlahv4KYGKORxVeR4X6QeFdDQCCIWz6YT1pasytF961NYnuVsmMRwyk88w=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Me alegra mucho que te asombre la cultura local y que la vida en estas calles te parezca increíble. ¡Hay mucho por descubrir!",
+          "likeCount": 1,
+          "publishedAt": "2026-09-28T15:35:41Z"
+        }
+      ]
+    }
+  ]
 }

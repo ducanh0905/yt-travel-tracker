@@ -3,14 +3,43 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgzdloCNxTzbPnz4KhZ4AaABAg",
+      "author": "@imahmed37",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_mWv0p7KEN26YOoPXkLKIVsYfneTWqIEDbLgl3PVIY=s48-c-k-c0x00ffffff-no-rj",
+      "text": "London 1700",
+      "likeCount": 0,
+      "publishedAt": "2026-09-28T15:59:22Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzVZmfPgAa5DefPoN94AaABAg",
+      "author": "@MuhammadVaseer",
+      "authorImage": "https://yt3.ggpht.com/BWCLI_mDquxq3yHUL-245-Xps6tliJH3hNTq0UTdicq9YajQksBRhhyjODZQUOnExeaEJhw8VQY=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Salam from Toronto Canada 🇨🇦",
+      "likeCount": 0,
+      "publishedAt": "2026-09-28T06:49:45Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "UgwrCuYtOsOyljWP7WR4AaABAg",
       "author": "@imrankhan-hq8zj",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m9r5JNJYNjz6jv8YSS8JJZCFwO9rA0O3oqChwJo7Gcaf7dQ1hZhUttOgF8mNpGOH9bpw=s48-c-k-c0x00ffffff-no-rj",
       "text": "India",
       "likeCount": 0,
       "publishedAt": "2026-09-27T18:20:39Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwrCuYtOsOyljWP7WR4AaABAg.AbGkEIJPkv9AbHZE0o2mem",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to India! 🇮🇳 Big thanks for tuning in with us! How did you find today's episode?",
+          "likeCount": 0,
+          "publishedAt": "2026-09-28T01:55:00Z"
+        }
+      ]
     },
     {
       "id": "UgxN2j4GXCGRT8hAjqZ4AaABAg",
@@ -19,8 +48,17 @@
       "text": "12.24 pm India",
       "likeCount": 0,
       "publishedAt": "2026-09-27T06:54:50Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxN2j4GXCGRT8hAjqZ4AaABAg.AbFWkAZaicPAbH_9JyROsx",
+          "author": "@BestTravelDocumentary4k",
+          "authorImage": "https://yt3.ggpht.com/-UpJl9sxCJX0oihHTPUD2HAANNTOmkdkMIgbWjbPd5VD3n1sam86_3MXfyZZgeL7czhWgLve=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Greetings to India! 🇮🇳 Thanks for spending your afternoon with us! Did you enjoy today's travel documentary?",
+          "likeCount": 0,
+          "publishedAt": "2026-09-28T02:03:05Z"
+        }
+      ]
     },
     {
       "id": "UgwRQKL-sI_M_E24leN4AaABAg",

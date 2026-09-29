@@ -9,8 +9,17 @@
       "text": "Красота, замечательное видео.❤",
       "likeCount": 0,
       "publishedAt": "2026-09-25T09:10:11Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgzT3-Ztye6WfjKOLiV4AaABAg.AbAbdqZq5uIAbIhdbmpoP2",
+          "author": "@4kfilmsbyadnan",
+          "authorImage": "https://yt3.ggpht.com/TwfAED6W9tI8x0lJ2XEG-aPn19loaTgdBRC-Ol8-e2mP9ogQ3aoFP_TiBH1MjeqsfKwvJpydDZM=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thank you! ❤️",
+          "likeCount": 0,
+          "publishedAt": "2026-09-28T12:36:31Z"
+        }
+      ]
     },
     {
       "id": "UgydxjF8-Y9_jCvJeop4AaABAg",
@@ -46,7 +55,7 @@
       "author": "@malokti",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kx5if1eao1r8B5mp4N6ZvUMTMaf-uqVjEKm7AlyWCnjEk=s48-c-k-c0x00ffffff-no-rj",
       "text": "Thank you",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-08-26T04:10:43Z",
       "replyCount": 1,
       "replies": [
@@ -117,25 +126,6 @@
       "publishedAt": "2026-07-25T18:48:56Z",
       "replyCount": 0,
       "replies": []
-    },
-    {
-      "id": "UgyxONc7s_X6WGcU9gN4AaABAg",
-      "author": "@LostSheep-Outdoors",
-      "authorImage": "https://yt3.ggpht.com/xudj5U-yjZf2darpOW7J8Fv_-9O9ENtfrIS8ZJTIg0HZHuggv3UEKg0pOdsOFo3Vrs2R6ZSjxb8=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Amazing 😮😮😮",
-      "likeCount": 0,
-      "publishedAt": "2026-06-29T07:15:57Z",
-      "replyCount": 1,
-      "replies": [
-        {
-          "id": "UgyxONc7s_X6WGcU9gN4AaABAg.AYcoc7HEu5_AYg82v34d5S",
-          "author": "@4kfilmsbyadnan",
-          "authorImage": "https://yt3.ggpht.com/TwfAED6W9tI8x0lJ2XEG-aPn19loaTgdBRC-Ol8-e2mP9ogQ3aoFP_TiBH1MjeqsfKwvJpydDZM=s48-c-k-c0x00ffffff-no-rj",
-          "text": "Thank you so much 😊",
-          "likeCount": 0,
-          "publishedAt": "2026-06-30T14:12:14Z"
-        }
-      ]
     }
   ]
 }
