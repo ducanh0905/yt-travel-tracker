@@ -3,14 +3,33 @@
   "disabled": false,
   "comments": [
     {
+      "id": "UgxdxQtWApH6TP_V1DF4AaABAg",
+      "author": "@federicojimenez8028",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nFHmZQTg_xIh29vs7RI9Y2Jlo5__fhP1u8hOM0rqw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Escribo desde Costa Rica. Si, me gustaría mucho mudarme a Letonia.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-01T00:17:42Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
       "id": "Ugwke0JP-kOj-3EgHKB4AaABAg",
       "author": "@RandolOrtega",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lAyCmPuPTcTtYpOA4QnUiNiel5MSi2UOypDgNoiTtaAGtGVrLt1wtS6foazk69LW0x-w=s48-c-k-c0x00ffffff-no-rj",
       "text": "Saludos desde Panamá",
       "likeCount": 0,
       "publishedAt": "2026-09-29T13:37:53Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugwke0JP-kOj-3EgHKB4AaABAg.AbLOSw_PpLTAbMkVEXLFCL",
+          "author": "@CalleSinRetorno",
+          "authorImage": "https://yt3.ggpht.com/4FbFllohjKvD1fVfb_shi6rUSn20qt7_wp3prFKm9HfILGA2vh3qAh7LHAdFdr5YelLz9SkJ=s48-c-k-c0x00ffffff-no-rj",
+          "text": "¡Saludos hasta Panamá! 🇵🇦 Qué gusto tenerte por aquí. Gracias por acompañarnos en este viaje.",
+          "likeCount": 0,
+          "publishedAt": "2026-09-30T02:18:24Z"
+        }
+      ]
     },
     {
       "id": "UgyLKvIv10NESaWb9a14AaABAg",
