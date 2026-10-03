@@ -1149,8 +1149,17 @@
       "text": "Was part of malaysia",
       "likeCount": 5,
       "publishedAt": "2026-08-17T20:40:59Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugzk04SDW1aogh8hzkd4AaABAg.A_cQhBc3A_gAbSVOPx9RnH",
+          "author": "@samchan3240",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lSHuwK_CIohocUt9XaZ6frxeUW5rQbahBhipC84KI=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Not the same level",
+          "likeCount": 0,
+          "publishedAt": "2026-10-02T07:53:06Z"
+        }
+      ]
     },
     {
       "id": "Ugzm3HuMYdK2m34_4Ch4AaABAg",
