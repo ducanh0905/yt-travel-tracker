@@ -7,10 +7,19 @@
       "author": "@JanetGapol",
       "authorImage": "https://yt3.ggpht.com/ytc/AIdro_m3yH3CkDYbBlrEro0QnKb_ItobeFHLwKuQcGuP0f6Bn7OoKZ8W5OF5gGcuK2Gkd9LxEg=s48-c-k-c0x00ffffff-no-rj",
       "text": "Hawaii",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-10-03T01:05:06Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxrXCSa0ER9Mh3iBsZ4AaABAg.AbULUxhWbAAAbUU7pEdQiZ",
+          "author": "@DiscoveringTheWorld6868",
+          "authorImage": "https://yt3.ggpht.com/Yio4mqL6-UveIzvex-ULJgctdxKWiwi3CTI9fav_osouLz1_tiuVlWh8SecB0GC9UF-0IKjXCg=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks for watching video!",
+          "likeCount": 0,
+          "publishedAt": "2026-10-03T02:20:35Z"
+        }
+      ]
     }
   ]
 }

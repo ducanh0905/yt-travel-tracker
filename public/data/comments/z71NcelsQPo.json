@@ -9,8 +9,17 @@
       "text": "That's good city",
       "likeCount": 0,
       "publishedAt": "2026-10-01T05:08:22Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgwKrwoyQ63RGvwbyv54AaABAg.AbPck-66fAsAbUU_zs57lm",
+          "author": "@PlanetVista4K",
+          "authorImage": "https://yt3.ggpht.com/UP1KuiI-ZYUr_V0QMZqUj3WrxSMAqB70paheckH8ptL_nqqbtqZa5KyGSVhQ0Mc9Ay6bF1Odbw=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Thanks a lot for showing the love for Paraguay!",
+          "likeCount": 0,
+          "publishedAt": "2026-10-03T02:24:34Z"
+        }
+      ]
     },
     {
       "id": "UgwiiNz_2IR7bCrwC0B4AaABAg",

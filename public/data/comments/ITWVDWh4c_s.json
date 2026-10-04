@@ -3,12 +3,602 @@
   "disabled": false,
   "comments": [
     {
-      "id": "UgybxBVVDiVh3PzesrJ4AaABAg",
-      "author": "@FosterFernando-d1t",
-      "authorImage": "https://yt3.ggpht.com/xe1kbA7Hv-6IGiqUevRDZqz9jQE84x7lEJkstmz8upZHCsyKwY2-rZs3r4ie80zhYzLAFtwPAl0=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Great video! I love how the island life seems so laid back. Just what I need! 😌",
+      "id": "UgzPHI5dh1YNyMSOWph4AaABAg",
+      "author": "@WhiteKyllikki-o3d",
+      "authorImage": "https://yt3.ggpht.com/HBuFN16w47gaNyaCvWAIWkqUyjqkKkmCj0wJlz01Q3W4rV9bbav2VVOoMj2a_urMjmGYW2Xm4VM=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I’ve always wanted to visit the Virgin Islands, this just makes me want to go even more!",
       "likeCount": 0,
-      "publishedAt": "2026-10-03T00:54:50Z",
+      "publishedAt": "2026-10-04T00:56:48Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwLJKj-jbYOMeL2sCt4AaABAg",
+      "author": "@FloresLeon-l1x",
+      "authorImage": "https://yt3.ggpht.com/fOjnti72GDjNcZaeSkriQE4o7dLhNQ2-yZPS4xAQKDcywlmcHRd9baLHREZ6AhZ_8nTNBA60_g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The culture on the island seems so rich and vibrant. Love the tradition behind the moko jumbies! 🎉",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:47Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxWpomeVg_fqkw7QhZ4AaABAg",
+      "author": "@GrayNelson-i7o",
+      "authorImage": "https://yt3.ggpht.com/l5_jR_pNKtMvvEtyZXvtKCYVHjEgtCf7DdjTCGe4b--C1G5NOwaurmuV4IsceMnR_hP8NaZDbg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Wow, St. Croix looks absolutely stunning! The colors of the ocean are mesmerizing. 🌊",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:46Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwFggxonFQ4nP_EaOd4AaABAg",
+      "author": "@KimEvelyn-o3i",
+      "authorImage": "https://yt3.ggpht.com/DrtlsYbxTXvyF7JVOd8rcN_GAVNy8BaWG6oSDCWLWhfp7zibwDlH-MA5Qi749DOqQqNB46j0wg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "How do locals feel about living in a U.S. territory? Would love to hear their thoughts.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:43Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwKXypk0hViYkkmlkh4AaABAg",
+      "author": "@CollinsLucie",
+      "authorImage": "https://yt3.ggpht.com/CJfIIYhnGILo1Xfh54J2sCOa3HAXb2rxqdXbypmhvkDVfkxR1DlIJzgpqWOcwO9nxl4na0FWUg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I love how you captured the blend of cultures on the island. Such a rich history!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:40Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw3y2XQFHNAujmM3c14AaABAg",
+      "author": "@MartinezDavi-t9y",
+      "authorImage": "https://yt3.ggpht.com/1BQTc9FxNymt1FgIe5DVAjS9ijBKuLzWsi6EoGc9G4B6ohBQrEczrFlW23Uoh8t--h9ThvP8Kiw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "This documentary really opened my eyes to the everyday life there. Great job!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:37Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzQntZB99dyD2E2GKF4AaABAg",
+      "author": "@PatelAdam-j2e",
+      "authorImage": "https://yt3.ggpht.com/_INNnO-SoSLLwta3XI_vTNnnh51WGidgZ3AlnWdHuRgPiKaD-N6busN5nOpyU9MfKvFvVlZc=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I've never thought of St. Croix this way. It's more than just a vacation spot!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:36Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugwo4S4E2OV4jfooEg54AaABAg",
+      "author": "@WilliamsArthur-g5y",
+      "authorImage": "https://yt3.ggpht.com/cCevXvc1SKPPUZnKc-eFrQlnqwVJoLLYTIXmq7Ms-yQRNTDDaHOmFhtZJObDsZXPN4MaF2c5=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The community gatherings look so lively and fun. I want to join in!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:37Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyyQGNND6OEb-yPrHd4AaABAg",
+      "author": "@MoralesLola-s1k",
+      "authorImage": "https://yt3.ggpht.com/VG5gOuxTPTkoSjqK9EIsKciNhAUGCVbWrIbwbd1JjLnFTHhjLz3-qutWFHX4-0AsBSuiGFjRig=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Those steel pan music vibes are everything! Makes me want to dance! 🎶",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:33Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzlS4QdYEYvV9vj2Qd4AaABAg",
+      "author": "@EvansRicardo-k3w",
+      "authorImage": "https://yt3.ggpht.com/eVnfjCKewBNC8Yv2Eli6Xx93T_W_KfJbZXDYfHi7Dvl0N4uUaIAsu4Sa2CvOzlJD8iPwjy6E7Q=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Did you see how beautiful the sunsets are? Perfect for unwinding after a long day.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:33Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgztNuodkME_ljtrcet4AaABAg",
+      "author": "@RuizBrynjar-q8p",
+      "authorImage": "https://yt3.ggpht.com/ZsEf_tu19RwDBwEueaID1UFz0pvgYMDphJgPMCuMO_mJ5Dy_nCq_mdWqVrWRr37nocFY88pn=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Just wow! This video makes me want to pack my bags and move to St. Croix! 😍",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:31Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw17XP-y_Oe76pFIfJ4AaABAg",
+      "author": "@James-w6r8d",
+      "authorImage": "https://yt3.ggpht.com/UONf8e4qNSj0Qv--pNHzySPGJmFvRH-s4lif5X-WgzSv73pegtiXwlmLmWBj1NPa3QSyEwyj=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The markets look so vibrant! I’d love to shop there and try the local produce.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:29Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgynQ5I3rCeWmvSeGo54AaABAg",
+      "author": "@user-sz6fb8uh1s",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_nr9xE_2vBhbh6K--Fq-aive21XyEQnu2y02BiS_JoIPeuEzrRmJAz6CHewA8Z5_h4Pew=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Life on St. Croix seems so relaxed compared to the mainland. I could get used to that vibe!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:27Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgznXuha6Gc0qyA5ZxZ4AaABAg",
+      "author": "@CookKjartan",
+      "authorImage": "https://yt3.ggpht.com/7hQR7s5qFSbxO7c2-RGjp8YQHBahvVBj-tWeUhsBeVhQlM-_d6C417IkNxbkfQpDNxhyA87ggkw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Those moko jumbies are amazing! I've never seen anything like them! 🎉",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:26Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyoRzjkVSNyJ2J8Esl4AaABAg",
+      "author": "@ThompsonÖzlem-y1j",
+      "authorImage": "https://yt3.ggpht.com/rjKViiUhEyYsJlYMqh2K_yIGCHvpPGKQ5QRHNy2yR2tD3tsvoIYiHgvfU3oVLOcR9ikrY4eG=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Can someone tell me more about the rum traditions? I'm curious! 🍹",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:56:26Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugzlk3O3UcVSiR820jZ4AaABAg",
+      "author": "@CoxJanice-d8n",
+      "authorImage": "https://yt3.ggpht.com/wlSifcSN2Ud4AV3YnogQGtAmWKabtZvM4vVzY9dRmeodIEEH3VjA4W0QwiywElpR2T3NvjmT=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I need to visit this island! The food looks incredible, especially the fresh seafood!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:43Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwzuoKBwx_YLx0Uey14AaABAg",
+      "author": "@RodriguezArtūrs",
+      "authorImage": "https://yt3.ggpht.com/KBcnuTkoLiHJwB9qBIc7c5M9W6Z9gY4pG1bjVPUi11olWQwVHnoBRE8yBm_SaJp8mepd-0Zz=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The history of Danish colonial architecture is fascinating. I'd love to see those buildings in person!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:43Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxEI2Sf9Q-SawEdH0d4AaABAg",
+      "author": "@Cruz榮華",
+      "authorImage": "https://yt3.ggpht.com/_xuqnKwDq8-959zEcyOsE0uFyL60GSNP4Y3RNFtomwKNYjiS2wS5Jv9nnl2DSeUvcIFD9FU8=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I never knew about the history of rum in St. Croix. So interesting!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:42Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzKSok3nIh2ExrQeoF4AaABAg",
+      "author": "@SanchezŠtěpánka",
+      "authorImage": "https://yt3.ggpht.com/HORknHahGKrMJk78Kdo_JeqNJ68nn4p8dmFLmt9TpWDbCGmEtby6ZAthZs91_UKbrqHKHlfbyuA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Wow, the colors of St. Croix are breathtaking! 🌊✨",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:41Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxFIwORLe1cX9AiUxN4AaABAg",
+      "author": "@WoodLeon-q3k",
+      "authorImage": "https://yt3.ggpht.com/_jK21rCiFtajea2xrw3i0lEuSu0pHCpGpyr-C4ZkazxFFNGjnHZNPEfVhhaQ3cVcoh4OyJJlDw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "That aerial view of the island is breathtaking! Makes me want to jump on a plane.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:39Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw5fjoz5SoMNGAzcOp4AaABAg",
+      "author": "@RodriguezPelle",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_l3eSdJrs9xkcAFM7kExUd2KzasO2x_y1BOcwBOQFRsO4jhq02GQpbHzLNdWF64M9fNlQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Christiansted seems like such a fun place to explore. What's the best time to visit?",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:39Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyetiVtpn7pTbLTbXR4AaABAg",
+      "author": "@MendozaRoman-x3t",
+      "authorImage": "https://yt3.ggpht.com/gjrvxEjLHKnsfWv94YCeErLeQLvwbgRjKVhT0Om1rxHepgu-0gLN6l4642xrahfmPGEd67QkfQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The traditions here remind me of my own island culture. Thank you for sharing!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:38Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugwws9MYyN6Q0B9d7nF4AaABAg",
+      "author": "@BakerIrena",
+      "authorImage": "https://yt3.ggpht.com/qlIjZoKJM6TsOjTm8aUpXQUVcAd5lNbqBMPdPY8Lpf6lWpqKeom6vueqAxAKzv2tz8UJ77lAKmg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Every time I see St. Croix, I fall more in love with the idea of living there.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:36Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw0hi5-D5u0ikA61sd4AaABAg",
+      "author": "@CruzMateo-o2y",
+      "authorImage": "https://yt3.ggpht.com/IvRqA1QxI78Z8t8g1RPS88_n9oxqTJ7cDJYI59dS_MJseVFuMYHYKX6LggNW67C5hGFqBjUJ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Love the way you showcased the markets! They look vibrant and full of life.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:37Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxV9VbyWQeN5BnwnTd4AaABAg",
+      "author": "@AdamsSultan-u6n",
+      "authorImage": "https://yt3.ggpht.com/BjPadelkKmovSd8i5TfucrGRCOGi3Q9bK-k6uW8yPavvg4KnUabMo1KkeBwdilc_shCJanT46_g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The contrast between American culture and Caribbean traditions is fascinating! 🌴",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:36Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugzr-aQ0oGjGE5u6yl14AaABAg",
+      "author": "@LewisAlice-q8s",
+      "authorImage": "https://yt3.ggpht.com/Z94HUCs4U7jVFpNCVc-uMCC5368THJPwWRb-6NLcpq-tdD_VmeB4oanTZhNANucjFrJCd67k=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Is it just me, or does the laid-back lifestyle make everything seem more enjoyable?",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:36Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxAvsbF9XjsDu0ENOh4AaABAg",
+      "author": "@BennettAndrea-x7q",
+      "authorImage": "https://yt3.ggpht.com/nDaA9bk-N5m8SoA4di04Cd2kLra8bGVTNWWeDDt1XDszQC_uPeo3aEQKhUFOFVnGRNPpFfK_=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I had no idea St. Croix had such a rich history. The architecture is beautiful!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:32Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzbhYiHHswlUqWKJ2x4AaABAg",
+      "author": "@WoodJoan-g2f",
+      "authorImage": "https://yt3.ggpht.com/LnT3T3US0CYLqjGx2h0d0ZmIPAODYCeHe8LfvosRkMXQM3mzcUqoZ00mBDO97HE0S9_YX_z6vw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Fresh seafood and rum? Count me in! 🍹",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:32Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwlYokxklAqgRyerdZ4AaABAg",
+      "author": "@HarrisVictoria-f4g",
+      "authorImage": "https://yt3.ggpht.com/0NSZU2AVzZAa7hM8om2Tghziid8A-PSnREvur92K1580ZHe-4Ho6vauPJ4GNBwznO8F5avxb=s48-c-k-c0x00ffffff-no-rj",
+      "text": "This video makes me feel like I'm there! The vibe is just so chill. ☀",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:31Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugwrzb4WZZqsdgyHve14AaABAg",
+      "author": "@RobertsJosef",
+      "authorImage": "https://yt3.ggpht.com/fu8dFa7xuMDtSg0rrBdOmZOWNg-nbc0J2d7iRr4Mdh-113dNXfTbMOoZA88XRIqYzw1Dq_SoYg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The food looks so delicious! Can't get enough of Caribbean cuisine.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:31Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwLcGrB_1gx3xxQJoR4AaABAg",
+      "author": "@HarrisHacer",
+      "authorImage": "https://yt3.ggpht.com/XMmlJSG974uKwZxhM85TH6bv7rEzMuSaqcBT4Z5ESvZKiMviX0i6EI55W39ayoL5NkM-Ims9=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Those moko jumbies are so impressive! I’ve never seen anything like them before! 🎉",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:30Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugyj-FT7qYMcq4DZ9EV4AaABAg",
+      "author": "@NelsonGiacomo",
+      "authorImage": "https://yt3.ggpht.com/MUjH-SrorJ1upVtC03HyLzKEQNam_xkUCqOU4mEnFHxLRTPV9ot9N7DG4LMFvRD0L29yo1I7iA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I love how you captured the true essence of island life! Makes me want to visit ASAP!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:26Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyEp2erI5cIrDVwKFV4AaABAg",
+      "author": "@GonzalezAbdullah",
+      "authorImage": "https://yt3.ggpht.com/ny0Ko_2r6J6LPVwGI2wT1EPsChEFQzvANdY1vXCoa8iFKPu5G-wqifaad2zqd3MFwbmLsWQ99A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Wow, the colors of the buildings in Christiansted are absolutely stunning! 🌈",
+      "likeCount": 0,
+      "publishedAt": "2026-10-04T00:55:26Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwyQ661FxUWu38gFx94AaABAg",
+      "author": "@WatsonAndrea-r4g",
+      "authorImage": "https://yt3.ggpht.com/0398sNw6l0vkMY4BUQNIX8ABSfZz4vk2IlKO7xhaxnMYQKyNfR2Cim24nRvkRFzeuqMbdpPfMA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I can almost hear the steel pan music! It must feel like a celebration every day. 🎶",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:23Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwLpFn7-1SDxqRpXat4AaABAg",
+      "author": "@Chavez-m9i",
+      "authorImage": "https://yt3.ggpht.com/ygXOg3pJiqG8lb9AYJSNH0BLBbUFYUd_zwEplTal-s4umV_4pu-EAuRZ3wq2dHUAmQvzcucO0A=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The shots of the beaches are breathtaking! Is snorkeling good around St. Croix?",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:21Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugz-oAw_mxCXcnT0Xq94AaABAg",
+      "author": "@AllenLidia-u5d",
+      "authorImage": "https://yt3.ggpht.com/N9iIywcSNH2xrs3pwY22CDVCqWzc5j6MYqRlTh7oUriMc73uxDY3RZNw_1Q1vYhqsUfpA_WEeA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I love how you showcased the local culture and traditions. Makes me want to pack my bags and go!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:21Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugy-CiOVjSXCgJKM08x4AaABAg",
+      "author": "@ClarkGabriel-q7c",
+      "authorImage": "https://yt3.ggpht.com/pqrobARGz4inSpB5oY4HlSAVLZ_r1R2g5fPLzs5F42ygWr6EytpbkDChoqc8hVpcbKtPqvrq4g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Interesting blend of American and Caribbean cultures. I'm curious, how do locals feel about that mix?",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:21Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzBTw7F4A3_DsNnc-J4AaABAg",
+      "author": "@PerezMónica-b5r",
+      "authorImage": "https://yt3.ggpht.com/9ZCW21T6BqvPmFUyr9GaovsfoURSAZK4ZYM34AGKTPBasy81GtnfYQzczwdC2b8vbHmxUgWDTQk=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Wow, the history there is incredible! I didn't realize how much Danish influence there is. Can't wait to visit!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:20Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxZ3LYYhIvZLALiSTR4AaABAg",
+      "author": "@AdamsArmands",
+      "authorImage": "https://yt3.ggpht.com/UuLt_WkanNBbndhciOQmCA-WJuoQUvGW3MpneLRsqs3-A72HM1BTsgQ4jMITG8Kp05nB8g-yNQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "This documentary really captures the essence of island life. Thank you for bringing it to us!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:19Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugz5AC-hNwYV0ZJ23vV4AaABAg",
+      "author": "@MitchellEncarnación",
+      "authorImage": "https://yt3.ggpht.com/UdMhDKw5XgPsffVN1rHvWQ3tylb1rZ33rrCD_zHU0_DteeIh0JlObgOFVBi5E6FFsUacv-vS=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The food looks amazing! I need to try some johnny cakes next time I’m there. 😋",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:17Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwwoT0ZH4iai4uNIpV4AaABAg",
+      "author": "@Clark-b2m",
+      "authorImage": "https://yt3.ggpht.com/7ua34EL3K7ddyugZ6xmPYSWWgdoO02sWsh60EZsiw8GYGlrEtyYbJcH7UDfdo6b5zePqiZWsuw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Those colorful streets in Christiansted are a vibe! 😍",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:16:16Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugz2dVnKRbxuaLMoJ894AaABAg",
+      "author": "@MartinImants",
+      "authorImage": "https://yt3.ggpht.com/e90JTh3kecOlFGIse3ujOjJNKLP_4jcA-GqLW75x6ThwK8zuheTj853NzwLxB6TBI-q0YGPYqQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Seems like the perfect balance between American and Caribbean life. Love it!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:26Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxaIl-7FS02UuGT3Ah4AaABAg",
+      "author": "@user-uz5qk7mk5e",
+      "authorImage": "https://yt3.ggpht.com/MEzFbxgP6gR-YG4O30dSQevPXkanxV34ySf57yVslk62UGWy7jpa_FfJgSUUmKR1WPfwz_a0Pg=s48-c-k-c0x00ffffff-no-rj",
+      "text": "This video was a perfect escape from reality! Thanks for sharing this slice of paradise!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:23Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgweeNLYaUJgmCBIBxx4AaABAg",
+      "author": "@HallLara-e4u",
+      "authorImage": "https://yt3.ggpht.com/VYewCeKTs5c8CroNOYxrAkxZBQjbV_Gf1wIpDmO0YjkiG0NsYqErK0qPb9dp2hWAmFLCnBKopQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I love how the culture blends so many influences. Makes me want to learn more about Crucian traditions.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:19Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwRF9MaHctNA51SnOd4AaABAg",
+      "author": "@TaylorAdam-c9o",
+      "authorImage": "https://yt3.ggpht.com/v4I4ku7TaQX3djbCRrpCAxm9mut_R4_8tDLbr_kyhp03oY5XRtb9cA1axyYwV6ftDzE6Q5g9hA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The rum traditions are fascinating. I’d love to try some local rums while I’m there.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:18Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzhYZ8yIklYSJ3HZCd4AaABAg",
+      "author": "@BrownGuillermo",
+      "authorImage": "https://yt3.ggpht.com/C7SmtIO3-cbYA6AxN_wtiRQExDwfauWNTy4EXfehj1pYI2epng4z-UUBfSr5KBSbVEK1nNcB5Q=s48-c-k-c0x00ffffff-no-rj",
+      "text": "I could listen to steel pan music all day long! It's so uplifting.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:18Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwwEIjsLR43lThz0y14AaABAg",
+      "author": "@TaylorNejc",
+      "authorImage": "https://yt3.ggpht.com/7JLAsh9J00Ofd_EjWapkkWtDARd-4Q18j9Kkbbu6x1i6aN2WkytPtbrRVjS07Doi4oj989CtBQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "St. Croix looks stunning! I’ve always wanted to explore the local markets and try some fresh seafood. 🐟🌴",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:18Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyzHmEW1ilSx4AQblp4AaABAg",
+      "author": "@AdamsAurora-x9o",
+      "authorImage": "https://yt3.ggpht.com/2QonmMUeKWxPvEiaJFInyucj7Way-9Yp9sVq34my1efUDi1gV4iW3QJJ-6L2XV2pPy8oV7X49Q=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Wow, the sunsets must be breathtaking! Does anyone have pictures of them?",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:15Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzQrP9H2lXn1UG_6J14AaABAg",
+      "author": "@RamirezAndrea-z1i",
+      "authorImage": "https://yt3.ggpht.com/gkRVKuHwooVz3c3bCXF_tuQRxBCXrcRg4xLLZ8GkVN2RQZZLlBRQGve-BLxkfemgmIVny6fN0g=s48-c-k-c0x00ffffff-no-rj",
+      "text": "It's interesting how the island lifestyle is so different from the mainland. I’d love to experience that!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:15Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyOJtsFP-83w1jkShJ4AaABAg",
+      "author": "@RobinsonLautaroEzequiel",
+      "authorImage": "https://yt3.ggpht.com/_4pcmo5-daQPWUVo0usMDhVpFf8r6b8eXsdC5sD-WezNsmYKBAvzGyLYdHdplkUx2BZWE4tfow=s48-c-k-c0x00ffffff-no-rj",
+      "text": "So much history and culture! I had no idea about the Danish influence. 🏰",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:15Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugy-KmiOrzXMfGAHRPB4AaABAg",
+      "author": "@LewisLena-g6p",
+      "authorImage": "https://yt3.ggpht.com/Jofbziw_twMonAjxnq30z0PXRWaIsWCNLibqDv8DDYeNNk4TyCQ00P-MnMPR2J69nbBilwAh=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The music and festivals sound amazing! What’s the best time to visit for the celebrations?",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:14Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgysD5DKGAU3t1ro0qR4AaABAg",
+      "author": "@RamosNicole-r6n",
+      "authorImage": "https://yt3.ggpht.com/65UFSrK-4Ti_t2eFdpf9spNZYY6owrEc-5j4e7MHhRg20ZRB90j9jcX3KS76ZtgIjU4dt6EX=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The food looks delicious, especially the fresh seafood! What’s your favorite dish from there?",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:14Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgykOHPvfL3fnFjUa5J4AaABAg",
+      "author": "@RamosKarmen",
+      "authorImage": "https://yt3.ggpht.com/Ga7CvDEvRB6N1cO9AGoy2H2WvXuewkqTMT6Y8136HAgzK--5jSks5nxuC7-xTUAuPdExTKWdXA=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Every time I see videos about St. Croix, it makes me want to move there. Such a chill vibe! 😎",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:13Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzgZkrkVeoLLn5N7XJ4AaABAg",
+      "author": "@JacksonJesús-g3p",
+      "authorImage": "https://yt3.ggpht.com/-s-gP2WYBTTW8eNrBm1p-fIGsqX4TJhxywHpJOchK9a-AiqHgwrPQ9fPR_ksACEreQSZbtOR=s48-c-k-c0x00ffffff-no-rj",
+      "text": "Moko jumbies are incredible! I wish I could see them perform live! 🎭",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:12Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugw5nFuOjkUpAOqMFhd4AaABAg",
+      "author": "@RichardsonMartha",
+      "authorImage": "https://yt3.ggpht.com/QBaGwyec9_EBflK9ZqZBlWfTLaC_nIVSNip2XlMV2cEAUcTLWPQbOtI17QoK283rDlWUML2jKw=s48-c-k-c0x00ffffff-no-rj",
+      "text": "This video gave me major wanderlust! Can’t wait to explore the markets and beaches.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:12Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzWjXWW2pxs8aQ-Hyl4AaABAg",
+      "author": "@HarrisHülya-e1p",
+      "authorImage": "https://yt3.ggpht.com/fGtnTluBQBIX9E64qF8C_MbZ-pK8ZdiFbdd534FPRrVWkgXdu7iHcGiHMGlhSaJROFqff-Ch=s48-c-k-c0x00ffffff-no-rj",
+      "text": "The colors of the buildings in Christiansted are just stunning!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:07Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzSTeeOOsBQ4FM9lvt4AaABAg",
+      "author": "@CruzMaeve-m2b",
+      "authorImage": "https://yt3.ggpht.com/FURuL1l5fqMLPEQ7RiOkXBwRQvdEgPYgBinSq883dIW0SabsYFXGJWX0NnHzyIi02A2_arsSTQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "This place looks like paradise! 🏝 I need to visit St. Croix soon!",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T16:15:05Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzeYUGQRS98KepZvvR4AaABAg",
+      "author": "@UrbainHodge",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lpzwmVzHfAhl3FD2wN5FtU2ZLlCYRbP4zQ6nkTNQRUc40ri2QkWWHUnOWmlaF_eaweyQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "They all food  made me sick after hurricane Maria.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T04:39:01Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzNiyCzADMc_IgbZyF4AaABAg",
+      "author": "@UrbainHodge",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lpzwmVzHfAhl3FD2wN5FtU2ZLlCYRbP4zQ6nkTNQRUc40ri2QkWWHUnOWmlaF_eaweyQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "They all not resl.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T04:37:53Z",
+      "replyCount": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugxc6nsG26Mh6tptOu14AaABAg",
+      "author": "@UrbainHodge",
+      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lpzwmVzHfAhl3FD2wN5FtU2ZLlCYRbP4zQ6nkTNQRUc40ri2QkWWHUnOWmlaF_eaweyQ=s48-c-k-c0x00ffffff-no-rj",
+      "text": "No it from  government  it collect all federal  funds.",
+      "likeCount": 0,
+      "publishedAt": "2026-10-03T04:36:46Z",
       "replyCount": 0,
       "replies": []
     },
@@ -147,7 +737,7 @@
       "author": "@WrightThea-e8q",
       "authorImage": "https://yt3.ggpht.com/XX4xplihlNrl7O0xSR7sDr_vYSi8yO-SB8kgDqaSaHrJger7iAoXJcaXnSIfrfbvvNl_7lt5Yw=s48-c-k-c0x00ffffff-no-rj",
       "text": "I could relax on those beaches all day. Who's with me? 😎",
-      "likeCount": 0,
+      "likeCount": 1,
       "publishedAt": "2026-10-03T00:53:43Z",
       "replyCount": 0,
       "replies": []
@@ -283,16 +873,6 @@
       "replies": []
     },
     {
-      "id": "UgzwFEZhhm4NVcY2kCp4AaABAg",
-      "author": "@CooperSara-s1e",
-      "authorImage": "https://yt3.ggpht.com/HRJyOwvk_LAcwzqKHL7BLWxhpr1gLRnfLvDja489yJKVUI-IljfqUYEiAWoY3fmxk3uadcDICmw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I didn't know rum had such a deep history there. So interesting!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T23:19:52Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgwK2lwBuwyN6dnVsft4AaABAg",
       "author": "@GutierrezSanita",
       "authorImage": "https://yt3.ggpht.com/P1UVz0PPvSnB6Qdoo8mOLTyODTQIjsAwuwt0JVr0T2w1edjE2kb2N4VjtXjaJfgNmhPDcgkUlw=s48-c-k-c0x00ffffff-no-rj",
@@ -393,16 +973,6 @@
       "replies": []
     },
     {
-      "id": "UgzN9DhLj5PJXq4PMFR4AaABAg",
-      "author": "@LâmĐình-h3m",
-      "authorImage": "https://yt3.ggpht.com/_JZk_XxtVUXmaJeRmnLt1g0-VDkHnSzzOVgsREx2Nj3KVO5m7gqm9PjXjDaVY5e9MxLqCUlX1Q=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The food looks delicious! I need to try those johnny cakes next time!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T23:19:46Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
       "id": "UgwPgCSnrwRhQhgs0nN4AaABAg",
       "author": "@MoralesIvars",
       "authorImage": "https://yt3.ggpht.com/DktaAKm4la7d7hQ9KPNb2ifxBGpyoz5RYFpMrBhARljoEenYuJEtSgaGPmqDBch_I45qO0rp=s48-c-k-c0x00ffffff-no-rj",
@@ -429,576 +999,6 @@
       "text": "F this AI bullshit.",
       "likeCount": 0,
       "publishedAt": "2026-10-02T19:51:20Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugyese5gAJCOGehm5pB4AaABAg",
-      "author": "@MillerSophia-b6j",
-      "authorImage": "https://yt3.ggpht.com/VF2ZX5qe99IXlvRvfoxHNLgFvdt7B1HjeWbgqZqc-CCC_VVOvV8t0SbCSnTQ1TtgaCJaSC1UFQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I didn’t expect to learn so much about rum traditions. So interesting!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:40:14Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxNH1jnoOnfGe3lVSF4AaABAg",
-      "author": "@MoralesGabriel-z5o",
-      "authorImage": "https://yt3.ggpht.com/dzz8tFwHthZdSpiVSkDiuSs96vRDjKqAdQemMv1zeTzR7st8dhrl0tUN078zWOe2Z1VF4CvHqw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Moko jumbies are so cool! I love the vibrant culture there.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:40:11Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugyaj5Ez764rXmhyOgh4AaABAg",
-      "author": "@CookLaura-w5w",
-      "authorImage": "https://yt3.ggpht.com/pbcvr9YZOlXQ_7U-XKSDZaW-N3c-tHZeduMmq87cSIbLXGQ8Fzn8kkR-i9RpIC8nqR0dhCTYvxs=s48-c-k-c0x00ffffff-no-rj",
-      "text": "What a beautiful place! I need to add St. Croix to my travel list ASAP!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:45Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyJAHfMEVU0a6bBqwF4AaABAg",
-      "author": "@JimenezVanesa-g5b",
-      "authorImage": "https://yt3.ggpht.com/QdxcV2R2bp7H7cbRAHOy0qyIImtSCrJ6yMRo2T8sqaXv_xpgNR2BQPK5i61bY7WRVoNMnB30Gg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Those markets look amazing! Fresh seafood and tropical fruits are life.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:43Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwrYvJXB298mx96QcB4AaABAg",
-      "author": "@ReyesHenrique",
-      "authorImage": "https://yt3.ggpht.com/SGWEZXz9KvXjcE6jKAmkte0GcpTS9a49uTCApIEiFZqpLo0-ioCZAB4l5qfbicE9DJh6gtug=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I love the mix of American and Caribbean vibes. St. Croix seems so unique.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:42Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugx44izjSUQQW2Hgkp14AaABAg",
-      "author": "@MartinezZoran",
-      "authorImage": "https://yt3.ggpht.com/w_4rXMVNqeJMEYXoJfRSXjD24Wt6lUJfjWYcEwI5oPTTmvYQqttxv25Lvo1vU5qu2qxUHngwdg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The daily life showcased here feels so laid-back. I could get used to that!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:39Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugx3MngwVdwf7_6QEVV4AaABAg",
-      "author": "@PhillipsAndrew-o3e",
-      "authorImage": "https://yt3.ggpht.com/0i2zK81WLvmTxG1Lzlj8rqDhh1UuOW2uM3lLIhxNWy-TaXstZVnBo2jUDg-1VG5Y871Vpz2YLoc=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Can we talk about the food? Everything looks so delicious! 😋🍽",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:38Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugx9PA2zC72w7_xEJVB4AaABAg",
-      "author": "@ReedVivien",
-      "authorImage": "https://yt3.ggpht.com/Da6i4SnxXWcUBVw9gPkOctYrBssy8gAfqohnWQ_ZAnJfpHtAGvAk5KuvQ1w1P9iCtD1LdvV5=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I've always wanted to visit the Virgin Islands. This just made me want to go even more!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:35Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwDMPRIq9U9Z7EId8V4AaABAg",
-      "author": "@AndersonMilana",
-      "authorImage": "https://yt3.ggpht.com/SPgWO_kHey0PQiXoBP8E441c5lkxKm3CsD7qTAjbf9CNIHNlz9GuryaySU-RMYv6qt83u_Hh=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Wow, the history is so rich! I had no idea about the Danish influence. 🏰",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:34Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugwmo57KB1Hb9QVkV5x4AaABAg",
-      "author": "@AndersonAlma-u2k",
-      "authorImage": "https://yt3.ggpht.com/V0GyLTSl7O-otDNc5-uFrFunNhLQltT8q8Dt4vKPXhYojwKPZxay3Bzws12TmJJexg7h2gP_=s48-c-k-c0x00ffffff-no-rj",
-      "text": "St. Croix looks like a dream! The colors in the video are stunning. 🌊✨",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T08:39:23Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwkxL2hRcdQIekTy_Z4AaABAg",
-      "author": "@WoodArthur-x4u",
-      "authorImage": "https://yt3.ggpht.com/N3RkCp-KdEBY9ZD6YmTmBqLCOnYG3TB52DOSDm3I4h9ktOWiL61pSYtUBTmtGnonu1qsjqUD=s48-c-k-c0x00ffffff-no-rj",
-      "text": "This is the kind of travel content I love. Keep it up!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:52:03Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxaUcuQhOO8DOG4TSJ4AaABAg",
-      "author": "@FloresCaroline-w2x",
-      "authorImage": "https://yt3.ggpht.com/jus2FZ9zraeqzN635yse1s0o8m5l1ND9dvjwYP-DN-Hm8b8AQqCzjhtMvSwAx3b1U-SjaBpBoQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Do the locals still follow any of the old Danish traditions? That would be interesting!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:51:03Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxTaxKRfO3BhlGgmkZ4AaABAg",
-      "author": "@Cook志強",
-      "authorImage": "https://yt3.ggpht.com/lZZAMIY038vphmIdMyC4kyFCZmwa1Hjd2W1CA2IumnShF5nhjmueGA0Fd3b0DKCYXDl-3ScXup0=s48-c-k-c0x00ffffff-no-rj",
-      "text": "St. Croix looks like a dream! 🌴 Can't believe it’s part of the U.S. Feels so exotic!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:51:02Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzdkUfR2AyiTn-NwcV4AaABAg",
-      "author": "@KhiếuTuệ",
-      "authorImage": "https://yt3.ggpht.com/IppxnLIxO-tLYfF5hypZVplS79kboArYbNimHmqGzngZSQ0gCRV_DleSDabnf9qeOH5I7umJzQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Really enjoyed the part about the rum traditions. Can't believe it has such a history there!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:51:01Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxOgRg3oSCV742hRtl4AaABAg",
-      "author": "@GarciaAnna-w7p",
-      "authorImage": "https://yt3.ggpht.com/mOwsDt0jBzcmmV1z0qWu-ynUhpllpQK2Ap5lrahGxPFsuOUTIXkUinVYjX0TlA2BGaNlJwWI=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The music and festivals seem so lively! I’d fit right in! 😄",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:51:00Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyT5LrW1uraVa2x_yR4AaABAg",
-      "author": "@Peterson-i2z",
-      "authorImage": "https://yt3.ggpht.com/vw8Tnoz8rdFyLflRjXOKy-THs6-kiPhQMN0r5UaKKsljXIQ-o8RyowrP9AwY0FEW3CD7SzM-MQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Everyday life here seems so peaceful. I could use that kind of relaxation.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:50:55Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyKgFVBA1ZgNBb4y5R4AaABAg",
-      "author": "@JonesBirna-c8q",
-      "authorImage": "https://yt3.ggpht.com/sjwHg7ghS7HfEvK1UVdhvkznjnzIUr2Hig-bnprqgW96GD_BJZiqFEc9bLtc_sBj-J6l_tJabg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Thanks for showcasing the real life on St. Croix beyond just beaches.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:50:55Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugxr7u1xqbwvwas-3NZ4AaABAg",
-      "author": "@Morris-v6m",
-      "authorImage": "https://yt3.ggpht.com/gT0yon6dYCogSmw3gRGtTwKbn5qHWrX7QiK6yPWmaPK2F8bt5XtXw4F0vgAewTJOkGXSHiNvAQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "This is the perfect escape from the cold! Love the vibe of St. Croix.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:50:51Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxE6u2ht9U6VV4ZfQV4AaABAg",
-      "author": "@WhiteOlga-p4s",
-      "authorImage": "https://yt3.ggpht.com/LLqZNtoNCRkWGOOT4xE7P8U765oxNVrwSYuXGMx0X6Kfz9kwOVpb-Wm4fgud2H5Uao5T4z8y=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The architecture in Christiansted is gorgeous! I want to take a stroll through those streets.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:50:43Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwDjfBvBrpSCrbhS2h4AaABAg",
-      "author": "@PriceSusanna",
-      "authorImage": "https://yt3.ggpht.com/W8VAStkR00LBBZjh96lLbiQD3u7RImuyI8aTy2lyGD3EYPwMn4d_eCk5Ifhc8nlURNEhUpaclw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "This video has me dreaming of tropical vacations! 🏝",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:50:37Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzULvkZGby6QEXLxbp4AaABAg",
-      "author": "@GutierrezVladimirs",
-      "authorImage": "https://yt3.ggpht.com/C_HmfLbs-P_vmnLsVupLTeOuq0f8mu0oII00j44M_fdMYUOh0Uu_u17I_TXEetXnDAe0QtJLIw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Those fresh seafood markets look amazing! I need to try some johnny cakes! 🍽",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:48Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugz6fy4an2hM3EAHJht4AaABAg",
-      "author": "@AdamsRabia-t5k",
-      "authorImage": "https://yt3.ggpht.com/qmED226-VW6lmbc1mQNe_xEmYAJi_OMkNbzSWQyzvGm57gb1bLmQyn8Yunc4gq_-X9MKjc3_VkA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I had no idea St. Croix had such a deep history. This makes me want to learn more!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:47Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugyi0eh7WnKHwNg09b54AaABAg",
-      "author": "@JamesChrister-v9x",
-      "authorImage": "https://yt3.ggpht.com/8vX2mgDB2wLsk0m4pUU7jWaZDGjkT_ci7O7Z0jizPgqO1xFC0ZYhHrz2cNuhDhRYrLQnyOFDKQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Wow, the colors of the water are breathtaking! 🌊 Can't wait to visit St. Croix someday.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:42Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgywMJmcqIu1HBWTJmh4AaABAg",
-      "author": "@PhillipsPatrick",
-      "authorImage": "https://yt3.ggpht.com/XN51IttCwTTlhG41Z43XAoJ9qacqgVwQc-xDPIPuvGulIsNf3rh325Byq_IMACg3ZH74NAQL=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The moko jumbies look so fun! I’d love to see that in person! 🎉",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:39Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwzKHc7-ucKgmIU9El4AaABAg",
-      "author": "@RamirezRose-k4p",
-      "authorImage": "https://yt3.ggpht.com/HQz5hY5CTFWUVRgGOMLqy9dUOjpjleJ2wCLBVRlJL5E2S3r3nMkZ-IMhd26FOvFzEqn14_37gw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I would love to experience one of those local festivals! They look like so much fun!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:30Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugz0FXNEYLFEofDZlzB4AaABAg",
-      "author": "@MartinNina-u4f",
-      "authorImage": "https://yt3.ggpht.com/cvsOGlYgqfDX0QzF_GP_du0lUeqMVNLPZbDcDO1gmnI2r8aqJgBfsU9Fp45nLLIdX7nPqZ7PoA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Such an inspiring video! It makes me want to explore more of the islands.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:26Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugxi6ndTYMuzg3iwXbR4AaABAg",
-      "author": "@GarciaSofia-p3y",
-      "authorImage": "https://yt3.ggpht.com/GaloREiL_H48ACkXdM563R4SBwQS7DuA0ybKVRRUNYtR0fVfoRSn40WvT1tNRZwr9dB9ttiniZY=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The pace of life seems so much slower there. I could use a break like that!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:26Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwFLDM0IiEVf1_RIjJ4AaABAg",
-      "author": "@DiazMahmut",
-      "authorImage": "https://yt3.ggpht.com/h6hu_5dZHq-Xkjtjbxqk_ikxjIuQnrK59jDwTfYJhPZtFW_0tfnNMMUHaI_RBsyjaowGqeNp=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Every shot was beautiful! The colors are so vibrant, it's like a postcard! 💙",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:25Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxDLoZCdG4vfWM9d1p4AaABAg",
-      "author": "@YoungVittorio",
-      "authorImage": "https://yt3.ggpht.com/Fl2ns99ukfuLgS1K5ljc_yzyWQuf_vZwlst3Ys63xPZvNJTK168DhDZFbQtaCItdpnCWaPza=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I had no idea rum had such a rich history here. Definitely adding this to my travel list!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:24Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyRHOoqgnlgXZGdTlh4AaABAg",
-      "author": "@DavisLuiz-z4t",
-      "authorImage": "https://yt3.ggpht.com/FaauYz2uQbrae3nB_3uIk7w1vG5DdSoPcS4avPyz8Pm40iTefIMqL7BwwZogNkgGVeuSU4dGCTI=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Can you imagine living with that kind of view every day? Pure paradise!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:23Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxKibnCfmd43-H1hvZ4AaABAg",
-      "author": "@FloresXavier-u2p",
-      "authorImage": "https://yt3.ggpht.com/8gyrGbWF6AnejCQCRdHjwaqmGo9VRLkKVTnrIiqCV6teySlhq6oAaueNAAwfyjVEmUYS57E=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I appreciate that you included the daily life aspects. It’s so relatable.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:22Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgysPnLKPwDcQtX-dih4AaABAg",
-      "author": "@PatelGrace-d2r",
-      "authorImage": "https://yt3.ggpht.com/LUVfHI4ihBf_olH2vRZXp4cg-mx2O2SXbOpsAXlnx7oUTB67_Apb6hLAvL0IF6LeRCpCdtO7Kfc=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The moko jumbies are so cool! They really bring the culture to life, don’t they?",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:12Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwHX84_s0LhX3xNReJ4AaABAg",
-      "author": "@ClarkAlmaMia",
-      "authorImage": "https://yt3.ggpht.com/wxenVwoVVf7kocYS0CG1UYJwFMYkj2QStUU-X74lpGlgDdLAL5uAUXaAIey_Z8OLPKLpGN3uOiE=s48-c-k-c0x00ffffff-no-rj",
-      "text": "This documentary really shows a different side of St. Croix. I loved learning about the culture!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:04Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzKFotIsxJvjXUw6LZ4AaABAg",
-      "author": "@ThomasNicoline",
-      "authorImage": "https://yt3.ggpht.com/661YzUXc6ZmQmikM5ccRljVghQQvmn3AMSyW2Jdj-QKFBBSsfvwBwgWPvPRCQ2kHwpnqoPIZ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Wow, St. Croix looks absolutely stunning! Those beaches are calling my name! 🌊🏖",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:49:04Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugx4NliS0xQIw1eilud4AaABAg",
-      "author": "@Hall-d3r",
-      "authorImage": "https://yt3.ggpht.com/jFZ5bvIkWKFuAcH0NiaOdMwLG1SP0eQ304Zj1EUwxT0ZuMMYw4cjD9jriMk95YMgZHN0EoB-Gw=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I love how you captured the true essence of island life. Makes me want to visit ASAP!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:53Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxNTeov-lBb8A9AotZ4AaABAg",
-      "author": "@MooreMatěj",
-      "authorImage": "https://yt3.ggpht.com/fbGX-3WaqA1YxwTOuASzYxQCqR0aqMgk0D2NDgib_M61v5VwjuCKLVRI8BasOaE-CzpfCbQwXg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I had no idea St. Croix had such rich history. That Danish influence is cool!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:22Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugy8kPIwDc3q2bpk7UV4AaABAg",
-      "author": "@MitchellLuan-b2c",
-      "authorImage": "https://yt3.ggpht.com/UaLeAcKOeow_JIWsp0QVzIj5QmUmI6lGHqLs0bvNdyo_KmCv_4vhhKggkjdXDVtUyTYRMchQNQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The music and food scenes look incredible! When's the next festival? 🎶",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:21Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwFrKOEz0BrhASQiex4AaABAg",
-      "author": "@GreenKaroliina",
-      "authorImage": "https://yt3.ggpht.com/jXqcOV9fkJfgkoW5WvFwxbDSGm_Ji6VmkoygUiUqRLLvwdcBsWRk-BWHuoXdOfPB_wLKlVs2-FQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Fresh seafood and tropical fruits? Sign me up! 🍍🐟",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:21Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugz4AahkgsxezAO8X8V4AaABAg",
-      "author": "@MitchellNoahBenjamin",
-      "authorImage": "https://yt3.ggpht.com/X1izn38P3Xo6HmFJX8pvezRFadgs06CqIDIlLTRxE9oKy7053DGqzPjyTnuSeiCbnH2luUmhUfU=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I feel like I need to book a trip right now. This is paradise!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:20Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwZx1tPBJK3vipguiR4AaABAg",
-      "author": "@PatelHeidi-e6b",
-      "authorImage": "https://yt3.ggpht.com/ytc/AIdro_kumUAO-vDqQ2LEQWnE98-Xq0zXVpU65GxPkF_IPO9-vNgWNB8GdeOI-ErUh6jDMTWOLQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Is there a favorite local dish everyone recommends? I’m dying to know!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:20Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzXXNDFh4vOPxAtbUh4AaABAg",
-      "author": "@GreenLetícia",
-      "authorImage": "https://yt3.ggpht.com/2edx77L7fnY8nZKnZWi3QWolE1j8UlmE7jg8BNPReF36VvvaAbhj11t7MQleTrP_Q0HoUz57SQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "This is such a gem of a place! The community vibe seems amazing.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:20Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyVQU9PCJlFfzNF-rt4AaABAg",
-      "author": "@JacksonSilas-l8p",
-      "authorImage": "https://yt3.ggpht.com/gVS_oHhX4vyFnQsqSTMqh8zYySPR8X85ibzMDXWz0-i5J1fx_J7xuGZ0162P9gfWlJp_heC2-w=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The slow pace of life looks so refreshing compared to the hustle here.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:20Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwVhBndCvCB94LhY094AaABAg",
-      "author": "@SmithNour",
-      "authorImage": "https://yt3.ggpht.com/7pdcsMSjygjdmKRgOqDULrTJVf6ZzI9WmPNzp5vils3zBBxQtw6kGUdI4LrwgBRcfOlVDO7KCg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Moko jumbies are fascinating! They add such a unique flair to the culture!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:19Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxM8FMS1uIrxo_lSp94AaABAg",
-      "author": "@GomezMateja",
-      "authorImage": "https://yt3.ggpht.com/eFD99sz47stCZGSiDFBHRljVueCBL_N7LFX2E5gypUxPD9e2i44zFsuI-3FZMp_AOvovAVMSjA=s48-c-k-c0x00ffffff-no-rj",
-      "text": "St. Croix looks absolutely stunning! Those beaches are calling my name! 🏖",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:10Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgzaINBnf6RowqQCf414AaABAg",
-      "author": "@MyersDaniel-y4s",
-      "authorImage": "https://yt3.ggpht.com/zTdmfkV4ubws7s51yPDMGusfpiKXaORyA4_z9k6I8vAc8l9caa3PuyzgzJUNUQbVu46EPzvYiQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Loved the way you captured everyday life here! Makes me want to visit ASAP!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-02T00:48:09Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxXsWuj38umqk3HrjN4AaABAg",
-      "author": "@Scott俊明",
-      "authorImage": "https://yt3.ggpht.com/PLf5Qria-WSGzV4vHirNBYbVYOZb2WK9zJKJzTZxmFJsvbFmq7ESrMF_q5wvD_dwHNj6i9LU9g=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Is it true that the seafood is as good as it looks in the video? 🤤",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:42:36Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyyWvt7XJbu4zI-BYJ4AaABAg",
-      "author": "@FosterRamón-x4r",
-      "authorImage": "https://yt3.ggpht.com/EhSE0hQWRtojCgN-0506KPApwwQGskmKyJ6RBWGwlEzD4Wi_V49BPfboY1RJbU87jYIFUP1V6A=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Wow, St. Croix looks absolutely stunning! 🌴 The colors of the water are mesmerizing!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:54Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyCEPjCSre39CEDtBZ4AaABAg",
-      "author": "@JacksonRuby-j6v",
-      "authorImage": "https://yt3.ggpht.com/0fBh_1WVwk2GAa_RfSt59TO8Ou8kUHS77PbPZ-sA5g7IUAC5GLyrOSitpg5lDzDVfb95SgXc=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Thanks for showcasing St. Croix! It's definitely on my travel list now!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:48Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgxKBwdHzmdOIaaLbzl4AaABAg",
-      "author": "@PriceSilas",
-      "authorImage": "https://yt3.ggpht.com/sK1zf9wLupUGnFJe7gOcT1DDwJXkrl02vKG2LXTlDyg09OG8sKKsGSjo35tDrhUvvF51HT_d9A=s48-c-k-c0x00ffffff-no-rj",
-      "text": "So refreshing to see a documentary focusing on the people and not just the tourist spots.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:46Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwkRqptmbEHp_DtIyZ4AaABAg",
-      "author": "@BennettImants",
-      "authorImage": "https://yt3.ggpht.com/Iud_rBj1PrwIYEuDxp45Zv2unJKdHr2p8omKEjOWNx3v4xmZnSTMd_ZZMnGEu1w5qMHJ97sLLT0=s48-c-k-c0x00ffffff-no-rj",
-      "text": "I need to try some of that local cuisine! Especially those johnny cakes 😍.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:46Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugx4Sg6a-_PI2Ka2SZV4AaABAg",
-      "author": "@JimenezValentina-y1g",
-      "authorImage": "https://yt3.ggpht.com/dgdKYJ8e2nFD51riNzRGR9Se-AYQTTDBFIFu-eTL341bKcmMoB42pbhRf2lWfmadUAVmn9dVcQ=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The beaches look perfect for a chill day. Anyone been swimming there?",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:44Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgylJUKo8qBzvW_aTYx4AaABAg",
-      "author": "@AllenJúlia",
-      "authorImage": "https://yt3.ggpht.com/rV-5tNTSfZNLOFrg8fUUnSLsyMyrndK8uAXEO0BV6C-LRhlyt8fKfWDLsxEApjgfgj2j4cIi=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Loved the section on rum traditions. St. Croix really has a rich history!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:42Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugyc4XcJH5nmQSl9Evh4AaABAg",
-      "author": "@MitchellBông",
-      "authorImage": "https://yt3.ggpht.com/Ms27BWsTYf8HMr2d5myNHSRH8mALhXCccqcsKcPNNXS9fe_79Dzd7bVV9pr3bUE3B4eQ9jFYXg=s48-c-k-c0x00ffffff-no-rj",
-      "text": "This video makes me want to book a ticket right now! The vibe is everything.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:35Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgyouO8aLPBGKWMONvF4AaABAg",
-      "author": "@ParkerElizabeth-d6c",
-      "authorImage": "https://yt3.ggpht.com/lIXHbhXOaXuamfIBcewoU1d90dq7FWMz3iY1rvJqodnMhHzAm5WbKZv09q_GZACvSUP6YT_Z=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The slow pace of life seems so relaxing. How often do they have festivals?",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:35Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwsORM4_nJVtX6U7cZ4AaABAg",
-      "author": "@Miller明德",
-      "authorImage": "https://yt3.ggpht.com/ivS2iosLSP4mZqZE7EFj5XVAT8rqDaqE8lvYeUmyD98ixKu938BKdnKmhuDdSnne2uRNbHkj=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The daily life and community gatherings really make it feel special. Thanks for sharing this!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:29Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "UgwKinZN4VG7XJtf7F54AaABAg",
-      "author": "@RobinsonWojciech",
-      "authorImage": "https://yt3.ggpht.com/b5ytTZ40S2MRMNX3_G9KLqBBKFWWO7nho3TKUmjjjW6xvGbtmZHxVfX4BKb5H7WXbr-lEbWz4J4=s48-c-k-c0x00ffffff-no-rj",
-      "text": "The architecture is so beautiful! Those Danish influences are really fascinating.",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:28Z",
-      "replyCount": 0,
-      "replies": []
-    },
-    {
-      "id": "Ugyz7dY55kcKZ_Z9EEF4AaABAg",
-      "author": "@JohnsonRuben-x5m",
-      "authorImage": "https://yt3.ggpht.com/bZKxEM4uJYsvfhDWFbWBOZAq-7tVQIGGUnL0TfkA0nwS9USYNL3XZaRxsJ8JwHdjxJGaMJf_nLc=s48-c-k-c0x00ffffff-no-rj",
-      "text": "Wow, I didn't realize how much history St. Croix has. Fort Christiansvaern looks like a must-see!",
-      "likeCount": 0,
-      "publishedAt": "2026-10-01T15:41:23Z",
       "replyCount": 0,
       "replies": []
     }
