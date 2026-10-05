@@ -79,8 +79,17 @@
       "text": "How beautiful Texas was!",
       "likeCount": 3,
       "publishedAt": "2026-08-16T16:51:40Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "UgxxPXWluhzj6cq_nWJ4AaABAg.A__RepOUHxjAbZL6IlqeOY",
+          "author": "@chadsmith71",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_keSoUDebRasjrr-VBz9Gu7bbUKT6DsFGJOl2ylwWj3y8M=s48-c-k-c0x00ffffff-no-rj",
+          "text": "is",
+          "likeCount": 0,
+          "publishedAt": "2026-10-04T23:37:56Z"
+        }
+      ]
     },
     {
       "id": "UgyteRmTm4wRM-lPjsx4AaABAg",

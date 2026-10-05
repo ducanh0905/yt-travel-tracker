@@ -105,8 +105,17 @@
       "text": "After watching this, I spent another hour researching this place online.",
       "likeCount": 1,
       "publishedAt": "2026-09-26T07:20:16Z",
-      "replyCount": 0,
-      "replies": []
+      "replyCount": 1,
+      "replies": [
+        {
+          "id": "Ugw8DQYDyWuDelIFQiJ4AaABAg.AbCzrc8Ljq-AbYQ4pJaSkW",
+          "author": "@abyrupus",
+          "authorImage": "https://yt3.ggpht.com/ytc/AIdro_lN-pBNzUZbao6d4kZMiy4OetcxjRB50qvilWWNITDyDDA=s48-c-k-c0x00ffffff-no-rj",
+          "text": "Watch the comedy series \"North of North\"; it is a recent show by Inuit directors that portrays Northern life well.",
+          "likeCount": 0,
+          "publishedAt": "2026-10-04T15:02:11Z"
+        }
+      ]
     },
     {
       "id": "UgxylQ6ZdVqmn8PnxrB4AaABAg",
