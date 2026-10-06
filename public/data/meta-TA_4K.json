@@ -1,15 +1,83 @@
 {
   "list": "TA_4K",
-  "lastUpdated": "2026-10-05T01:46:32.616Z",
+  "lastUpdated": "2026-10-06T02:43:56.833Z",
   "channelCount": 18,
   "videoCount": 999,
-  "quotaUnitsUsed": 4366,
+  "quotaUnitsUsed": 270,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
   "errors": [
     {
+      "channel": "https://www.youtube.com/@EpicExplorationsTVEN",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@touropia",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@travpedia",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@trueglobe66",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@InfinitePlanet4K",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@HorizonBoulevard",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@4kfilmsbyadnan",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@truehorizons66",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@Tripofwonder",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@wotw_tv",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@EDGEofEarthEN",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@WorldTravelDoc",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@TraceTheGlobe",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@TopTravelParadise",
+      "error": "channels failed: badRequest"
+    },
+    {
       "channel": "https://www.youtube.com/@TruePlanetOffical",
-      "error": "Channel not found for \"https://www.youtube.com/@TruePlanetOffical\""
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@EpicAdventureWorld",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@EurekaTravelExplorer-iv3iv",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@WorldDiscoveries11",
+      "error": "channels failed: badRequest"
     }
   ],
   "replyErrors": []

@@ -1,47 +1,91 @@
 {
   "list": "TA_LIFE_IN",
-  "lastUpdated": "2026-10-05T01:41:02.892Z",
+  "lastUpdated": "2026-10-06T02:43:03.350Z",
   "channelCount": 20,
   "videoCount": 1115,
-  "quotaUnitsUsed": 2067,
+  "quotaUnitsUsed": 171,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
   "errors": [
     {
       "channel": "https://www.youtube.com/@AmazingGlobalDiscoveries",
-      "error": "Channel not found for \"https://www.youtube.com/@AmazingGlobalDiscoveries\""
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@BestTravelDocumentary4k",
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@reallifeincountries",
-      "error": "Channel not found for \"https://www.youtube.com/@reallifeincountries\""
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@TheGlobalTruth04",
-      "error": "Channel not found for \"https://www.youtube.com/@TheGlobalTruth04\""
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@CountryDocumentary8386",
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@LifeNest-3",
-      "error": "Channel not found for \"https://www.youtube.com/@LifeNest-3\""
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@uncensoredworldtravel",
-      "error": "Channel not found for \"https://www.youtube.com/@uncensoredworldtravel\""
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@Outland_US",
-      "error": "Channel not found for \"https://www.youtube.com/@Outland_US\""
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@GlobeDiscovery-NY",
-      "error": "Channel not found for \"https://www.youtube.com/@GlobeDiscovery-NY\""
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@PlanetExplorer-DB/videos",
-      "error": "Channel not found for \"https://www.youtube.com/@PlanetExplorer-DB/videos\""
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@Reallifeinsights.26/videos",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@AmazingDiscoveriesTopUS",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@GlobalLifeInsights",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@DiscoveringTheWorld6868",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@telehappy_usa/videos",
+      "error": "channels failed: badRequest"
     },
     {
       "channel": "https://www.youtube.com/@NVLGLOBE/videos",
-      "error": "Channel not found for \"https://www.youtube.com/@NVLGLOBE/videos\""
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@AroundTheEarth.Official/videos",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@Globallife.documentary",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@discoverventures",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@MundosincensuraEN",
+      "error": "channels failed: badRequest"
     }
   ],
   "replyErrors": []

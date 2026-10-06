@@ -1,15 +1,55 @@
 {
   "list": "TBN_4K",
-  "lastUpdated": "2026-10-05T01:39:30.081Z",
+  "lastUpdated": "2026-10-06T02:42:31.158Z",
   "channelCount": 11,
   "videoCount": 1217,
-  "quotaUnitsUsed": 1299,
+  "quotaUnitsUsed": 111,
   "apiKeysConfigured": 7,
   "allKeysExhausted": false,
   "errors": [
     {
+      "channel": "https://www.youtube.com/@docviajesmundo",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@sshamtv",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@PlanetaDiferenteTV",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@ViagenscomEstilo",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@maravillassecretas",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@MiradasViajeras",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/@Turispedia",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/channel/UCzH8Mnry48cPO2k0IYLTQ8Q",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/channel/UCEbeRo7qZPBJpsEBTIzXLpg",
+      "error": "channels failed: badRequest"
+    },
+    {
+      "channel": "https://www.youtube.com/channel/UC1EDXcSr6KYLtjrrd-BCWiw",
+      "error": "channels failed: badRequest"
+    },
+    {
       "channel": "https://www.youtube.com/@ViajesSecretosES/videos",
-      "error": "playlistItems failed: playlistNotFound"
+      "error": "channels failed: badRequest"
     }
   ],
   "replyErrors": []
